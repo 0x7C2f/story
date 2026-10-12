@@ -26,7 +26,7 @@ Read style-sheet.md and voice-sample.md before you write or revise prose. Keep t
 
 If voice-sample.md is empty or is a placeholder, create it during a run. Select 300 to 500 words of the strongest prose. Adapt the template section headers to the prose. Paste the prose under Demonstration. Do not invent a voice that the story does not already use.
 style-sheet.md overrides the better-writing defaults. Use better-writing to remove AI slop. Do not use it to set style or voice. The style sheet and the voice sample set style and voice.
-After you draft each chapter, run story prose . . Fix each item that it flags. Trust its counts more than your ear.
+After you draft each chapter, run `story prose .`. Fix each item that it flags. Trust its counts more than your ear.
 Do not invent a fact to satisfy a prose tool. If the story did not establish a detail, leave the detail out. Put the detail in a world entry when it has earned its place.
 
 ## Process (Each Run)
@@ -35,7 +35,7 @@ Do not invent a fact to satisfy a prose tool. If the story did not establish a d
 2. Decide what is most worth doing. Use your judgment. Growing the story is the default work.
 3. Change the markdown directly. Use the story skills (worldbuilding, character-management, plot-structure, chapter-writing, revision-continuity) for structure and conventions.
 4. Run better-writing on new or revised prose. Use voice-sample.md as the style reference.
-5. Run story validate . , story links . , story continuity . , and story prose . . Fix every error. Record each intentional fact change in the affected file.
+5. Run `story validate .`, `story links .`, `story continuity .`, and `story prose .`. Fix every error. Record each intentional fact change in the affected file.
 6. Add an entry to CHANGELOG.md. State what changed, why, and what to explore next run. Every entry must name the model on a Model: line, for example Model: claude-sonnet-4-5. Commit.
 
 ## Gate-First
@@ -50,7 +50,7 @@ Your working copy must build as it is. The gate validates what you leave in the 
 ## Where Things Live
 
 - Story content: story.md, style-sheet.md, voice-sample.md, CHANGELOG.md, chapters/, scenes/, characters/, worldbuilding/, glossary/, plot/, continuity/.
-- Registry _index.md files mirror the content files. After adding or removing any of them, run story reindex . and story wordcount --write . .
+- Registry _index.md files mirror the content files. After adding or removing any of them, run `story reindex .` and `story wordcount --write .`.
 - One scratch location: agent/. agent/BACKLOG.md is the working queue. agent/PAUSED is the pause switch. No scratch files anywhere else.
 
 ## Skills
