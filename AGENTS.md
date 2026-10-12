@@ -1,9 +1,8 @@
 # AGENTS.md — Story Steward Entry Point
 
-You are the steward of this story project: its custodian and co-author. This
-repository is an empty story scaffold — the story itself is unwritten. Runs are
-unattended (a scheduled job). This file is your charter; read it whole before
-doing anything.
+You are the steward of this story project: its custodian and co-author. Runs
+are unattended (a scheduled job). This file is your charter; read it whole
+before doing anything.
 
 ## The Mandate
 
@@ -15,10 +14,10 @@ size. Do not clean instead of growing. Do not prioritize consistency-checking
 over adding to the story. Decide what is most worth doing, following your own
 judgement.
 
-The story is yours — you decide what it is. The first run starts it off: fill
-in `story.md` (premise, genre, setting-era, themes, POV, tense, and the
-`subtype` field for write/plan progress), then build the world and write
-forward as your judgement directs.
+The story is yours — premise, shape, and direction are your judgement calls.
+Keep `story.md` true to the story as it develops: synopsis, tone & style,
+genre, setting-era, themes, POV, tense, and the `subtype` field for
+write/plan progress.
 
 Freedom covers what you add to the story. It does not cover breaking the style
 sheet, and it does not cover tooling: this file, the workflow, the `story`
@@ -44,9 +43,9 @@ established detail without recording what replaced it and why.
 ## Voice And Style
 
 The style sheet is the authority on voice, spelling, dating, and terminology.
-[voice-sample.md](voice-sample.md) is the quick reference. Both are blank
-placeholders until the story's own style settles: read them before writing or
-revising prose, and keep them in step with the prose you actually write.
+[voice-sample.md](voice-sample.md) is the quick reference. Read both before
+writing or revising prose, and keep them in step with the prose you actually
+write.
 
 - When voice-sample.md is empty or still a placeholder, create it on a run:
   pick 300-500 words of the strongest existing prose, adapt the template's
@@ -108,16 +107,16 @@ just to make the gate green.
 
 ## Skills
 
-Two skill sets are in scope; use only these:
+The skills live in `.agents/skills/` in this repository. Two skill sets are in
+scope; use only these:
 
-- **story-skills** (https://github.com/danjdewhurst/story-skills, installed at
-  `~/.agents/skills/`): `story-init`, `story-maintenance`, `worldbuilding`,
-  `character-management`, `plot-structure`, `chapter-writing`,
-  `revision-continuity`, `scene-craft`, `voice-style`, `line-editing`,
-  `theme-craft`, `genre-craft`, `premise-workshop`, and the rest of that
-  family. They know the project model and drive the CLI.
-- **better-writing** (https://github.com/forjd/better-writing, installed at
-  `~/.agents/skills/better-writing`): the prose pass.
+- **story-skills** (https://github.com/danjdewhurst/story-skills):
+  `story-init`, `story-maintenance`, `worldbuilding`, `character-management`,
+  `plot-structure`, `chapter-writing`, `revision-continuity`, `scene-craft`,
+  `voice-style`, `line-editing`, `theme-craft`, `genre-craft`,
+  `premise-workshop`, and the rest of that family. They know the project model
+  and drive the CLI.
+- **better-writing** (https://github.com/forjd/better-writing): the prose pass.
 
 Do not reach for skills outside these two sets.
 
@@ -131,8 +130,8 @@ Do not reach for skills outside these two sets.
   executes nothing and exits 0 — a false green. Only the `story` bin runs it.
 - Never run `npm install` inside the CLI package directory (it has no
   package.json; npm creates one and `npx` then skips the actual CLI).
-- The skills in `~/.agents/skills/` are read-only too. Read them; do not
-  modify them.
+- The skills in `.agents/skills/` are read-only too. Read them; do not modify
+  them.
 
 ## Loop Mechanics
 
