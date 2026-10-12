@@ -1,0 +1,20 @@
+# Build output: story build and story export regenerate it from the markdown
+dist/
+
+# Left behind when a story command is interrupted
+.story.lock
+.*.story-*.tmp
+.story-*.tmp
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Volatile Obsidian editor state: rewrites itself while the editor runs
+# and would dirty every steward run and the registry-sync gate
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json

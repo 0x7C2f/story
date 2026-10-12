@@ -1,0 +1,127 @@
+name: record-integrity
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * 1"
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: record-integrity-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  gate:
+    name: Continuity, prose, and registry gate
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the record
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Set up Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 22
+
+      - name: Install the story CLI
+        run: npm install -g story-skills@0.23.2
+
+      - name: Structure, links, and continuity (warnings fail)
+        shell: bash
+        run: |
+          set -o pipefail
+          story check . --strict 2>&1 | tee -a "$RUNNER_TEMP/gate.log"
+
+      - name: Prose lint (undismissed findings fail)
+        shell: bash
+        run: |
+          set -o pipefail
+          story prose . 2>&1 | tee -a "$RUNNER_TEMP/gate.log"
+          if grep -E '^(warning|error):' "$RUNNER_TEMP/gate.log"; then
+            echo "::error::Undismissed prose findings. Fix the prose, or record a design reason in continuity/exemptions.md."
+            exit 1
+          fi
+
+      - name: Registry tables and word counts are current
+        shell: bash
+        run: |
+          set -o pipefail
+          story reindex . 2>&1 | tee -a "$RUNNER_TEMP/gate.log"
+          story wordcount --write . 2>&1 | tee -a "$RUNNER_TEMP/gate.log"
+          if ! git diff --exit-code --stat | tee -a "$RUNNER_TEMP/gate.log"; then
+            echo "::error::Generated tables are stale. Run 'story reindex .' and 'story wordcount --write .', then commit the result."
+            exit 1
+          fi
+
+      - name: The book still builds
+        shell: bash
+        run: |
+          set -o pipefail
+          # An empty scaffold has no chapters to export; the build runs for real
+          # as soon as the first entry exists.
+          if [ -n "$(find chapters -maxdepth 1 -name '*.md' ! -name '_index.md' -print -quit)" ]; then
+            story build . 2>&1 | tee -a "$RUNNER_TEMP/gate.log"
+          else
+            echo "No chapters yet: build deferred until the first entry exists" | tee -a "$RUNNER_TEMP/gate.log"
+          fi
+
+      - name: Raise the flag for the next steward run
+        if: failure()
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create record-integrity --description "Record-integrity gate is red - fix before story expansion" --color D93F0B --force || true
+          {
+            echo "The record-integrity gate failed on $(git rev-parse --short HEAD)."
+            echo
+            echo "Fix the findings before any story expansion."
+            echo
+            echo "Findings:"
+            echo
+            echo '```'
+            tail -n 60 "$RUNNER_TEMP/gate.log" 2>/dev/null || echo "no gate output captured"
+            echo '```'
+            echo
+            echo "Run log: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          } > "$RUNNER_TEMP/issue-body.md"
+          existing=$(gh issue list --label record-integrity --state open --json number --jq '.[0].number // empty')
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body-file "$RUNNER_TEMP/issue-body.md"
+          else
+            gh issue create --label record-integrity --title "Record integrity gate: fix before expanding" --body-file "$RUNNER_TEMP/issue-body.md"
+          fi
+
+      - name: Clear the flag when the record is green
+        if: success()
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for n in $(gh issue list --label record-integrity --state open --json number --jq '.[].number'); do
+            gh issue close "$n" --comment "Record-integrity gate is green again on $(git rev-parse --short HEAD)."
+          done
+
+      - name: Auto-merge story PRs when green
+        if: success() && github.event_name == 'pull_request'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          pr="${{ github.event.pull_request.number }}"
+          # Only PRs in regards to the story auto-merge. A PR that touches the
+          # gate, the charter, or other tooling waits for the maintainer.
+          non_story=$(gh pr diff "$pr" --name-only | grep -vE '^(story\.md|style-sheet\.md|voice-sample\.md|CHANGELOG\.md|chapters/|scenes/|characters/|worldbuilding/|glossary/|plot/|continuity/|agent/)' || true)
+          if [ -n "$non_story" ]; then
+            echo "PR touches tooling outside the story scope; not auto-merging:"
+            echo "$non_story"
+            exit 0
+          fi
+          gh pr merge "$pr" --merge
