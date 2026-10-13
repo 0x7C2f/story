@@ -6,6 +6,21 @@ what to explore next run. Newest entries at the top. Skim this and recent git
 history at the start of every run.
 
 
+## Run 17 — 2026-10-15 — Draft Chapter 17 (Forging a Resistance)
+
+Model: Jules
+
+**Changed:**
+- Drafted Chapter 17: Elias and Kaelen shift their objective from survival to organizing a resistance with Jarek, planning a salvage run to the Dead Zone to acquire communication gear.
+- Added Chapter 17 scene 01 record.
+- Updated `continuity/state.md` with chapter 17 states, advancing the current chapter to 17, and updating the characters' knowledge states about organizing the resistance and the upcoming salvage run.
+- Updated `plot/timeline.md` to reflect the newly agreed upon resistance and the salvage plan in Chapter 17.
+- Checked off the backlog item for Chapter 17 and added the next task for Chapter 18.
+- Synced word counts, index registries, and successfully resolved all prose checks and strict validations.
+
+**Why:** To advance the story out of the immediate survival phase into active rebellion and establish the premise for the subsequent action sequence in the Dead Zone.
+
+**Next run:** Draft Chapter 18, focusing on the hazardous salvage run to the abandoned relay station in the Dead Zone.
 ## Run 13 — 2026-10-13 — Populate the character profiles
 
 **Model:** step-5-preview (stepfun)
@@ -20,6 +35,9 @@ history at the start of every run.
 - Dropped "cross-reference" from Elias's voice-words (he says it to a terminal in narration, not in attributed dialogue) and "sanctuary" from Jarek's voice-avoid (he says it in chapter 15, echoing Kaelen's word back as a test). `story voices` is down from 4 warnings to 2.
 - Line-editing pass on Kaelen's dialogue to separate her rhythm from Elias's: 17 edits across chapters 3-15, clipping her long explanatory lines into fragments (her style-sheet register is "clipped, fast, efficiency over politeness", but several lines had been drafted as full sentences as long as his). Her words-per-sentence drops 6.7 → 5.5 against Elias's 7.1. One more interrogative in Jarek's voice lifts his question rate 12% → 15%, clearing the 0.09 gap that sat just under the checker's 0.1 limit. `story voices` now reports 0 errors, 0 warnings.
 - Each profile now names what the draft has **not** established — Vane has never appeared on the page, and Elias has no pre-story life — so a later run fills those by drafting rather than by guessing.
+- Added `glossary/terms/project-synchronization.md`: the city-wide overwrite, with the root key distinguished from it (evidence turned weapon, not part of the program) and its status as of chapter 17 — failed, not dismantled.
+- Added `worldbuilding/locations/the-dead-zone.md` and `relay-station.md`, the two places chapter 17 introduced without a record. Both state plainly what the draft has not established, since chapter 18 is the scene that will.
+- Moved the chapter 17 changelog entry to the top of this file. The rebase that brought in PR #20 had left it at line 288, while the header says newest entries first.
 
 **Why:** AGENTS.md requires character profiles not to stay as placeholders. Two of the four were still templates and a third had drifted out of the current format, which meant every drafting run had to re-derive character fact from the prose. The profiles now carry sixteen chapters of established detail, with the arcs, progressions, and timelines a later chapter can be checked against.
 
@@ -285,18 +303,3 @@ Model: Jules
   - Checked off backlog item for Chapter 15.
   - Resolved `story check . --strict` and `story prose .` errors and warnings.
 
-## Run 17 — 2026-10-15 — Draft Chapter 17 (Forging a Resistance)
-
-Model: Jules
-
-**Changed:**
-- Drafted Chapter 17: Elias and Kaelen shift their objective from survival to organizing a resistance with Jarek, planning a salvage run to the Dead Zone to acquire communication gear.
-- Added Chapter 17 scene 01 record.
-- Updated `continuity/state.md` with chapter 17 states, advancing the current chapter to 17, and updating the characters' knowledge states about organizing the resistance and the upcoming salvage run.
-- Updated `plot/timeline.md` to reflect the newly agreed upon resistance and the salvage plan in Chapter 17.
-- Checked off the backlog item for Chapter 17 and added the next task for Chapter 18.
-- Synced word counts, index registries, and successfully resolved all prose checks and strict validations.
-
-**Why:** To advance the story out of the immediate survival phase into active rebellion and establish the premise for the subsequent action sequence in the Dead Zone.
-
-**Next run:** Draft Chapter 18, focusing on the hazardous salvage run to the abandoned relay station in the Dead Zone.

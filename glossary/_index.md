@@ -10,3 +10,4 @@ story: the-memory-archivist
 | Term | Category | File |
 |------|----------|------|
 | Batch Protocol | term | [batch-protocol](terms/batch-protocol.md) |
+| Project: Synchronization | term | [project-synchronization](terms/project-synchronization.md) |

@@ -16,7 +16,9 @@ story: the-memory-archivist
 | central-broadcast-tower | Location |  | [central-broadcast-tower](locations/central-broadcast-tower.md) |
 | New Providence Outskirts | Other |  | [new-providence-outskirts](locations/new-providence-outskirts.md) |
 | Nexus Archives | Location |  | [nexus-archives](locations/nexus-archives.md) |
+| The Abandoned Relay Station | Building | The Dead Zone, twenty klicks east of the Scrapyard Settlement | [relay-station](locations/relay-station.md) |
 | Sector Four Black Site | Location | Sector Four | [sector-four-black-site](locations/sector-four-black-site.md) |
+| The Dead Zone | Other | Twenty klicks east of the Scrapyard Settlement | [the-dead-zone](locations/the-dead-zone.md) |
 | The Nexus Spire | Building | Sector One | [the-nexus-spire](locations/the-nexus-spire.md) |
 | The Scrapyard Settlement | Neighborhood |  | [the-scrapyard-settlement](locations/the-scrapyard-settlement.md) |
 | The Undercity | Location |  | [the-undercity](locations/the-undercity.md) |
