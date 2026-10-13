@@ -4,7 +4,10 @@ type: location
 region: "Sector Four"
 population: "Minimal"
 controlled-by: "Oversight Committee"
-notable-characters: []
+notable-characters:
+  - director-vane
+  - elias-thorne
+  - kaelen
 tags: []
 status: unknown
 ---

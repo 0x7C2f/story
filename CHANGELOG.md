@@ -6,6 +6,24 @@ what to explore next run. Newest entries at the top. Skim this and recent git
 history at the start of every run.
 
 
+## Run 13 — 2026-10-13 — Populate the character profiles
+
+**Model:** step-5-preview (stepfun)
+
+**Changed:**
+- Rewrote `characters/elias-thorne.md` and `characters/director-vane.md` from placeholders into full profiles — Appearance, Personality & Traits, Backstory, Motivations & Goals, Location References, Voice & Speech Patterns, Character Arc, Antagonist Design (Vane), and a chapter-by-chapter Timeline, all drawn from the drafted chapters.
+- Rebuilt `characters/kaelen.md` on the current character template while preserving every fact the older layout had established (the data-conglomerate backstory, the fear of having her own memories erased), and completed her Timeline through chapter 16.
+- Extended `characters/jarek.md`: voice lists, lie/truth/ghost-wound, arc and arc-type, three progressions, two more canonical dialogue lines, and Timeline rows for chapters 15-16. Corrected the chapter-14 row — the settlement's gate guard turns Elias and Kaelen away; Jarek is not on the page until chapter 15.
+- Frontmatter across all four files: relationships (bidirectional), locations, tags, aliases, pronunciation, voice-words/voice-avoid, arc, arc-type, lie/truth/ghost-wound, and `progressions` for every change that happens after chapter 1.
+- **Pronoun decision:** Kaelen is she/her. Chapters 10-16 already used she/her; chapters 3-9 used they/their (3-4) and he/him (5-9) and have been revised to match — 30 replacements, each verified to match exactly once. Plural "they" for Elias and Kaelen together, and "they" meaning the Oversight Committee, were left alone. Recorded in `characters/kaelen.md` so a later run does not reintroduce the older forms.
+- Added the reverse links: `notable-characters` on nexus-archives, the-undercity, sector-four-black-site, the-nexus-spire, central-broadcast-tower, new-providence-outskirts and the-scrapyard-settlement, plus `members: [director-vane]` on the Oversight Committee faction. Renamed the `characters` key to `notable-characters` in nexus-archives and the-undercity — `story check` only reads the latter.
+- Dropped "cross-reference" from Elias's voice-words (he says it to a terminal in narration, not in attributed dialogue) and "sanctuary" from Jarek's voice-avoid (he says it in chapter 15, echoing Kaelen's word back as a test). `story voices` is down from 4 warnings to 2.
+- Each profile now names what the draft has **not** established — Vane has never appeared on the page, and Elias has no pre-story life — so a later run fills those by drafting rather than by guessing.
+
+**Why:** AGENTS.md requires character profiles not to stay as placeholders. Two of the four were still templates and a third had drifted out of the current format, which meant every drafting run had to re-derive character fact from the prose. The profiles now carry sixteen chapters of established detail, with the arcs, progressions, and timelines a later chapter can be checked against.
+
+**Next run:** `story voices` still warns that Elias sounds like both Kaelen and Jarek on sentence length and contraction rate — that is a line-editing pass on the dialogue, not a profile fix. Director Vane deserves a scene; she is the antagonist and has not appeared once. Project: Synchronization still has no glossary term.
+
 ## Run 12 — 2026-10-16 — Draft Chapter 14 and Introduce Scavengers
 
 **Model:** Jules

@@ -8,7 +8,8 @@ locations:
 characters:
   - elias-thorne
   - kaelen
-members: []
+members:
+  - director-vane
 ---
 
 # Oversight Committee

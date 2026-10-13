@@ -52,6 +52,12 @@ Quote marks, dash style, ellipses, italics for thought or foreign words, and the
 
 **Elias Thorne**: Analytical, observant. His internal monologue often reflects his procedural training, mixed with an underlying paranoia.
 
+**Kaelen**: Clipped, fast, cynical. Efficiency over politeness; addresses Elias by surname; states odds as facts and facts as orders.
+
+**Jarek**: A low gravel rumble, short declaratives, the vocabulary of survival — scrap, water, dust, weight. Repeats a supplicant's own word back at them as a test.
+
+**Director Vane**: Unheard so far. Her voice reaches the page only through machine messages (*Access Denied. Clearance Level 5 Required.*). When she speaks, keep the register administrative, unhurried, and certain.
+
 ## Watch List
 
 Why each `watch-words` entry is there.

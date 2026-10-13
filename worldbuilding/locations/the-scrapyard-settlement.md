@@ -3,7 +3,9 @@ name: The Scrapyard Settlement
 type: neighborhood
 status: established
 notable-characters:
+  - elias-thorne
   - jarek
+  - kaelen
 ---
 
 # The Scrapyard Settlement

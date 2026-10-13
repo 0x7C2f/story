@@ -4,7 +4,9 @@ type: other
 region: ""
 population: ""
 controlled-by: ""
-notable-characters: []
+notable-characters:
+  - elias-thorne
+  - kaelen
 tags: []
 status: established
 ---

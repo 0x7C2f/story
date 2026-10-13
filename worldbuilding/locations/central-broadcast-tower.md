@@ -4,6 +4,10 @@ name: central-broadcast-tower
 aliases: []
 type: location
 status: established
+notable-characters:
+  - director-vane
+  - elias-thorne
+  - kaelen
 ---
 
 # Central Broadcast Tower

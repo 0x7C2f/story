@@ -16,7 +16,15 @@ story: the-memory-archivist
 
 ## Relationship Map
 
-*No relationships defined yet.*
+| Character | Relationships |
+|-----------|---------------|
+| Director Vane | enemy — [Kaelen](kaelen.md); opposed by [Elias Thorne](elias-thorne.md), whose relationship to her is `antagonist` |
+| Elias Thorne | ally — [Kaelen](kaelen.md), [Jarek](jarek.md); antagonist — [Director Vane](director-vane.md) |
+| Jarek | ally — [Elias Thorne](elias-thorne.md), [Kaelen](kaelen.md) |
+| Kaelen | ally — [Elias Thorne](elias-thorne.md), [Jarek](jarek.md); enemy — [Director Vane](director-vane.md) |
+
+Generated with `story diagram relationships` from the `relationships` frontmatter
+in each character file; the registry table above is rebuilt by `story reindex`.
 
 ## Family Trees
 

@@ -3,7 +3,9 @@ type: location
 story: the-memory-archivist
 name: The Undercity
 status: active
-characters: []
+notable-characters:
+  - elias-thorne
+  - kaelen
 region: ""
 population: ""
 controlled-by: ""

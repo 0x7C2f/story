@@ -40,7 +40,7 @@ Red emergency strobes flared to life above them. The biometric sweepers, mounted
 
 *Unauthorized organic signatures detected in Sector Vane. Containment protocol initiated.*
 
-"They're locking down the transit shafts," Kaelen said, shoving Elias toward the heavy grate that covered the maintenance ladder. He aimed his pulse pistol at the nearest sweeper and fired. A burst of blue plasma shattered the sensor array in a shower of sparks and synthetic glass.
+"They're locking down the transit shafts," Kaelen said, shoving Elias toward the heavy grate that covered the maintenance ladder. She aimed her pulse pistol at the nearest sweeper and fired. A burst of blue plasma shattered the sensor array in a shower of sparks and synthetic glass.
 
 Elias grabbed the cold iron of the ladder, his muscles trembling as he pulled himself up into the narrow, vertical shaft. The darkness enveloped him, a stark contrast to the glaring lights of the vault. He climbed, his breath tearing in his throat, driven purely by the adrenaline coursing through his veins.
 
@@ -52,7 +52,7 @@ They scaled the shaft for what felt like hours, though it was likely only minute
 
 They tumbled out into the shadowed tunnel, gasping for breath. Kaelen sealed the hatch behind them, fusing the lock mechanism with a final, point-blank blast from his pistol.
 
-"That won't hold them forever," Kaelen grunted, checking the charge on his weapon. "But it buys us enough time to get lost."
+"That won't hold them forever," Kaelen grunted, checking the charge on her weapon. "But it buys us enough time to get lost."
 
 They navigated the labyrinthine tunnels of the Undercity, avoiding the main thoroughfares and sticking to the narrow, forgotten passages. Elias moved on autopilot, clutching the rig against his chest like a lifeline. Inside its memory bank was the root key, a digital weapon capable of dismantling the Oversight Committee's conspiracy. But the victory felt hollow against the crushing weight of what he had seen in Vane's vault.
 
@@ -60,7 +60,7 @@ Eventually, they reached one of Kaelen's secondary safehouses—a damp, reinforc
 
 Elias collapsed onto a cot, tossing the rig onto a metal table. He pressed a rag to his face, trying to stem the lingering nosebleed.
 
-"Alright, Thorne," Kaelen said, dropping into a chair across from him. The cybernetic arm whirred as he ran a diagnostic check. "You got the key. Now, what the hell almost fried you back there?"
+"Alright, Thorne," Kaelen said, dropping into a chair across from him. The cybernetic arm whirred as she ran a diagnostic check. "You got the key. Now, what the hell almost fried you back there?"
 
 Elias looked at him, his vision finally stabilizing. The memory of the blue file burned in his mind's eye. "Project: Synchronization," he said, his voice raspy. "It's not just targeted splices anymore, Kaelen. They aren't just altering the memories of political dissidents or erasing localized incidents."
 

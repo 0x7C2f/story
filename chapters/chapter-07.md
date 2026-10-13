@@ -22,7 +22,7 @@ word-count: 495
 ## Outline
 
 1. Researching the Target: Elias and Kaelen sift through the partial manifest's metadata to trace the origin of the root key, narrowing it down to Director Vane's personal, air-gapped archive in the Nexus Spire.
-2. Formulating the Approach: Kaelen reveals he has old underworld contacts who can provide a localized EMP to bypass the Spire's biometric sensors, while Elias realizes he will need to interface directly with Vane's node.
+2. Formulating the Approach: Kaelen reveals she has old underworld contacts who can provide a localized EMP to bypass the Spire's biometric sensors, while Elias realizes he will need to interface directly with Vane's node.
 3. Preparation and Tension: They gather their modified gear. Elias confronts the psychological toll of diving into an unfamiliar, heavily fortified mental architecture, fully committing to the risky infiltration.
 
 ---

@@ -3,7 +3,9 @@ type: location
 story: the-memory-archivist
 name: Nexus Archives
 status: active
-characters: []
+notable-characters:
+  - director-vane
+  - elias-thorne
 region: ""
 population: ""
 controlled-by: ""

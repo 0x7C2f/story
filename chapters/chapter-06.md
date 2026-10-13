@@ -32,7 +32,7 @@ word-count: 507
 
 The safehouse was little more than a hollowed-out maintenance junction deep within the Undercity’s labyrinthine ductwork. It smelled of ozone and stale protein rations, but it was heavily shielded against external biometric sweeps. Elias collapsed onto a crate, his chest heaving as the adrenaline of their escape began to curdle into exhaustion.
 
-Kaelen paced the narrow space, his expression dark. "We cut it too close. The drones were seconds behind us. If they managed to log your neural signature during the disconnect..."
+Kaelen paced the narrow space, her expression dark. "We cut it too close. The drones were seconds behind us. If they managed to log your neural signature during the disconnect..."
 
 "They didn't," Elias interrupted, rubbing his temples where the interface ache throbbed fiercely. "I scrubbed the handshake protocol manually as I pulled the tether. We're clear for now."
 
@@ -48,11 +48,11 @@ Kaelen leaned closer, tracing a line of data in the projection. "And here's the 
 
 "Director Vane," Elias murmured. "She didn't just sign off on it. She authored the specific parameters of the batch protocol. We have her."
 
-"Not quite," Kaelen said, his voice tightening. He swiped his hand through the projection, expanding a section of the data tree that abruptly cut off into static. "You said you got seventy percent of the file."
+"Not quite," Kaelen said, her voice tightening. She swiped her hand through the projection, expanding a section of the data tree that abruptly cut off into static. "You said you got seventy percent of the file."
 
 "I did."
 
-"The thirty percent we left behind contains the cryptographic root key," Kaelen explained, frustration bleeding into his tone. "We have the list of changes they made, but without the root key, we can't mathematically prove that these logs aren't fabrications. If we broadcast this now, the Committee will just claim it's a deepfake designed by insurgents. They’ll discredit us before the sun rises."
+"The thirty percent we left behind contains the cryptographic root key," Kaelen explained, frustration bleeding into her tone. "We have the list of changes they made, but without the root key, we can't mathematically prove that these logs aren't fabrications. If we broadcast this now, the Committee will just claim it's a deepfake designed by insurgents. They’ll discredit us before the sun rises."
 
 Silence settled heavily in the cramped junction. The glowing data continued to slowly rotate between them, a monumental truth rendered inert by a missing string of code.
 

@@ -4,7 +4,10 @@ type: building
 region: Sector One
 population: ""
 controlled-by: oversight-committee
-notable-characters: []
+notable-characters:
+  - director-vane
+  - elias-thorne
+  - kaelen
 tags: []
 status: active
 ---

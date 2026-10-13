@@ -33,11 +33,11 @@ The localized EMP charge tasted like ozone and burnt copper on Elias's tongue. W
 
 For a terrifying three seconds, the world went dark.
 
-"Now," Kaelen hissed, his voice tight.
+"Now," Kaelen hissed, her voice tight.
 
 They moved fast. The blackout had blinded the Spire's primary biometric sweepers, turning the fortified lobby above them into a temporary blind spot. Elias scrambled up the service ladder behind Kaelen, hauling his rig over his shoulder. The air in the Spire's lower levels was sterile, filtered, and smelled of chemical lemon.
 
-They slipped past the deactivated security gate and into the executive transit shaft. Kaelen forced the doors to the private lift, his cybernetic arm straining with hydraulic whines before the heavy metal gave way.
+They slipped past the deactivated security gate and into the executive transit shaft. Kaelen forced the doors to the private lift, her cybernetic arm straining with hydraulic whines before the heavy metal gave way.
 
 "We have two minutes before the secondary generators spool up and the system reboots," Kaelen said, overriding the lift's destination panel with a specialized cipher drive. "Once the power comes back, the biometric sweeps will catch us if we're not inside the vault room."
 
