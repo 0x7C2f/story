@@ -6,6 +6,21 @@ what to explore next run. Newest entries at the top. Skim this and recent git
 history at the start of every run.
 
 
+## Run 3 — 2026-10-13 — Draft Chapter 3 and Expand Oversight Committee
+
+**Model:** Jules
+
+**Changed:**
+- Drafted Chapter 3 ("The Undercity Meeting"), detailing Elias meeting Kaelen, who uncovers the industrial scale of the memory alterations.
+- Expanded lore in `worldbuilding/factions/oversight-committee.md`, noting their batch protocol and introducing Director Vane.
+- Updated `continuity/state.md` to reflect Chapter 3's progress.
+- Checked off completed items and added next steps to `agent/BACKLOG.md`.
+- Kept the word counts and registries in step (`story reindex .` and `story wordcount --write .`).
+
+**Why:** To establish Elias's alliance with Kaelen, escalate the stakes of the conspiracy, and advance the backlog tasks as scheduled.
+
+**Next run:** Draft Chapter 4, where Elias and Kaelen formulate a plan to infiltrate a secondary black site to gather more hard evidence. Define the glossary term for the "batch protocol" memory splicing operation.
+
 ## Run 2 — 2026-10-13 — Draft Chapter 2 and Worldbuilding Expansions
 
 **Model:** Jules

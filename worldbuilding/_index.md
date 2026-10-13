@@ -32,4 +32,4 @@ story: the-memory-archivist
 
 | Name | Type | Status | File |
 |------|------|--------|------|
-| *No artifacts yet* | | | |
+| Physical Drive M-774-B | Object | active | [physical-drive-m-774-b](artifacts/physical-drive-m-774-b.md) |
