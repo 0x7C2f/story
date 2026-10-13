@@ -15,6 +15,7 @@ story: the-memory-archivist
 |------|------|--------|------|
 | Nexus Archives | Location |  | [nexus-archives](locations/nexus-archives.md) |
 | Sector Four Black Site | Location | Sector Four | [sector-four-black-site](locations/sector-four-black-site.md) |
+| The Nexus Spire | Building | Sector One | [the-nexus-spire](locations/the-nexus-spire.md) |
 | The Undercity | Location |  | [the-undercity](locations/the-undercity.md) |
 
 ## Systems

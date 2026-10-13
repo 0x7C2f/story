@@ -16,5 +16,6 @@ story: the-memory-archivist
 | 5 | Sector Four Infiltration | elias-thorne | draft | 636 | [chapter-05](chapter-05.md) |
 | 6 | The Manifest Analysis | elias-thorne | draft | 507 | [chapter-06](chapter-06.md) |
 | 7 | The Archive Heist Plan | elias-thorne | draft | 495 | [chapter-07](chapter-07.md) |
+| 8 | The Spire Heist | elias-thorne | draft | 726 | [chapter-08](chapter-08.md) |
 
-## Total Word Count: 3521
+## Total Word Count: 4247

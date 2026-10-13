@@ -126,3 +126,20 @@ scheduled runs, and this repository was sealed before the first one.
 
 **Next run:** The first story run — decide the premise and fill in `story.md`,
 then build forward. See `agent/BACKLOG.md`.
+## 2024-05-18
+
+Model: Jules
+
+**What changed:**
+- Drafted Chapter 8: "The Spire Heist", removing `mode: outlined` and updating status to `draft`.
+- Added new location file `worldbuilding/locations/the-nexus-spire.md` capturing description, history, and features.
+- Created and populated scene file `scenes/chapter-08-scene-01.md` with purpose and continuity notes.
+- Updated `continuity/state.md` to track character state, object state, and knowledge state through chapter 8 (finding the root key and discovering Project: Synchronization).
+- Fixed adverbs and word counts across the manuscript to satisfy prose checks.
+- Marked "Draft Chapter 8" as complete in `agent/BACKLOG.md` and added next step "Draft Chapter 9".
+
+**Why:**
+- To progress the story and execute the planned infiltration of the Nexus Spire as detailed in the previous chapter and the story backlog.
+
+**Next run:**
+- Review the newly added next task in `agent/BACKLOG.md` and outline/draft Chapter 9 where Elias and Kaelen escape the Spire and deal with the implications of Project: Synchronization.
