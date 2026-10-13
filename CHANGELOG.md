@@ -6,6 +6,23 @@ what to explore next run. Newest entries at the top. Skim this and recent git
 history at the start of every run.
 
 
+## Run 10 — 2026-10-15 — Draft Chapter 11 and The Broadcast Assault
+
+**Model:** Jules
+
+**Changed:**
+- Drafted Chapter 11 ("The Broadcast Assault"), detailing Elias and Kaelen assaulting the central broadcast tower and successfully executing the counter-broadcast using the root key.
+- Created scene record `scenes/chapter-11-scene-01.md`.
+- Created location record `worldbuilding/locations/central-broadcast-tower.md`.
+- Updated `continuity/state.md` with chapter 11 character states and knowledge of the successful counter-broadcast.
+- Added a timeline entry for Chapter 11 in `plot/timeline.md`.
+- Updated `agent/BACKLOG.md` to check off drafting Chapter 11 and added a new task for drafting Chapter 12.
+- Synced word counts, index registries, and validated constraints with strict checking.
+
+**Why:** To resolve the immediate conflict by executing the heist on the central broadcast tower, deploying the root key, and countering the Oversight Committee's Project: Synchronization before it overwrites the city's true history.
+
+**Next run:** Outline and draft Chapter 12, focusing on the aftermath of the broadcast, the citizens' reaction to the true memories, and the resolution of the story.
+
 ## Run 9 — 2026-10-14 — Draft Chapter 10 and Broadcast Preparation
 
 **Model:** Jules

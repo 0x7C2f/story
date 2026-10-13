@@ -1,16 +1,16 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 10
+current-chapter: 11
 character-state:
   - character: elias-thorne
-    location: the-undercity
-    physical: Neural ache fading to a dull throb
-    emotional: Clear-headed and determined
+    location: central-broadcast-tower
+    physical: Exhausted
+    emotional: Triumphant but drained
   - character: kaelen
-    location: the-undercity
-    physical: Unscathed
-    emotional: Resolute, prepared for a suicide run
+    location: central-broadcast-tower
+    physical: Unscathed, high adrenaline
+    emotional: On edge, resolute
 object-state:
   - artifact: physical-drive-m-774-b
     owner: elias-thorne
@@ -78,6 +78,12 @@ knowledge-state:
   - character: kaelen
     knows: The central broadcast tower in Sector One is the only node powerful enough to override the synchronization protocol.
     learned-in: chapter-10
+  - character: elias-thorne
+    knows: The counter-broadcast was successful and true memories are flooding the city grid.
+    learned-in: chapter-11
+  - character: kaelen
+    knows: The counter-broadcast was successful and true memories are flooding the city grid.
+    learned-in: chapter-11
 ---
 
 # Continuity State
