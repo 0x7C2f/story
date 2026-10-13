@@ -11,6 +11,7 @@ story: the-memory-archivist
 |------|------|--------|------|
 | Director Vane | antagonist | alive | [director-vane](director-vane.md) |
 | Elias Thorne | protagonist | alive | [elias-thorne](elias-thorne.md) |
+| Jarek | supporting | alive | [jarek](jarek.md) |
 | Kaelen | supporting | alive | [kaelen](kaelen.md) |
 
 ## Relationship Map

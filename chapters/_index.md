@@ -23,5 +23,6 @@ story: the-memory-archivist
 | 12 | The Aftermath | elias-thorne | draft | 348 | [chapter-12](chapter-12.md) |
 | 13 | The Outskirts | elias-thorne | draft | 292 | [chapter-13](chapter-13.md) |
 | 14 | The Outskirts Settlement | elias-thorne | draft | 443 | [chapter-14](chapter-14.md) |
+| 15 | Negotiating Trust | elias-thorne | draft | 588 | [chapter-15](chapter-15.md) |
 
-## Total Word Count: 6900
+## Total Word Count: 7488
