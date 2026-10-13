@@ -1,6 +1,6 @@
 ---
 type: scene-registry
-story: untitled
+story: the-memory-archivist
 ---
 
 # Scenes
@@ -9,4 +9,4 @@ story: untitled
 
 | Chapter | Scene | Title | POV | Status | File |
 |---------|-------|-------|-----|--------|------|
-| *No scenes yet* | | | | | |
+| chapter-01 | 1 | The Node |  | outline | [chapter-01-scene-01](chapter-01-scene-01.md) |

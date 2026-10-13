@@ -1,6 +1,6 @@
 ---
 type: plot-registry
-story: untitled
+story: the-memory-archivist
 structure: three-act
 ---
 

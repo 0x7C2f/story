@@ -1,6 +1,6 @@
 ---
 type: clue-registry
-story: untitled
+story: the-memory-archivist
 ---
 
 # Clue Ledger

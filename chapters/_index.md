@@ -1,6 +1,6 @@
 ---
 type: chapter-registry
-story: untitled
+story: the-memory-archivist
 ---
 
 # Chapters
@@ -9,6 +9,6 @@ story: untitled
 
 | # | Title | POV | Status | Word Count | File |
 |---|-------|-----|--------|------------|------|
-| *No chapters yet* | | | | | |
+| 1 | The Fragment | elias-thorne | outline | 451 | [chapter-01](chapter-01.md) |
 
-## Total Word Count: 0
+## Total Word Count: 451

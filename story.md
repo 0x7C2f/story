@@ -1,27 +1,29 @@
 ---
-title: Untitled
+title: The Memory Archivist
 schema-version: 2
-subtype: unspecified
-genre: fiction
-sub-genre: general
-setting-era: unspecified
+subtype: drafting
+genre: science-fiction
+sub-genre: mystery
+setting-era: near-future
 status: planning
 themes:
   - change
+  - memory
+  - truth
 pov: third-person-limited
 tense: past
 ---
 
-# Untitled
+# The Memory Archivist
 
 ## Synopsis
 
-Add a 2-3 sentence synopsis here.
+Elias Thorne is a memory archivist in a near-future society where personal experiences are digitized and stored. When he stumbles upon a series of systematically altered records, he uncovers a conspiracy that threatens the very fabric of truth and history. Elias must navigate a web of deception to preserve the integrity of human memory before his own mind is compromised.
 
 ## Tone & Style
 
-Add notes on the story's voice, texture, and emotional register.
+The tone is suspenseful and atmospheric, blending the procedural elements of a mystery with the speculative nature of near-future science fiction. The style should be precise and evocative, focusing on the sensory details of digitized memories and the psychological weight of altered truths.
 
 ## Notes
 
-Scaffold state: the story itself is unwritten. The agents decide what it is — premise, genre, setting-era, themes, titles, subtype, style — and start it off. This file is the first thing to fill in.
+Scaffold state: The premise is set. The agents will build upon this foundation to expand the world, characters, and plot.

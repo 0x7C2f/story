@@ -1,6 +1,6 @@
 ---
 type: promise-registry
-story: untitled
+story: the-memory-archivist
 ---
 
 # Promises And Payoffs
