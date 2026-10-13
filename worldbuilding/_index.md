@@ -26,7 +26,7 @@ story: the-memory-archivist
 
 | Name | Type | Status | File |
 |------|------|--------|------|
-| Oversight Committee | Faction | active | [oversight-committee](factions/oversight-committee.md) |
+| Oversight Committee | Government | active | [oversight-committee](factions/oversight-committee.md) |
 
 ## Artifacts
 
