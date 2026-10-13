@@ -13,3 +13,4 @@ story: the-memory-archivist
 | Day 5 | Elias and Kaelen encounter the Scavengers at the Scrapyard Settlement in the Outskirts | | 14 |
 | Day 5 | Elias and Kaelen negotiate with Jarek and are granted a trial night in the settlement | | 15 |
 | Day 6 | Elias and Kaelen prove their worth by repairing the generator and securing an alliance | | 16 |
+| Day 6 | Elias, Kaelen, and Jarek agree to organize a resistance and plan a salvage run to the Dead Zone | | 17 |
