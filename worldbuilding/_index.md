@@ -1,6 +1,6 @@
 ---
 type: world-registry
-story: untitled
+story: the-memory-archivist
 ---
 
 # Worldbuilding

@@ -1,7 +1,7 @@
 ---
 type: continuity-state
-story: untitled
-current-chapter: 0
+story: the-memory-archivist
+current-chapter: 1
 character-state: []
 object-state: []
 knowledge-state: []
