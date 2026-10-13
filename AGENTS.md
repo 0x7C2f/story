@@ -35,12 +35,14 @@ Do not invent a fact to satisfy a prose tool. If the story did not establish a d
 2. Decide what is most worth doing. Use your judgment. Growing the story is the default work.
 3. Change the markdown directly. Use the story skills (worldbuilding, character-management, plot-structure, chapter-writing, revision-continuity) for structure and conventions.
 4. Run better-writing on new or revised prose. Use voice-sample.md as the style reference.
-5. Run `story validate .`, `story links .`, `story continuity .`, and `story prose .`. Fix every error. Record each intentional fact change in the affected file.
+5. Run `story reindex .` and `story wordcount --write .`, then `story validate .`, `story links .`, `story continuity .`, and `story prose .`. Fix every error. Run `git diff --exit-code` to confirm no generated registry or word count is stale. Record each intentional fact change in the affected file.
 6. Add an entry to CHANGELOG.md. State what changed, why, and what to explore next run. Every entry must name the model on a Model: line, for example Model: claude-sonnet-4-5. Commit.
 
 ## Gate-First
 
 Run story check . --strict before story work. The record-integrity gate runs the same four steps: check --strict, prose, registry-sync, and build.
+
+Registries and word counts are generated artefacts. After a run, `story reindex .` and `story wordcount --write .` must have updated them, and `git diff --exit-code` must be clean before commit. Never commit a story file change without re-running those two commands.
 
 If all checks pass, proceed to story work.
 If a check fails, fix the reported findings first. Those inconsistencies must be caught before the story grows. Re-run until all checks pass.
