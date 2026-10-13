@@ -192,6 +192,23 @@ Model: Jules
 **Next run:**
 - Review the newly added next task in `agent/BACKLOG.md` and outline/draft Chapter 9 where Elias and Kaelen escape the Spire and deal with the implications of Project: Synchronization.
 
+## Run 11 — 2026-10-13 — Draft Chapter 13 (Epilogue)
+
+**Model:** Jules
+
+**Changed:**
+- Drafted Chapter 13 ("The Outskirts") serving as the epilogue, where Elias and Kaelen escape the city and prepare for the struggle ahead.
+- Removed the `outline` status and updated `status` to `draft` in `chapters/chapter-13.md`.
+- Created and populated the scene record `scenes/chapter-13-scene-01.md`.
+- Updated `continuity/state.md` with chapter 13 character states, establishing Elias and Kaelen in the `new-providence-outskirts` and capturing their knowledge of their fugitive status.
+- Created `worldbuilding/locations/new-providence-outskirts.md` location record.
+- Checked off the "Draft Chapter 13" task in `agent/BACKLOG.md`.
+- Synced word counts, index registries, and validated constraints with strict checking.
+
+**Why:** To finalize the narrative arc with an epilogue that solidifies the impact of the protagonists' victory while leaving the door open for future continuation.
+
+**Next run:** Final polish and stylistic passes across the entire manuscript to prepare it for completion.
+
 ## Run 10 — 2026-10-15 — Draft Chapter 12 and Epilogue
 
 **Model:** Jules

@@ -1,14 +1,14 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 12
+current-chapter: 13
 character-state:
   - character: elias-thorne
-    location: central-broadcast-tower
+    location: new-providence-outskirts
     physical: Exhausted
     emotional: Triumphant but drained
   - character: kaelen
-    location: central-broadcast-tower
+    location: new-providence-outskirts
     physical: Unscathed, high adrenaline
     emotional: On edge, resolute
 object-state:
@@ -90,6 +90,12 @@ knowledge-state:
   - character: kaelen
     knows: The Oversight Committee command structure is fracturing as a result of the counter-broadcast.
     learned-in: chapter-12
+  - character: elias-thorne
+    knows: They are now fugitives and must survive in the Outskirts to continue the fight.
+    learned-in: chapter-13
+  - character: kaelen
+    knows: They are now fugitives and must survive in the Outskirts to continue the fight.
+    learned-in: chapter-13
 ---
 
 # Continuity State
@@ -104,8 +110,8 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |-----------|----------|----------------|-----------------|-----------|
-| Elias Thorne | Central Broadcast Tower | Exhausted | Resolute, somewhat relieved | The Oversight Committee command structure is fracturing |
-| Kaelen | Central Broadcast Tower | Exhausted but uninjured | Resolved, cautious | The Oversight Committee command structure is fracturing |
+| Elias Thorne | New Providence Outskirts | Exhausted | Resolute, somewhat relieved | They are now fugitives and must survive in the Outskirts to continue the fight |
+| Kaelen | New Providence Outskirts | Exhausted but uninjured | Resolved, cautious | They are now fugitives and must survive in the Outskirts to continue the fight |
 
 ## Object State
 
@@ -139,3 +145,5 @@ frontmatter above; the tables below are optional notes it does not read.
 | Kaelen | The counter-broadcast was successful and true memories are flooding the city grid | Chapter 11 |
 | Elias Thorne | The Oversight Committee command structure is fracturing as a result of the counter-broadcast | Chapter 12 |
 | Kaelen | The Oversight Committee command structure is fracturing as a result of the counter-broadcast | Chapter 12 |
+| Elias Thorne | They are now fugitives and must survive in the Outskirts to continue the fight | Chapter 13 |
+| Kaelen | They are now fugitives and must survive in the Outskirts to continue the fight | Chapter 13 |

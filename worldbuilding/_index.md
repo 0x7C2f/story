@@ -14,6 +14,7 @@ story: the-memory-archivist
 | Name | Type | Region | File |
 |------|------|--------|------|
 | central-broadcast-tower | Location |  | [central-broadcast-tower](locations/central-broadcast-tower.md) |
+| New Providence Outskirts | Other |  | [new-providence-outskirts](locations/new-providence-outskirts.md) |
 | Nexus Archives | Location |  | [nexus-archives](locations/nexus-archives.md) |
 | Sector Four Black Site | Location | Sector Four | [sector-four-black-site](locations/sector-four-black-site.md) |
 | The Nexus Spire | Building | Sector One | [the-nexus-spire](locations/the-nexus-spire.md) |

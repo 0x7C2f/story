@@ -21,3 +21,4 @@ story: the-memory-archivist
 | chapter-10 | 1 | The Broadcast Preparation | elias-thorne | draft | [chapter-10-scene-01](chapter-10-scene-01.md) |
 | chapter-11 | 1 | The Broadcast Assault | elias-thorne | draft | [chapter-11-scene-01](chapter-11-scene-01.md) |
 | chapter-12 | 1 | The Resolution | elias-thorne | draft | [chapter-12-scene-01](chapter-12-scene-01.md) |
+| chapter-13 | 1 | The Outskirts | elias-thorne | draft | [chapter-13-scene-01](chapter-13-scene-01.md) |
