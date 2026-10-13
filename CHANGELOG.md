@@ -361,3 +361,23 @@ Model: Jules
   - Added scene for Chapter 21.
   - Updated timeline and continuity state.
   - Reindexed registries, updated wordcounts, and resolved validation issues.
+
+## Run 24 — 2026-10-16 — Draft Chapter 22 (The Transit Bridge Ambush)
+
+Model: Jules
+
+**Changed:**
+- Drafted Chapter 22: Elias, Kaelen, and Jarek successfully ambush the loyalist sweep teams at the old transit bridge using an EMP charge, capturing a heavy transport and securing a tap into the Committee's operational network.
+- Added scene record `scenes/chapter-22-scene-01.md`.
+- Added location record `worldbuilding/locations/old-transit-bridge.md`.
+- Updated `continuity/state.md` with chapter 22 object and knowledge states.
+- Updated `plot/timeline.md` to reflect the ambush.
+- Updated character progressions and timelines for Elias and Jarek.
+- Checked off drafting Chapter 22 in `agent/BACKLOG.md` and added Chapter 23 as a next step.
+- Ran all verifications and re-synced word counts and indices.
+
+**Why:**
+- To execute the ambush planned in Chapter 21, shifting the resistance from a defensive posture to an offensive one and providing them with a critical asset (the transport and network tap) for the next phase of the story.
+
+**Next run:**
+- Draft Chapter 23, where Elias analyzes the data obtained from the tapped network to plan their next strike against Director Vane.

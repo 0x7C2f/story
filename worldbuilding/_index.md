@@ -16,6 +16,7 @@ story: the-memory-archivist
 | central-broadcast-tower | Location |  | [central-broadcast-tower](locations/central-broadcast-tower.md) |
 | New Providence Outskirts | Other |  | [new-providence-outskirts](locations/new-providence-outskirts.md) |
 | Nexus Archives | Location |  | [nexus-archives](locations/nexus-archives.md) |
+| Old Transit Bridge | Other | new-providence-outskirts | [old-transit-bridge](locations/old-transit-bridge.md) |
 | The Abandoned Relay Station | Building | The Dead Zone, twenty klicks east of the Scrapyard Settlement | [relay-station](locations/relay-station.md) |
 | Sector Four Black Site | Location | Sector Four | [sector-four-black-site](locations/sector-four-black-site.md) |
 | The Dead Zone | Other | Twenty klicks east of the Scrapyard Settlement | [the-dead-zone](locations/the-dead-zone.md) |
@@ -40,6 +41,7 @@ story: the-memory-archivist
 
 | Name | Type | Status | File |
 |------|------|--------|------|
+| Heavy Transport | Object | active | [heavy-transport](artifacts/heavy-transport.md) |
 | Partial Batch Manifest | Object | active | [partial-batch-manifest](artifacts/partial-batch-manifest.md) |
 | Physical Drive M-774-B | Object | active | [physical-drive-m-774-b](artifacts/physical-drive-m-774-b.md) |
 | Signal Repeaters | Technology | active | [signal-repeaters](artifacts/signal-repeaters.md) |

@@ -20,6 +20,7 @@ relationships:
   - character: kaelen
     type: ally
 locations:
+  - old-transit-bridge
   - the-scrapyard-settlement
   - relay-station
   - the-dead-zone
@@ -45,6 +46,9 @@ progressions:
   - from: chapter-17
     field: standing
     value: "Committed the settlement to open resistance against the Committee; assembling a salvage team for the Dead Zone relay station"
+  - from: chapter-22
+    field: standing
+    value: "Co-led a successful ambush against Committee forces, securing a heavy transport"
 ---
 
 # Jarek
@@ -169,3 +173,4 @@ the price of the question, not agreement with it.
 | Chapter 15 | Meets them on the command deck; refuses their ideology; grants one night against a test | Converts a claim into terms |
 | Chapter 16 | Sets the generator as the test; watches both of them deliver; grants the alliance | Buys what they are selling |
 | Chapter 17 | Scouts report drones on the ridge; commits the settlement to resistance and assembles the salvage team | The settlement stops hiding |
+| Chapter 22 | Detonates the EMP charge and helps capture a transport | Proves the resistance's capability |

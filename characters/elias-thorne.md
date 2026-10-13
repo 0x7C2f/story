@@ -23,6 +23,7 @@ relationships:
   - character: jarek
     type: ally
 locations:
+  - old-transit-bridge
   - nexus-archives
   - the-undercity
   - sector-four-black-site
@@ -62,6 +63,9 @@ progressions:
   - from: chapter-17
     field: standing
     value: "Organizing a resistance from the Scrapyard Settlement; planning a shadow network on the still-active root key"
+  - from: chapter-22
+    field: standing
+    value: "Secured a direct physical tap into Director Vane's operational network"
 ---
 
 # Elias Thorne
@@ -210,3 +214,4 @@ answers himself in the second person when he is alone with a screen.
 | Chapter 15 | Offers knowledge instead of weapons; gets one night and a test | Bargains with what he is |
 | Chapter 16 | Rewrites the generator's regulatory protocols; earns the settlement's alliance | Proves the archivist's trade is worth something in the dust |
 | Chapter 17 | Proposes a shadow network on the still-active root key and argues for open resistance; joins the salvage run | Turns from fugitive to organizer |
+| Chapter 22 | Captures a heavy transport and taps into the operational network | Takes the offensive |

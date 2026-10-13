@@ -18,3 +18,4 @@ story: the-memory-archivist
 | Day 7 (Morning) | Director Vane assesses the failed synchronization from Sector Vane and deploys loyalist sweep teams to lock down the Outskirts perimeter | | 19 |
 | Day 7 | Elias, Kaelen, and Jarek set up the mesh network using the salvaged repeaters, only to realize loyalist sweep teams are moving in on the Outskirts perimeter | | 20 |
 | Day 7 | Elias uses the new mesh network to intercept Committee tactical comms, allowing the resistance to track the sweep teams and plan an ambush | | 21 |
+| Day 7 | Elias, Kaelen, and Jarek successfully ambush the sweep teams at the old transit bridge and capture a heavy transport | | 22 |

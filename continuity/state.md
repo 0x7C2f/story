@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 21
+current-chapter: 22
 character-state:
   - character: director-vane
     location: the-nexus-spire
@@ -31,6 +31,10 @@ object-state:
   - artifact: signal-repeaters
     owner: jarek
     location: the-scrapyard-settlement
+    status: active
+  - artifact: heavy-transport
+    owner: jarek
+    location: old-transit-bridge
     status: active
 knowledge-state:
   - character: elias-thorne
@@ -174,6 +178,15 @@ knowledge-state:
   - character: jarek
     knows: The resistance has the tactical advantage to ambush the sweep teams.
     learned-in: chapter-21
+  - character: elias-thorne
+    knows: The resistance has captured a heavy transport and secured a physical tap into the operational network.
+    learned-in: chapter-22
+  - character: kaelen
+    knows: The resistance has captured a heavy transport and secured a physical tap into the operational network.
+    learned-in: chapter-22
+  - character: jarek
+    knows: The resistance has captured a heavy transport and secured a physical tap into the operational network.
+    learned-in: chapter-22
 ---
 
 # Continuity State
@@ -201,6 +214,7 @@ frontmatter above; the tables below are optional notes it does not read.
 | Partial Batch Manifest | Elias Thorne | The Undercity | Active |
 | Signal Repeaters | Jarek | The Scrapyard Settlement | Active |
 | Mesh Network | Elias Thorne | The Scrapyard Settlement | Active |
+| Heavy Transport | Jarek | Old Transit Bridge | Active |
 
 ## Knowledge State
 
@@ -248,3 +262,6 @@ frontmatter above; the tables below are optional notes it does not read.
 | Elias Thorne | The mesh network can intercept Committee tactical comms, revealing patrol routes | Chapter 21 |
 | Kaelen | The loyalist sweep teams are bottlenecking at the old transit bridge | Chapter 21 |
 | Jarek | The resistance has the tactical advantage to ambush the sweep teams | Chapter 21 |
+| Elias Thorne | The resistance has captured a heavy transport and secured a physical tap into the operational network | Chapter 22 |
+| Kaelen | The resistance has captured a heavy transport and secured a physical tap into the operational network | Chapter 22 |
+| Jarek | The resistance has captured a heavy transport and secured a physical tap into the operational network | Chapter 22 |
