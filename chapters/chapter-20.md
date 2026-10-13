@@ -13,10 +13,10 @@ mentions:
   - director-vane
 arcs-advanced: []
 status: draft
-mode: discovered
+mode: ""
 date: ""
 time: ""
-word-count: 502
+word-count: 567
 ---
 
 # Chapter 20
@@ -50,3 +50,7 @@ A cold knot tightened in Elias's stomach. Director Vane hadn't wasted any time. 
 He looked at the repeater, the culmination of their desperate salvage run. Protocol dictated that he should power it down, hide it, and wait for the threat to pass. The archivist in him—the man who had seen the truth overwritten—understood that waiting was just another form of erasure. It was unacceptable.
 
 "We finish the sync," Elias said, his fingers flying across the haptic keys. "Jarek, get your people ready. We're going to use the network to track their movements before they track us."
+
+## Chapter Notes
+
+Elias, Kaelen, and Jarek set up the salvaged mesh network repeaters in the Outskirts to establish a secure comms line. During the sync, Jarek spots loyalist sweep teams deployed by Director Vane searching the perimeter. Instead of hiding the equipment, Elias decides to finish the sync to use the network to track the loyalists' movements, turning a desperate defense into a tactical advantage.

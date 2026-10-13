@@ -354,3 +354,10 @@ Model: Jules
   - Checked off backlog item for Chapter 15.
   - Resolved `story check . --strict` and `story prose .` errors and warnings.
 
+
+- Model: Jules
+  - Reconciled Chapter 20 by running the discovery-drafting loop.
+  - Drafted Chapter 21: Elias and the resistance use the mesh network to track loyalist sweep teams and decide to set an ambush to capture a transport.
+  - Added scene for Chapter 21.
+  - Updated timeline and continuity state.
+  - Reindexed registries, updated wordcounts, and resolved validation issues.

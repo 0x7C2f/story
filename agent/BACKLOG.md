@@ -35,3 +35,5 @@ items off as you do them.
 - [x] Add worldbuilding records for the Dead Zone and the abandoned relay station east of the Scrapyard Settlement (chapter 17 uses both; neither has a location file yet).
 - [ ] Establish Elias's pre-story life: family, why he became an archivist, and what the Archives did with him after chapter 1 flagged him.
 - [x] Draft Chapter 20: Elias, Kaelen, and Jarek set up the mesh network using the salvaged repeaters, only to realize loyalist sweep teams are moving in on the Outskirts perimeter.
+- [x] Reconcile Chapter 20 (run the discovery-drafting loop).
+- [x] Draft Chapter 21: Elias and the resistance use the mesh network to track loyalist sweep teams and decide to set an ambush to capture a transport.
