@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 6
+current-chapter: 7
 character-state:
   - character: elias-thorne
     location: the-undercity
@@ -48,6 +48,12 @@ knowledge-state:
   - character: kaelen
     knows: The partial batch manifest lacks the cryptographic root key needed to prove its authenticity.
     learned-in: chapter-06
+  - character: elias-thorne
+    knows: The missing cryptographic root key is stored in Director Vane's air-gapped personal archive in the Nexus Spire.
+    learned-in: chapter-07
+  - character: kaelen
+    knows: The missing cryptographic root key is stored in Director Vane's air-gapped personal archive in the Nexus Spire.
+    learned-in: chapter-07
 ---
 
 # Continuity State
@@ -83,3 +89,5 @@ frontmatter above; the tables below are optional notes it does not read.
 | Kaelen | Director Vane approved the rewriting of the entire Sector Two uprising | Chapter 5 |
 | Elias Thorne | The partial batch manifest lacks the cryptographic root key needed to prove its authenticity | Chapter 6 |
 | Kaelen | The partial batch manifest lacks the cryptographic root key needed to prove its authenticity | Chapter 6 |
+| Elias Thorne | The missing cryptographic root key is stored in Director Vane's air-gapped personal archive in the Nexus Spire | Chapter 7 |
+| Kaelen | The missing cryptographic root key is stored in Director Vane's air-gapped personal archive in the Nexus Spire | Chapter 7 |
