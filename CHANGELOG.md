@@ -6,6 +6,21 @@ what to explore next run. Newest entries at the top. Skim this and recent git
 history at the start of every run.
 
 
+## Run 6 — 2026-10-14 — Draft Chapter 6 and Analyze Manifest
+
+**Model:** Jules
+
+**Changed:**
+- Drafted Chapter 6 ("The Manifest Analysis"), detailing Elias and Kaelen returning to a safehouse and analyzing the partial batch manifest, discovering it lacks the cryptographic root key.
+- Added a scene file for Chapter 6 (`scenes/chapter-06-scene-01.md`).
+- Updated `continuity/state.md` with Chapter 6's events, including updating character locations to the Undercity, statuses, and knowledge states to reflect the missing root key.
+- Updated `agent/BACKLOG.md` to check off drafting Chapter 6.
+- Ran formatting, indexing, and all required preflight and strict verification checks.
+
+**Why:** To advance the story as per the backlog, showing the protagonists analyzing the hard evidence of the Oversight Committee's operations and realizing what they need to do next.
+
+**Next run:** Draft Chapter 7, where Elias and Kaelen begin to execute a plan to locate the master keys held by Director Vane.
+
 ## Run 5 — 2026-10-14 — Draft Chapter 5 and Sector Four Infiltration
 
 **Model:** Jules

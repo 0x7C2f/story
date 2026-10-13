@@ -16,4 +16,4 @@ items off as you do them.
 - [x] Draft Chapter 4: Elias and Kaelen formulate a plan to infiltrate a secondary black site to gather more hard evidence.
 - [x] Create a glossary term for "memory splicing" or "batch protocol" to define the technical aspects of the Oversight Committee's operations.
 - [x] Draft Chapter 5: Infiltration of the secondary black site below the old transit hub in Sector Four.
-- [ ] Draft Chapter 6: Elias and Kaelen analyze the partial batch manifest and plan their next move.
+- [x] Draft Chapter 6: Elias and Kaelen analyze the partial batch manifest and plan their next move.
