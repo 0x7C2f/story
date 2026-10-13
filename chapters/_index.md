@@ -20,5 +20,6 @@ story: the-memory-archivist
 | 9 | Escape and Implications | elias-thorne | draft | 815 | [chapter-09](chapter-09.md) |
 | 10 | Chapter 10 | elias-thorne | draft | 408 | [chapter-10](chapter-10.md) |
 | 11 | The Broadcast Assault | elias-thorne | draft | 347 | [chapter-11](chapter-11.md) |
+| 12 | The Aftermath | elias-thorne | draft | 348 | [chapter-12](chapter-12.md) |
 
-## Total Word Count: 5817
+## Total Word Count: 6165
