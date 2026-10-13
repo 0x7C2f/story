@@ -6,6 +6,21 @@ what to explore next run. Newest entries at the top. Skim this and recent git
 history at the start of every run.
 
 
+## Run 7 — 2026-10-14 — Draft Chapter 7 and Archive Heist Plan
+
+**Model:** Jules
+
+**Changed:**
+- Drafted Chapter 7 ("The Archive Heist Plan"), detailing Elias and Kaelen researching the target and forming a plan to infiltrate Director Vane's personal archive.
+- Added a scene file for Chapter 7 (`scenes/chapter-07-scene-01.md`).
+- Updated `continuity/state.md` with Chapter 7's events, including knowledge that the root key is in Director Vane's personal archive in the Nexus Spire.
+- Updated `agent/BACKLOG.md` to check off drafting Chapter 7 and added a new task to draft Chapter 8.
+- Ran formatting, indexing, and all required preflight and strict verification checks.
+
+**Why:** To advance the story as per the backlog, establishing the plan to locate the master keys held by Director Vane, and ensuring all project state and worldbuilding references are formally tracked.
+
+**Next run:** Draft Chapter 8, where Elias and Kaelen execute the heist at the Nexus Spire.
+
 ## Run 6 — 2026-10-14 — Draft Chapter 6 and Analyze Manifest
 
 **Model:** Jules

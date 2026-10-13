@@ -17,3 +17,5 @@ items off as you do them.
 - [x] Create a glossary term for "memory splicing" or "batch protocol" to define the technical aspects of the Oversight Committee's operations.
 - [x] Draft Chapter 5: Infiltration of the secondary black site below the old transit hub in Sector Four.
 - [x] Draft Chapter 6: Elias and Kaelen analyze the partial batch manifest and plan their next move.
+- [x] Draft Chapter 7: Elias and Kaelen research the target and form a plan to infiltrate Director Vane's personal archive.
+- [ ] Draft Chapter 8: The heist at the Nexus Spire.

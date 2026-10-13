@@ -15,5 +15,6 @@ story: the-memory-archivist
 | 4 | The Black Site Protocol | elias-thorne | draft | 458 | [chapter-04](chapter-04.md) |
 | 5 | Sector Four Infiltration | elias-thorne | draft | 636 | [chapter-05](chapter-05.md) |
 | 6 | The Manifest Analysis | elias-thorne | draft | 507 | [chapter-06](chapter-06.md) |
+| 7 | The Archive Heist Plan | elias-thorne | draft | 495 | [chapter-07](chapter-07.md) |
 
-## Total Word Count: 3026
+## Total Word Count: 3521
