@@ -1,14 +1,14 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 13
+current-chapter: 14
 character-state:
   - character: elias-thorne
-    location: new-providence-outskirts
+    location: the-scrapyard-settlement
     physical: Exhausted
     emotional: Triumphant but drained
   - character: kaelen
-    location: new-providence-outskirts
+    location: the-scrapyard-settlement
     physical: Unscathed, high adrenaline
     emotional: On edge, resolute
 object-state:
@@ -96,6 +96,12 @@ knowledge-state:
   - character: kaelen
     knows: They are now fugitives and must survive in the Outskirts to continue the fight.
     learned-in: chapter-13
+  - character: elias-thorne
+    knows: They have made contact with the Scavengers at the Scrapyard Settlement.
+    learned-in: chapter-14
+  - character: kaelen
+    knows: They have made contact with the Scavengers at the Scrapyard Settlement.
+    learned-in: chapter-14
 ---
 
 # Continuity State
@@ -110,8 +116,8 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |-----------|----------|----------------|-----------------|-----------|
-| Elias Thorne | New Providence Outskirts | Exhausted | Resolute, somewhat relieved | They are now fugitives and must survive in the Outskirts to continue the fight |
-| Kaelen | New Providence Outskirts | Exhausted but uninjured | Resolved, cautious | They are now fugitives and must survive in the Outskirts to continue the fight |
+| Elias Thorne | The Scrapyard Settlement | Exhausted | Resolute, somewhat relieved | They are now fugitives and must survive in the Outskirts to continue the fight |
+| Kaelen | The Scrapyard Settlement | Exhausted but uninjured | Resolved, cautious | They are now fugitives and must survive in the Outskirts to continue the fight |
 
 ## Object State
 
@@ -147,3 +153,5 @@ frontmatter above; the tables below are optional notes it does not read.
 | Kaelen | The Oversight Committee command structure is fracturing as a result of the counter-broadcast | Chapter 12 |
 | Elias Thorne | They are now fugitives and must survive in the Outskirts to continue the fight | Chapter 13 |
 | Kaelen | They are now fugitives and must survive in the Outskirts to continue the fight | Chapter 13 |
+| Elias Thorne | They have made contact with the Scavengers at the Scrapyard Settlement | Chapter 14 |
+| Kaelen | They have made contact with the Scavengers at the Scrapyard Settlement | Chapter 14 |

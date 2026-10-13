@@ -6,6 +6,23 @@ what to explore next run. Newest entries at the top. Skim this and recent git
 history at the start of every run.
 
 
+## Run 12 — 2026-10-16 — Draft Chapter 14 and Introduce Scavengers
+
+**Model:** Jules
+
+**Changed:**
+- Drafted Chapter 14 ("The Outskirts Settlement"), detailing Elias and Kaelen encountering the Scavengers at the Scrapyard Settlement.
+- Created scene record `scenes/chapter-14-scene-01.md`.
+- Created location record `worldbuilding/locations/the-scrapyard-settlement.md` and faction record `worldbuilding/factions/the-scavengers.md`.
+- Updated `continuity/state.md` with chapter 14 character states, locations, and knowledge of the Scavengers.
+- Added a timeline entry for Chapter 14 in `plot/timeline.md`.
+- Updated `agent/BACKLOG.md` to check off drafting Chapter 14 and added a new task for drafting Chapter 15.
+- Synced word counts, index registries, and validated constraints with strict checking.
+
+**Why:** To continue the story after the climax by starting a new arc in the Outskirts and introducing new challenges and factions as per the backlog.
+
+**Next run:** Outline and draft Chapter 15, focusing on Elias and Kaelen negotiating their place with the Scavengers.
+
 ## Run 10 — 2026-10-15 — Draft Chapter 11 and The Broadcast Assault
 
 **Model:** Jules
