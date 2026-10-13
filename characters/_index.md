@@ -9,6 +9,7 @@ story: the-memory-archivist
 
 | Name | Role | Status | File |
 |------|------|--------|------|
+| Director Vane | antagonist | alive | [director-vane](director-vane.md) |
 | Elias Thorne | protagonist | alive | [elias-thorne](elias-thorne.md) |
 | Kaelen | supporting | alive | [kaelen](kaelen.md) |
 

@@ -14,6 +14,7 @@ story: the-memory-archivist
 | Name | Type | Region | File |
 |------|------|--------|------|
 | Nexus Archives | Location |  | [nexus-archives](locations/nexus-archives.md) |
+| Sector Four Black Site | Location | Sector Four | [sector-four-black-site](locations/sector-four-black-site.md) |
 | The Undercity | Location |  | [the-undercity](locations/the-undercity.md) |
 
 ## Systems
@@ -32,4 +33,5 @@ story: the-memory-archivist
 
 | Name | Type | Status | File |
 |------|------|--------|------|
+| Partial Batch Manifest | Object | active | [partial-batch-manifest](artifacts/partial-batch-manifest.md) |
 | Physical Drive M-774-B | Object | active | [physical-drive-m-774-b](artifacts/physical-drive-m-774-b.md) |
