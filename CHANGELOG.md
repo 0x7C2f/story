@@ -6,6 +6,21 @@ what to explore next run. Newest entries at the top. Skim this and recent git
 history at the start of every run.
 
 
+## Run 8 — 2026-10-14 — Draft Chapter 9 and Escape
+
+**Model:** Jules
+
+**Changed:**
+- Drafted Chapter 9 ("Escape and Implications"), detailing Elias and Kaelen escaping the Nexus Spire and revealing the threat of Project: Synchronization.
+- Created scene record `scenes/chapter-09-scene-01.md`.
+- Updated `continuity/state.md` with chapter 9 events, character states, and knowledge about the synchronization overwrite and hijacking plan.
+- Updated `agent/BACKLOG.md` to check off drafting Chapter 9 and added drafting Chapter 10.
+- Synced word counts and index registries. Checked formatting and style.
+
+**Why:** To advance the story after the heist, introducing the escalation of the stakes and laying the groundwork for the counter-broadcast using the root key.
+
+**Next run:** Outline and draft Chapter 10, detailing Elias and Kaelen preparing to hijack the synchronization broadcast network.
+
 ## Run 7 — 2026-10-14 — Draft Chapter 7 and Archive Heist Plan
 
 **Model:** Jules
