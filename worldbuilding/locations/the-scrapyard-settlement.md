@@ -2,6 +2,8 @@
 name: The Scrapyard Settlement
 type: neighborhood
 status: established
+notable-characters:
+  - jarek
 ---
 
 # The Scrapyard Settlement

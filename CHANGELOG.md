@@ -241,3 +241,11 @@ Model: Jules
 **Why:** To resolve the climax of the story, showing the immediate fallout of the successful counter-broadcast and giving Elias and Kaelen a moment of emotional resolution as they overlook the changed city.
 
 **Next run:** Revise and polish the manuscript, or expand on specific worldbuilding elements to prepare for publication.
+
+- Model: Jules
+  - Drafted Chapter 15: Elias and Kaelen negotiate trust with Jarek and the Scavengers at the Scrapyard Settlement.
+  - Added new supporting character Jarek.
+  - Added Chapter 15 scene 01.
+  - Updated continuity state and locations list with latest developments.
+  - Checked off backlog item for Chapter 15.
+  - Resolved `story check . --strict` and `story prose .` errors and warnings.

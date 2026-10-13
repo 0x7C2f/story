@@ -23,3 +23,4 @@ story: the-memory-archivist
 | chapter-12 | 1 | The Resolution | elias-thorne | draft | [chapter-12-scene-01](chapter-12-scene-01.md) |
 | chapter-13 | 1 | The Outskirts | elias-thorne | draft | [chapter-13-scene-01](chapter-13-scene-01.md) |
 | chapter-14 | 1 | Finding the Settlement | elias-thorne | draft | [chapter-14-scene-01](chapter-14-scene-01.md) |
+| chapter-15 | 1 | First Meeting with Scavengers | elias-thorne | draft | [chapter-15-scene-01](chapter-15-scene-01.md) |

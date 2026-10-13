@@ -1,16 +1,20 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 14
+current-chapter: 15
 character-state:
   - character: elias-thorne
     location: the-scrapyard-settlement
     physical: Exhausted
-    emotional: Triumphant but drained
+    emotional: Resolute
   - character: kaelen
     location: the-scrapyard-settlement
-    physical: Unscathed, high adrenaline
+    physical: Unscathed, cautious
     emotional: On edge, resolute
+  - character: jarek
+    location: the-scrapyard-settlement
+    physical: Uninjured
+    emotional: Suspicious
 object-state:
   - artifact: physical-drive-m-774-b
     owner: elias-thorne
@@ -102,6 +106,15 @@ knowledge-state:
   - character: kaelen
     knows: They have made contact with the Scavengers at the Scrapyard Settlement.
     learned-in: chapter-14
+  - character: elias-thorne
+    knows: Jarek leads the Scrapyard Settlement and expects them to prove their usefulness.
+    learned-in: chapter-15
+  - character: kaelen
+    knows: Jarek leads the Scrapyard Settlement and expects them to prove their usefulness.
+    learned-in: chapter-15
+  - character: jarek
+    knows: Elias and Kaelen are city exiles responsible for stopping the broadcast.
+    learned-in: chapter-15
 ---
 
 # Continuity State
