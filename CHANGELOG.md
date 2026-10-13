@@ -6,6 +6,23 @@ what to explore next run. Newest entries at the top. Skim this and recent git
 history at the start of every run.
 
 
+## Run 20 — 2026-10-17 — Draft Chapter 20 (Mesh Network)
+
+Model: Jules
+
+**Changed:**
+- Drafted Chapter 20: Elias, Kaelen, and Jarek set up a mesh network with salvaged repeaters, only to discover loyalist sweep teams deployed by Director Vane are closing in.
+- Created `scenes/chapter-20-scene-01.md` scene file for Chapter 20.
+- Updated `continuity/state.md` to reflect Chapter 20 state changes: emotional tensions, new locations, and knowledge of the incoming sweep teams.
+- Added a new entry for Chapter 20 to `plot/timeline.md`.
+- Checked off the "Draft Chapter 20" backlog task in `agent/BACKLOG.md`.
+- Ran stylistic prose checks and resolved filtering word and uniformity warnings.
+- Synced word counts and index registries, and resolved all strict checks.
+
+**Why:** To address the backlog item that explicitly required advancing the plot by detailing the setup of the mesh network and introducing the immediate threat of loyalist sweep teams moving in on the Outskirts perimeter.
+
+**Next run:** Check `agent/BACKLOG.md` for remaining tasks or outline and draft Chapter 21, resolving the tension with the loyalist sweep teams.
+
 ## Run 19 — 2026-10-17 — Draft Chapter 19 (Director Vane's Move)
 
 Model: Jules

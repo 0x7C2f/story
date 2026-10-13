@@ -16,3 +16,4 @@ story: the-memory-archivist
 | Day 6 | Elias, Kaelen, and Jarek agree to organize a resistance and plan a salvage run to the Dead Zone | | 17 |
 | Day 7 | Elias, Kaelen, and Jarek successfully cross the Dead Zone and salvage military-grade signal repeaters from the abandoned relay station | | 18 |
 | Day 7 (Morning) | Director Vane assesses the failed synchronization from Sector Vane and deploys loyalist sweep teams to lock down the Outskirts perimeter | | 19 |
+| Day 7 | Elias, Kaelen, and Jarek set up the mesh network using the salvaged repeaters, only to realize loyalist sweep teams are moving in on the Outskirts perimeter | | 20 |

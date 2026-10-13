@@ -28,3 +28,4 @@ story: the-memory-archivist
 | chapter-17 | 1 | Scene 1 | elias-thorne | draft | [chapter-17-scene-01](chapter-17-scene-01.md) |
 | chapter-18 | 1 | The Salvage Run | elias-thorne | draft | [chapter-18-scene-01](chapter-18-scene-01.md) |
 | chapter-19 | 1 | Vane Assesses the Situation | director-vane | draft | [chapter-19-scene-01](chapter-19-scene-01.md) |
+| chapter-20 | 1 | Scene 01 | elias-thorne | draft | [chapter-20-scene-01](chapter-20-scene-01.md) |
