@@ -18,5 +18,6 @@ story: the-memory-archivist
 | 7 | The Archive Heist Plan | elias-thorne | draft | 495 | [chapter-07](chapter-07.md) |
 | 8 | The Spire Heist | elias-thorne | draft | 726 | [chapter-08](chapter-08.md) |
 | 9 | Escape and Implications | elias-thorne | draft | 815 | [chapter-09](chapter-09.md) |
+| 10 | Chapter 10 | elias-thorne | draft | 408 | [chapter-10](chapter-10.md) |
 
-## Total Word Count: 5062
+## Total Word Count: 5470

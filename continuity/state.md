@@ -1,16 +1,16 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 9
+current-chapter: 10
 character-state:
   - character: elias-thorne
     location: the-undercity
-    physical: Nosebleed subsiding, recovering from neural strain
-    emotional: Overwhelmed but resolute
+    physical: Neural ache fading to a dull throb
+    emotional: Clear-headed and determined
   - character: kaelen
     location: the-undercity
     physical: Unscathed
-    emotional: Determined, focused on the counter-broadcast
+    emotional: Resolute, prepared for a suicide run
 object-state:
   - artifact: physical-drive-m-774-b
     owner: elias-thorne
@@ -72,6 +72,12 @@ knowledge-state:
   - character: kaelen
     knows: The root key can be used to hijack the broadcast network and push the unaltered files to the city.
     learned-in: chapter-09
+  - character: elias-thorne
+    knows: The central broadcast tower in Sector One is the only node powerful enough to override the synchronization protocol.
+    learned-in: chapter-10
+  - character: kaelen
+    knows: The central broadcast tower in Sector One is the only node powerful enough to override the synchronization protocol.
+    learned-in: chapter-10
 ---
 
 # Continuity State
