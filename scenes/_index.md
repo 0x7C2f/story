@@ -31,3 +31,4 @@ story: the-memory-archivist
 | chapter-20 | 1 | Scene 01 | elias-thorne | draft | [chapter-20-scene-01](chapter-20-scene-01.md) |
 | chapter-21 | 1 | Scene 01 | elias-thorne | draft | [chapter-21-scene-01](chapter-21-scene-01.md) |
 | chapter-22 | 1 | The Transit Bridge Ambush | elias-thorne | draft | [chapter-22-scene-01](chapter-22-scene-01.md) |
+| chapter-23 | 1 | Network Analysis | elias-thorne | draft | [chapter-23-scene-01](chapter-23-scene-01.md) |

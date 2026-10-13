@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 22
+current-chapter: 23
 character-state:
   - character: director-vane
     location: the-nexus-spire
@@ -187,6 +187,15 @@ knowledge-state:
   - character: jarek
     knows: The resistance has captured a heavy transport and secured a physical tap into the operational network.
     learned-in: chapter-22
+  - character: elias-thorne
+    knows: Director Vane is deploying a mobile rewrite protocol targeting the Outskirts from a staging ground in Sector Six.
+    learned-in: chapter-23
+  - character: kaelen
+    knows: Director Vane is deploying a mobile rewrite protocol targeting the Outskirts from a staging ground in Sector Six.
+    learned-in: chapter-23
+  - character: jarek
+    knows: Director Vane is deploying a mobile rewrite protocol targeting the Outskirts from a staging ground in Sector Six.
+    learned-in: chapter-23
 ---
 
 # Continuity State

@@ -55,6 +55,9 @@ progressions:
   - from: chapter-17
     field: standing
     value: "Leading the security detail for the salvage run to the Dead Zone relay station"
+  - from: chapter-23
+    field: standing
+    value: "Committed to the assault on the Sector Six staging ground"
 ---
 
 # Kaelen
@@ -202,3 +205,4 @@ and facts as orders.
 | Chapter 15 | Offers Committee patrol routes and security knowledge as the price of sanctuary | Trades her trade |
 | Chapter 16 | Overhauls the perimeter sensor network while Elias fixes the generator | Earns the alliance on her own terms |
 | Chapter 17 | Argues for striking while the Committee is disorganized; takes the security detail for the salvage run | Accepts the exposed half again |
+| Chapter 23 | Learns of the mobile rewrite protocol; agrees to assault the staging ground using the captured transport | Prioritizes the offensive over impossible defense |
