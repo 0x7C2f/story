@@ -1,8 +1,12 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 18
+current-chapter: 19
 character-state:
+  - character: director-vane
+    location: the-nexus-spire
+    physical: Uninjured, composed
+    emotional: Paranoid, determined, commanding
   - character: elias-thorne
     location: relay-station
     physical: Exhausted but uninjured from the radiation exposure
@@ -146,6 +150,12 @@ knowledge-state:
   - character: jarek
     knows: The salvaged military-grade signal repeaters are viable and can bypass the city's perimeter jamming.
     learned-in: chapter-18
+  - character: director-vane
+    knows: The synchronization overwrite has failed and the command structure is fracturing.
+    learned-in: chapter-19
+  - character: director-vane
+    knows: Elias and Kaelen have fled to the Outskirts and are building a resistance.
+    learned-in: chapter-19
 ---
 
 # Continuity State
@@ -163,6 +173,7 @@ frontmatter above; the tables below are optional notes it does not read.
 | Elias Thorne | The Scrapyard Settlement | Exhausted but uninjured from the radiation exposure | Relieved, allied | The salvaged military-grade signal repeaters are viable |
 | Kaelen | The Scrapyard Settlement | Uninjured from the radiation exposure | Vigilant, allied | The salvaged military-grade signal repeaters are viable |
 | Jarek | The Scrapyard Settlement | Uninjured from the radiation exposure | Allied and determined | The salvaged military-grade signal repeaters are viable |
+| Director Vane | The Nexus Spire | Uninjured, composed | Paranoid, determined, commanding | The synchronization overwrite has failed and the command structure is fracturing |
 
 ## Object State
 
@@ -210,3 +221,5 @@ frontmatter above; the tables below are optional notes it does not read.
 | Elias Thorne | The salvaged military-grade signal repeaters are viable and can bypass the city's perimeter jamming | Chapter 18 |
 | Kaelen | The salvaged military-grade signal repeaters are viable and can bypass the city's perimeter jamming | Chapter 18 |
 | Jarek | The salvaged military-grade signal repeaters are viable and can bypass the city's perimeter jamming | Chapter 18 |
+| Director Vane | The synchronization overwrite has failed and the command structure is fracturing | Chapter 19 |
+| Director Vane | Elias and Kaelen have fled to the Outskirts and are building a resistance | Chapter 19 |

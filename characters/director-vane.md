@@ -53,43 +53,13 @@ progressions:
 
 ## Appearance
 
-Established by reference art (2026-10-13), not yet by prose — she still has no
-scene of her own, so a drafting run should write her to match this rather than
-inventing a face.
+She is a woman of commanding presence whose authority reads before she moves. As seen in her command center in Sector Vane (Chapter 19), she has short silver hair combed neatly back, catching the ambient blue light of holographic displays. She wears a long, dark, high-collared coat of heavy matte fabric. On her left lapel is a stylized silver shield pin, the only insignia she permits herself.
 
-A woman in her late fifties or early sixties, tall and slender, with a
-commanding presence that reads before she moves. Her hair is short and combed
-neatly back from her face, silver-grey threaded through dark. She wears a long,
-dark, high-collared coat of heavy matte fabric, and on her left lapel a small
-silver pin shaped like a stylized shield or leaf — the one piece of insignia she
-wears, which is its own kind of statement.
+Her expression is serious and stoic, characterized by a slight furrow between the brows that suggests intense concentration rather than doubt or panic. She stands relaxed but firmly in control, often resting one hand lightly on a console rather than gripping it.
 
-Her expression is serious, stoic, and focused, with a slight furrow between the
-brows that suggests concentration rather than doubt. She stands with her right
-hand resting on the edge of a black console and her left arm hanging relaxed at
-her side: a person who is at home behind a desk and does not need to grip it.
+Everything else about her arrived secondhand before Chapter 19: a face Elias recognizes on sight inside the spliced image in memory M-774-B, standing at the forefront of a black-site modification lab. She is one of five directors on the Committee's Directorate, and she carries Clearance Level 5.
 
-The reference places her in a dark, industrial control room lit almost entirely
-by the cool blue of holographic displays — one projecting a human brain, others
-running data readouts, and one prominent panel headed with her own name above
-*Clearance Level 5 Required*. Enforcers work the room behind her. The lighting
-falls from above and leaves the lower half of the space in shadow.
-
-Everything else about her arrives secondhand: a face Elias recognizes on sight
-inside the spliced image in memory M-774-B, standing at the forefront of a
-black-site modification lab and observing the procedure. She is one of five
-directors on the Committee's Directorate, the most prominent known operative in
-the memory-alteration program, and she carries Clearance Level 5 — the level
-that turns Elias's cross-reference into *Access Denied*.
-
-Her presence is otherwise architectural: a sub-basement sector of the Nexus
-Spire answers to "Sector Vane," and the vault at its center is a monolithic
-obsidian cube that hums at a low, menacing frequency.
-
-**Still unestablished:** her age is implied by the art rather than stated; the
-prose has never described her hair, coat, or the lapel pin. When she finally
-speaks on the page, it owes the reader a face it has been promising since
-chapter 2.
+Her presence is architectural: a sub-basement sector of the Nexus Spire answers to "Sector Vane," where she orchestrates her operations.
 
 ## Personality & Traits
 
@@ -150,22 +120,15 @@ lab fed until chapter 11).
 
 ## Voice & Speech Patterns
 
-She has not spoken a line in the draft. Her voice reaches the page only through
-machines: *Access Denied. Clearance Level 5 Required.* — *Unauthorized Data
-Extraction Detected. Security Protocol Initiated.* — *Project: Synchronization.
-Status: Pending City-Wide Implementation.* — and, in the one moment the Spire
-addresses the space she owns, *Unauthorized organic signatures detected in Sector
-Vane. Containment protocol initiated.* Write her dialogue to match that register:
-administrative, unhurried, certain.
+Her voice is an unhurried, administrative hum that carries more authority than a shout. She speaks with absolute certainty, devoid of panic even in the face of systemic failure. Before Chapter 19, her voice only reached the page through machines (*Access Denied*, etc.).
 
-The lines below are **proposed, not yet on the page** — drafted so her first scene
-has a voice to land in, and to be replaced by whatever she actually says:
+**Canonical Lines (Chapter 19):**
+
+> "History is not a record of what happened. It is a maintenance schedule. And someone has disrupted the schedule."
 
 > "You are not being punished. You are being corrected. There is a difference, and it is entirely mine to define."
 
-> "History is not a record of what happened. It is a maintenance schedule."
-
-> "Deny him. Then deny him again. I want the log of every attempt."
+> "Deny him the Outskirts. Then deny him again. I want the log of every attempt. We will not wait for them to build a resistance; we will dismantle the foundation before it cures."
 
 ## Character Arc
 
