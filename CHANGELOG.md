@@ -6,6 +6,23 @@ what to explore next run. Newest entries at the top. Skim this and recent git
 history at the start of every run.
 
 
+## Run 18 — 2026-10-16 — Draft Chapter 18 (The Salvage Run)
+
+Model: Jules
+
+**Changed:**
+- Drafted Chapter 18: Elias, Kaelen, and Jarek venture into the irradiated Dead Zone and successfully break into an abandoned relay station to salvage military-grade signal repeaters for the resistance network.
+- Added Chapter 18 scene 01 record to detail the salvage operation and establish continuity notes.
+- Updated `worldbuilding/locations/the-dead-zone.md` and `worldbuilding/locations/relay-station.md` with descriptive details from Chapter 18 and set status to 'established'.
+- Added `worldbuilding/artifacts/signal-repeaters.md` to track the recovered communication hardware.
+- Updated `continuity/state.md` to track current-chapter 18, set physical states regarding radiation exposure, and logged the signal-repeaters under object-state.
+- Updated `plot/timeline.md` to reflect the successful salvage run on Day 7.
+- Checked off the backlog item for drafting Chapter 18.
+- Synced word counts, index registries, and successfully resolved all strict project checks, including location backlinks for characters.
+
+**Next:**
+- Put Director Vane on the page. Ensure the story expands her character profile and sets up her counter-movements as per the backlog.
+
 ## Run 17 — 2026-10-15 — Draft Chapter 17 (Forging a Resistance)
 
 Model: Jules

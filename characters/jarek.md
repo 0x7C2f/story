@@ -21,6 +21,8 @@ relationships:
     type: ally
 locations:
   - the-scrapyard-settlement
+  - relay-station
+  - the-dead-zone
 tags:
   - scavengers
   - settlement-leader

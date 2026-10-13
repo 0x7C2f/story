@@ -4,12 +4,15 @@ type: building
 region: "The Dead Zone, twenty klicks east of the Scrapyard Settlement"
 population: "None"
 controlled-by: ""
-notable-characters: []
+notable-characters:
+  - elias-thorne
+  - kaelen
+  - jarek
 tags:
   - salvage-target
   - irradiated
   - pre-collapse-infrastructure
-status: mentioned
+status: established
 ---
 
 # The Abandoned Relay Station
@@ -18,21 +21,22 @@ status: mentioned
 
 An old relay station on the edge of [the Dead Zone](the-dead-zone.md), about
 twenty klicks east of the [Scrapyard Settlement](the-scrapyard-settlement.md).
-Jarek describes it in chapter 17: abandoned, heavily irradiated, and — the reason
-the run is worth making — the hardware inside should still be intact.
+Built before the Oversight Committee walled the city off, it was intended to be
+part of a regional communications grid that was never finished.
 
-Its value is specific. Elias needs high-capacity signal repeaters to build the
-shadow network that would link the settlement to the resistance cells forming
-inside the city, and this station is where they are.
-
-**Not yet on the page:** age, who built it, what it relayed, its size or layout,
-and how bad the radiation actually is. All of that is chapter 18's to establish.
+It is a brutalist block of poured concrete and reinforced steel, half-buried in
+the side of a sloping hill, with a massive, crumpled dish on its roof. A rusted,
+mechanical blast door seals the entrance. Inside, the cavernous space houses
+rows of massive server racks coated in dust, featuring a mix of analog interfaces
+and early digital architecture. The radiation shielding of the structure itself
+is compromised, making prolonged exposure dangerous, but reinforced cabinets
+within successfully protected the high-density hardware.
 
 ## History
 
-Unestablished. It predates the Scavengers' use of the area — they have never
-salvaged it — so it belongs to whatever built the region's infrastructure before
-New Providence's outcasts got there.
+Constructed to pre-collapse military specifications as part of a wider communications
+network. The station was abandoned before completion when the city was walled off,
+leaving pristine equipment locked inside its vaults for decades.
 
 ## Culture & Customs
 
@@ -40,10 +44,11 @@ None. It is a target, not a place anyone lives.
 
 ## Notable Features
 
-- **Signal repeaters** — the payload. Assumed intact, unverified.
+- **Signal repeaters** — six viable, military-grade, fully shielded repeaters
+  were secured from a marked, reinforced cabinet inside.
 
 ## Current State
 
-Unentered. Chapter 17 ends with the plan agreed and the team assigned: Jarek
-assembling the salvage crew, Kaelen leading the security detail, Elias going out
-to confirm the tech is viable before anything is hauled back.
+Breached in chapter 18 by Elias, Kaelen, and Jarek using a plasma cutter on
+the blast door. The station is now open to the elements, and its payload of
+signal repeaters has been extracted for use by the resistance.

@@ -27,6 +27,8 @@ locations:
   - central-broadcast-tower
   - new-providence-outskirts
   - the-scrapyard-settlement
+  - relay-station
+  - the-dead-zone
 tags:
   - information-broker
   - field-operator

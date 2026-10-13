@@ -4,11 +4,14 @@ type: other
 region: "Twenty klicks east of the Scrapyard Settlement"
 population: "None known"
 controlled-by: ""
-notable-characters: []
+notable-characters:
+  - elias-thorne
+  - kaelen
+  - jarek
 tags:
   - irradiated
   - unmapped
-status: mentioned
+status: established
 ---
 
 # The Dead Zone
@@ -16,19 +19,15 @@ status: mentioned
 ## Description
 
 A stretch of territory on the far edge of the Outskirts, roughly twenty klicks
-east of the [Scrapyard Settlement](the-scrapyard-settlement.md), named by the
-Scavengers and not yet described on the page. Jarek introduces it in chapter 17
-in a single sentence, as the location of the abandoned relay station — the
-salvage that would give the resistance its repeaters.
+east of the [Scrapyard Settlement](the-scrapyard-settlement.md). The air tastes
+of metal and dry earth, thick with ambient radiation that settles in the dust.
+The terrain is a desolate, hard-baked landscape split by deep fissures and dotted
+with the skeletal remains of pre-collapse infrastructure. There is no life here,
+not even the hardy desert scrub found closer to the Scrapyard.
 
-What the draft establishes: it is heavily irradiated, it sits beyond the ground
-the Scavengers normally work, and the exposure has never been judged worth the
-payout until now.
-
-**Not yet on the page:** scale, terrain, what irradiated it, whether anything
-lives there, and how the settlement's scouts navigate it. Chapter 18 is the
-salvage run, so these are questions a drafting run should answer on the page
-rather than in this file.
+The constant, pervasive radiation makes it extremely dangerous; travelers must wear
+filtration masks and limit exposure time. The Scavengers usually avoid this stretch
+entirely, as the risk outpaces standard salvage rewards.
 
 ## History
 
@@ -49,6 +48,6 @@ rather than a barrier, which tells you how they reckon risk everywhere else.
 
 ## Current State
 
-A route, not yet a scene. Chapter 17 ends with Jarek assigning the run: Kaelen
-leading security, Elias with Jarek to confirm the hardware is still viable before
-it is hauled back.
+Elias, Kaelen, and Jarek successfully cross the Dead Zone in chapter 18 to reach
+the abandoned relay station, recovering six viable military-grade signal repeaters
+before the radiation exposure becomes critical.
