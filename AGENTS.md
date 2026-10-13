@@ -53,6 +53,8 @@ Your working copy must build as it is. The gate validates what you leave in the 
 
 - Story content: story.md, style-sheet.md, voice-sample.md, CHANGELOG.md, chapters/, scenes/, characters/, worldbuilding/, glossary/, plot/, continuity/.
 - Registry _index.md files mirror the content files. After adding or removing any of them, run `story reindex .` and `story wordcount --write .`.
+
+Character profiles (characters/*.md) are part of story content and must not stay as placeholders. When a character is introduced or new details are established, populate their profile sections (Appearance, Personality & Traits, Backstory, Motivations & Goals, Voice & Speech Patterns, Character Arc, Timeline) with canonical facts and remove "Add ..." placeholders. Update the registry and word counts afterward.
 - One scratch location: agent/. agent/BACKLOG.md is the working queue. agent/PAUSED is the pause switch. No scratch files anywhere else.
 
 ## Skills
