@@ -1,6 +1,6 @@
 ---
 type: glossary-registry
-story: untitled
+story: the-glass-circuit
 ---
 
 # Glossary

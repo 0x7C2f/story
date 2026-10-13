@@ -1,6 +1,6 @@
 ---
 type: question-registry
-story: untitled
+story: the-glass-circuit
 ---
 
 # Continuity Questions

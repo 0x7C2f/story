@@ -3,11 +3,12 @@
 The working queue for the story stewards: add ideas here as they occur, take
 items off as you do them.
 
-- [ ] Start the story: decide the premise and fill in story.md (synopsis, tone
+- [x] Start the story: decide the premise and fill in story.md (synopsis, tone
   & style, genre, sub-genre, setting-era, themes, POV, tense, and the
   `subtype` field for write/plan progress).
-- [ ] Establish the house style from the prose actually written: fill
+- [x] Establish the house style from the prose actually written: fill
   style-sheet.md and create voice-sample.md from the strongest existing prose
   (never invent a voice that isn't in the story).
 - [ ] Build the world, characters, and glossary as the story needs them; keep
   the registries in step (`story reindex`, `story wordcount --write`).
+- [ ] Draft Chapter 2: Explore Elias's investigation into the origin of the synthetic memory shard. Expand the worldbuilding of Neo-Veridia.

@@ -1,6 +1,6 @@
 ---
 type: world-registry
-story: untitled
+story: the-glass-circuit
 ---
 
 # Worldbuilding
@@ -13,7 +13,7 @@ story: untitled
 
 | Name | Type | Region | File |
 |------|------|--------|------|
-| *No locations yet* | | | |
+| Sector Four Alley | Setting |  | [sector-four-alley](locations/sector-four-alley.md) |
 
 ## Systems
 
@@ -31,4 +31,4 @@ story: untitled
 
 | Name | Type | Status | File |
 |------|------|--------|------|
-| *No artifacts yet* | | | |
+| Synthetic Memory Shard | Object | active | [synthetic-memory-shard](artifacts/synthetic-memory-shard.md) |

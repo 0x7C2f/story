@@ -1,6 +1,6 @@
 ---
 type: plot-registry
-story: untitled
+story: the-glass-circuit
 structure: three-act
 ---
 

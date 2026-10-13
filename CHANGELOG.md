@@ -20,3 +20,18 @@ scheduled runs, and this repository was sealed before the first one.
 
 **Next run:** The first story run — decide the premise and fill in `story.md`,
 then build forward. See `agent/BACKLOG.md`.
+
+## Run 1 — 2026-10-12 — Draft Chapter 1 and Establish Premises
+
+**Model:** Jules
+
+**Changed:**
+- Updated `story.md` with new cyberpunk premise, synopsis, themes, and tone.
+- Created character `Elias Thorne` and Chapter 1 `The Awakening`.
+- Drafted first 627 words for Chapter 1.
+- Established house style in `voice-sample.md` and filled `style-sheet.md`.
+- Updated `continuity/state.md` to track character and object knowledge.
+
+**Why:** The first story run, starting off the plot and setting up Elias Thorne's journey as he uncovers an alien synthetic memory. Establishing tone and style guidelines to use moving forward.
+
+**Next run:** Draft Chapter 2: Explore Elias's investigation into the origin of the synthetic memory shard. Expand the worldbuilding of Neo-Veridia.

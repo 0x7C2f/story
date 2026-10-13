@@ -1,6 +1,6 @@
 ---
 type: chapter-registry
-story: untitled
+story: the-glass-circuit
 ---
 
 # Chapters
@@ -9,6 +9,6 @@ story: untitled
 
 | # | Title | POV | Status | Word Count | File |
 |---|-------|-----|--------|------------|------|
-| *No chapters yet* | | | | | |
+| 1 | The Awakening | elias-thorne | draft | 627 | [chapter-01](chapter-01.md) |
 
-## Total Word Count: 0
+## Total Word Count: 627

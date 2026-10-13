@@ -1,10 +1,20 @@
 ---
 type: continuity-state
-story: untitled
-current-chapter: 0
-character-state: []
-object-state: []
-knowledge-state: []
+story: the-glass-circuit
+current-chapter: 1
+character-state:
+  - character: elias-thorne
+    location: sector-four-alley
+    physical: Uninjured, jacked out of a synthetic memory.
+    emotional: Paranoid, terrified by the alien memory.
+object-state:
+  - artifact: synthetic-memory-shard
+    owner: elias-thorne
+    location: sector-four-alley
+    status: active
+knowledge-state:
+  - character: elias-thorne
+    knows: The memory shard contains synthetic, inhuman code that is terrified.
 ---
 
 # Continuity State
@@ -19,16 +29,16 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |-----------|----------|----------------|-----------------|-----------|
-| *No state entries yet* | | | | |
+| elias-thorne | Sector Four Alley | Uninjured, jacked out | Paranoid, terrified | Memory shard contains synthetic, terrified code |
 
 ## Object State
 
 | Artifact | Owner | Location | Status |
 |----------|-------|----------|--------|
-| *No object state entries yet* | | | |
+| synthetic-memory-shard | elias-thorne | Sector Four Alley | Pulsing, contains synthetic memory |
 
 ## Knowledge State
 
 | Character | Knows | Learned In |
 |-----------|-------|------------|
-| *No knowledge entries yet* | | |
+| elias-thorne | Memory shard contains synthetic, inhuman code that is terrified. | Chapter 1 |

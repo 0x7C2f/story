@@ -1,6 +1,6 @@
 ---
 type: style-sheet
-dialect: unspecified
+dialect: american
 preferred: []
 watch-words: []
 allow-words: []
@@ -14,29 +14,33 @@ This sheet is the authority on voice, spelling, dating, and terminology. [voice-
 
 ## Voice
 
-Narrative distance, sentence rhythm, register, and what this prose never does. Quote two or three sentences that sound exactly right.
+The voice is gritty, atmospheric, and cynical, characteristic of cyberpunk. Sentences balance sharp, sensory descriptions with fast-paced action. The tone reflects a weary protagonist navigating a hostile, high-tech world.
+*"The rain in Neo-Veridia didn't fall so much as it congealed. It clung to the neon signs of the lower levels, turning their garish pinks and harsh blues into smeared, greasy streaks against the perpetual twilight."*
 
 ## Spelling And Usage
 
 Record one `preferred` entry per variant (`use: grey`, `avoid: gray`) and note usage rules here.
+Use standard American spelling (e.g., color, meter).
 
 ## Capitalisation
 
-Titles, ranks, institutions, invented terms, and deities. Invented terms also belong in the glossary.
+Capitalize Neo-Veridia and Sector Four.
 
 ## Hyphenation And Compounds
+- stim-cafes
+- synth-spices
 
 ## Numbers, Dates, And Time
 
-Spelled-out or numerals, and how in-world dates and times are written.
+Numbers one through ninety-nine are spelled out. Time uses 24-hour military format or general times of day (e.g., "Midnight").
 
 ## Dialogue And Punctuation
 
-Quote marks, dash style, ellipses, italics for thought or foreign words, and the default dialogue tags.
+Use double quotes for speech. Thoughts are typically embedded in the narrative or italicized if direct. Default tag is 'said' or 'replied', leaning towards action tags.
 
 ## Character Voices
 
-One entry per POV character or major speaker: vocabulary, sentence length, verbal tics, and words they never use.
+**Elias Thorne:** Pragmatic and sharp. Vocabulary is functional, filled with street slang and tech jargon. Sentences are concise. Doesn't use overly flowery language.
 
 ## Watch List
 

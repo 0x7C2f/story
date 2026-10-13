@@ -1,6 +1,6 @@
 ---
 type: character-registry
-story: untitled
+story: the-glass-circuit
 ---
 
 # Characters
@@ -9,7 +9,7 @@ story: untitled
 
 | Name | Role | Status | File |
 |------|------|--------|------|
-| *No characters yet* | | | |
+| Elias Thorne | protagonist | alive | [elias-thorne](elias-thorne.md) |
 
 ## Relationship Map
 
