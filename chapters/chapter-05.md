@@ -15,7 +15,7 @@ status: draft
 mode: ""
 date: ""
 time: ""
-word-count: 636
+word-count: 635
 ---
 
 # Chapter 5: Sector Four Infiltration
@@ -33,7 +33,7 @@ word-count: 636
 
 The transit hub in Sector Four had been abandoned long before the digital sea levels rose. Now, it was a subterranean cathedral of rusting mag-lev tracks and pooling, oil-slicked water. Elias adjusted the respirator mask over his face, the air here thick with the smell of ozone and decay.
 
-"Keep your footing light," Kaelen murmured, her voice a low scrape through the comms channel. She moved ahead, a shadow slipping between the cracked support pillars. "The Committee doesn't patrol this far down, but they leave trip-wires in the network. One stray biometric ping and we're ghosts."
+"Keep your footing light," Kaelen murmured, her voice a low scrape through the comms channel. She moved ahead, a shadow slipping between the cracked support pillars. "The Committee doesn't patrol this far down. They leave trip-wires in the network. One stray biometric ping and we're ghosts."
 
 Elias swallowed the knot of tension in his throat. His neural implant felt heavy, an anchor weighing him down. If they were caught, the Oversight Committee wouldn't just kill him; they would erase him. They would rewrite his existence until 'Elias Thorne' was nothing more than a statistical anomaly in the archives.
 

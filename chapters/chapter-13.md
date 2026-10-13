@@ -13,7 +13,7 @@ arcs-advanced: []
 status: draft
 date: ""
 time: ""
-word-count: 292
+word-count: 287
 ---
 
 # Chapter 13: The Outskirts
@@ -22,7 +22,7 @@ The journey beyond the city limits took them hours. They moved through the labyr
 
 Elias leaned heavily against the crumbling husk of a transport vehicle, his breath coming in ragged bursts. He stared back at the distant silhouette of the Nexus Spire. It stood like a dark spear against the morning sky, a monument to a shattered regime. The mass overwrite had failed, and in its place, the city was waking up to a reality it hadn't known it had lost.
 
-"We can't stop," Kaelen said, her voice cutting through the stillness. She was already checking their scant supplies, her movements sharp and efficient. "The Committee is fractured, but they aren't dead. Vane's loyalists will be sweeping the perimeter by midday. They'll be looking for us."
+"We can't stop," Kaelen said, her voice cutting through the stillness. She was already checking their scant supplies, her movements sharp and efficient. "The Committee's fractured. Not dead. Vane's loyalists sweep the perimeter by midday. They'll be looking for us."
 
 "I know," Elias replied, his gaze still fixed on the city. "But for the first time... they're fighting a war they can't erase."
 

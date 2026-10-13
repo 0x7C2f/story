@@ -49,6 +49,9 @@ progressions:
   - from: chapter-16
     field: standing
     value: "Defense planner for the Scrapyard Settlement, allied with the Scavengers"
+  - from: chapter-17
+    field: standing
+    value: "Leading the security detail for the salvage run to the Dead Zone relay station"
 ---
 
 # Kaelen
@@ -195,3 +198,4 @@ and facts as orders.
 | Chapter 14 | Negotiates the settlement's gate; keeps her posture coiled through the guard's challenge | Survival instincts in a new currency |
 | Chapter 15 | Offers Committee patrol routes and security knowledge as the price of sanctuary | Trades her trade |
 | Chapter 16 | Overhauls the perimeter sensor network while Elias fixes the generator | Earns the alliance on her own terms |
+| Chapter 17 | Argues for striking while the Committee is disorganized; takes the security detail for the salvage run | Accepts the exposed half again |

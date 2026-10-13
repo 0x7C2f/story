@@ -13,7 +13,7 @@ status: draft
 mode: ""
 date: ""
 time: ""
-word-count: 458
+word-count: 450
 ---
 
 # Chapter 4: The Black Site Protocol
@@ -40,7 +40,7 @@ Kaelen didn't look up from the keyboard, her fingers continuing her frantic danc
 
 Elias rubbed his eyes, the chronic ache of the neural link flare returning. "The primary archives are heavily guarded. If we try to breach the Nexus, we'll be intercepted before we even reach the perimeter."
 
-"I know," Kaelen said, a grim smile playing on her lips. She tapped a few keys, bringing up a fragmented schematic. "But this isn't the primary archive. The metadata on your drive referenced a routing node. A secondary facility where the batch protocol is tested before it goes live."
+"I know," Kaelen said, a grim smile playing on her lips. She tapped a few keys, bringing up a fragmented schematic. "Not the primary archive. Your drive's metadata referenced a routing node. A secondary facility. They test the batch protocol there before it goes live."
 
 Elias leaned closer, studying the schematic. It depicted a subterranean structure, completely off the grid. "Where is this?"
 
@@ -48,6 +48,6 @@ Elias leaned closer, studying the schematic. It depicted a subterranean structur
 
 "We need to get inside," Elias said, tracing the layout of the facility on the screen. "If we can access the testing servers, we can download the unencrypted source code of the batch protocol. It would prove the modifications are artificial."
 
-"It's a suicide run," Kaelen warned, though the gleam in her eyes suggested they were already calculating the odds. "We'll need to bypass the automated sentries, spoof the biometric scanners, and extract the data before the Committee's failsafes trigger a total purge."
+"It's a suicide run," Kaelen warned, though the gleam in her eyes suggested they were already calculating the odds. "We'll need to bypass the sentries. Spoof the biometric scanners. Pull the data before their failsafes trigger a purge."
 
 "Then we better start planning," Elias said, his voice steady. He looked at the fragmented memory on the screen, the fabricated childhood of an unknown citizen. He couldn't save the past that had already been lost, but he could fight for the truth of tomorrow.

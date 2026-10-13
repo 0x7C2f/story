@@ -13,7 +13,7 @@ status: draft
 mode: ""
 date: ""
 time: ""
-word-count: 573
+word-count: 571
 ---
 
 # Chapter 3: The Undercity Meeting
@@ -54,7 +54,7 @@ They navigated a labyrinth of narrow corridors, eventually arriving at Kaelen's 
 
 The monitors flared, projecting the same violent static Elias had seen earlier. But Kaelen didn't stop. They fed the signal through a series of brute-force decoders, isolating the anomalies.
 
-"This code," Kaelen whispered, leaning close to the screen, the pale light reflecting in her wide eyes. "It's not just a clumsy overwrite. Look at the architecture. It's systematic. They're using the subject's own neural pathways to weave the fabrication into reality."
+"This code," Kaelen whispered, leaning close to the screen, the pale light reflecting in her wide eyes. "It's not a clumsy overwrite. Look at the architecture. Systematic. They're using the subject's own neural pathways to weave the fabrication into reality."
 
 "They're rewriting history," Elias said, the truth settling heavy in his chest. "Not just deleting it. Replacing it."
 

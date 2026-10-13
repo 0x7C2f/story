@@ -13,7 +13,7 @@ arcs-advanced: []
 status: draft
 date: ""
 time: ""
-word-count: 530
+word-count: 546
 ---
 
 # Chapter 17: Forging a Resistance
@@ -32,10 +32,10 @@ Jarek traced a scarred finger along a projected topographical map, highlighting 
 
 Elias nodded in agreement. "We have the technical advantage. I know their systems, and Kaelen knows their tactical protocols. You have the numbers and the knowledge of the terrain. If we combine our resources, we can establish a true resistance. But we need more equipment to build the shadow network—specifically, high-capacity signal repeaters."
 
-Jarek rubbed his jaw thoughtfully. "There's an old, abandoned relay station about twenty klicks east, on the edge of the Dead Zone. It's heavily irradiated, but the hardware there should be intact. We've never risked the salvage because the payout wasn't worth the exposure."
+Jarek rubbed his jaw thoughtfully. "There's an old, abandoned relay station about twenty klicks east, on the edge of the Dead Zone. Heavily irradiated. The hardware should be intact. We've never risked the salvage, because the payout wasn't worth the exposure. You know what that radiation does to a man out there?"
 
 "It's worth it now," Elias said, leaning forward. "If we retrieve those repeaters, we can link the Scrapyard Settlement directly to the isolated resistance cells that are forming inside the city. We can coordinate a unified front."
 
-Jarek stared at the flickering map for a long moment before nodding slowly. "Alright. I'll assemble a salvage team. Kaelen, you're leading the security detail. Elias, you're with me. We need to make sure the tech is still viable before we haul it back."
+Jarek stared at the flickering map for a long moment before nodding slowly. "Alright. I'll assemble a salvage team. Kaelen, you're leading the security detail. Elias, you're with me. We make sure the tech is still viable before we haul it back. Any of you know what a signal repeater looks like?"
 
 As the meeting concluded and they began to finalize the logistics for the salvage run, Elias felt a subtle shift in the atmosphere. The desperation of their flight from the city had evolved into something sharper, something far more potent. They were no longer just running; they were organizing. They were building a resistance.

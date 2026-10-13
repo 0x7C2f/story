@@ -14,7 +14,7 @@ status: draft
 mode: ""
 date: ""
 time: ""
-word-count: 507
+word-count: 490
 ---
 
 # Chapter 6: The Manifest Analysis
@@ -52,7 +52,7 @@ Kaelen leaned closer, tracing a line of data in the projection. "And here's the 
 
 "I did."
 
-"The thirty percent we left behind contains the cryptographic root key," Kaelen explained, frustration bleeding into her tone. "We have the list of changes they made, but without the root key, we can't mathematically prove that these logs aren't fabrications. If we broadcast this now, the Committee will just claim it's a deepfake designed by insurgents. They’ll discredit us before the sun rises."
+"The thirty percent we left behind contains the cryptographic root key," Kaelen explained, frustration bleeding into her tone. "We have their list of changes. Not their proof. No key, no math. Broadcast it now and the Committee calls it an insurgent deepfake. We're discredited by sunrise."
 
 Silence settled heavily in the cramped junction. The glowing data continued to slowly rotate between them, a monumental truth rendered inert by a missing string of code.
 

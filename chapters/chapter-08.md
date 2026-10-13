@@ -14,7 +14,7 @@ status: draft
 mode: ""
 date: ""
 time: ""
-word-count: 726
+word-count: 715
 ---
 
 # Chapter 8: The Spire Heist
@@ -39,7 +39,7 @@ They moved fast. The blackout had blinded the Spire's primary biometric sweepers
 
 They slipped past the deactivated security gate and into the executive transit shaft. Kaelen forced the doors to the private lift, her cybernetic arm straining with hydraulic whines before the heavy metal gave way.
 
-"We have two minutes before the secondary generators spool up and the system reboots," Kaelen said, overriding the lift's destination panel with a specialized cipher drive. "Once the power comes back, the biometric sweeps will catch us if we're not inside the vault room."
+"Two minutes before the secondary generators spool up," Kaelen said, overriding the lift's destination panel with a specialized cipher drive. "Once power's back, the sweeps catch us. Unless we're inside the vault room."
 
 The lift dropped with a stomach-churning lurch, plunging deep beneath the Spire. Elias focused on his breathing. He had spent his life preserving memories, treating the human mind with reverence. Tonight, he was breaking into a mind-vault designed to crush intruders.
 

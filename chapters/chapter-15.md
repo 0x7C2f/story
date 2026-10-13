@@ -14,7 +14,7 @@ status: draft
 mode: ""
 date: ""
 time: ""
-word-count: 588
+word-count: 580
 ---
 
 # Chapter 15: Negotiating Trust
@@ -27,7 +27,7 @@ They were led to a central clearing where a makeshift, reinforced command center
 
 "We are," Elias replied, forcing himself to stand tall despite the bone-deep exhaustion weighing him down. "I'm Elias Thorne. This is Kaelen."
 
-Jarek looked them up and down, unimpressed by their appearance. "You look like city soft-skins. You don't look like the type capable of bringing down the Oversight Committee's crown jewel."
+Jarek looked them up and down, unimpressed by their appearance. "You look like city soft-skins. What makes you think you're capable of bringing down the Oversight Committee's crown jewel?"
 
 "Looks can be deceiving, as I'm sure you know," Kaelen said, her tone level but carrying an unmistakable edge of firm resolve. "We disrupted the synchronization protocol. We stopped them from overwriting the entire city's collective memory."
 
@@ -41,7 +41,7 @@ Elias considered their limited options. They had no weapons beyond Kaelen's side
 
 "Knowledge," Elias said. "I'm a trained memory archivist. I understand their complex systems, their advanced tech. I can see your main generators are struggling, and your vital filtration systems are patched with duct tape and hope. We can fix them. We can upgrade them."
 
-Kaelen nodded in agreement. "I know their standard patrol routes, their layered security protocols. I can help you fortify this place. Make it harder for them to find us, and harder for them to bother you."
+Kaelen nodded in agreement. "I know their patrol routes. Their layered security. I can fortify this place. Harder for them to find us. Harder for them to bother you."
 
 Jarek studied them in silence for a long, uncomfortable moment. He glanced over at the coughing exhaust vents of the nearby hab structures.
 

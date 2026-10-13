@@ -39,6 +39,9 @@ progressions:
   - from: chapter-16
     field: standing
     value: "Allied: the Scrapyard is their base, the Scavengers are their people"
+  - from: chapter-17
+    field: standing
+    value: "Committed the settlement to open resistance against the Committee; assembling a salvage team for the Dead Zone relay station"
 ---
 
 # Jarek
@@ -140,3 +143,4 @@ the price of the question, not agreement with it.
 | Chapter 14 | The settlement's gate guard turns Elias and Kaelen away and reports them | He decides who gets assessed |
 | Chapter 15 | Meets them on the command deck; refuses their ideology; grants one night against a test | Converts a claim into terms |
 | Chapter 16 | Sets the generator as the test; watches both of them deliver; grants the alliance | Buys what they are selling |
+| Chapter 17 | Scouts report drones on the ridge; commits the settlement to resistance and assembles the salvage team | The settlement stops hiding |

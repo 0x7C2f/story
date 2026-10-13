@@ -14,7 +14,7 @@ status: draft
 mode: ""
 date: ""
 time: ""
-word-count: 495
+word-count: 466
 ---
 
 # Chapter 7: The Archive Heist Plan
@@ -37,15 +37,15 @@ Kaelen leaned against the rusted bulkhead, arms crossed. "So she keeps it offlin
 
 "Exactly," Elias said, expanding a secondary window showing the Spire's public schematics. "And if I were the Director of the Oversight Committee, the only place I'd trust an air-gapped vault is right under my feet. Her personal archive."
 
-Kaelen let out a low whistle. "The Nexus Spire. You're talking about breaking into the most heavily surveilled citadel in New Providence. The biometric sweeps alone would flag us before we even reached the plaza."
+Kaelen let out a low whistle. "The Nexus Spire. The most heavily surveilled citadel in New Providence. The biometric sweeps alone would flag us before the plaza."
 
 "We can't go in through the network, and we can't walk through the front door," Elias agreed, feeling the familiar, cold knot of anxiety tightening in his chest. "But you know people down here. Smugglers. Tech scavengers."
 
-A slow, dangerous smile crept onto Kaelen's face. "I might know a crew in the lower sectors. They specialize in localized electromagnetic pulse charges. Old tech, messy, but it works. A controlled burst could blind the biometric sensors on the executive transit line just long enough for us to slip onto her private lift."
+A slow, dangerous smile crept onto Kaelen's face. "I might know a crew in the lower sectors. EMP charges. Old tech, messy, but it works. One burst blinds the biometric sensors on the executive line. Long enough to reach her private lift."
 
 "And once we're inside?"
 
-"That's where you come in, archivist," Kaelen said, tapping the obsidian node still connected to Elias's rig. "I can get us to the door, but you have to pick the lock. Vane's personal node won't be a standard interface. It’ll be laced with neural feedback loops. If you slip up, it won't just deny you access. It'll fry your cortex."
+"That's where you come in, archivist," Kaelen said, tapping the obsidian node still connected to Elias's rig. "I get us to the door. You pick the lock. Vane's node isn't a standard interface. It's laced with neural feedback loops. Slip up and it doesn't just deny you. It fries your cortex."
 
 Elias swallowed hard. He knew the risks of an aggressive neural dive. Archiving memories was a delicate, cooperative process. Slicing into a fortified, hostile architecture was something else entirely. It required a violent synchronization of mind and machine that could leave permanent psychological scars.
 

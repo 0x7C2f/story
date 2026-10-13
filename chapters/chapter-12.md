@@ -14,7 +14,7 @@ status: draft
 mode: ""
 date: ""
 time: ""
-word-count: 348
+word-count: 343
 ---
 
 # Chapter 12: The Aftermath
@@ -29,7 +29,7 @@ Elias looked at the obsidian root key still slotted into the ancient terminal. H
 
 "The archives will need to be rebuilt," Elias murmured, staring out at the city. "Not just the data. The entire system. They'll need people to verify it, to comb through the splices and unpick the damage."
 
-Kaelen moved to stand beside him, her reflection ghosting against the reinforced glass. "You won't be doing it alone. The Undercity will help. But it’s going to be a mess, Elias. Vane might be broken, but the Committee won't just vanish."
+Kaelen moved to stand beside him, her reflection ghosting against the reinforced glass. "You won't be doing it alone. The Undercity will help. But it's going to be a mess, Elias. Vane's broken. The Committee isn't."
 
 "I know," Elias said, a faint, resolute smile touching his lips. The fear that had driven him since he first discovered the corrupted file in his node had burned away. "But the memory is out there now. They can't erase it again."
 
