@@ -13,7 +13,7 @@ story: the-memory-archivist
 
 | Name | Type | Region | File |
 |------|------|--------|------|
-| *No locations yet* | | | |
+| Nexus Archives | Location | new-providence | [nexus-archives](locations/nexus-archives.md) |
 
 ## Systems
 
@@ -25,7 +25,7 @@ story: the-memory-archivist
 
 | Name | Type | Status | File |
 |------|------|--------|------|
-| *No factions yet* | | | |
+| Oversight Committee | Government | active | [oversight-committee](factions/oversight-committee.md) |
 
 ## Artifacts
 

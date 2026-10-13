@@ -1,8 +1,10 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 1
-character-state: []
+current-chapter: 2
+character-state:
+  - character: elias-thorne
+    location: nexus-archives
 object-state: []
 knowledge-state: []
 ---

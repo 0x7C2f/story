@@ -4,7 +4,8 @@ role: protagonist
 status: alive
 aliases: []
 relationships: []
-locations: []
+locations:
+  - nexus-archives
 tags: []
 arc: ""
 ---
