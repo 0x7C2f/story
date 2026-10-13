@@ -1,24 +1,24 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 7
+current-chapter: 8
 character-state:
   - character: elias-thorne
-    location: the-undercity
-    physical: Exhausted, recovering
-    emotional: Resolute
+    location: the-nexus-spire
+    physical: Nose bleeding, physically strained, shaking
+    emotional: Shocked, terrified
   - character: kaelen
-    location: the-undercity
+    location: the-nexus-spire
     physical: Unscathed
-    emotional: Frustrated, calculating
+    emotional: Alert, tense
 object-state:
   - artifact: physical-drive-m-774-b
     owner: elias-thorne
-    location: the-undercity
+    location: the-nexus-spire
     status: active
   - artifact: partial-batch-manifest
     owner: elias-thorne
-    location: the-undercity
+    location: the-nexus-spire
     status: active
 knowledge-state:
   - character: elias-thorne
@@ -54,6 +54,18 @@ knowledge-state:
   - character: kaelen
     knows: The missing cryptographic root key is stored in Director Vane's air-gapped personal archive in the Nexus Spire.
     learned-in: chapter-07
+  - character: elias-thorne
+    knows: The Oversight Committee plans a city-wide memory synchronization protocol to overwrite collective history.
+    learned-in: chapter-08
+  - character: kaelen
+    knows: The Oversight Committee plans a city-wide memory synchronization protocol to overwrite collective history.
+    learned-in: chapter-08
+  - character: elias-thorne
+    knows: The root key has been acquired from Director Vane's archive.
+    learned-in: chapter-08
+  - character: kaelen
+    knows: The root key has been acquired from Director Vane's archive.
+    learned-in: chapter-08
 ---
 
 # Continuity State
@@ -68,15 +80,15 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |-----------|----------|----------------|-----------------|-----------|
-| Elias Thorne | The Undercity | Exhausted, recovering | Resolute | Possesses partial batch manifest, knows it lacks the root key |
-| Kaelen | The Undercity | Unscathed | Frustrated, calculating | Knows the manifest lacks the root key |
+| Elias Thorne | The Nexus Spire | Nose bleeding, physically strained, shaking | Shocked, terrified | Possesses root key, discovered Project: Synchronization |
+| Kaelen | The Nexus Spire | Unscathed | Alert, tense | Knows they acquired the root key, aware of Elias's discovery |
 
 ## Object State
 
 | Artifact | Owner | Location | Status |
 |----------|-------|----------|--------|
-| Physical Drive (M-774-B) | Elias Thorne | The Undercity | Active |
-| Partial Batch Manifest | Elias Thorne | The Undercity | Active |
+| Physical Drive (M-774-B) | Elias Thorne | The Nexus Spire | Active |
+| Partial Batch Manifest | Elias Thorne | The Nexus Spire | Active |
 
 ## Knowledge State
 
@@ -91,3 +103,7 @@ frontmatter above; the tables below are optional notes it does not read.
 | Kaelen | The partial batch manifest lacks the cryptographic root key needed to prove its authenticity | Chapter 6 |
 | Elias Thorne | The missing cryptographic root key is stored in Director Vane's air-gapped personal archive in the Nexus Spire | Chapter 7 |
 | Kaelen | The missing cryptographic root key is stored in Director Vane's air-gapped personal archive in the Nexus Spire | Chapter 7 |
+| Elias Thorne | The Oversight Committee plans a city-wide memory synchronization protocol to overwrite collective history | Chapter 8 |
+| Kaelen | The Oversight Committee plans a city-wide memory synchronization protocol to overwrite collective history | Chapter 8 |
+| Elias Thorne | The root key has been acquired from Director Vane's archive | Chapter 8 |
+| Kaelen | The root key has been acquired from Director Vane's archive | Chapter 8 |

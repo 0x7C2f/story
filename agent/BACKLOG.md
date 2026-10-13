@@ -18,4 +18,5 @@ items off as you do them.
 - [x] Draft Chapter 5: Infiltration of the secondary black site below the old transit hub in Sector Four.
 - [x] Draft Chapter 6: Elias and Kaelen analyze the partial batch manifest and plan their next move.
 - [x] Draft Chapter 7: Elias and Kaelen research the target and form a plan to infiltrate Director Vane's personal archive.
-- [ ] Draft Chapter 8: The heist at the Nexus Spire.
+- [x] Draft Chapter 8: The heist at the Nexus Spire.
+- [ ] Draft Chapter 9: Elias and Kaelen escape the Nexus Spire and grapple with the implications of Project: Synchronization.
