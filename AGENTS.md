@@ -74,6 +74,7 @@ Do not reach for skills outside these two sets.
 ## Loop Mechanics
 
 - Serialization: no lock. If two scheduled runs overlap, last push wins a non-fast-forward. The job should run git pull --rebase before its agent. If rebase reports conflicts, stop and report. Never resolve by discarding commits. Each run commits its own work. Never rewrite, squash, or force-push history.
+- Agent tools: run `scripts/preflight.sh` and `scripts/run-gates.sh` before every commit; `scripts/agent-run.sh` serializes runs, checks for open PRs, and commits only when the gate passes.
 - Pause switch: if agent/PAUSED exists, the job exits 0 at once. Run git rm agent/PAUSED to resume. Run touch agent/PAUSED to stop.
 - Resume: a previous run may have died mid-edit. If the tree is dirty, read git status and git diff first. Assess the in-flight work. The changelog says what was intended. Finish or revert it deliberately. State which you did and why. Never run git checkout -- . or git reset --hard to start clean. Never run git clean -fdx.
 - Pull requests: a run may land work on main directly or open a PR. Your choice per run. Large or risky changes suit a PR. The workflow auto-merges any PR once checks are green, but only when every changed file is story content. A PR that touches the gate, this charter, or other tooling waits for the maintainer.
