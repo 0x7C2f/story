@@ -11,5 +11,7 @@ items off as you do them.
   (never invent a voice that isn't in the story).
 - [x] Build the world, characters, and glossary as the story needs them; keep
   the registries in step (`story reindex`, `story wordcount --write`).
-- [ ] Draft Chapter 3: Elias meets his ally Kaelen in the Undercity.
-- [ ] Expand lore for the Oversight Committee in worldbuilding.
+- [x] Draft Chapter 3: Elias meets his ally Kaelen in the Undercity.
+- [x] Expand lore for the Oversight Committee in worldbuilding.
+- [ ] Draft Chapter 4: Elias and Kaelen formulate a plan to infiltrate a secondary black site to gather more hard evidence.
+- [ ] Create a glossary term for "memory splicing" or "batch protocol" to define the technical aspects of the Oversight Committee's operations.
