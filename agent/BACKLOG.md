@@ -9,5 +9,7 @@ items off as you do them.
 - [x] Establish the house style from the prose actually written: fill
   style-sheet.md and create voice-sample.md from the strongest existing prose
   (never invent a voice that isn't in the story).
-- [ ] Build the world, characters, and glossary as the story needs them; keep
+- [x] Build the world, characters, and glossary as the story needs them; keep
   the registries in step (`story reindex`, `story wordcount --write`).
+- [ ] Draft Chapter 3: Elias meets his ally Kaelen in the Undercity.
+- [ ] Expand lore for the Oversight Committee in worldbuilding.
