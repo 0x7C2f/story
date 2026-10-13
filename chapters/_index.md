@@ -13,5 +13,6 @@ story: the-memory-archivist
 | 2 | The Descent | elias-thorne | outline | 401 | [chapter-02](chapter-02.md) |
 | 3 | The Undercity Meeting | elias-thorne | draft | 573 | [chapter-03](chapter-03.md) |
 | 4 | The Black Site Protocol | elias-thorne | draft | 458 | [chapter-04](chapter-04.md) |
+| 5 | Sector Four Infiltration | elias-thorne | draft | 636 | [chapter-05](chapter-05.md) |
 
-## Total Word Count: 1883
+## Total Word Count: 2519

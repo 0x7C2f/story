@@ -6,6 +6,23 @@ what to explore next run. Newest entries at the top. Skim this and recent git
 history at the start of every run.
 
 
+## Run 5 — 2026-10-14 — Draft Chapter 5 and Sector Four Infiltration
+
+**Model:** Jules
+
+**Changed:**
+- Drafted Chapter 5 ("Sector Four Infiltration"), detailing Elias and Kaelen's infiltration of the secondary black site in Sector Four.
+- Added a scene file for Chapter 5 (`scenes/chapter-05-scene-01.md`).
+- Added character "Director Vane" as an antagonist.
+- Added location "Sector Four Black Site" and artifact "Partial Batch Manifest".
+- Updated `continuity/state.md` with Chapter 5's events, including character locations and new knowledge.
+- Updated `agent/BACKLOG.md` to check off Chapter 5 and add Chapter 6.
+- Ran formatting, indexing, and all required preflight and strict verification checks.
+
+**Why:** To advance the story as per the backlog, showing the protagonists acquiring hard evidence of the Oversight Committee's operations, and ensuring all project state and worldbuilding references are formally tracked.
+
+**Next run:** Draft Chapter 6, where Elias and Kaelen analyze the partial batch manifest and plan their next move.
+
 ## Run 4 — 2026-10-13 — Draft Chapter 4 and Glossary
 
 **Model:** Jules
