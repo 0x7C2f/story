@@ -11,3 +11,5 @@ story: the-memory-archivist
 | Day 4 | Elias and Kaelen assault the central broadcast tower and successfully execute the counter-broadcast, pushing true memories to the city | | 11 |
 | Day 4 | Elias and Kaelen watch the city awaken after the successful counter-broadcast; the Oversight Committee command structure begins to fracture | | 12 |
 | Day 5 | Elias and Kaelen encounter the Scavengers at the Scrapyard Settlement in the Outskirts | | 14 |
+| Day 5 | Elias and Kaelen negotiate with Jarek and are granted a trial night in the settlement | | 15 |
+| Day 6 | Elias and Kaelen prove their worth by repairing the generator and securing an alliance | | 16 |
