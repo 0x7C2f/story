@@ -33,7 +33,10 @@ items off as you do them.
 - [x] Put Director Vane on the page. She is the antagonist and has not appeared once in seventeen chapters — `characters/director-vane.md` lists what is still unestablished. (Completed in Chapter 19).
 - [x] Add a glossary term for Project: Synchronization, and check "root key" against the existing batch-protocol term.
 - [x] Add worldbuilding records for the Dead Zone and the abandoned relay station east of the Scrapyard Settlement (chapter 17 uses both; neither has a location file yet).
+- [x] Draft Chapter 22: The ambush at the old transit bridge.
 - [ ] Establish Elias's pre-story life: family, why he became an archivist, and what the Archives did with him after chapter 1 flagged him.
 - [x] Draft Chapter 20: Elias, Kaelen, and Jarek set up the mesh network using the salvaged repeaters, only to realize loyalist sweep teams are moving in on the Outskirts perimeter.
 - [x] Reconcile Chapter 20 (run the discovery-drafting loop).
 - [x] Draft Chapter 21: Elias and the resistance use the mesh network to track loyalist sweep teams and decide to set an ambush to capture a transport.
+
+- [ ] Draft Chapter 23: Analyze the intercepted operational network data and plan the next strike.
