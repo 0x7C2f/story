@@ -1,24 +1,24 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 19
+current-chapter: 20
 character-state:
   - character: director-vane
     location: the-nexus-spire
     physical: Uninjured, composed
     emotional: Paranoid, determined, commanding
   - character: elias-thorne
-    location: relay-station
+    location: the-scrapyard-settlement
     physical: Exhausted but uninjured from the radiation exposure
-    emotional: Relieved, allied
+    emotional: Relieved, allied, tense
   - character: kaelen
-    location: relay-station
+    location: the-scrapyard-settlement
     physical: Uninjured from the radiation exposure
-    emotional: Vigilant, allied
+    emotional: Vigilant, allied, tense
   - character: jarek
-    location: relay-station
+    location: the-scrapyard-settlement
     physical: Uninjured from the radiation exposure
-    emotional: Allied and determined
+    emotional: Allied, determined, on high alert
 object-state:
   - artifact: physical-drive-m-774-b
     owner: elias-thorne
@@ -156,6 +156,15 @@ knowledge-state:
   - character: director-vane
     knows: Elias and Kaelen have fled to the Outskirts and are building a resistance.
     learned-in: chapter-19
+  - character: elias-thorne
+    knows: Loyalist sweep teams sent by Director Vane are moving in on the Outskirts perimeter.
+    learned-in: chapter-20
+  - character: kaelen
+    knows: Loyalist sweep teams sent by Director Vane are moving in on the Outskirts perimeter.
+    learned-in: chapter-20
+  - character: jarek
+    knows: Loyalist sweep teams sent by Director Vane are moving in on the Outskirts perimeter.
+    learned-in: chapter-20
 ---
 
 # Continuity State
@@ -223,3 +232,6 @@ frontmatter above; the tables below are optional notes it does not read.
 | Jarek | The salvaged military-grade signal repeaters are viable and can bypass the city's perimeter jamming | Chapter 18 |
 | Director Vane | The synchronization overwrite has failed and the command structure is fracturing | Chapter 19 |
 | Director Vane | Elias and Kaelen have fled to the Outskirts and are building a resistance | Chapter 19 |
+| Elias Thorne | Loyalist sweep teams sent by Director Vane are moving in on the Outskirts perimeter | Chapter 20 |
+| Kaelen | Loyalist sweep teams sent by Director Vane are moving in on the Outskirts perimeter | Chapter 20 |
+| Jarek | Loyalist sweep teams sent by Director Vane are moving in on the Outskirts perimeter | Chapter 20 |
