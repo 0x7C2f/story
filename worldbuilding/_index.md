@@ -18,6 +18,7 @@ story: the-memory-archivist
 | Nexus Archives | Location |  | [nexus-archives](locations/nexus-archives.md) |
 | Sector Four Black Site | Location | Sector Four | [sector-four-black-site](locations/sector-four-black-site.md) |
 | The Nexus Spire | Building | Sector One | [the-nexus-spire](locations/the-nexus-spire.md) |
+| The Scrapyard Settlement | Neighborhood |  | [the-scrapyard-settlement](locations/the-scrapyard-settlement.md) |
 | The Undercity | Location |  | [the-undercity](locations/the-undercity.md) |
 
 ## Systems
@@ -31,6 +32,7 @@ story: the-memory-archivist
 | Name | Type | Status | File |
 |------|------|--------|------|
 | Oversight Committee | Government | active | [oversight-committee](factions/oversight-committee.md) |
+| The Scavengers | Community | active | [the-scavengers](factions/the-scavengers.md) |
 
 ## Artifacts
 
