@@ -9,3 +9,4 @@ story: the-memory-archivist
 |------|-------|-----|---------|
 | Day 4 | Elias and Kaelen formulate a plan to hijack the central broadcast tower to push unaltered memories to the city | | 10 |
 | Day 4 | Elias and Kaelen assault the central broadcast tower and successfully execute the counter-broadcast, pushing true memories to the city | | 11 |
+| Day 4 | Elias and Kaelen watch the city awaken after the successful counter-broadcast; the Oversight Committee command structure begins to fracture | | 12 |

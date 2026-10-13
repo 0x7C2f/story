@@ -191,3 +191,19 @@ Model: Jules
 
 **Next run:**
 - Review the newly added next task in `agent/BACKLOG.md` and outline/draft Chapter 9 where Elias and Kaelen escape the Spire and deal with the implications of Project: Synchronization.
+
+## Run 10 — 2026-10-15 — Draft Chapter 12 and Epilogue
+
+**Model:** Jules
+
+**Changed:**
+- Drafted Chapter 12 ("The Aftermath"), resolving the counter-broadcast plot and Elias and Kaelen's arc.
+- Created scene record `scenes/chapter-12-scene-01.md`.
+- Updated `continuity/state.md` with chapter 12 character states and knowledge of the Oversight Committee fracturing.
+- Added a timeline entry for Chapter 12 in `plot/timeline.md`.
+- Updated `agent/BACKLOG.md` to check off drafting Chapter 12.
+- Synced word counts, index registries, and validated constraints with strict checking.
+
+**Why:** To resolve the climax of the story, showing the immediate fallout of the successful counter-broadcast and giving Elias and Kaelen a moment of emotional resolution as they overlook the changed city.
+
+**Next run:** Revise and polish the manuscript, or expand on specific worldbuilding elements to prepare for publication.

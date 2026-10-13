@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 11
+current-chapter: 12
 character-state:
   - character: elias-thorne
     location: central-broadcast-tower
@@ -84,6 +84,12 @@ knowledge-state:
   - character: kaelen
     knows: The counter-broadcast was successful and true memories are flooding the city grid.
     learned-in: chapter-11
+  - character: elias-thorne
+    knows: The Oversight Committee command structure is fracturing as a result of the counter-broadcast.
+    learned-in: chapter-12
+  - character: kaelen
+    knows: The Oversight Committee command structure is fracturing as a result of the counter-broadcast.
+    learned-in: chapter-12
 ---
 
 # Continuity State
@@ -98,8 +104,8 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |-----------|----------|----------------|-----------------|-----------|
-| Elias Thorne | The Undercity | Nosebleed subsiding, recovering from neural strain | Overwhelmed but resolute | The root key can hijack the synchronization broadcast network |
-| Kaelen | The Undercity | Unscathed | Determined, focused on the counter-broadcast | The root key can hijack the synchronization broadcast network |
+| Elias Thorne | Central Broadcast Tower | Exhausted | Resolute, somewhat relieved | The Oversight Committee command structure is fracturing |
+| Kaelen | Central Broadcast Tower | Exhausted but uninjured | Resolved, cautious | The Oversight Committee command structure is fracturing |
 
 ## Object State
 
@@ -127,3 +133,9 @@ frontmatter above; the tables below are optional notes it does not read.
 | Kaelen | The root key has been acquired from Director Vane's archive | Chapter 8 |
 | Elias Thorne | The root key can be used to hijack the broadcast network and push the unaltered files to the city | Chapter 9 |
 | Kaelen | The root key can be used to hijack the broadcast network and push the unaltered files to the city | Chapter 9 |
+| Elias Thorne | The central broadcast tower in Sector One is the only node powerful enough to override the synchronization protocol | Chapter 10 |
+| Kaelen | The central broadcast tower in Sector One is the only node powerful enough to override the synchronization protocol | Chapter 10 |
+| Elias Thorne | The counter-broadcast was successful and true memories are flooding the city grid | Chapter 11 |
+| Kaelen | The counter-broadcast was successful and true memories are flooding the city grid | Chapter 11 |
+| Elias Thorne | The Oversight Committee command structure is fracturing as a result of the counter-broadcast | Chapter 12 |
+| Kaelen | The Oversight Committee command structure is fracturing as a result of the counter-broadcast | Chapter 12 |
