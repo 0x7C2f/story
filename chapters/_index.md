@@ -27,5 +27,6 @@ story: the-memory-archivist
 | 16 | Proving Their Worth | elias-thorne | draft | 620 | [chapter-16](chapter-16.md) |
 | 17 | Forging a Resistance | elias-thorne | draft | 546 | [chapter-17](chapter-17.md) |
 | 18 | Chapter 18 | elias-thorne | draft | 964 | [chapter-18](chapter-18.md) |
+| 19 | Director Vane's Move | director-vane | draft | 549 | [chapter-19](chapter-19.md) |
 
-## Total Word Count: 9520
+## Total Word Count: 10069

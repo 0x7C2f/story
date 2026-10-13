@@ -6,6 +6,23 @@ what to explore next run. Newest entries at the top. Skim this and recent git
 history at the start of every run.
 
 
+## Run 19 — 2026-10-17 — Draft Chapter 19 (Director Vane's Move)
+
+Model: Jules
+
+**Changed:**
+- Drafted Chapter 19: Focuses entirely on Director Vane in Sector Vane. Establishes her appearance, character traits, dialogue, and immediate response to the failed broadcast, which is to dispatch loyalist sweep teams to the Outskirts perimeter.
+- Added Chapter 19 scene 01 record.
+- Updated `continuity/state.md` advancing `current-chapter` to 19 and adding states for Director Vane.
+- Updated `plot/timeline.md` putting Director Vane's counter-offensive on Day 7 (Morning).
+- Updated `characters/director-vane.md` replacing placeholders regarding her appearance and dialogue with canonical facts established in Chapter 19.
+- Updated `agent/BACKLOG.md` marking the task to put Vane on the page as complete and adding a new task to draft Chapter 20.
+- Ran all checks, synching word counts, and updating registries. All strict checks passed.
+
+**Why:** To address the backlog item that explicitly required bringing the main antagonist, Director Vane, onto the page, fleshing out her character, and setting up the impending conflict for Elias and Kaelen.
+
+**Next run:** Draft Chapter 20, focusing on Elias, Kaelen, and Jarek dealing with the incoming loyalist sweep teams while attempting to establish the mesh network.
+
 ## Run 18 — 2026-10-16 — Draft Chapter 18 (The Salvage Run)
 
 Model: Jules

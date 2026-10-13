@@ -30,7 +30,8 @@ items off as you do them.
 - [x] Draft Chapter 17: Elias and Kaelen organize a resistance with Jarek and plan a salvage run to the Dead Zone.
 - [x] Draft Chapter 18: The salvage run to the abandoned relay station in the Dead Zone.
 - [x] Line-editing pass on the dialogue: `story voices` warned that Elias sounded like both Kaelen and Jarek; Kaelen clipped to 5.5 words/sentence and Jarek's question rate lifted to 15%. Now 0 warnings.
-- [ ] Put Director Vane on the page. She is the antagonist and has not appeared once in seventeen chapters — `characters/director-vane.md` lists what is still unestablished.
+- [x] Put Director Vane on the page. She is the antagonist and has not appeared once in seventeen chapters — `characters/director-vane.md` lists what is still unestablished. (Completed in Chapter 19).
 - [x] Add a glossary term for Project: Synchronization, and check "root key" against the existing batch-protocol term.
 - [x] Add worldbuilding records for the Dead Zone and the abandoned relay station east of the Scrapyard Settlement (chapter 17 uses both; neither has a location file yet).
 - [ ] Establish Elias's pre-story life: family, why he became an archivist, and what the Archives did with him after chapter 1 flagged him.
+- [ ] Draft Chapter 20: Elias, Kaelen, and Jarek set up the mesh network using the salvaged repeaters, only to realize loyalist sweep teams are moving in on the Outskirts perimeter.
