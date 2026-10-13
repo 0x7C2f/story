@@ -23,3 +23,4 @@ items off as you do them.
 - [x] Draft Chapter 10: Elias and Kaelen prepare to hijack the broadcast network to push the unaltered memories to the city before the mass overwrite completes.
 - [x] Draft Chapter 11: The assault on the central broadcast tower and execution of the counter-broadcast.
 - [x] Draft Chapter 12: The aftermath of the broadcast and resolution.
+- [x] Draft Chapter 13: Epilogue detailing Elias and Kaelen's escape to the Outskirts and the consequences of their actions.

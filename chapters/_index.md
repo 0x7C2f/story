@@ -21,5 +21,6 @@ story: the-memory-archivist
 | 10 | Chapter 10 | elias-thorne | draft | 408 | [chapter-10](chapter-10.md) |
 | 11 | The Broadcast Assault | elias-thorne | draft | 347 | [chapter-11](chapter-11.md) |
 | 12 | The Aftermath | elias-thorne | draft | 348 | [chapter-12](chapter-12.md) |
+| 13 | The Outskirts | elias-thorne | draft | 292 | [chapter-13](chapter-13.md) |
 
-## Total Word Count: 6165
+## Total Word Count: 6457
