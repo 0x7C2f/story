@@ -14,3 +14,4 @@ story: the-memory-archivist
 | Day 5 | Elias and Kaelen negotiate with Jarek and are granted a trial night in the settlement | | 15 |
 | Day 6 | Elias and Kaelen prove their worth by repairing the generator and securing an alliance | | 16 |
 | Day 6 | Elias, Kaelen, and Jarek agree to organize a resistance and plan a salvage run to the Dead Zone | | 17 |
+| Day 7 | Elias, Kaelen, and Jarek successfully cross the Dead Zone and salvage military-grade signal repeaters from the abandoned relay station | | 18 |

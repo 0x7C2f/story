@@ -26,5 +26,6 @@ story: the-memory-archivist
 | 15 | Negotiating Trust | elias-thorne | draft | 580 | [chapter-15](chapter-15.md) |
 | 16 | Proving Their Worth | elias-thorne | draft | 620 | [chapter-16](chapter-16.md) |
 | 17 | Forging a Resistance | elias-thorne | draft | 546 | [chapter-17](chapter-17.md) |
+| 18 | Chapter 18 | elias-thorne | draft | 964 | [chapter-18](chapter-18.md) |
 
-## Total Word Count: 8556
+## Total Word Count: 9520

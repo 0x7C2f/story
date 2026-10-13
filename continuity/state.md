@@ -1,20 +1,20 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 17
+current-chapter: 18
 character-state:
   - character: elias-thorne
-    location: the-scrapyard-settlement
-    physical: Exhausted, recovering
+    location: relay-station
+    physical: Exhausted but uninjured from the radiation exposure
     emotional: Relieved, allied
   - character: kaelen
-    location: the-scrapyard-settlement
-    physical: Unscathed, recovering
+    location: relay-station
+    physical: Uninjured from the radiation exposure
     emotional: Vigilant, allied
   - character: jarek
-    location: the-scrapyard-settlement
-    physical: Uninjured
-    emotional: Accepting, allied
+    location: relay-station
+    physical: Uninjured from the radiation exposure
+    emotional: Allied and determined
 object-state:
   - artifact: physical-drive-m-774-b
     owner: elias-thorne
@@ -23,6 +23,10 @@ object-state:
   - artifact: partial-batch-manifest
     owner: elias-thorne
     location: the-undercity
+    status: active
+  - artifact: signal-repeaters
+    owner: jarek
+    location: the-scrapyard-settlement
     status: active
 knowledge-state:
   - character: elias-thorne
@@ -133,6 +137,15 @@ knowledge-state:
   - character: jarek
     knows: They are organizing a resistance and plan to salvage signal repeaters from the Dead Zone.
     learned-in: chapter-17
+  - character: elias-thorne
+    knows: The salvaged military-grade signal repeaters are viable and can bypass the city's perimeter jamming.
+    learned-in: chapter-18
+  - character: kaelen
+    knows: The salvaged military-grade signal repeaters are viable and can bypass the city's perimeter jamming.
+    learned-in: chapter-18
+  - character: jarek
+    knows: The salvaged military-grade signal repeaters are viable and can bypass the city's perimeter jamming.
+    learned-in: chapter-18
 ---
 
 # Continuity State
@@ -147,8 +160,9 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |-----------|----------|----------------|-----------------|-----------|
-| Elias Thorne | The Scrapyard Settlement | Exhausted, recovering | Relieved, allied | They have secured an alliance with the Scavengers |
-| Kaelen | The Scrapyard Settlement | Unscathed, recovering | Vigilant, allied | They have secured an alliance with the Scavengers |
+| Elias Thorne | The Scrapyard Settlement | Exhausted but uninjured from the radiation exposure | Relieved, allied | The salvaged military-grade signal repeaters are viable |
+| Kaelen | The Scrapyard Settlement | Uninjured from the radiation exposure | Vigilant, allied | The salvaged military-grade signal repeaters are viable |
+| Jarek | The Scrapyard Settlement | Uninjured from the radiation exposure | Allied and determined | The salvaged military-grade signal repeaters are viable |
 
 ## Object State
 
@@ -156,6 +170,7 @@ frontmatter above; the tables below are optional notes it does not read.
 |----------|-------|----------|--------|
 | Physical Drive (M-774-B) | Elias Thorne | The Undercity | Active |
 | Partial Batch Manifest | Elias Thorne | The Undercity | Active |
+| Signal Repeaters | Jarek | The Scrapyard Settlement | Active |
 
 ## Knowledge State
 
@@ -192,3 +207,6 @@ frontmatter above; the tables below are optional notes it does not read.
 | Elias Thorne | They are organizing a resistance and plan to salvage signal repeaters from the Dead Zone | Chapter 17 |
 | Kaelen | They are organizing a resistance and plan to salvage signal repeaters from the Dead Zone | Chapter 17 |
 | Jarek | They are organizing a resistance and plan to salvage signal repeaters from the Dead Zone | Chapter 17 |
+| Elias Thorne | The salvaged military-grade signal repeaters are viable and can bypass the city's perimeter jamming | Chapter 18 |
+| Kaelen | The salvaged military-grade signal repeaters are viable and can bypass the city's perimeter jamming | Chapter 18 |
+| Jarek | The salvaged military-grade signal repeaters are viable and can bypass the city's perimeter jamming | Chapter 18 |
