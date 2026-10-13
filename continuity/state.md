@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 20
+current-chapter: 21
 character-state:
   - character: director-vane
     location: the-nexus-spire
@@ -165,6 +165,15 @@ knowledge-state:
   - character: jarek
     knows: Loyalist sweep teams sent by Director Vane are moving in on the Outskirts perimeter.
     learned-in: chapter-20
+  - character: elias-thorne
+    knows: The mesh network can intercept Committee tactical comms, revealing patrol routes.
+    learned-in: chapter-21
+  - character: kaelen
+    knows: The loyalist sweep teams are bottlenecking at the old transit bridge.
+    learned-in: chapter-21
+  - character: jarek
+    knows: The resistance has the tactical advantage to ambush the sweep teams.
+    learned-in: chapter-21
 ---
 
 # Continuity State
@@ -191,6 +200,7 @@ frontmatter above; the tables below are optional notes it does not read.
 | Physical Drive (M-774-B) | Elias Thorne | The Undercity | Active |
 | Partial Batch Manifest | Elias Thorne | The Undercity | Active |
 | Signal Repeaters | Jarek | The Scrapyard Settlement | Active |
+| Mesh Network | Elias Thorne | The Scrapyard Settlement | Active |
 
 ## Knowledge State
 
@@ -235,3 +245,6 @@ frontmatter above; the tables below are optional notes it does not read.
 | Elias Thorne | Loyalist sweep teams sent by Director Vane are moving in on the Outskirts perimeter | Chapter 20 |
 | Kaelen | Loyalist sweep teams sent by Director Vane are moving in on the Outskirts perimeter | Chapter 20 |
 | Jarek | Loyalist sweep teams sent by Director Vane are moving in on the Outskirts perimeter | Chapter 20 |
+| Elias Thorne | The mesh network can intercept Committee tactical comms, revealing patrol routes | Chapter 21 |
+| Kaelen | The loyalist sweep teams are bottlenecking at the old transit bridge | Chapter 21 |
+| Jarek | The resistance has the tactical advantage to ambush the sweep teams | Chapter 21 |
