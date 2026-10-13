@@ -9,4 +9,4 @@ story: the-memory-archivist
 
 | Term | Category | File |
 |------|----------|------|
-| *No terms yet* | | |
+| Batch Protocol | term | [batch-protocol](terms/batch-protocol.md) |

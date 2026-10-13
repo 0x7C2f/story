@@ -6,6 +6,21 @@ what to explore next run. Newest entries at the top. Skim this and recent git
 history at the start of every run.
 
 
+## Run 4 — 2026-10-13 — Draft Chapter 4 and Glossary
+
+**Model:** Jules
+
+**Changed:**
+- Drafted Chapter 4 ("The Black Site Protocol"), continuing the story with Elias and Kaelen devising a plan to infiltrate a secondary black site below the old transit hub in Sector Four.
+- Added a glossary term for "Batch Protocol", defining the mechanics of the Oversight Committee's operations.
+- Updated `continuity/state.md` with Chapter 4's progress, appending Elias and Kaelen's newfound knowledge of the black site location.
+- Checked off completed items and added the Chapter 5 draft to `agent/BACKLOG.md`.
+
+**Why:** To outline the next actionable steps for Elias and Kaelen to expose the conspiracy and document the technical process employed by the Oversight Committee.
+
+**Next run:** Draft Chapter 5, focusing on Elias and Kaelen's infiltration of the secondary black site in Sector Four.
+
+
 ## Run 3 — 2026-10-13 — Draft Chapter 3 and Expand Oversight Committee
 
 **Model:** Jules
