@@ -4,6 +4,7 @@ role: supporting
 status: alive
 aliases: []
 pronunciation: "YAR-ek"
+image: jarek.jpg
 voice-words:
   - "dust"
   - "weight"
@@ -48,13 +49,35 @@ progressions:
 
 ## Appearance
 
-Rugged and weather-beaten, carrying the scars of a decade in the Outskirts. Heavy,
-mismatched armor — a patchwork of discarded city enforcer gear and scavenged metal
-plating — over a frame built for work rather than war. Calculating, unforgiving
-eyes. Calloused hands stained with rust and machine grease; the smell of both
-clings to the armor. He stands where he can look down on people: on a raised
-catwalk above the main generator, on a rusted railing above the command deck on a
-gutted transit hauler.
+Rugged and weather-beaten, carrying the scars of a decade in the Outskirts.
+Reference art (2026-10-13) fixes the details the prose had left open: a man in
+his late forties or fifties, sturdy and muscular, with short dark-brown hair
+that is slightly receding and going grey, and a short grizzled beard and
+moustache to match. His face is deeply lined around the eyes and forehead, and
+the art puts smudges of dirt and dried blood on his cheek and beside his eye —
+a man who has been close to something recently.
+
+He wears a dark olive-green tactical jacket under a complex vest of weathered,
+silver-grey metal plates riveted and strapped together with thick brown leather.
+The metal is rusted and patched, and the same treatment runs down his arms and
+legs: heavy pauldrons and vambraces on the arms, matching greaves over shins and
+knees, all of it strapped rather than fitted. His hands are calloused and
+stained with rust and machine grease, and the smell of both clings to the armor.
+
+He stands where he can look down on people — on a raised metal catwalk above the
+main generator, on a rusted railing above the command deck on a gutted transit
+hauler — leaning forward with both hands on the rail, head turned, gazing down at
+whatever he is judging. Calculating, unforgiving eyes. Serious, contemplative,
+weary; a furrowed brow.
+
+The reference places him on a metal walkway under a roof of tattered, stained
+tarps, looking out over the settlement: scrap piles, rusted shipping containers,
+makeshift shacks, small fires smoking on the ground below, and figures moving in
+the haze. The palette is muted browns, greys, and dull greens, lit by diffused
+daylight through the gaps in the tarp.
+
+**Still unestablished:** whether the dried blood in the art is his, and what put
+it there. The prose has him uninjured through chapter 17.
 
 ## Personality & Traits
 

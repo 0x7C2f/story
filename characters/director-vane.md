@@ -6,6 +6,7 @@ aliases:
   - Vane
   - the Director
 pronunciation: "VANE"
+image: director-vane.jpg
 voice-words:
   - "protocol"
   - "clearance"
@@ -52,22 +53,43 @@ progressions:
 
 ## Appearance
 
-She has no scene of her own yet. Everything the reader knows about her arrives
-secondhand: a face Elias recognizes on sight inside the spliced image in memory
-M-774-B, standing at the forefront of a black-site modification lab and observing
-the procedure. She is one of five directors on the Committee's Directorate, the
-most prominent known operative in the memory-alteration program, and she carries
-Clearance Level 5 — the level that turns Elias's cross-reference into *Access
-Denied*.
+Established by reference art (2026-10-13), not yet by prose — she still has no
+scene of her own, so a drafting run should write her to match this rather than
+inventing a face.
 
-Her presence is otherwise architectural: a sub-basement sector of the Nexus Spire
-answers to "Sector Vane," and the vault at its center is a monolithic obsidian
-cube that hums at a low, menacing frequency. She is legible through her
-fortifications before she is legible through her features.
+A woman in her late fifties or early sixties, tall and slender, with a
+commanding presence that reads before she moves. Her hair is short and combed
+neatly back from her face, silver-grey threaded through dark. She wears a long,
+dark, high-collared coat of heavy matte fabric, and on her left lapel a small
+silver pin shaped like a stylized shield or leaf — the one piece of insignia she
+wears, which is its own kind of statement.
 
-**Not yet on the page:** age, build, coloring, hair, dress, and mannerisms. Do not
-guess them. When she finally appears, the page owes the reader a face it has been
-promising since chapter 2.
+Her expression is serious, stoic, and focused, with a slight furrow between the
+brows that suggests concentration rather than doubt. She stands with her right
+hand resting on the edge of a black console and her left arm hanging relaxed at
+her side: a person who is at home behind a desk and does not need to grip it.
+
+The reference places her in a dark, industrial control room lit almost entirely
+by the cool blue of holographic displays — one projecting a human brain, others
+running data readouts, and one prominent panel headed with her own name above
+*Clearance Level 5 Required*. Enforcers work the room behind her. The lighting
+falls from above and leaves the lower half of the space in shadow.
+
+Everything else about her arrives secondhand: a face Elias recognizes on sight
+inside the spliced image in memory M-774-B, standing at the forefront of a
+black-site modification lab and observing the procedure. She is one of five
+directors on the Committee's Directorate, the most prominent known operative in
+the memory-alteration program, and she carries Clearance Level 5 — the level
+that turns Elias's cross-reference into *Access Denied*.
+
+Her presence is otherwise architectural: a sub-basement sector of the Nexus
+Spire answers to "Sector Vane," and the vault at its center is a monolithic
+obsidian cube that hums at a low, menacing frequency.
+
+**Still unestablished:** her age is implied by the art rather than stated; the
+prose has never described her hair, coat, or the lapel pin. When she finally
+speaks on the page, it owes the reader a face it has been promising since
+chapter 2.
 
 ## Personality & Traits
 
