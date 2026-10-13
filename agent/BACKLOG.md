@@ -39,4 +39,5 @@ items off as you do them.
 - [x] Reconcile Chapter 20 (run the discovery-drafting loop).
 - [x] Draft Chapter 21: Elias and the resistance use the mesh network to track loyalist sweep teams and decide to set an ambush to capture a transport.
 
-- [ ] Draft Chapter 23: Analyze the intercepted operational network data and plan the next strike.
+- [x] Draft Chapter 23: Analyze the intercepted operational network data and plan the next strike.
+- [ ] Draft Chapter 24: Elias, Kaelen, and Jarek infiltrate the Sector Six staging ground in the captured crawler.

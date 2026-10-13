@@ -381,3 +381,21 @@ Model: Jules
 
 **Next run:**
 - Draft Chapter 23, where Elias analyzes the data obtained from the tapped network to plan their next strike against Director Vane.
+
+## Run 25 — 2026-10-16 — Draft Chapter 23 (Network Analysis)
+
+Model: Jules
+
+**Changed:**
+- Drafted Chapter 23: Elias analyzes the intercepted data and discovers Vane's plan to deploy a localized, mobile rewrite protocol targeting the Outskirts from a staging ground in Sector Six. The resistance decides to strike the staging ground.
+- Outlined scene `scenes/chapter-23-scene-01.md`.
+- Updated `continuity/state.md` with chapter 23 knowledge states and set current-chapter to 23.
+- Updated `plot/timeline.md` to reflect the events of Chapter 23.
+- Updated `characters/elias-thorne.md`, `characters/kaelen.md`, and `characters/jarek.md` with progressions and timeline updates for Chapter 23.
+- Checked off drafting Chapter 23 in `agent/BACKLOG.md` and added drafting Chapter 24 as a next step.
+
+**Why:**
+- To advance the plot by revealing Vane's escalating threat (carpet-bombing the Outskirts with memory wipes) and driving the protagonists toward a decisive assault on the loyalist staging ground.
+
+**Next run:**
+- Draft Chapter 24: Elias, Kaelen, and Jarek infiltrate the Sector Six staging ground using the captured crawler.

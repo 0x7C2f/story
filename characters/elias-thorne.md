@@ -66,6 +66,9 @@ progressions:
   - from: chapter-22
     field: standing
     value: "Secured a direct physical tap into Director Vane's operational network"
+  - from: chapter-23
+    field: standing
+    value: "Planning an assault on a fortified Committee staging ground in Sector Six"
 ---
 
 # Elias Thorne
@@ -215,3 +218,4 @@ answers himself in the second person when he is alone with a screen.
 | Chapter 16 | Rewrites the generator's regulatory protocols; earns the settlement's alliance | Proves the archivist's trade is worth something in the dust |
 | Chapter 17 | Proposes a shadow network on the still-active root key and argues for open resistance; joins the salvage run | Turns from fugitive to organizer |
 | Chapter 22 | Captures a heavy transport and taps into the operational network | Takes the offensive |
+| Chapter 23 | Analyzes the operational network to discover a mobile rewrite protocol; plans assault on Sector Six | Chooses to strike rather than run or hide |
