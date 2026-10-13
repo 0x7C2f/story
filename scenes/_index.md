@@ -19,3 +19,4 @@ story: the-memory-archivist
 | chapter-08 | 1 | The Infiltration | elias-thorne | draft | [chapter-08-scene-01](chapter-08-scene-01.md) |
 | chapter-09 | 1 | Escape and Implications | elias-thorne | draft | [chapter-09-scene-01](chapter-09-scene-01.md) |
 | chapter-10 | 1 | The Broadcast Preparation | elias-thorne | draft | [chapter-10-scene-01](chapter-10-scene-01.md) |
+| chapter-11 | 1 | The Broadcast Assault | elias-thorne | draft | [chapter-11-scene-01](chapter-11-scene-01.md) |

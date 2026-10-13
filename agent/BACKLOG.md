@@ -21,4 +21,5 @@ items off as you do them.
 - [x] Draft Chapter 8: The heist at the Nexus Spire.
 - [x] Draft Chapter 9: Elias and Kaelen escape the Nexus Spire and grapple with the implications of Project: Synchronization.
 - [x] Draft Chapter 10: Elias and Kaelen prepare to hijack the broadcast network to push the unaltered memories to the city before the mass overwrite completes.
-- [ ] Draft Chapter 11: The assault on the central broadcast tower and execution of the counter-broadcast.
+- [x] Draft Chapter 11: The assault on the central broadcast tower and execution of the counter-broadcast.
+- [ ] Draft Chapter 12: The aftermath of the broadcast and resolution.
