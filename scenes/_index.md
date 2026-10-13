@@ -12,3 +12,4 @@ story: the-memory-archivist
 | chapter-01 | 1 | The Node |  | outline | [chapter-01-scene-01](chapter-01-scene-01.md) |
 | chapter-02 | 1 | The Descent | elias-thorne | outline | [chapter-02-scene-01](chapter-02-scene-01.md) |
 | chapter-03 | 1 | The Undercity Meeting | elias-thorne | draft | [chapter-03-scene-01](chapter-03-scene-01.md) |
+| chapter-04 | 1 | The Node Discovery | elias-thorne | draft | [chapter-04-scene-01](chapter-04-scene-01.md) |

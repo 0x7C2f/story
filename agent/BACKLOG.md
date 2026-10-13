@@ -13,5 +13,6 @@ items off as you do them.
   the registries in step (`story reindex`, `story wordcount --write`).
 - [x] Draft Chapter 3: Elias meets his ally Kaelen in the Undercity.
 - [x] Expand lore for the Oversight Committee in worldbuilding.
-- [ ] Draft Chapter 4: Elias and Kaelen formulate a plan to infiltrate a secondary black site to gather more hard evidence.
-- [ ] Create a glossary term for "memory splicing" or "batch protocol" to define the technical aspects of the Oversight Committee's operations.
+- [x] Draft Chapter 4: Elias and Kaelen formulate a plan to infiltrate a secondary black site to gather more hard evidence.
+- [x] Create a glossary term for "memory splicing" or "batch protocol" to define the technical aspects of the Oversight Committee's operations.
+- [ ] Draft Chapter 5: Infiltration of the secondary black site below the old transit hub in Sector Four.

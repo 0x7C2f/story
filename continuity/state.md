@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 3
+current-chapter: 4
 character-state:
   - character: elias-thorne
     location: the-undercity
@@ -26,6 +26,12 @@ knowledge-state:
   - character: kaelen
     knows: The Oversight Committee is using a batch protocol to rewrite history on an industrial scale.
     learned-in: chapter-03
+  - character: elias-thorne
+    knows: There is a secondary black site below the old transit hub in Sector Four.
+    learned-in: chapter-04
+  - character: kaelen
+    knows: There is a secondary black site below the old transit hub in Sector Four.
+    learned-in: chapter-04
 ---
 
 # Continuity State
