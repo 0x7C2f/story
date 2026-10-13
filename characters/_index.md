@@ -10,6 +10,7 @@ story: the-memory-archivist
 | Name | Role | Status | File |
 |------|------|--------|------|
 | Elias Thorne | protagonist | alive | [elias-thorne](elias-thorne.md) |
+| Kaelen | supporting | alive | [kaelen](kaelen.md) |
 
 ## Relationship Map
 

@@ -5,6 +5,20 @@ model that made the changes (a `Model:` line, required in every entry), and
 what to explore next run. Newest entries at the top. Skim this and recent git
 history at the start of every run.
 
+
+## Run 2 — 2026-10-13 — Draft Chapter 2 and Worldbuilding Expansions
+
+**Model:** Jules
+
+**Changed:**
+- Drafted Chapter 2 ("The Descent"), continuing Elias Thorne's escape into the Undercity and revealing the conspiracy.
+- Added worldbuilding elements: locations "Nexus Archives" and "The Undercity", faction "Oversight Committee", and character "Kaelen".
+- Ran `story prose .` and fixed adverb overusage. Synced word counts and registries.
+
+**Why:** To continue the story's narrative flow after the inciting incident and populate the setting with critical locations and actors.
+
+**Next run:** Introduce Kaelen in Chapter 3 as Elias seeks allies to decode the remaining fragments, and deepen the lore surrounding the Oversight Committee.
+
 ## Run 1 — 2026-10-12 — Establish Premise and Draft Chapter 1
 
 **Model:** Jules
