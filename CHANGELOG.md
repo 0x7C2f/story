@@ -6,6 +6,23 @@ what to explore next run. Newest entries at the top. Skim this and recent git
 history at the start of every run.
 
 
+## Run 22 — $(date +%Y-%m-%d) — Draft Chapter 22 (The Ambush)
+
+Model: Jules
+
+**Changed:**
+- Drafted Chapter 22: Elias, Kaelen, and Jarek execute an ambush at the old transit bridge against the loyalist sweep teams.
+- Added scene record `scenes/chapter-22-scene-01.md`.
+- Added artifact `worldbuilding/artifacts/loyalist-transport.md` for the captured vehicle.
+- Updated `continuity/state.md` to track current-chapter 22, physical/emotional state changes, and the transfer of ownership of the loyalist-transport.
+- Added a timeline entry for Chapter 22 in `plot/timeline.md`.
+- Checked off the "Draft Chapter 22" task in `agent/BACKLOG.md`.
+- Validated styling and syntax with `story prose .` and `story check . --strict`.
+
+**Why:** To resolve the immediate threat posed by Director Vane's sweep teams and provide the resistance with a means of transportation, as dictated by the plot progression.
+
+**Next run:** Determine the next objective for the resistance using their newly acquired transport. Check `agent/BACKLOG.md` for any remaining long-term tasks.
+
 ## Run 20 — 2026-10-17 — Draft Chapter 20 (Mesh Network)
 
 Model: Jules

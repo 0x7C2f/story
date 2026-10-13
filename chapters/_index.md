@@ -30,5 +30,6 @@ story: the-memory-archivist
 | 19 | Director Vane's Move | director-vane | draft | 549 | [chapter-19](chapter-19.md) |
 | 20 | Chapter 20 | elias-thorne | draft | 567 | [chapter-20](chapter-20.md) |
 | 21 | Chapter 21 | elias-thorne | draft | 513 | [chapter-21](chapter-21.md) |
+| 22 | Chapter 22 | elias-thorne | draft | 740 | [chapter-22](chapter-22.md) |
 
-## Total Word Count: 11149
+## Total Word Count: 11889

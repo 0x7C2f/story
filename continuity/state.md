@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 21
+current-chapter: 22
 character-state:
   - character: director-vane
     location: the-nexus-spire
@@ -32,7 +32,20 @@ object-state:
     owner: jarek
     location: the-scrapyard-settlement
     status: active
+  - artifact: loyalist-transport
+    owner: jarek
+    location: the-scrapyard-settlement
+    status: transferred
 knowledge-state:
+  - character: jarek
+    knows: They have successfully neutralized the sweep team and captured a loyalist transport.
+    learned-in: chapter-22
+  - character: kaelen
+    knows: They have successfully neutralized the sweep team and captured a loyalist transport.
+    learned-in: chapter-22
+  - character: elias-thorne
+    knows: They have successfully neutralized the sweep team and captured a loyalist transport.
+    learned-in: chapter-22
   - character: elias-thorne
     knows: Memory M-774-B was altered in a black-site mod lab run by the Oversight Committee.
     learned-in: chapter-01
@@ -183,8 +196,6 @@ knowledge-state:
 Track facts that must carry forward between chapters. The CLI reads the
 `character-state`, `object-state`, and `knowledge-state` lists in the
 frontmatter above; the tables below are optional notes it does not read.
-
-## Character State
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |-----------|----------|----------------|-----------------|-----------|

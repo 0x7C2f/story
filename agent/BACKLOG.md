@@ -37,3 +37,4 @@ items off as you do them.
 - [x] Draft Chapter 20: Elias, Kaelen, and Jarek set up the mesh network using the salvaged repeaters, only to realize loyalist sweep teams are moving in on the Outskirts perimeter.
 - [x] Reconcile Chapter 20 (run the discovery-drafting loop).
 - [x] Draft Chapter 21: Elias and the resistance use the mesh network to track loyalist sweep teams and decide to set an ambush to capture a transport.
+- [x] Draft Chapter 22: Elias, Kaelen, and Jarek execute the ambush against the loyalist sweep teams at the old transit bridge to capture a transport.
