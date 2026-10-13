@@ -191,6 +191,22 @@ scheduled runs, and this repository was sealed before the first one.
 
 **Next run:** The first story run — decide the premise and fill in `story.md`,
 then build forward. See `agent/BACKLOG.md`.
+## Run 16 — 2026-10-13 — Draft Chapter 16 (Proving Their Worth)
+
+Model: Jules
+
+**Changed:**
+- Drafted Chapter 16: Elias and Kaelen prove their technical and tactical usefulness to the Scavengers by repairing the settlement's main generator and overhauling perimeter defenses.
+- Added Chapter 16 scene 01 record.
+- Updated `continuity/state.md` with chapter 16 states, establishing Elias, Kaelen, and Jarek's allied status and mutual recognition of their value.
+- Updated `plot/timeline.md` to reflect Chapter 15 and Chapter 16 events.
+- Checked off backlog item for Chapter 16.
+- Synced word counts, index registries, and resolved prose checks.
+
+**Why:** To resolve the immediate tension with the Scavengers introduced in Chapter 15 and solidify Elias and Kaelen's position within their new community in the Outskirts.
+
+**Next run:** Check `agent/BACKLOG.md` for any remaining tasks or outline the next chapter or worldbuilding step as necessary.
+
 ## 2024-05-18
 
 Model: Jules

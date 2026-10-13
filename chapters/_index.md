@@ -24,5 +24,6 @@ story: the-memory-archivist
 | 13 | The Outskirts | elias-thorne | draft | 292 | [chapter-13](chapter-13.md) |
 | 14 | The Outskirts Settlement | elias-thorne | draft | 443 | [chapter-14](chapter-14.md) |
 | 15 | Negotiating Trust | elias-thorne | draft | 588 | [chapter-15](chapter-15.md) |
+| 16 | Proving Their Worth | elias-thorne | draft | 620 | [chapter-16](chapter-16.md) |
 
-## Total Word Count: 7488
+## Total Word Count: 8108

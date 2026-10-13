@@ -1,20 +1,20 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 15
+current-chapter: 16
 character-state:
   - character: elias-thorne
     location: the-scrapyard-settlement
-    physical: Exhausted
-    emotional: Resolute
+    physical: Exhausted, recovering
+    emotional: Relieved, allied
   - character: kaelen
     location: the-scrapyard-settlement
-    physical: Unscathed, cautious
-    emotional: On edge, resolute
+    physical: Unscathed, recovering
+    emotional: Vigilant, allied
   - character: jarek
     location: the-scrapyard-settlement
     physical: Uninjured
-    emotional: Suspicious
+    emotional: Accepting, allied
 object-state:
   - artifact: physical-drive-m-774-b
     owner: elias-thorne
@@ -115,6 +115,15 @@ knowledge-state:
   - character: jarek
     knows: Elias and Kaelen are city exiles responsible for stopping the broadcast.
     learned-in: chapter-15
+  - character: elias-thorne
+    knows: They have proven their worth and secured an alliance with the Scavengers.
+    learned-in: chapter-16
+  - character: kaelen
+    knows: They have proven their worth and secured an alliance with the Scavengers.
+    learned-in: chapter-16
+  - character: jarek
+    knows: Elias and Kaelen possess technical and tactical skills vital to the settlement.
+    learned-in: chapter-16
 ---
 
 # Continuity State
@@ -129,8 +138,8 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |-----------|----------|----------------|-----------------|-----------|
-| Elias Thorne | The Scrapyard Settlement | Exhausted | Resolute, somewhat relieved | They are now fugitives and must survive in the Outskirts to continue the fight |
-| Kaelen | The Scrapyard Settlement | Exhausted but uninjured | Resolved, cautious | They are now fugitives and must survive in the Outskirts to continue the fight |
+| Elias Thorne | The Scrapyard Settlement | Exhausted, recovering | Relieved, allied | They have secured an alliance with the Scavengers |
+| Kaelen | The Scrapyard Settlement | Unscathed, recovering | Vigilant, allied | They have secured an alliance with the Scavengers |
 
 ## Object State
 
@@ -168,3 +177,6 @@ frontmatter above; the tables below are optional notes it does not read.
 | Kaelen | They are now fugitives and must survive in the Outskirts to continue the fight | Chapter 13 |
 | Elias Thorne | They have made contact with the Scavengers at the Scrapyard Settlement | Chapter 14 |
 | Kaelen | They have made contact with the Scavengers at the Scrapyard Settlement | Chapter 14 |
+| Elias Thorne | They have proven their worth and secured an alliance with the Scavengers | Chapter 16 |
+| Kaelen | They have proven their worth and secured an alliance with the Scavengers | Chapter 16 |
+| Jarek | Elias and Kaelen possess technical and tactical skills vital to the settlement | Chapter 16 |

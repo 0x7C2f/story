@@ -26,3 +26,4 @@ items off as you do them.
 - [x] Draft Chapter 13: Epilogue detailing Elias and Kaelen's escape to the Outskirts and the consequences of their actions.
 - [x] Draft Chapter 14: Elias and Kaelen encounter the Scavengers at the Scrapyard Settlement in the Outskirts.
 - [x] Draft Chapter 15: Elias and Kaelen must earn the trust of the Scavengers and negotiate a place in their community.
+- [x] Draft Chapter 16: Elias and Kaelen prove their worth by repairing the settlement's generator and secure an alliance.
