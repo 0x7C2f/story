@@ -17,3 +17,4 @@ story: the-memory-archivist
 | chapter-06 | 1 | Manifest Analysis | elias-thorne | draft | [chapter-06-scene-01](chapter-06-scene-01.md) |
 | chapter-07 | 1 | Planning the Heist | elias-thorne | draft | [chapter-07-scene-01](chapter-07-scene-01.md) |
 | chapter-08 | 1 | The Infiltration | elias-thorne | draft | [chapter-08-scene-01](chapter-08-scene-01.md) |
+| chapter-09 | 1 | Escape and Implications | elias-thorne | draft | [chapter-09-scene-01](chapter-09-scene-01.md) |

@@ -17,5 +17,6 @@ story: the-memory-archivist
 | 6 | The Manifest Analysis | elias-thorne | draft | 507 | [chapter-06](chapter-06.md) |
 | 7 | The Archive Heist Plan | elias-thorne | draft | 495 | [chapter-07](chapter-07.md) |
 | 8 | The Spire Heist | elias-thorne | draft | 726 | [chapter-08](chapter-08.md) |
+| 9 | Escape and Implications | elias-thorne | draft | 815 | [chapter-09](chapter-09.md) |
 
-## Total Word Count: 4247
+## Total Word Count: 5062

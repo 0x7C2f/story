@@ -1,24 +1,24 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 8
+current-chapter: 9
 character-state:
   - character: elias-thorne
-    location: the-nexus-spire
-    physical: Nose bleeding, physically strained, shaking
-    emotional: Shocked, terrified
+    location: the-undercity
+    physical: Nosebleed subsiding, recovering from neural strain
+    emotional: Overwhelmed but resolute
   - character: kaelen
-    location: the-nexus-spire
+    location: the-undercity
     physical: Unscathed
-    emotional: Alert, tense
+    emotional: Determined, focused on the counter-broadcast
 object-state:
   - artifact: physical-drive-m-774-b
     owner: elias-thorne
-    location: the-nexus-spire
+    location: the-undercity
     status: active
   - artifact: partial-batch-manifest
     owner: elias-thorne
-    location: the-nexus-spire
+    location: the-undercity
     status: active
 knowledge-state:
   - character: elias-thorne
@@ -66,6 +66,12 @@ knowledge-state:
   - character: kaelen
     knows: The root key has been acquired from Director Vane's archive.
     learned-in: chapter-08
+  - character: elias-thorne
+    knows: The root key can be used to hijack the broadcast network and push the unaltered files to the city.
+    learned-in: chapter-09
+  - character: kaelen
+    knows: The root key can be used to hijack the broadcast network and push the unaltered files to the city.
+    learned-in: chapter-09
 ---
 
 # Continuity State
@@ -80,15 +86,15 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |-----------|----------|----------------|-----------------|-----------|
-| Elias Thorne | The Nexus Spire | Nose bleeding, physically strained, shaking | Shocked, terrified | Possesses root key, discovered Project: Synchronization |
-| Kaelen | The Nexus Spire | Unscathed | Alert, tense | Knows they acquired the root key, aware of Elias's discovery |
+| Elias Thorne | The Undercity | Nosebleed subsiding, recovering from neural strain | Overwhelmed but resolute | The root key can hijack the synchronization broadcast network |
+| Kaelen | The Undercity | Unscathed | Determined, focused on the counter-broadcast | The root key can hijack the synchronization broadcast network |
 
 ## Object State
 
 | Artifact | Owner | Location | Status |
 |----------|-------|----------|--------|
-| Physical Drive (M-774-B) | Elias Thorne | The Nexus Spire | Active |
-| Partial Batch Manifest | Elias Thorne | The Nexus Spire | Active |
+| Physical Drive (M-774-B) | Elias Thorne | The Undercity | Active |
+| Partial Batch Manifest | Elias Thorne | The Undercity | Active |
 
 ## Knowledge State
 
@@ -107,3 +113,5 @@ frontmatter above; the tables below are optional notes it does not read.
 | Kaelen | The Oversight Committee plans a city-wide memory synchronization protocol to overwrite collective history | Chapter 8 |
 | Elias Thorne | The root key has been acquired from Director Vane's archive | Chapter 8 |
 | Kaelen | The root key has been acquired from Director Vane's archive | Chapter 8 |
+| Elias Thorne | The root key can be used to hijack the broadcast network and push the unaltered files to the city | Chapter 9 |
+| Kaelen | The root key can be used to hijack the broadcast network and push the unaltered files to the city | Chapter 9 |
