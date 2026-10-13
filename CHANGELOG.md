@@ -6,6 +6,22 @@ what to explore next run. Newest entries at the top. Skim this and recent git
 history at the start of every run.
 
 
+## Run 9 — 2026-10-14 — Draft Chapter 10 and Broadcast Preparation
+
+**Model:** Jules
+
+**Changed:**
+- Drafted Chapter 10 ("The Broadcast Preparation"), detailing Elias and Kaelen preparing to hijack the central broadcast network with the recovered root key.
+- Created scene record `scenes/chapter-10-scene-01.md`.
+- Updated `continuity/state.md` with chapter 10 character states and knowledge of the broadcast tower plan.
+- Added a timeline entry for Chapter 10 in `plot/timeline.md`.
+- Updated `agent/BACKLOG.md` to check off drafting Chapter 10 and added a new task for drafting Chapter 11.
+- Synced word counts, index registries, and validated constraints with strict checking.
+
+**Why:** To advance the narrative toward the climax by detailing the logistics of executing the counter-broadcast using the root key against the Oversight Committee.
+
+**Next run:** Outline and draft Chapter 11, focusing on the assault on the central broadcast tower and execution of the counter-broadcast.
+
 ## Run 8 — 2026-10-14 — Draft Chapter 9 and Escape
 
 **Model:** Jules

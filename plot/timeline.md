@@ -7,4 +7,4 @@ story: the-memory-archivist
 
 | When | Event | Arc | Chapter |
 |------|-------|-----|---------|
-| *No events yet* | | | |
+| Day 4 | Elias and Kaelen formulate a plan to hijack the central broadcast tower to push unaltered memories to the city | | 10 |
