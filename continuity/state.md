@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 16
+current-chapter: 17
 character-state:
   - character: elias-thorne
     location: the-scrapyard-settlement
@@ -124,6 +124,15 @@ knowledge-state:
   - character: jarek
     knows: Elias and Kaelen possess technical and tactical skills vital to the settlement.
     learned-in: chapter-16
+  - character: elias-thorne
+    knows: They are organizing a resistance and plan to salvage signal repeaters from the Dead Zone.
+    learned-in: chapter-17
+  - character: kaelen
+    knows: They are organizing a resistance and plan to salvage signal repeaters from the Dead Zone.
+    learned-in: chapter-17
+  - character: jarek
+    knows: They are organizing a resistance and plan to salvage signal repeaters from the Dead Zone.
+    learned-in: chapter-17
 ---
 
 # Continuity State
@@ -180,3 +189,6 @@ frontmatter above; the tables below are optional notes it does not read.
 | Elias Thorne | They have proven their worth and secured an alliance with the Scavengers | Chapter 16 |
 | Kaelen | They have proven their worth and secured an alliance with the Scavengers | Chapter 16 |
 | Jarek | Elias and Kaelen possess technical and tactical skills vital to the settlement | Chapter 16 |
+| Elias Thorne | They are organizing a resistance and plan to salvage signal repeaters from the Dead Zone | Chapter 17 |
+| Kaelen | They are organizing a resistance and plan to salvage signal repeaters from the Dead Zone | Chapter 17 |
+| Jarek | They are organizing a resistance and plan to salvage signal repeaters from the Dead Zone | Chapter 17 |

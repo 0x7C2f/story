@@ -265,3 +265,19 @@ Model: Jules
   - Updated continuity state and locations list with latest developments.
   - Checked off backlog item for Chapter 15.
   - Resolved `story check . --strict` and `story prose .` errors and warnings.
+
+## Run 17 — 2026-10-15 — Draft Chapter 17 (Forging a Resistance)
+
+Model: Jules
+
+**Changed:**
+- Drafted Chapter 17: Elias and Kaelen shift their objective from survival to organizing a resistance with Jarek, planning a salvage run to the Dead Zone to acquire communication gear.
+- Added Chapter 17 scene 01 record.
+- Updated `continuity/state.md` with chapter 17 states, advancing the current chapter to 17, and updating the characters' knowledge states about organizing the resistance and the upcoming salvage run.
+- Updated `plot/timeline.md` to reflect the newly agreed upon resistance and the salvage plan in Chapter 17.
+- Checked off the backlog item for Chapter 17 and added the next task for Chapter 18.
+- Synced word counts, index registries, and successfully resolved all prose checks and strict validations.
+
+**Why:** To advance the story out of the immediate survival phase into active rebellion and establish the premise for the subsequent action sequence in the Dead Zone.
+
+**Next run:** Draft Chapter 18, focusing on the hazardous salvage run to the abandoned relay station in the Dead Zone.

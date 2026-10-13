@@ -25,3 +25,4 @@ story: the-memory-archivist
 | chapter-14 | 1 | Finding the Settlement | elias-thorne | draft | [chapter-14-scene-01](chapter-14-scene-01.md) |
 | chapter-15 | 1 | First Meeting with Scavengers | elias-thorne | draft | [chapter-15-scene-01](chapter-15-scene-01.md) |
 | chapter-16 | 1 | Proving Their Worth | elias-thorne | draft | [chapter-16-scene-01](chapter-16-scene-01.md) |
+| chapter-17 | 1 | Scene 1 | elias-thorne | draft | [chapter-17-scene-01](chapter-17-scene-01.md) |
