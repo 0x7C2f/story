@@ -281,7 +281,7 @@ Horizontal rules between every section, skipped heading levels, a heading that c
 
 ### Over-compression
 
-The opposite of padding: articles and verbs dropped, arrows standing in for sentences, private abbreviations, so the reader has to decode. "Config → validated → cached; retry on fail" in a document written for someone else. Arrow chains used as a mock flow chart are the usual form in social posts. Fix by writing the sentence with its verb and articles. Exempt commit subjects, changelogs, chat between people who share the context, and notes the writer keeps for themselves.
+The opposite of padding: articles and verbs dropped, arrows standing in for sentences, private abbreviations, so the reader has to decode. "Config → validated → cached; retry on fail" in a document written for someone else. Arrow chains used as a mock flow chart are the usual form in social posts. Fix by writing the sentence with its verb and articles. Exempt commit subjects, chat between people who share the context, and notes the writer keeps for themselves.
 
 ### Hyphenated pairs after the noun
 

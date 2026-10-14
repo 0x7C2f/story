@@ -21,7 +21,7 @@ Read this entire file before you start work.
 2. **Never modify:** `AGENTS.md`, `style-sheet.md`, `.github/workflows/record-integrity.yml`, `scripts/*`, or `.agents/skills/*`.
 3. Follow all rules in `style-sheet.md`.
 4. Use only the two approved skill sets in `.agents/skills/`.
-5. Use version `0.23.2` of the `story-skills` npm package. Run `story --version` to verify; if the version differs, note the difference in `CHANGELOG.md`.
+5. Use version `0.23.2` of the `story-skills` npm package. Run `story --version` to verify; if the version differs, note the difference in the run log.
 6. Run the CLI **only** with the `story` command. Never run `node <pkg>/src/cli.js` (exits `0` and does nothing) or `npm install` inside the CLI package directory.
 7. Never create scratch files, backup files (`*.bak`, `*.tmp`, `*~`), draft copies (`*-old.md`, `*-copy.md`), log files, or new top-level directories.
 
@@ -38,11 +38,9 @@ Read this entire file before you start work.
 | `characters/*.md` | Character Files | Maintain character profiles required by the CLI schema (*Appearance, Personality & Traits, Backstory, Motivations & Goals, Voice & Speech Patterns, Character Arc, Timeline*). Delete `"Add ..."` placeholders. Set status to `deprecated` (with a brief reason) instead of deleting files. |
 | `worldbuilding/`, `glossary/` | World & Terms | Freely add and update world details and terms as the story evolves, keeping them consistent with the narrative. Set status to `deprecated` (with a brief reason) instead of deleting files. |
 | `continuity/exemptions.md` | Check Exemptions | Write a clear narrative or structural reason for each continuity exemption. Never add an exemption only to bypass a valid check failure. |
-| `**/_index.md` | Generated Indexes | **Do not edit manually.** Update only via `story reindex .` and `story wordcount --write .`. |
-| `CHANGELOG.md` | Run Log | Prepend one new entry per run directly under the top `# Changelog` header. Never edit or delete past entries. |
-| `agent/BACKLOG.md` | Task Queue | Freely add, reprioritize, or prune story ideas and tasks. Delete completed tasks. Keep under 15 active items by merging or pruning weak ideas. |
-| `agent/PAUSED` | Stop File | If this file exists, exit immediately with code `0`. Run `touch agent/PAUSED` to halt future runs; run `git rm agent/PAUSED` to resume. |
-| `agent/*` | Agent Directory | Keep only `BACKLOG.md` and `PAUSED` in `agent/`. Delete any temporary or scratch files before Phase 5. |
+|| `**/_index.md` | Generated Indexes | **Do not edit manually.** Update only via `story reindex .` and `story wordcount --write .`. ||
+|| `agent/PAUSED` | Stop File | If this file exists, exit immediately with code `0`. Run `touch agent/PAUSED` to halt future runs; run `git rm agent/PAUSED` to resume. ||
+|| `agent/*` | Agent Directory | Keep only `PAUSED` in `agent/`. Delete any temporary or scratch files before Phase 5. ||
 
 ---
 
@@ -53,9 +51,8 @@ Execute these five phases in sequential order during each run.
 ### Phase 1: Pre-Start & Recovery Checks
 1. Check if `agent/PAUSED` exists. If it exists, stop work immediately and exit with code `0`.
 2. Run `git status --porcelain` and `git diff` to check for uncommitted or untracked files from a previous interrupted run.
-3. If uncommitted or untracked files exist, read the top entry of `CHANGELOG.md` (`head -n 40 CHANGELOG.md`) to understand the unfinished work:
+3. If uncommitted or untracked files exist, review `git log -n 5` to understand the unfinished work:
    - Complete the unfinished work, OR discard unwanted changes per file using `git restore <file>` (for tracked files) and `rm <file>` (for untracked scratch files).
-   - Record your recovery action and reason in `CHANGELOG.md`.
    - **WARNING:** Never run mass destructive commands (`git checkout -- .`, `git restore .`, `git reset --hard`, or `git clean -fdx`).
 4. Verify `git status --porcelain` returns empty (unless actively completing recovered work).
 5. Run `git pull --rebase` (or `scripts/preflight.sh`). If a rebase conflict occurs, run `git rebase --abort`, run `touch agent/PAUSED`, and exit with an error so a human can inspect it. Never delete commits, squash commits, or force-push.
@@ -64,10 +61,10 @@ Execute these five phases in sequential order during each run.
 ### Phase 2: Context & Planning (Context-Safe)
 1. Read `story.md`, `style-sheet.md`, and `voice-sample.md`.
 2. Run `story report --actionable` and `story next`.
-3. Read only the latest 3–5 entries in `CHANGELOG.md` using `head -n 60 CHANGELOG.md` (do not read the entire file as it grows).
-4. Read `agent/BACKLOG.md` and run `git log -n 5` to review recent commits.
+3. Review recent progress via `git log -n 5`.
+4. Run `git log -n 5` to review recent commits.
 5. **Context Budget Rule:** Do not read every file in `chapters/` during planning. Use `plot/`, `story.md`, and `**/_index.md` for global context, and read only the 1–2 specific chapters immediately preceding or affected by your target task.
-6. **Momentum Rule:** Check the last 3 runs in `CHANGELOG.md`. If the previous 2 runs were spent solely revising existing chapters or worldbuilding without advancing the story, you **must** write a new scene or chapter in this run unless blocked by a continuity error.
+6. **Momentum Rule:** Check the last 3 runs in `git log -n 5`. If the previous 2 runs were spent solely revising existing chapters or worldbuilding without advancing the story, you **must** write a new scene or chapter in this run unless blocked by a continuity error.
 7. Select the highest-value creative task for this run.
 
 ### Phase 3: Writing and Editing
@@ -92,15 +89,7 @@ Execute these five phases in sequential order during each run.
    - f. `story prose .` (check prose metrics)
    - g. `story check . --strict` (run full gate check)
 3. If any command fails, fix the reported errors and repeat the checks until every command passes with zero errors.
-4. **Circuit Breaker:** If you cannot resolve a verification failure after 3 full repair attempts, revert the breaking changes per file (`git restore <file>`), document the blocker in `CHANGELOG.md` and `agent/BACKLOG.md`, and proceed to Phase 5 so the repository is never left broken.
+4. **Circuit Breaker:** If you cannot resolve a verification failure after 3 full repair attempts, revert the breaking changes per file (`git restore <file>`), document the blocker in a commit message, and proceed to Phase 5 so the repository is never left broken.
 
 ### Phase 5: Log, Commit, and Push
-1. Update `agent/BACKLOG.md`: delete completed tasks, add new creative ideas, and prune/merge items so the list stays under 15 active tasks.
-2. Prepend a new run entry to the top of `CHANGELOG.md` (directly below the main heading) using this exact format:
-   ```markdown
-   ## [YYYY-MM-DD HH:MM] — <Brief Run Title>
-   - **Model:** <exact-model-id>
-   - **Action:** <New Chapter Expansion Plot Recovery Rewrite Worldbuilding |>
-   - **Summary & Why:** <2–4 sentences explaining what changed, any retcons/deprecations made, and the creative reasoning>
-   - **Next Run Suggestion:** <1–2 concrete hooks for the next run to explore>
-```
+1. Commit all changes with a descriptive message including model, action, summary, and next run suggestion.

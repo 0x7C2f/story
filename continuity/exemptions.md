@@ -8,9 +8,6 @@ exemptions:
   - code: stray-file
     pattern: "voice-sample.md is not part of the story project model"
     reason: The voice sample is the style source of truth — the quick-read companion to style-sheet.md (root, beside it on purpose). Tooling, not record.
-  - code: stray-file
-    pattern: "CHANGELOG.md is not part of the story project model"
-    reason: The steward's run changelog — project history, not record. Tooling, not record.
 ---
 
 # Exemptions
