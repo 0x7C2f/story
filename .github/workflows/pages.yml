@@ -1,0 +1,89 @@
+name: Deploy Story to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'chapters/**'
+      - 'scenes/**'
+      - 'characters/**'
+      - 'worldbuilding/**'
+      - 'glossary/**'
+      - 'plot/**'
+      - 'README.md'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build static reader site with VitePress
+        run: |
+          npm init -y
+          npm install -D vitepress
+
+          # Normalize _index.md files to index.md in runner workspace so routes resolve cleanly
+          find chapters scenes characters worldbuilding glossary plot -name "_index.md" 2>/dev/null | while read -r file; do
+            cp "$file" "$(dirname "$file")/index.md"
+          done
+
+          mkdir -p .vitepress
+          cat << 'EOF' > .vitepress/config.mjs
+          import { defineConfig } from 'vitepress'
+
+          export default defineConfig({
+            title: "Story Archive",
+            description: "Autonomous Story Repository",
+            base: "/story/",
+            srcExclude: [
+              'AGENTS.md',
+              'SOUL.md',
+              'style-sheet.md',
+              'agent/**',
+              'scripts/**',
+              '.agents/**'
+            ],
+            themeConfig: {
+              search: { provider: 'local' },
+              nav: [
+                { text: 'Home', link: '/' },
+                { text: 'Chapters', link: '/chapters/' },
+                { text: 'Characters', link: '/characters/' },
+                { text: 'Worldbuilding', link: '/worldbuilding/' },
+                { text: 'Glossary', link: '/glossary/' }
+              ]
+            }
+          })
+          EOF
+
+          npx vitepress build .
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .vitepress/dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
