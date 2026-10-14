@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 28
+current-chapter: 29
 character-state:
 - character: director-vane
   location: the-nexus-spire
