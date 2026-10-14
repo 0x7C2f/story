@@ -1,22 +1,22 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 23
+current-chapter: 24
 character-state:
   - character: director-vane
     location: the-nexus-spire
     physical: Uninjured, composed
     emotional: Paranoid, determined, commanding
   - character: elias-thorne
-    location: the-scrapyard-settlement
+    location: sector-six-staging-ground
     physical: Exhausted but uninjured from the radiation exposure
     emotional: Relieved, allied, tense
   - character: kaelen
-    location: the-scrapyard-settlement
+    location: sector-six-staging-ground
     physical: Uninjured from the radiation exposure
     emotional: Vigilant, allied, tense
   - character: jarek
-    location: the-scrapyard-settlement
+    location: sector-six-staging-ground
     physical: Uninjured from the radiation exposure
     emotional: Allied, determined, on high alert
 object-state:
@@ -30,7 +30,7 @@ object-state:
     status: active
   - artifact: signal-repeaters
     owner: jarek
-    location: the-scrapyard-settlement
+    location: sector-six-staging-ground
     status: active
   - artifact: heavy-transport
     owner: jarek
@@ -196,6 +196,15 @@ knowledge-state:
   - character: jarek
     knows: Director Vane is deploying a mobile rewrite protocol targeting the Outskirts from a staging ground in Sector Six.
     learned-in: chapter-23
+  - character: elias-thorne
+    knows: The resistance has successfully infiltrated the Sector Six staging ground.
+    learned-in: chapter-24
+  - character: kaelen
+    knows: The resistance has successfully infiltrated the Sector Six staging ground.
+    learned-in: chapter-24
+  - character: jarek
+    knows: The resistance has successfully infiltrated the Sector Six staging ground.
+    learned-in: chapter-24
 ---
 
 # Continuity State
@@ -210,9 +219,9 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |-----------|----------|----------------|-----------------|-----------|
-| Elias Thorne | The Scrapyard Settlement | Exhausted but uninjured from the radiation exposure | Relieved, allied | The salvaged military-grade signal repeaters are viable |
-| Kaelen | The Scrapyard Settlement | Uninjured from the radiation exposure | Vigilant, allied | The salvaged military-grade signal repeaters are viable |
-| Jarek | The Scrapyard Settlement | Uninjured from the radiation exposure | Allied and determined | The salvaged military-grade signal repeaters are viable |
+| Elias Thorne | Sector Six Staging Ground | Exhausted but uninjured from the radiation exposure | Relieved, allied | The salvaged military-grade signal repeaters are viable |
+| Kaelen | Sector Six Staging Ground | Uninjured from the radiation exposure | Vigilant, allied | The salvaged military-grade signal repeaters are viable |
+| Jarek | Sector Six Staging Ground | Uninjured from the radiation exposure | Allied and determined | The salvaged military-grade signal repeaters are viable |
 | Director Vane | The Nexus Spire | Uninjured, composed | Paranoid, determined, commanding | The synchronization overwrite has failed and the command structure is fracturing |
 
 ## Object State
@@ -221,8 +230,8 @@ frontmatter above; the tables below are optional notes it does not read.
 |----------|-------|----------|--------|
 | Physical Drive (M-774-B) | Elias Thorne | The Undercity | Active |
 | Partial Batch Manifest | Elias Thorne | The Undercity | Active |
-| Signal Repeaters | Jarek | The Scrapyard Settlement | Active |
-| Mesh Network | Elias Thorne | The Scrapyard Settlement | Active |
+| Signal Repeaters | Jarek | Sector Six Staging Ground | Active |
+| Mesh Network | Elias Thorne | Sector Six Staging Ground | Active |
 | Heavy Transport | Jarek | Old Transit Bridge | Active |
 
 ## Knowledge State

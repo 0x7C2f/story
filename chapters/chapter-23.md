@@ -15,7 +15,7 @@ status: draft
 mode: discovered
 date: ""
 time: ""
-word-count: 783
+word-count: 788
 ---
 
 # Chapter 23
@@ -75,3 +75,7 @@ He isolated the command node in the Sector Six schematics, a small, heavily fort
 Elias looked at the screen, the data streaming continuously across the terminal. They had the transport. They had the map. And they had the target.
 
 "Then we better start planning," Elias said.
+
+## Chapter Notes
+
+Chapter 23 reconciled.
