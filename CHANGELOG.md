@@ -1,3 +1,19 @@
+## Run 26 — 2026-10-14 — Draft Chapter 24 (Sector Six Infiltration)
+
+Model: Jules
+
+**Changed:**
+- Reconciled Chapters 23 and 24 by adding chapter notes.
+- Drafted Chapter 24: Elias, Kaelen, and Jarek infiltrate the Sector Six staging ground in the captured crawler.
+- Created location record for Sector Six Staging Ground (`worldbuilding/locations/sector-six-staging-ground.md`).
+- Updated scene record `scenes/chapter-24-scene-01.md`.
+- Updated continuity state to chapter 24 and added knowledge state for Elias, Kaelen, and Jarek regarding the infiltration.
+- Reindexed registries and updated word counts.
+
+**Why:** To execute the planned assault on the staging ground, continuing the resistance's offensive against Vane's mobile rewrite protocol.
+
+**Next run:** Draft Chapter 25: The resistance strikes the central signal repeater node within the staging ground.
+
 # Changelog
 
 ## 2026-10-14

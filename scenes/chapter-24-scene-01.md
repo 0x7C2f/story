@@ -2,10 +2,14 @@
 title: Sector Six Staging Ground Infiltration
 chapter: chapter-24
 scene: 1
-pov: ""
-location: ""
-characters: []
-mentions: []
+pov: elias-thorne
+location: sector-six-staging-ground
+characters:
+  - elias-thorne
+  - kaelen
+  - jarek
+mentions:
+  - director-vane
 arcs-advanced: []
 status: draft
 date: ""
@@ -19,8 +23,9 @@ state-changes: []
 
 ## Purpose
 
-What this scene changes.
+Elias, Kaelen, and Jarek use the captured heavy transport and spoofed transponder to successfully bypass the automated security and infiltrate the Sector Six staging ground. They gear up to strike the central signal repeater node on foot.
 
 ## Continuity Notes
 
-Character state, object state, knowledge changes, and timeline facts.
+Knowledge changes: The staging ground is fully operational and the central signal repeater is housed in the main distribution structure.
+Timeline fact: Elias, Kaelen, and Jarek infiltrate the staging ground.
