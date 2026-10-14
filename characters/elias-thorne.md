@@ -227,4 +227,7 @@ answers himself in the second person when he is alone with a screen.
 | Chapter 24 | Infiltrates Sector Six using spoofed transponder | Puts his technical skills to use in an offensive field operation |
 | Chapter 25 | Assists in the destruction of the primary node but realizes the secondary transports are operating as a decentralized mesh network | Discovers that blunt force alone is insufficient to stop the Committee |
 
-- **Chapter 26:** Races back to the settlement, planning to use the mesh network to push uncorrupted memories and disrupt the mobile transports.
+| Chapter 26 | Races back to the settlement to use the mesh network | Prepares for a direct confrontation |
+| Chapter 27 | Initiates the massive counter-broadcast from the settlement's central spire | Makes a definitive stand against the Committee |
+
+- **Chapter 28:** Awaits the outcome of the counter-broadcast and prepares for the Committee's final assault.

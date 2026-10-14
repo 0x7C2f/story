@@ -34,6 +34,26 @@ Model: Jules
 
 # Changelog
 
+## Run 28 — 2026-10-16 — Draft Chapter 27 (The Counter-Broadcast)
+
+Model: Jules
+
+**Changed:**
+- Drafted Chapter 27: Elias, Kaelen, and Jarek return to the Scrapyard Settlement. Elias initiates the counter-broadcast using the root key through the mesh network to hold off the mobile rewrite transports.
+- Outlined scene `scenes/chapter-27-scene-01.md`.
+- Reconciled `chapters/chapter-26.md`.
+- Updated `continuity/state.md` with chapter 27 knowledge states, current-chapter to 27, and updated character states.
+- Updated `plot/timeline.md` to reflect the events of Chapter 27.
+- Updated `characters/elias-thorne.md`, `characters/kaelen.md`, and `characters/jarek.md` with progressions and timeline updates for Chapter 27.
+- Checked off drafting Chapter 27 in `agent/BACKLOG.md` and added drafting Chapter 28 as a next step.
+
+**Why:**
+- To advance the plot to the climax by having Elias initiate the counter-broadcast to save the settlement from the early deploying mobile rewrite transports.
+
+**Next run:**
+- Draft Chapter 28: The aftermath of the counter-broadcast and the Committee's response.
+
+
 ## [2026-10-14 11:35] — Draft Chapter 26 (The Mobile Rewrite)
 - **Model:** Jules
 - **Action:** Draft Chapter 26
