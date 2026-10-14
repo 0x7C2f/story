@@ -1,24 +1,24 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 26
+current-chapter: 27
 character-state:
   - character: director-vane
     location: the-nexus-spire
     physical: Uninjured, composed
     emotional: Paranoid, determined, commanding
   - character: elias-thorne
-    location: sector-six-staging-ground
-    physical: Exhausted, suffering from a blinding migraine
-    emotional: Horrified, desperate
+    location: the-scrapyard-settlement
+    physical: Suffering a persistent migraine from the neural load
+    emotional: Focused, braced for consequences
   - character: kaelen
-    location: sector-six-staging-ground
+    location: the-scrapyard-settlement
     physical: Uninjured
-    emotional: Hardened, resolute
+    emotional: Determined, ready for combat
   - character: jarek
-    location: sector-six-staging-ground
-    physical: Uninjured from the radiation exposure
-    emotional: Allied, determined, on high alert
+    location: the-scrapyard-settlement
+    physical: Uninjured
+    emotional: Authoritative, defending the settlement
 object-state:
   - artifact: physical-drive-m-774-b
     owner: elias-thorne
@@ -214,6 +214,15 @@ knowledge-state:
   - character: jarek
     knows: The staging ground assault forced the Committee to deploy the mobile repeaters early.
     learned-in: chapter-25
+  - character: elias-thorne
+    knows: The mesh network has successfully initiated the counter-broadcast using the root key.
+    learned-in: chapter-27
+  - character: kaelen
+    knows: The Committee forces will be able to pinpoint their exact location due to the broadcast.
+    learned-in: chapter-27
+  - character: jarek
+    knows: The settlement's power grid is running at maximum threshold to support the broadcast.
+    learned-in: chapter-27
 ---
 
 # Continuity State

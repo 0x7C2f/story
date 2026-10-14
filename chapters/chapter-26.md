@@ -15,7 +15,7 @@ status: draft
 mode: discovered
 date: ""
 time: ""
-word-count: 501
+word-count: 506
 ---
 
 # Chapter 26
@@ -49,3 +49,7 @@ Jarek didn't reply. He simply pressed the accelerator flat against the floorboar
 The archivist leaned back in his seat, his mind running the calculations again and again. The margins were razor-thin. They were racing against an automated protocol designed by the best engineers the Oversight Committee had. But Director Vane had made a miscalculation. She assumed the resistance would fight with ordnance and attrition. She hadn't anticipated an archivist turning her own tools against her.
 
 Elias closed his eyes, preparing for the strain of the coming synchronization. The real war wasn't in the staging ground. It was in the network.
+
+## Chapter Notes
+
+Chapter 26 reconciled.

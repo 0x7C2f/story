@@ -35,3 +35,4 @@ story: the-memory-archivist
 | chapter-24 | 1 | Sector Six Staging Ground Infiltration | elias-thorne | draft | [chapter-24-scene-01](chapter-24-scene-01.md) |
 | chapter-25 | 1 | The Signal Repeater Strike | elias-thorne | draft | [chapter-25-scene-01](chapter-25-scene-01.md) |
 | chapter-26 | 1 | Chapter 26 Scene 1 | elias-thorne | draft | [chapter-26-scene-01](chapter-26-scene-01.md) |
+| chapter-27 | 1 | The Counter-Broadcast | elias-thorne | draft | [chapter-27-scene-01](chapter-27-scene-01.md) |

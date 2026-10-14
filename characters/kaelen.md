@@ -214,4 +214,7 @@ and facts as orders.
 | Chapter 24 | Infiltrates Sector Six | Moves from defense planner to assault operative |
 | Chapter 25 | Provides cover fire and detonates the EMP charges, but realizes the secondary transports don't need the central hub | Faces a decentralized threat that cannot be solved with a single strike |
 
-- **Chapter 26:** Retreats with Elias and Jarek, bracing for the high-stakes synchronization battle at the settlement.
+| Chapter 26 | Retreats to the settlement | Braces for the high-stakes battle |
+| Chapter 27 | Secures the perimeter and covers Elias while he initiates the counter-broadcast | Stands ready to fight the Committee's inevitable retaliation |
+
+- **Chapter 28:** Prepares to defend the settlement against Director Vane's forces.

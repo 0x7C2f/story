@@ -186,4 +186,7 @@ the price of the question, not agreement with it.
 | Chapter 24 | Pilots the captured transport into Sector Six | Takes a direct, frontline role in the assault |
 | Chapter 25 | Plants the EMP charges on the primary node and pilots the escape transport | Executes the tactical strike, but learns his settlement is still in immediate danger |
 
-- **Chapter 26:** Drives the captured transport back toward the Outskirts settlement, racing against the mobile rewrite deployment.
+| Chapter 26 | Drives the captured transport back toward the Outskirts settlement | Races against the deployment |
+| Chapter 27 | Pushes the settlement's generator to its maximum output to power the counter-broadcast | Commits fully to Elias' strategy, risking his settlement's infrastructure for the cause |
+
+- **Chapter 28:** Leads the settlement's defense against any incoming Committee strike teams.
