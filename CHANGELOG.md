@@ -1,3 +1,21 @@
+## Run 27 — 2026-10-15 — Draft Chapter 25 (The Signal Repeater Strike)
+
+Model: Jules
+
+**Changed:**
+- Drafted Chapter 25: Elias, Kaelen, and Jarek infiltrate the primary distribution structure in Sector Six, destroy the primary signal repeater, and escape after discovering a decentralized failsafe early deployment.
+- Outlined scene `scenes/chapter-25-scene-01.md`.
+- Updated `continuity/state.md` with chapter 25 knowledge states, current-chapter to 25, updated the status of the primary signal repeater to Destroyed, and character physical/emotional states.
+- Updated `plot/timeline.md` to reflect the events of Chapter 25.
+- Updated `characters/elias-thorne.md`, `characters/kaelen.md`, and `characters/jarek.md` with progressions and timeline updates for Chapter 25.
+- Checked off drafting Chapter 25 in `agent/BACKLOG.md` and added drafting Chapter 26 as a next step.
+
+**Why:**
+- To advance the plot by executing the strike on the Sector Six staging ground and revealing that Vane's forces do not need a central hub, presenting a more severe, decentralized threat to the settlement.
+
+**Next run:**
+- Draft Chapter 26: The resistance scrambles to deal with the early deployment of the mobile rewrite transports.
+
 ## Run 26 — 2026-10-14 — Draft Chapter 24 (Sector Six Infiltration)
 
 Model: Jules

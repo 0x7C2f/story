@@ -58,6 +58,9 @@ progressions:
   - from: chapter-23
     field: standing
     value: "Committed to the assault on the Sector Six staging ground"
+  - from: chapter-25
+    field: standing
+    value: "Fleeing the staging ground after destroying the primary node, aware of the decentralized failsafe"
 ---
 
 # Kaelen
@@ -206,3 +209,5 @@ and facts as orders.
 | Chapter 16 | Overhauls the perimeter sensor network while Elias fixes the generator | Earns the alliance on her own terms |
 | Chapter 17 | Argues for striking while the Committee is disorganized; takes the security detail for the salvage run | Accepts the exposed half again |
 | Chapter 23 | Learns of the mobile rewrite protocol; agrees to assault the staging ground using the captured transport | Prioritizes the offensive over impossible defense |
+| Chapter 24 | Infiltrates Sector Six | Moves from defense planner to assault operative |
+| Chapter 25 | Provides cover fire and detonates the EMP charges, but realizes the secondary transports don't need the central hub | Faces a decentralized threat that cannot be solved with a single strike |

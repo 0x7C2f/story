@@ -69,6 +69,9 @@ progressions:
   - from: chapter-23
     field: standing
     value: "Planning an assault on a fortified Committee staging ground in Sector Six"
+  - from: chapter-25
+    field: standing
+    value: "Realizes the primary node's destruction forced an early deployment of the mobile rewrite protocol"
 ---
 
 # Elias Thorne
@@ -219,3 +222,5 @@ answers himself in the second person when he is alone with a screen.
 | Chapter 17 | Proposes a shadow network on the still-active root key and argues for open resistance; joins the salvage run | Turns from fugitive to organizer |
 | Chapter 22 | Captures a heavy transport and taps into the operational network | Takes the offensive |
 | Chapter 23 | Analyzes the operational network to discover a mobile rewrite protocol; plans assault on Sector Six | Chooses to strike rather than run or hide |
+| Chapter 24 | Infiltrates Sector Six using spoofed transponder | Puts his technical skills to use in an offensive field operation |
+| Chapter 25 | Assists in the destruction of the primary node but realizes the secondary transports are operating as a decentralized mesh network | Discovers that blunt force alone is insufficient to stop the Committee |
