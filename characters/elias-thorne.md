@@ -24,6 +24,7 @@ relationships:
     type: ally
 locations:
   - old-transit-bridge
+  - sector-six-staging-ground
   - nexus-archives
   - the-undercity
   - sector-four-black-site
@@ -69,6 +70,9 @@ progressions:
   - from: chapter-23
     field: standing
     value: "Planning an assault on a fortified Committee staging ground in Sector Six"
+  - from: chapter-24
+    field: standing
+    value: "Destroyed the primary signal repeater in Sector Six, dealing a major blow to Director Vane's loyalists"
 ---
 
 # Elias Thorne
@@ -219,3 +223,4 @@ answers himself in the second person when he is alone with a screen.
 | Chapter 17 | Proposes a shadow network on the still-active root key and argues for open resistance; joins the salvage run | Turns from fugitive to organizer |
 | Chapter 22 | Captures a heavy transport and taps into the operational network | Takes the offensive |
 | Chapter 23 | Analyzes the operational network to discover a mobile rewrite protocol; plans assault on Sector Six | Chooses to strike rather than run or hide |
+| Chapter 24 | Infiltrates Sector Six and extracts deployment logs before the primary signal repeater is destroyed | Cripples the mobile rewrite protocol |

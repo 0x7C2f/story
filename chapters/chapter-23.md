@@ -20,6 +20,16 @@ word-count: 783
 
 # Chapter 23
 
+## Chapter Notes
+
+1. Opening beat: Elias splices the handshake to bypass the operational network encryption from inside the captured crawler.
+2. Escalation: Elias discovers Director Vane is deploying a mobile rewrite protocol (using signal repeaters on heavy transports) targeting the Outskirts.
+3. Turn or decision: Instead of running, the resistance decides to strike the staging ground in Sector Six to destroy the primary signal repeater before it can deploy.
+
+---
+
+## Chapter Text
+
 The interior of the captured crawler was a cramped, claustrophobic shell of polished ferrocrete and heavy mesh. The air smelled of ozone, sweat, and the residual tang of the electromagnetic pulse. The transport's auxiliary lights cast a cold, flickering glow over the cargo bay, leaving the corners in shadow.
 
 Elias knelt before the primary communications terminal, his neural rig humming softly as it translated the raw data stream from the Committee's operational network. He ignored the aching throb at his temple. "The local lockout is bypassed," he muttered, his fingers hovering over the haptic keyboard. "But the encryption on the main command tier is active. I have to splice the handshake."

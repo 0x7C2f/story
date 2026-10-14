@@ -22,6 +22,7 @@ relationships:
     type: enemy
 locations:
   - old-transit-bridge
+  - sector-six-staging-ground
   - the-undercity
   - sector-four-black-site
   - the-nexus-spire
@@ -58,6 +59,9 @@ progressions:
   - from: chapter-23
     field: standing
     value: "Committed to the assault on the Sector Six staging ground"
+  - from: chapter-24
+    field: standing
+    value: "Assaulted the Sector Six staging ground to cripple the mobile rewrite protocol"
 ---
 
 # Kaelen
@@ -206,3 +210,4 @@ and facts as orders.
 | Chapter 16 | Overhauls the perimeter sensor network while Elias fixes the generator | Earns the alliance on her own terms |
 | Chapter 17 | Argues for striking while the Committee is disorganized; takes the security detail for the salvage run | Accepts the exposed half again |
 | Chapter 23 | Learns of the mobile rewrite protocol; agrees to assault the staging ground using the captured transport | Prioritizes the offensive over impossible defense |
+| Chapter 24 | Infiltrates the Sector Six staging ground and holds off loyalist forces during the assault | Secures the destruction of the primary signal repeater |

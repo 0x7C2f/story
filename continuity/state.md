@@ -1,24 +1,27 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 23
+current-chapter: 24
 character-state:
   - character: director-vane
     location: the-nexus-spire
     physical: Uninjured, composed
     emotional: Paranoid, determined, commanding
   - character: elias-thorne
-    location: the-scrapyard-settlement
-    physical: Exhausted but uninjured from the radiation exposure
-    emotional: Relieved, allied, tense
+    status: active
+    location: sector-six-staging-ground
+    physical: Uninjured, but experiencing interface ache
+    emotional: Adrenaline-fueled, resolute
   - character: kaelen
-    location: the-scrapyard-settlement
-    physical: Uninjured from the radiation exposure
-    emotional: Vigilant, allied, tense
+    status: active
+    location: sector-six-staging-ground
+    physical: Uninjured
+    emotional: Alert, decisive
   - character: jarek
-    location: the-scrapyard-settlement
-    physical: Uninjured from the radiation exposure
-    emotional: Allied, determined, on high alert
+    status: active
+    location: sector-six-staging-ground
+    physical: Uninjured
+    emotional: Aggressive, determined
 object-state:
   - artifact: physical-drive-m-774-b
     owner: elias-thorne
@@ -34,8 +37,12 @@ object-state:
     status: active
   - artifact: heavy-transport
     owner: jarek
-    location: old-transit-bridge
     status: active
+    location: sector-six-staging-ground
+  - artifact: deployment-logs
+    owner: elias-thorne
+    status: active
+    location: sector-six-staging-ground
 knowledge-state:
   - character: elias-thorne
     knows: Memory M-774-B was altered in a black-site mod lab run by the Oversight Committee.
@@ -196,6 +203,16 @@ knowledge-state:
   - character: jarek
     knows: Director Vane is deploying a mobile rewrite protocol targeting the Outskirts from a staging ground in Sector Six.
     learned-in: chapter-23
+  - character: elias-thorne
+    knows: The primary signal repeater at the Sector Six staging ground has been destroyed, crippling the mobile rewrite protocol.
+    learned-in: chapter-24
+  - character: kaelen
+    knows: The primary signal repeater at the Sector Six staging ground has been destroyed, crippling the mobile rewrite protocol.
+    learned-in: chapter-24
+  - character: jarek
+    knows: The primary signal repeater at the Sector Six staging ground has been destroyed, crippling the mobile rewrite protocol.
+    learned-in: chapter-24
+
 ---
 
 # Continuity State
@@ -210,9 +227,9 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |-----------|----------|----------------|-----------------|-----------|
-| Elias Thorne | The Scrapyard Settlement | Exhausted but uninjured from the radiation exposure | Relieved, allied | The salvaged military-grade signal repeaters are viable |
-| Kaelen | The Scrapyard Settlement | Uninjured from the radiation exposure | Vigilant, allied | The salvaged military-grade signal repeaters are viable |
-| Jarek | The Scrapyard Settlement | Uninjured from the radiation exposure | Allied and determined | The salvaged military-grade signal repeaters are viable |
+| Elias Thorne | Sector Six Staging Ground | Uninjured, but experiencing interface ache | Adrenaline-fueled, resolute | The primary signal repeater has been destroyed |
+| Kaelen | Sector Six Staging Ground | Uninjured | Alert, decisive | The primary signal repeater has been destroyed |
+| Jarek | Sector Six Staging Ground | Uninjured | Aggressive, determined | The primary signal repeater has been destroyed |
 | Director Vane | The Nexus Spire | Uninjured, composed | Paranoid, determined, commanding | The synchronization overwrite has failed and the command structure is fracturing |
 
 ## Object State
@@ -223,7 +240,8 @@ frontmatter above; the tables below are optional notes it does not read.
 | Partial Batch Manifest | Elias Thorne | The Undercity | Active |
 | Signal Repeaters | Jarek | The Scrapyard Settlement | Active |
 | Mesh Network | Elias Thorne | The Scrapyard Settlement | Active |
-| Heavy Transport | Jarek | Old Transit Bridge | Active |
+| Heavy Transport | Jarek | Sector Six Staging Ground | Active |
+| Deployment Logs | Elias Thorne | Sector Six Staging Ground | Active |
 
 ## Knowledge State
 
@@ -274,3 +292,6 @@ frontmatter above; the tables below are optional notes it does not read.
 | Elias Thorne | The resistance has captured a heavy transport and secured a physical tap into the operational network | Chapter 22 |
 | Kaelen | The resistance has captured a heavy transport and secured a physical tap into the operational network | Chapter 22 |
 | Jarek | The resistance has captured a heavy transport and secured a physical tap into the operational network | Chapter 22 |
+| Elias Thorne | The primary signal repeater at the Sector Six staging ground has been destroyed, crippling the mobile rewrite protocol | Chapter 24 |
+| Kaelen | The primary signal repeater at the Sector Six staging ground has been destroyed, crippling the mobile rewrite protocol | Chapter 24 |
+| Jarek | The primary signal repeater at the Sector Six staging ground has been destroyed, crippling the mobile rewrite protocol | Chapter 24 |

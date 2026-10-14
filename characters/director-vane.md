@@ -26,6 +26,7 @@ locations:
   - sector-four-black-site
   - the-nexus-spire
   - central-broadcast-tower
+  - sector-six-staging-ground
 tags:
   - oversight-committee
   - directorate
@@ -47,6 +48,9 @@ progressions:
   - from: chapter-13
     field: standing
     value: "At large in a broken Committee; loyalists sweeping the Outskirts perimeter by midday"
+  - from: chapter-24
+    field: standing
+    value: "Mobile rewrite protocol crippled by the destruction of the Sector Six staging ground"
 ---
 
 # Director Vane
@@ -185,3 +189,4 @@ Her voice is an unhurried, administrative hum that carries more authority than a
 | Chapter 11 | Her mod lab's synchronization feed severed at the broadcast tower | The overwrite dies |
 | Chapter 12 | Command structure fractures as the Committee's internal records unspool on air | The cost of her own architecture |
 | Chapter 13 | Loyalists sweep the Outskirts perimeter by midday | Broken, still hunting |
+| Chapter 24 | Loses the primary signal repeater at the Sector Six staging ground | Her mobile rewrite protocol is crippled |

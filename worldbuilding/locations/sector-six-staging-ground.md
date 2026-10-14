@@ -1,11 +1,17 @@
 ---
 name: Sector Six Staging Ground
 type: other
-region: ""
-population: ""
-controlled-by: ""
-notable-characters: []
-tags: []
+region: "Sector Six"
+population: "Heavily guarded by loyalist forces and technicians"
+controlled-by: "Oversight Committee"
+notable-characters:
+  - elias-thorne
+  - kaelen
+  - jarek
+  - director-vane
+tags:
+  - staging-ground
+  - military-installation
 status: established
 ---
 
@@ -13,20 +19,21 @@ status: established
 
 ## Description
 
-Add sensory details and first impressions.
+A skeletal sprawl of rusted ferrocrete and gantries, lit by stark white wedges of floodlights cutting through the gloom. The yard is massive, capable of marshaling multiple heavy transports. The central structure is a reinforced blockhouse bristling with antenna arrays, housing the primary command nodes.
 
 ## History
 
-Add relevant history.
+An old distribution hub on the edge of the Dead Zone. Repurposed by Director Vane's loyalist faction as a staging ground for deploying the mobile rewrite protocol.
 
 ## Culture & Customs
 
-Add social norms, rituals, or local patterns.
+Sterile, heavily militarized, and highly procedural. Technicians work in white coats while heavily armed loyalist guards patrol the perimeter. Everything operates on strict clearance protocols.
 
 ## Notable Features
 
-Add landmarks or practical story elements.
+- **The Outer Checkpoint:** Heavy blast doors and mag-locked gates guarding the entrance.
+- **The Central Blockhouse:** A reinforced ferrocrete structure housing the primary signal repeater, identical in architecture to the nodes in Director Vane's vault.
 
 ## Current State
 
-Add what is true at the current story moment.
+The primary signal repeater inside the central blockhouse was destroyed by Elias, Kaelen, and Jarek using repurposed crawler munitions. The staging ground is currently chaotic, with alarms sounding and loyalist forces disorganized following the explosion.
