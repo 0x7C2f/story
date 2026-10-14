@@ -8,6 +8,9 @@ exemptions:
   - code: stray-file
     pattern: "voice-sample.md is not part of the story project model"
     reason: The voice sample is the style source of truth — the quick-read companion to style-sheet.md (root, beside it on purpose). Tooling, not record.
+  - code: stray-file
+    pattern: "index.md is not part of the story project model"
+    reason: GitHub Pages entry point — static site root. Tooling, not record.
 ---
 
 # Exemptions
