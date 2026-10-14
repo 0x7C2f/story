@@ -26,6 +26,9 @@ concurrency:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -43,36 +46,94 @@ jobs:
           npm init -y
           npm install -D vitepress
 
-          # Normalize _index.md files to index.md in runner workspace so routes resolve cleanly
-          find chapters scenes characters worldbuilding glossary plot -name "_index.md" 2>/dev/null | while read -r file; do
-            cp "$file" "$(dirname "$file")/index.md"
+          # Map root README.md to index.md if no root index exists
+          if [ -f "README.md" ] && [ ! -f "index.md" ]; then
+            cp README.md index.md
+          fi
+
+          # Map story-skills _index.md registries to index.md for clean directory routing
+          for dir in chapters scenes characters worldbuilding glossary plot; do
+            if [ -d "$dir" ]; then
+              find "$dir" -name "_index.md" | while read -r file; do
+                cp "$file" "$(dirname "$file")/index.md"
+              done
+            fi
           done
 
           mkdir -p .vitepress
           cat << 'EOF' > .vitepress/config.mjs
           import { defineConfig } from 'vitepress'
+          import fs from 'node:fs'
+          import path from 'node:path'
+
+          // Auto-generate sidebar items for each story directory
+          function getSidebarItems(dir) {
+            if (!fs.existsSync(dir)) return []
+            return fs.readdirSync(dir)
+              .filter(f => f.endsWith('.md') && f !== 'index.md' && f !== '_index.md')
+              .sort()
+              .map(f => {
+                const name = f.replace(/\.md$/, '')
+                const fullPath = path.join(dir, f)
+                const content = fs.readFileSync(fullPath, 'utf-8')
+                const titleMatch = content.match(/^#\s+(.+)$/m)
+                return {
+                  text: titleMatch ? titleMatch[1].trim() : name,
+                  link: `/${dir}/${name}`
+                }
+              })
+          }
+
+          const sections = [
+            { title: 'Chapters', dir: 'chapters' },
+            { title: 'Scenes', dir: 'scenes' },
+            { title: 'Plot', dir: 'plot' },
+            { title: 'Characters', dir: 'characters' },
+            { title: 'Worldbuilding', dir: 'worldbuilding' },
+            { title: 'Glossary', dir: 'glossary' }
+          ]
+
+          const nav = [{ text: 'Home', link: '/' }]
+          const sidebar = []
+
+          for (const s of sections) {
+            if (fs.existsSync(s.dir)) {
+              const hasIndex = fs.existsSync(path.join(s.dir, 'index.md'))
+              const items = getSidebarItems(s.dir)
+              if (hasIndex || items.length > 0) {
+                if (hasIndex) {
+                  nav.push({ text: s.title, link: `/${s.dir}/` })
+                } else if (items.length > 0) {
+                  nav.push({ text: s.title, link: items[0].link })
+                }
+                sidebar.push({
+                  text: s.title,
+                  collapsed: false,
+                  link: hasIndex ? `/${s.dir}/` : undefined,
+                  items
+                })
+              }
+            }
+          }
 
           export default defineConfig({
             title: "Story Archive",
             description: "Autonomous Story Repository",
             base: "/story/",
+            ignoreDeadLinks: true,
             srcExclude: [
               'AGENTS.md',
               'SOUL.md',
               'style-sheet.md',
               'agent/**',
               'scripts/**',
-              '.agents/**'
+              '.agents/**',
+              '**/_index.md'
             ],
             themeConfig: {
               search: { provider: 'local' },
-              nav: [
-                { text: 'Home', link: '/' },
-                { text: 'Chapters', link: '/chapters/' },
-                { text: 'Characters', link: '/characters/' },
-                { text: 'Worldbuilding', link: '/worldbuilding/' },
-                { text: 'Glossary', link: '/glossary/' }
-              ]
+              nav,
+              sidebar
             }
           })
           EOF
