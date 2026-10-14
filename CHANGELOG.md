@@ -1,5 +1,15 @@
 # Changelog
 
+
+## Run 21 — 2026-10-18 — Draft Chapter 24 (Staging Ground Assault)
+
+- Drafted Chapter 24 prose and scene file.
+- Created Primary Signal Repeater artifact and updated Sector Six Staging Ground location.
+- Updated character files (Elias Thorne, Kaelen, Jarek) with progression and timeline for the infiltration.
+- Updated plot/timeline.md and continuity/state.md to track the infiltration.
+- Reconciled registries, wordcounts, and validated story structure.
+Next run: Draft Chapter 25, focusing on Elias attempting to overload the master node while Kaelen and Jarek defend the bunker.
+Model: Jules
 ## 2026-10-14
 - Drafted Chapter 24: Elias, Kaelen, and Jarek infiltrate the Sector Six staging ground in the captured crawler.
 - Created Sector Six Staging Ground location file and Primary Signal Repeater artifact file.

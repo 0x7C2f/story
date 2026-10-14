@@ -206,3 +206,4 @@ and facts as orders.
 | Chapter 16 | Overhauls the perimeter sensor network while Elias fixes the generator | Earns the alliance on her own terms |
 | Chapter 17 | Argues for striking while the Committee is disorganized; takes the security detail for the salvage run | Accepts the exposed half again |
 | Chapter 23 | Learns of the mobile rewrite protocol; agrees to assault the staging ground using the captured transport | Prioritizes the offensive over impossible defense |
+| Chapter 24 | Infiltrates the Sector Six staging ground in the captured crawler and identifies the sub-level maintenance tunnel access | Finds the tactical flank |

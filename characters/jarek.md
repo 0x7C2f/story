@@ -52,6 +52,9 @@ progressions:
   - from: chapter-23
     field: standing
     value: "Committed to attacking the Sector Six staging ground"
+  - from: chapter-24
+    field: standing
+    value: "Infiltrating the Sector Six staging ground to destroy the master node"
 ---
 
 # Jarek
@@ -178,3 +181,4 @@ the price of the question, not agreement with it.
 | Chapter 17 | Scouts report drones on the ridge; commits the settlement to resistance and assembles the salvage team | The settlement stops hiding |
 | Chapter 22 | Detonates the EMP charge and helps capture a transport | Proves the resistance's capability |
 | Chapter 23 | Learns of the mobile rewrite protocol; agrees to assault the staging ground to protect the settlement | Defends his people by taking the fight to the enemy |
+| Chapter 24 | Pilots the captured crawler into the Sector Six staging ground and helps breach the sub-level maintenance door | Carries the strike force into enemy territory |

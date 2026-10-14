@@ -2,10 +2,15 @@
 title: Sector Six Staging Ground Infiltration
 chapter: chapter-24
 scene: 1
-pov: ""
-location: ""
-characters: []
-mentions: []
+pov: elias-thorne
+locations:
+  - sector-six-staging-ground
+characters:
+  - elias-thorne
+  - kaelen
+  - jarek
+mentions:
+  - director-vane
 arcs-advanced: []
 status: draft
 date: ""
@@ -19,8 +24,8 @@ state-changes: []
 
 ## Purpose
 
-What this scene changes.
+Elias, Kaelen, and Jarek infiltrate the Sector Six staging ground using a captured heavy transport. They bypass the perimeter security using a stolen command cipher and locate the primary signal repeater.
 
 ## Continuity Notes
 
-Character state, object state, knowledge changes, and timeline facts.
+Follows directly from Chapter 23's planning phase. They are now inside the staging ground and preparing to overload the master node via a maintenance tunnel access point. The primary signal repeater is confirmed to be the master node for the mobile rewrite network.

@@ -19,7 +19,7 @@ story: the-memory-archivist
 | Old Transit Bridge | Other | new-providence-outskirts | [old-transit-bridge](locations/old-transit-bridge.md) |
 | The Abandoned Relay Station | Building | The Dead Zone, twenty klicks east of the Scrapyard Settlement | [relay-station](locations/relay-station.md) |
 | Sector Four Black Site | Location | Sector Four | [sector-four-black-site](locations/sector-four-black-site.md) |
-| Sector Six Staging Ground | Other |  | [sector-six-staging-ground](locations/sector-six-staging-ground.md) |
+| Sector Six Staging Ground | Other | outskirts-edge | [sector-six-staging-ground](locations/sector-six-staging-ground.md) |
 | The Dead Zone | Other | Twenty klicks east of the Scrapyard Settlement | [the-dead-zone](locations/the-dead-zone.md) |
 | The Nexus Spire | Building | Sector One | [the-nexus-spire](locations/the-nexus-spire.md) |
 | The Scrapyard Settlement | Neighborhood |  | [the-scrapyard-settlement](locations/the-scrapyard-settlement.md) |
@@ -45,4 +45,5 @@ story: the-memory-archivist
 | Heavy Transport | Object | active | [heavy-transport](artifacts/heavy-transport.md) |
 | Partial Batch Manifest | Object | active | [partial-batch-manifest](artifacts/partial-batch-manifest.md) |
 | Physical Drive M-774-B | Object | active | [physical-drive-m-774-b](artifacts/physical-drive-m-774-b.md) |
+| Primary Signal Repeater | Technology | active | [primary-signal-repeater](artifacts/primary-signal-repeater.md) |
 | Signal Repeaters | Technology | active | [signal-repeaters](artifacts/signal-repeaters.md) |

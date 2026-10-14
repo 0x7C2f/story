@@ -20,3 +20,4 @@ story: the-memory-archivist
 | Day 7 | Elias uses the new mesh network to intercept Committee tactical comms, allowing the resistance to track the sweep teams and plan an ambush | | 21 |
 | Day 7 | Elias, Kaelen, and Jarek successfully ambush the sweep teams at the old transit bridge and capture a heavy transport | | 22 |
 | Day 7 | Elias analyzes the intercepted network data from the transport, discovering Vane's plan to deploy a mobile rewrite protocol; the resistance plans an assault on the Sector Six staging ground | | 23 |
+| Day 7 | Elias, Kaelen, and Jarek infiltrate the Sector Six staging ground using the captured crawler and slice into the sub-level maintenance tunnels to target the master node | | 24 |
