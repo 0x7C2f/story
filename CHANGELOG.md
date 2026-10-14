@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-14
+- Drafted Chapter 24: Elias, Kaelen, and Jarek infiltrate the Sector Six staging ground in the captured crawler.
+- Created Sector Six Staging Ground location file and Primary Signal Repeater artifact file.
+- Updated characters (Elias Thorne, Kaelen, Jarek) with progression and timeline entries for Chapter 24.
+- Updated continuity state to reflect infiltration and new entities.
+- Checked off Chapter 24 task in BACKLOG.md.
+Next run: Draft Chapter 25 or outline the next story beat for the destruction of the primary signal repeater.
+Model: Jules
+
 Run log for the story stewards — one entry per run: what changed, why, the
 model that made the changes (a `Model:` line, required in every entry), and
 what to explore next run. Newest entries at the top. Skim this and recent git
