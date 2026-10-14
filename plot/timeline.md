@@ -22,3 +22,4 @@ story: the-memory-archivist
 | Day 7 | Elias analyzes the intercepted network data from the transport, discovering Vane's plan to deploy a mobile rewrite protocol; the resistance plans an assault on the Sector Six staging ground | | 23 |
 | Day 7 | Elias, Kaelen, and Jarek infiltrate the Sector Six staging ground using the captured transport and prepare to strike the central signal repeater | | 24 |
 | Day 7 | Elias, Kaelen, and Jarek destroy the primary signal repeater, but discover the mobile transports have initiated a decentralized failsafe and are deploying early | | 25 |
+| Day 7 | Elias, Kaelen, and Jarek flee the staging ground, racing against the early-deploying mobile rewrite transports to reach the settlement and initiate a counter-broadcast via the mesh network | | 26 |

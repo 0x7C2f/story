@@ -34,6 +34,13 @@ Model: Jules
 
 # Changelog
 
+## [2026-10-14 11:35] — Draft Chapter 26 (The Mobile Rewrite)
+- **Model:** Jules
+- **Action:** Draft Chapter 26
+- **Summary & Why:** Drafted Chapter 26, depicting Elias, Kaelen, and Jarek fleeing the staging ground and racing back to the settlement. They plan to use the mesh network to broadcast uncorrupted memory files to fracture the synchronization of the mobile rewrite transports that deployed early. Updated character files, timeline, and state files accordingly.
+- **Next Run Suggestion:** Draft Chapter 27: The climax at the settlement where Elias initiates the counter-broadcast through the mesh network to hold off the mobile transports' synchronization.
+
+
 ## 2026-10-14
 - Drafted Chapter 24: Elias, Kaelen, and Jarek infiltrate the Sector Six staging ground in the captured crawler.
 - Created Sector Six Staging Ground location file and Primary Signal Repeater artifact file.

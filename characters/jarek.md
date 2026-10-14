@@ -169,6 +169,8 @@ the price of the question, not agreement with it.
   them in on the basis of what they can do rather than what they are allowed to
   know.
 
+- **Chapter 26:** Commits fully to the desperate race against time, pushing the captured transport to its limits to save the settlement.
+
 ## Timeline
 
 | When | Event | Relevance |
@@ -183,3 +185,5 @@ the price of the question, not agreement with it.
 | Chapter 23 | Learns of the mobile rewrite protocol; agrees to assault the staging ground to protect the settlement | Defends his people by taking the fight to the enemy |
 | Chapter 24 | Pilots the captured transport into Sector Six | Takes a direct, frontline role in the assault |
 | Chapter 25 | Plants the EMP charges on the primary node and pilots the escape transport | Executes the tactical strike, but learns his settlement is still in immediate danger |
+
+- **Chapter 26:** Drives the captured transport back toward the Outskirts settlement, racing against the mobile rewrite deployment.

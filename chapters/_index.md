@@ -34,5 +34,6 @@ story: the-memory-archivist
 | 23 | Chapter 23 | elias-thorne | draft | 788 | [chapter-23](chapter-23.md) |
 | 24 | Chapter 24 | elias-thorne | draft | 679 | [chapter-24](chapter-24.md) |
 | 25 | The Signal Repeater Strike | elias-thorne | draft | 941 | [chapter-25](chapter-25.md) |
+| 26 | The Mobile Rewrite | elias-thorne | draft | 501 | [chapter-26](chapter-26.md) |
 
-## Total Word Count: 14273
+## Total Word Count: 14774

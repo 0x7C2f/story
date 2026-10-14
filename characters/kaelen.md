@@ -187,6 +187,8 @@ and facts as orders.
   Settlement, allied with the Scavengers, still watching the perimeter — but now
   watching it for people who are watching hers.
 
+- **Chapter 26:** Accepts the desperate gamble of using the mesh network offensively, putting her full trust in Elias's technical strategy.
+
 ## Timeline
 
 | When | Event | Relevance |
@@ -211,3 +213,5 @@ and facts as orders.
 | Chapter 23 | Learns of the mobile rewrite protocol; agrees to assault the staging ground using the captured transport | Prioritizes the offensive over impossible defense |
 | Chapter 24 | Infiltrates Sector Six | Moves from defense planner to assault operative |
 | Chapter 25 | Provides cover fire and detonates the EMP charges, but realizes the secondary transports don't need the central hub | Faces a decentralized threat that cannot be solved with a single strike |
+
+- **Chapter 26:** Retreats with Elias and Jarek, bracing for the high-stakes synchronization battle at the settlement.
