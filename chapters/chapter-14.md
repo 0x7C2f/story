@@ -1,18 +1,6 @@
 ---
-title: The Outskirts Settlement
-number: 14
-pov: elias-thorne
-locations:
-  - the-scrapyard-settlement
-characters:
-  - elias-thorne
-  - kaelen
-mentions: []
-arcs-advanced: []
-status: draft
-date: ""
-time: ""
-word-count: 443
+prev: /chapters/chapter-13.html
+next: /chapters/chapter-15.html
 ---
 
 # Chapter 14: The Outskirts Settlement

@@ -1,21 +1,6 @@
 ---
-title: Chapter 18
-number: 18
-pov: elias-thorne
-locations:
-  - the-dead-zone
-  - relay-station
-characters:
-  - elias-thorne
-  - kaelen
-  - jarek
-mentions: []
-arcs-advanced: []
-status: draft
-mode: ""
-date: ""
-time: ""
-word-count: 964
+prev: /chapters/chapter-17.html
+next: /chapters/chapter-19.html
 ---
 
 # Chapter 18

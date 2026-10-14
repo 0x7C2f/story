@@ -1,22 +1,6 @@
 ---
-title: Chapter 20
-number: 20
-pov: elias-thorne
-locations:
-  - new-providence-outskirts
-  - the-scrapyard-settlement
-characters:
-  - elias-thorne
-  - kaelen
-  - jarek
-mentions:
-  - director-vane
-arcs-advanced: []
-status: draft
-mode: ""
-date: ""
-time: ""
-word-count: 567
+prev: /chapters/chapter-19.html
+next: /chapters/chapter-21.html
 ---
 
 # Chapter 20

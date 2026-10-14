@@ -1,20 +1,6 @@
 ---
-title: Proving Their Worth
-number: 16
-pov: elias-thorne
-locations:
-  - the-scrapyard-settlement
-characters:
-  - elias-thorne
-  - kaelen
-  - jarek
-mentions: []
-arcs-advanced: []
-status: draft
-mode: ""
-date: ""
-time: ""
-word-count: 620
+prev: /chapters/chapter-15.html
+next: /chapters/chapter-17.html
 ---
 
 # Chapter 16: Proving Their Worth

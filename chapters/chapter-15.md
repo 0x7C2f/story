@@ -1,20 +1,6 @@
 ---
-title: Negotiating Trust
-number: 15
-pov: elias-thorne
-locations:
-  - the-scrapyard-settlement
-characters:
-  - elias-thorne
-  - kaelen
-  - jarek
-mentions: []
-arcs-advanced: []
-status: draft
-mode: ""
-date: ""
-time: ""
-word-count: 580
+prev: /chapters/chapter-14.html
+next: /chapters/chapter-16.html
 ---
 
 # Chapter 15: Negotiating Trust

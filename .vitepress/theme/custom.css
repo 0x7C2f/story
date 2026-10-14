@@ -1,0 +1,97 @@
+:root {
+  --reading-progress-height: 3px;
+}
+
+.dark {
+  --reading-progress-color: var(--vp-c-brand-2, #5cd89d);
+}
+
+/* Improve chapter content readability */
+.vp-doc h1 {
+  border-bottom: 2px solid var(--vp-c-divider);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.vp-doc h2 {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+}
+
+.vp-doc h3 {
+  margin-top: 2rem;
+}
+
+/* Better code block styling */
+.vp-doc pre {
+  border-radius: 8px;
+  overflow: auto;
+}
+
+/* Table improvements */
+.vp-doc table {
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+.vp-doc th {
+  background: var(--vp-c-bg-soft);
+  font-weight: 600;
+}
+
+/* Chapter status badges */
+.chapter-status {
+  display: inline-block;
+  padding: 0.125rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.chapter-status--outline {
+  background: var(--vp-c-yellow-soft, #fef3c7);
+  color: var(--vp-c-yellow-1, #b45309);
+}
+
+.chapter-status--draft {
+  background: var(--vp-c-green-soft, #dcfce7);
+  color: var(--vp-c-green-1, #166534);
+}
+
+.chapter-status--discovered {
+  background: var(--vp-c-blue-soft, #dbeafe);
+  color: var(--vp-c-blue-1, #1e40af);
+}
+
+/* Homepage feature cards */
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(135deg, var(--vp-c-brand-1) 0%, var(--vp-c-brand-2) 100%);
+}
+
+.dark {
+  --vp-home-hero-name-background: linear-gradient(135deg, var(--vp-c-brand-1) 0%, var(--vp-c-brand-2) 100%);
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Print styles */
+@media print {
+  .reading-progress-bar,
+  .chapter-nav,
+  .vp-nav,
+  .vp-sidebar,
+  .vp-doc .edit-link,
+  .vp-doc .page-edit {
+    display: none !important;
+  }
+  .vp-doc {
+    max-width: none;
+    padding: 0;
+  }
+}

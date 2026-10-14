@@ -161,7 +161,7 @@ jobs:
           SITE_DIR="$RUNNER_TEMP/site"
           mkdir -p "$SITE_DIR/docs"
 
-          for dir in chapters scenes characters worldbuilding glossary plot continuity; do
+          for dir in chapters scenes characters worldbuilding glossary plot continuity .vitepress; do
             if [ -d "$dir" ]; then
               cp -r "$dir" "$SITE_DIR/docs/"
             fi
@@ -248,7 +248,9 @@ jobs:
             themeConfig: {
               search: { provider: 'local' },
               nav,
-              sidebar
+              sidebar,
+              darkModeSwitchLabel: 'Appearance',
+              outline: { level: [2, 3], label: 'On this page' }
             }
           })
           EOF

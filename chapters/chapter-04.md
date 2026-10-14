@@ -1,19 +1,6 @@
 ---
-title: The Black Site Protocol
-number: 4
-pov: elias-thorne
-locations:
-  - the-undercity
-characters:
-  - elias-thorne
-  - kaelen
-mentions: []
-arcs-advanced: []
-status: draft
-mode: ""
-date: ""
-time: ""
-word-count: 450
+prev: /chapters/chapter-03.html
+next: /chapters/chapter-05.html
 ---
 
 # Chapter 4: The Black Site Protocol

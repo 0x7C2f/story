@@ -1,17 +1,6 @@
 ---
-title: Chapter 10
-number: 10
-mode: ""
-pov: elias-thorne
-status: draft
-word-count: 396
-characters:
-  - elias-thorne
-  - kaelen
-mentions:
-  - director-vane
-locations:
-  - the-undercity
+prev: /chapters/chapter-09.html
+next: /chapters/chapter-11.html
 ---
 
 # Chapter 10

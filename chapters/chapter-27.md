@@ -1,5 +1,5 @@
 ---
-title: Chapter 27
+title: The Counter-Broadcast
 number: 27
 pov: elias-thorne
 locations:
@@ -16,6 +16,8 @@ mode: discovered
 date: ""
 time: ""
 word-count: 688
+prev: /chapters/chapter-26.html
+next: /chapters/chapter-28.html
 ---
 
 # Chapter 27

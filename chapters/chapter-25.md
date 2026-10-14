@@ -1,21 +1,6 @@
 ---
-title: The Signal Repeater Strike
-number: 25
-pov: elias-thorne
-locations:
-  - sector-six-staging-ground
-characters:
-  - elias-thorne
-  - kaelen
-  - jarek
-mentions:
-  - director-vane
-arcs-advanced: []
-status: draft
-mode: outlined
-date: ""
-time: ""
-word-count: 941
+prev: /chapters/chapter-24.html
+next: /chapters/chapter-26.html
 ---
 
 # Chapter 25: The Signal Repeater Strike

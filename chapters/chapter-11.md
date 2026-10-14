@@ -1,17 +1,6 @@
 ---
-title: The Broadcast Assault
-number: 11
-mode: ""
-pov: elias-thorne
-status: draft
-word-count: 347
-characters:
-  - elias-thorne
-  - kaelen
-locations:
-  - central-broadcast-tower
-mentions:
-  - director-vane
+prev: /chapters/chapter-10.html
+next: /chapters/chapter-12.html
 ---
 
 # Chapter 11

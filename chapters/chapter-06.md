@@ -1,20 +1,6 @@
 ---
-title: The Manifest Analysis
-number: 6
-pov: elias-thorne
-locations:
-  - the-undercity
-characters:
-  - elias-thorne
-  - kaelen
-mentions:
-  - director-vane
-arcs-advanced: []
-status: draft
-mode: ""
-date: ""
-time: ""
-word-count: 490
+prev: /chapters/chapter-05.html
+next: /chapters/chapter-07.html
 ---
 
 # Chapter 6: The Manifest Analysis

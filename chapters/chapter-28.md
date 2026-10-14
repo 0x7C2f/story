@@ -1,5 +1,5 @@
 ---
-title: Chapter 28
+title: The Aftermath
 number: 28
 pov: elias-thorne
 locations:
@@ -16,6 +16,7 @@ mode: discovered
 date: ""
 time: ""
 word-count: 728
+prev: /chapters/chapter-27.html
 ---
 
 # Chapter 28

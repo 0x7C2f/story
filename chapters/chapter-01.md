@@ -1,17 +1,5 @@
 ---
-title: The Fragment
-number: 1
-pov: elias-thorne
-locations: []
-characters:
-  - elias-thorne
-mentions: []
-arcs-advanced: []
-status: outline
-mode: ""
-date: ""
-time: ""
-word-count: 451
+next: /chapters/chapter-02.html
 ---
 
 # Chapter 1: The Fragment

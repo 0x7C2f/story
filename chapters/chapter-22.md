@@ -1,21 +1,6 @@
 ---
-title: Chapter 22
-number: 22
-pov: elias-thorne
-locations:
-  - old-transit-bridge
-characters:
-  - elias-thorne
-  - kaelen
-  - jarek
-mentions:
-  - director-vane
-arcs-advanced: []
-status: draft
-mode: ""
-date: ""
-time: ""
-word-count: 716
+prev: /chapters/chapter-21.html
+next: /chapters/chapter-23.html
 ---
 
 # Chapter 22

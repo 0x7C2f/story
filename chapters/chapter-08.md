@@ -1,20 +1,6 @@
 ---
-title: The Spire Heist
-number: 8
-pov: elias-thorne
-locations:
-  - the-nexus-spire
-characters:
-  - elias-thorne
-  - kaelen
-mentions:
-  - director-vane
-arcs-advanced: []
-status: draft
-mode: ""
-date: ""
-time: ""
-word-count: 715
+prev: /chapters/chapter-07.html
+next: /chapters/chapter-09.html
 ---
 
 # Chapter 8: The Spire Heist

@@ -1,21 +1,6 @@
 ---
-title: Chapter 24
-number: 24
-pov: elias-thorne
-locations:
-  - sector-six-staging-ground
-characters:
-  - elias-thorne
-  - kaelen
-  - jarek
-mentions:
-  - director-vane
-arcs-advanced: []
-status: draft
-mode: discovered
-date: ""
-time: ""
-word-count: 679
+prev: /chapters/chapter-23.html
+next: /chapters/chapter-25.html
 ---
 
 # Chapter 24

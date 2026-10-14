@@ -1,19 +1,6 @@
 ---
-title: Forging a Resistance
-number: 17
-pov: elias-thorne
-locations:
-  - the-scrapyard-settlement
-characters:
-  - elias-thorne
-  - kaelen
-  - jarek
-mentions: []
-arcs-advanced: []
-status: draft
-date: ""
-time: ""
-word-count: 546
+prev: /chapters/chapter-16.html
+next: /chapters/chapter-18.html
 ---
 
 # Chapter 17: Forging a Resistance

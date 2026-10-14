@@ -1,19 +1,6 @@
 ---
-title: The Outskirts
-number: 13
-pov: elias-thorne
-locations:
-  - new-providence-outskirts
-characters:
-  - elias-thorne
-  - kaelen
-mentions:
-  - director-vane
-arcs-advanced: []
-status: draft
-date: ""
-time: ""
-word-count: 287
+prev: /chapters/chapter-12.html
+next: /chapters/chapter-14.html
 ---
 
 # Chapter 13: The Outskirts

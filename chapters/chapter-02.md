@@ -1,17 +1,6 @@
 ---
-title: The Descent
-number: 2
-pov: elias-thorne
-locations: []
-characters:
-  - elias-thorne
-mentions: []
-arcs-advanced: []
-status: outline
-mode: ""
-date: ""
-time: ""
-word-count: 401
+prev: /chapters/chapter-01.html
+next: /chapters/chapter-03.html
 ---
 
 # Chapter 2: The Descent

@@ -1,21 +1,6 @@
 ---
-title: Chapter 21
-number: 21
-pov: elias-thorne
-locations:
-  - the-scrapyard-settlement
-characters:
-  - elias-thorne
-  - kaelen
-  - jarek
-mentions:
-  - director-vane
-arcs-advanced: []
-status: draft
-mode: ""
-date: ""
-time: ""
-word-count: 513
+prev: /chapters/chapter-20.html
+next: /chapters/chapter-22.html
 ---
 
 # Chapter 21

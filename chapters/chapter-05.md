@@ -1,21 +1,6 @@
 ---
-title: Sector Four Infiltration
-number: 5
-pov: elias-thorne
-locations:
-  - the-undercity
-  - sector-four-black-site
-characters:
-  - elias-thorne
-  - kaelen
-mentions:
-  - director-vane
-arcs-advanced: []
-status: draft
-mode: ""
-date: ""
-time: ""
-word-count: 635
+prev: /chapters/chapter-04.html
+next: /chapters/chapter-06.html
 ---
 
 # Chapter 5: Sector Four Infiltration

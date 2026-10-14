@@ -1,21 +1,6 @@
 ---
-title: Escape and Implications
-number: 9
-pov: elias-thorne
-locations:
-  - the-nexus-spire
-  - the-undercity
-characters:
-  - elias-thorne
-  - kaelen
-mentions:
-  - director-vane
-arcs-advanced: []
-status: draft
-mode: ""
-date: ""
-time: ""
-word-count: 815
+prev: /chapters/chapter-08.html
+next: /chapters/chapter-10.html
 ---
 
 # Chapter 9: Escape and Implications

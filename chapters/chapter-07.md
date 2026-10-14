@@ -1,20 +1,6 @@
 ---
-title: The Archive Heist Plan
-number: 7
-pov: elias-thorne
-locations:
-  - the-undercity
-characters:
-  - elias-thorne
-  - kaelen
-mentions:
-  - director-vane
-arcs-advanced: []
-status: draft
-mode: ""
-date: ""
-time: ""
-word-count: 466
+prev: /chapters/chapter-06.html
+next: /chapters/chapter-08.html
 ---
 
 # Chapter 7: The Archive Heist Plan

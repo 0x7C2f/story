@@ -1,20 +1,6 @@
 ---
-title: The Aftermath
-number: 12
-pov: elias-thorne
-locations:
-  - central-broadcast-tower
-characters:
-  - elias-thorne
-  - kaelen
-mentions:
-  - director-vane
-arcs-advanced: []
-status: draft
-mode: ""
-date: ""
-time: ""
-word-count: 343
+prev: /chapters/chapter-11.html
+next: /chapters/chapter-13.html
 ---
 
 # Chapter 12: The Aftermath

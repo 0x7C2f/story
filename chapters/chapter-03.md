@@ -1,19 +1,6 @@
 ---
-title: The Undercity Meeting
-number: 3
-pov: elias-thorne
-locations:
-  - the-undercity
-characters:
-  - elias-thorne
-  - kaelen
-mentions: []
-arcs-advanced: []
-status: draft
-mode: ""
-date: ""
-time: ""
-word-count: 571
+prev: /chapters/chapter-02.html
+next: /chapters/chapter-04.html
 ---
 
 # Chapter 3: The Undercity Meeting
