@@ -399,3 +399,24 @@ Model: Jules
 
 **Next run:**
 - Draft Chapter 24: Elias, Kaelen, and Jarek infiltrate the Sector Six staging ground using the captured crawler.
+
+## Run 26 — 2026-10-16 — Draft Chapter 24 (Sector Six Infiltration)
+
+Model: Jules
+
+**Changed:**
+- Reconciled Chapter 23 by adding post-hoc Chapter Notes and removing `mode: discovered`.
+- Drafted Chapter 24: Elias, Kaelen, and Jarek infiltrate the Sector Six staging ground in the captured crawler. Jarek detonates the fuel depot to create a diversion, allowing Elias and Kaelen to breach the central bunker.
+- Added scene record `scenes/chapter-24-scene-01.md`.
+- Added location record `worldbuilding/locations/sector-six-staging-ground.md`.
+- Updated `continuity/state.md` with chapter 24 object and knowledge states, setting `current-chapter` to 24.
+- Updated `plot/timeline.md` to reflect the infiltration and diversion.
+- Updated character progressions and timelines for Elias, Kaelen, and Jarek.
+- Checked off drafting Chapter 24 in `agent/BACKLOG.md` and added Chapter 25 as a next step.
+- Ran all verifications and re-synced word counts and indices.
+
+**Why:**
+- To continue the offensive established in the previous chapter, taking the protagonists directly into the heart of the Committee's new threat, the mobile rewrite protocol.
+
+**Next run:**
+- Draft Chapter 25: Elias and Kaelen destroy the primary signal repeater inside the bunker while Jarek attempts to escape the staging ground.

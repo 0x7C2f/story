@@ -20,6 +20,7 @@ relationships:
   - character: kaelen
     type: ally
 locations:
+  - sector-six-staging-ground
   - old-transit-bridge
   - the-scrapyard-settlement
   - relay-station
@@ -52,6 +53,9 @@ progressions:
   - from: chapter-23
     field: standing
     value: "Committed to attacking the Sector Six staging ground"
+  - from: chapter-24
+    field: standing
+    value: "Created a massive diversion by blowing up the fuel depot at the Sector Six staging ground"
 ---
 
 # Jarek
@@ -178,3 +182,4 @@ the price of the question, not agreement with it.
 | Chapter 17 | Scouts report drones on the ridge; commits the settlement to resistance and assembles the salvage team | The settlement stops hiding |
 | Chapter 22 | Detonates the EMP charge and helps capture a transport | Proves the resistance's capability |
 | Chapter 23 | Learns of the mobile rewrite protocol; agrees to assault the staging ground to protect the settlement | Defends his people by taking the fight to the enemy |
+| Chapter 24 | Infiltrates the staging ground and drives the crawler into the fuel depot to create a diversion | Risks his own life to ensure the mission succeeds |

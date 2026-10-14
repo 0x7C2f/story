@@ -1,24 +1,24 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 23
+current-chapter: 24
 character-state:
   - character: director-vane
     location: the-nexus-spire
     physical: Uninjured, composed
     emotional: Paranoid, determined, commanding
   - character: elias-thorne
-    location: the-scrapyard-settlement
-    physical: Exhausted but uninjured from the radiation exposure
-    emotional: Relieved, allied, tense
+    location: sector-six-staging-ground
+    physical: Suffering from neural ache from interface
+    emotional: Focused, tense, procedural
   - character: kaelen
-    location: the-scrapyard-settlement
+    location: sector-six-staging-ground
     physical: Uninjured from the radiation exposure
-    emotional: Vigilant, allied, tense
+    emotional: Vigilant, ready for combat
   - character: jarek
-    location: the-scrapyard-settlement
+    location: sector-six-staging-ground
     physical: Uninjured from the radiation exposure
-    emotional: Allied, determined, on high alert
+    emotional: Determined, risking himself
 object-state:
   - artifact: physical-drive-m-774-b
     owner: elias-thorne
@@ -30,11 +30,11 @@ object-state:
     status: active
   - artifact: signal-repeaters
     owner: jarek
-    location: the-scrapyard-settlement
+    location: sector-six-staging-ground
     status: active
   - artifact: heavy-transport
     owner: jarek
-    location: old-transit-bridge
+    location: sector-six-staging-ground
     status: active
 knowledge-state:
   - character: elias-thorne
@@ -196,6 +196,15 @@ knowledge-state:
   - character: jarek
     knows: Director Vane is deploying a mobile rewrite protocol targeting the Outskirts from a staging ground in Sector Six.
     learned-in: chapter-23
+  - character: elias-thorne
+    knows: They have successfully infiltrated the Sector Six staging ground and are inside the central bunker.
+    learned-in: chapter-24
+  - character: kaelen
+    knows: They have successfully infiltrated the Sector Six staging ground and are inside the central bunker.
+    learned-in: chapter-24
+  - character: jarek
+    knows: He has successfully created a diversion by blowing up the fuel depot.
+    learned-in: chapter-24
 ---
 
 # Continuity State

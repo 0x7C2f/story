@@ -12,10 +12,9 @@ mentions:
   - director-vane
 arcs-advanced: []
 status: draft
-mode: discovered
 date: ""
 time: ""
-word-count: 783
+word-count: 815
 ---
 
 # Chapter 23
@@ -75,3 +74,9 @@ He isolated the command node in the Sector Six schematics, a small, heavily fort
 Elias looked at the screen, the data streaming continuously across the terminal. They had the transport. They had the map. And they had the target.
 
 "Then we better start planning," Elias said.
+
+## Chapter Notes
+
+- Reconciled from discovered drafting.
+- Added Elias, Kaelen, and Jarek using the captured crawler to analyze the network data.
+- Established the mobile rewrite protocol and the staging ground in Sector Six.

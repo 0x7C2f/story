@@ -23,6 +23,7 @@ relationships:
   - character: jarek
     type: ally
 locations:
+  - sector-six-staging-ground
   - old-transit-bridge
   - nexus-archives
   - the-undercity
@@ -69,6 +70,9 @@ progressions:
   - from: chapter-23
     field: standing
     value: "Planning an assault on a fortified Committee staging ground in Sector Six"
+  - from: chapter-24
+    field: standing
+    value: "Infiltrated the Sector Six staging ground and breached the central bunker"
 ---
 
 # Elias Thorne
@@ -219,3 +223,4 @@ answers himself in the second person when he is alone with a screen.
 | Chapter 17 | Proposes a shadow network on the still-active root key and argues for open resistance; joins the salvage run | Turns from fugitive to organizer |
 | Chapter 22 | Captures a heavy transport and taps into the operational network | Takes the offensive |
 | Chapter 23 | Analyzes the operational network to discover a mobile rewrite protocol; plans assault on Sector Six | Chooses to strike rather than run or hide |
+| Chapter 24 | Infiltrates the Sector Six staging ground and breaches the central bunker | Takes the fight directly to the Committee's new weapon |

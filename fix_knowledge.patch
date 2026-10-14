@@ -1,0 +1,18 @@
+--- continuity/state.md
++++ continuity/state.md
+@@ -197,6 +197,15 @@
+   - character: jarek
+     knows: Director Vane is deploying a mobile rewrite protocol targeting the Outskirts from a staging ground in Sector Six.
+     learned-in: chapter-23
++  - character: elias-thorne
++    knows: They have successfully infiltrated the Sector Six staging ground and are inside the central bunker.
++    learned-in: chapter-24
++  - character: kaelen
++    knows: They have successfully infiltrated the Sector Six staging ground and are inside the central bunker.
++    learned-in: chapter-24
++  - character: jarek
++    knows: He has successfully created a diversion by blowing up the fuel depot.
++    learned-in: chapter-24
+ ---
+
+ # Continuity State
