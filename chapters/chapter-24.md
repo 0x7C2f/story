@@ -15,7 +15,7 @@ status: draft
 mode: discovered
 date: ''
 time: ''
-word-count: 679
+word-count: 674
 prev: /chapters/chapter-23.html
 next: /chapters/chapter-25.html
 ---
@@ -29,6 +29,10 @@ next: /chapters/chapter-25.html
 3. Turn or decision
 
 ---
+
+## Chapter Notes (post-hoc)
+
+Chapter 24 reconciled.
 
 ## Chapter Text
 
@@ -73,8 +77,3 @@ Elias caught the satchel, its weight solid and reassuring against his chest. He 
 The archivist tightened the strap of the satchel. He was no longer just preserving memory. He was dismantling the machine that sought to erase it.
 
 "Let's go," Elias said.
-
-## Chapter Notes
-
-Chapter 24 reconciled.
-

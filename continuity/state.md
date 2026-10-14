@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 28
+current-chapter: 29
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -37,6 +37,15 @@ object-state:
   location: old-transit-bridge
   status: active
 knowledge-state:
+- character: elias-thorne
+  knows: The Scrapyard Settlement is acting as a diversion to draw the sweep teams.
+  learned-in: chapter-29
+- character: kaelen
+  knows: They are infiltrating Sector One via the southern drainage network.
+  learned-in: chapter-29
+- character: jarek
+  knows: The settlement must hold out against heavy artillery to give Elias and Kaelen time.
+  learned-in: chapter-29
 - character: elias-thorne
   knows: Memory M-774-B was altered in a black-site mod lab run by the Oversight Committee.
   learned-in: chapter-01
@@ -246,9 +255,9 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |-----------|----------|----------------|-----------------|-----------|
-| Elias Thorne | Heavy Transport (fleeing Sector Six) | Exhausted, suffering from a blinding migraine | Horrified, desperate | The secondary transports are operating as a decentralized mesh network |
-| Kaelen | Heavy Transport (fleeing Sector Six) | Uninjured | Hardened, resolute | The secondary transports have initiated a localized failsafe |
-| Jarek | Heavy Transport (fleeing Sector Six) | Uninjured | Strained, focused | The staging ground assault forced early deployment of the mobile repeaters |
+| Elias Thorne | Southern Drainage Network | Exhausted, suffering from a blinding migraine | Focused, desperate | The secondary transports are operating as a decentralized mesh network |
+| Kaelen | Southern Drainage Network | Uninjured | Hardened, resolute | The secondary transports have initiated a localized failsafe |
+| Jarek | The Scrapyard Settlement | Uninjured | Strained, resolute | The staging ground assault forced early deployment of the mobile repeaters |
 | Director Vane | The Nexus Spire | Uninjured, composed | Paranoid, determined, commanding | The synchronization overwrite has failed and the command structure is fracturing |
 
 ## Object State
@@ -313,3 +322,7 @@ frontmatter above; the tables below are optional notes it does not read.
 | Elias Thorne | Destroying the primary node was insufficient; the secondary transports are operating as a decentralized mesh network | Chapter 25 |
 | Kaelen | The secondary transports have initiated a localized failsafe and do not need the central hub to synchronize | Chapter 25 |
 | Jarek | The staging ground assault forced the Committee to deploy the mobile repeaters early | Chapter 25 |
+
+| Elias Thorne | The Scrapyard Settlement is acting as a diversion to draw the sweep teams | Chapter 29 |
+| Kaelen | They are infiltrating Sector One via the southern drainage network | Chapter 29 |
+| Jarek | The settlement must hold out against heavy artillery to give Elias and Kaelen time | Chapter 29 |

@@ -15,12 +15,19 @@ status: draft
 mode: discovered
 date: ''
 time: ''
-word-count: 688
+word-count: 683
 prev: /chapters/chapter-26.html
 next: /chapters/chapter-28.html
 ---
 
 # Chapter 27
+
+## Chapter Notes (post-hoc)
+
+Chapter 27 reconciled.
+
+## Chapter Text
+
 
 The captured transport slammed through the Scrapyard Settlement's reinforced perimeter gates, trailing a plume of dead-zone dust and burning ozone. Jarek brought the heavy vehicle to a shuddering halt in the center of the trading plaza. The transport's engine hissed as it dumped its remaining coolant, a white cloud billowing against the rusted facades of the scavenger shelters.
 
@@ -53,9 +60,3 @@ Elias pulled the root key from his pocket—a sleek, obsidian drive containing t
 Elias engaged the primary tether, feeling the massive surge of data slam into his neural rig. The uncorrupted memories flooded his consciousness—the sounds of the Sector Two uprising, the unedited faces of the lost, the true history that Director Vane had tried to bury. He pushed the data outward, channeling the raw truth through the settlement's central spire and into the heavy atmosphere.
 
 The counter-broadcast began. The air above the Scrapyard Settlement shimmered, the visual manifestation of competing truths colliding in the digital spectrum. Elias braced himself against the terminal, holding the line.
-
-## Chapter Notes
-
-Chapter 27 reconciled.
-
-

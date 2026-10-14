@@ -27,3 +27,6 @@ The tone is suspenseful and atmospheric, blending the procedural elements of a m
 ## Notes
 
 Scaffold state: The premise is set. The agents will build upon this foundation to expand the world, characters, and plot.
+<!--
+Model: Jules
+-->

@@ -21,6 +21,13 @@ prev: /chapters/chapter-27.html
 
 # Chapter 28
 
+## Chapter Notes (post-hoc)
+
+Chapter 28 reconciled.
+
+## Chapter Text
+
+
 The migraine hit Elias like a physical blow. It wasn't the dull, throbbing ache he had grown accustomed to since leaving the Nexus Archives; this was a sharp, jagged spike that drove straight through his skull and into the optic nerve. The Scrapyard Settlement's central spire whined with the strain of channeling the uncorrupted memories, its ferrocrete base trembling under the electrical load.
 
 He slumped against the jury-rigged console, his breath coming in ragged gasps. Every time he forced a cycle of raw data outward, his neural interface punished him with a spike of feedback. The air above them continued to shimmer, a localized aurora of static and conflicting truths.
@@ -58,6 +65,3 @@ Elias pulled the root key from the console. The metal was warm to the touch. "We
 Jarek looked around the settlement, at the exhausted scavengers and the cooling generator. "You're asking my people to hold off the Committee's heavy armor."
 
 "I'm asking your people to win the war," Elias said.
-
-
-

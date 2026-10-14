@@ -31,11 +31,12 @@ story: the-memory-archivist
 | 20 | Chapter 20 | elias-thorne | draft | 567 | [chapter-20](chapter-20.md) |
 | 21 | Chapter 21 | elias-thorne | draft | 513 | [chapter-21](chapter-21.md) |
 | 22 | Chapter 22 | elias-thorne | draft | 716 | [chapter-22](chapter-22.md) |
-| 23 | Chapter 23 | elias-thorne | draft | 788 | [chapter-23](chapter-23.md) |
-| 24 | Chapter 24 | elias-thorne | draft | 679 | [chapter-24](chapter-24.md) |
+| 23 | Chapter 23 | elias-thorne | draft | 783 | [chapter-23](chapter-23.md) |
+| 24 | Chapter 24 | elias-thorne | draft | 674 | [chapter-24](chapter-24.md) |
 | 25 | The Signal Repeater Strike | elias-thorne | draft | 941 | [chapter-25](chapter-25.md) |
-| 26 | The Mobile Rewrite | elias-thorne | draft | 506 | [chapter-26](chapter-26.md) |
-| 27 | The Counter-Broadcast | elias-thorne | draft | 688 | [chapter-27](chapter-27.md) |
+| 26 | The Mobile Rewrite | elias-thorne | draft | 501 | [chapter-26](chapter-26.md) |
+| 27 | The Counter-Broadcast | elias-thorne | draft | 683 | [chapter-27](chapter-27.md) |
 | 28 | The Aftermath | elias-thorne | draft | 728 | [chapter-28](chapter-28.md) |
+| 29 | The Settlement Defense | elias-thorne | draft | 608 | [chapter-29](chapter-29.md) |
 
-## Total Word Count: 16195
+## Total Word Count: 16783

@@ -11,6 +11,9 @@ exemptions:
   - code: stray-file
     pattern: "index.md is not part of the story project model"
     reason: GitHub Pages entry point — static site root. Tooling, not record.
+  - code: stray-file
+    pattern: "CHANGELOG.md is not part of the story project model"
+    reason: Record of autonomous agent actions running on the project. Tooling, not record.
 ---
 
 # Exemptions

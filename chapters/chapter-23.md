@@ -15,12 +15,19 @@ status: draft
 mode: discovered
 date: ''
 time: ''
-word-count: 788
+word-count: 783
 prev: /chapters/chapter-22.html
 next: /chapters/chapter-24.html
 ---
 
 # Chapter 23
+
+## Chapter Notes (post-hoc)
+
+Chapter 23 reconciled.
+
+## Chapter Text
+
 
 The interior of the captured crawler was a cramped, claustrophobic shell of polished ferrocrete and heavy mesh. The air smelled of ozone, sweat, and the residual tang of the electromagnetic pulse. The transport's auxiliary lights cast a cold, flickering glow over the cargo bay, leaving the corners in shadow.
 
@@ -77,8 +84,3 @@ He isolated the command node in the Sector Six schematics, a small, heavily fort
 Elias looked at the screen, the data streaming continuously across the terminal. They had the transport. They had the map. And they had the target.
 
 "Then we better start planning," Elias said.
-
-## Chapter Notes
-
-Chapter 23 reconciled.
-
