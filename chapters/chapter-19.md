@@ -1,4 +1,20 @@
 ---
+title: Director Vane's Move
+number: 19
+pov: director-vane
+locations:
+- the-nexus-spire
+characters:
+- director-vane
+mentions:
+- elias-thorne
+- kaelen
+arcs-advanced: []
+status: draft
+mode: ''
+date: ''
+time: ''
+word-count: 549
 prev: /chapters/chapter-18.html
 next: /chapters/chapter-20.html
 ---

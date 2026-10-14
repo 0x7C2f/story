@@ -1,4 +1,21 @@
 ---
+title: Chapter 22
+number: 22
+pov: elias-thorne
+locations:
+- old-transit-bridge
+characters:
+- elias-thorne
+- kaelen
+- jarek
+mentions:
+- director-vane
+arcs-advanced: []
+status: draft
+mode: ''
+date: ''
+time: ''
+word-count: 716
 prev: /chapters/chapter-21.html
 next: /chapters/chapter-23.html
 ---
@@ -50,3 +67,4 @@ Jarek stepped into the bay behind him, his breathing heavy. He looked at the cra
 Elias plugged his rig into the terminal. The screen flickered to life, displaying a cascade of Committee tactical data. They hadn't just captured a transport and its supplies. They had secured a direct, physical tap into Director Vane's operational network.
 
 "We didn't just survive the sweep," Elias said, the cool glow of the screen reflecting in his eyes. "We just took the offensive."
+

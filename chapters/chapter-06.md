@@ -1,4 +1,20 @@
 ---
+title: The Manifest Analysis
+number: 6
+pov: elias-thorne
+locations:
+- the-undercity
+characters:
+- elias-thorne
+- kaelen
+mentions:
+- director-vane
+arcs-advanced: []
+status: draft
+mode: ''
+date: ''
+time: ''
+word-count: 490
 prev: /chapters/chapter-05.html
 next: /chapters/chapter-07.html
 ---
@@ -47,3 +63,4 @@ Silence settled heavily in the cramped junction. The glowing data continued to s
 "They won't," Kaelen replied flatly. "The Committee controls the narrative infrastructure. They'll spin it. We need the key."
 
 Elias looked at the fragmented data, his resolve hardening. "Then we find out where Vane keeps the master keys. We're going back in."
+

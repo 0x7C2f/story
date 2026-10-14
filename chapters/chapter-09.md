@@ -1,4 +1,21 @@
 ---
+title: Escape and Implications
+number: 9
+pov: elias-thorne
+locations:
+- the-nexus-spire
+- the-undercity
+characters:
+- elias-thorne
+- kaelen
+mentions:
+- director-vane
+arcs-advanced: []
+status: draft
+mode: ''
+date: ''
+time: ''
+word-count: 815
 prev: /chapters/chapter-08.html
 next: /chapters/chapter-10.html
 ---
@@ -62,3 +79,4 @@ The silence in the small room was deafening, broken only by the distant, rhythmi
 "We can broadcast the truth instead," Kaelen finished, a hard glint in his eye. "We push the original, unaltered files. We show the whole city what Vane has been doing."
 
 Elias nodded slowly. The task was monumental, a suicide mission by any rational metric. But as the memory archivist felt the weight of history resting in the small, black rig on the table, he knew there was no other choice. They had to break the system to save the truth.
+

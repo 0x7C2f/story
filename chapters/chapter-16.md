@@ -1,4 +1,20 @@
 ---
+title: Proving Their Worth
+number: 16
+pov: elias-thorne
+locations:
+- the-scrapyard-settlement
+characters:
+- elias-thorne
+- kaelen
+- jarek
+mentions: []
+arcs-advanced: []
+status: draft
+mode: ''
+date: ''
+time: ''
+word-count: 620
 prev: /chapters/chapter-15.html
 next: /chapters/chapter-17.html
 ---
@@ -36,3 +52,4 @@ Jarek watched them both, his expression unreadable, before he gave a curt nod.
 "You did what you said you could do," Jarek said, his voice gruff but lacking its earlier edge. "The generator is stable, and the defense plan is sound. You've bought yourselves a place here."
 
 Elias exhaled a long, shaky breath, the tension leaving his shoulders. It was a small victory, but out here in the dust, it was a vital step forward. They were no longer just fugitives running from the city; they had a base, and they had allies.
+

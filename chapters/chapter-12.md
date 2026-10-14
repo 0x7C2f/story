@@ -1,4 +1,20 @@
 ---
+title: The Aftermath
+number: 12
+pov: elias-thorne
+locations:
+- central-broadcast-tower
+characters:
+- elias-thorne
+- kaelen
+mentions:
+- director-vane
+arcs-advanced: []
+status: draft
+mode: ''
+date: ''
+time: ''
+word-count: 343
 prev: /chapters/chapter-11.html
 next: /chapters/chapter-13.html
 ---
@@ -20,3 +36,4 @@ Kaelen moved to stand beside him, her reflection ghosting against the reinforced
 "I know," Elias said, a faint, resolute smile touching his lips. The fear that had driven him since he first discovered the corrupted file in his node had burned away. "But the memory is out there now. They can't erase it again."
 
 They watched the city wake up, changed forever.
+

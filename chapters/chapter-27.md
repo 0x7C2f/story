@@ -3,18 +3,18 @@ title: The Counter-Broadcast
 number: 27
 pov: elias-thorne
 locations:
-  - the-scrapyard-settlement
+- the-scrapyard-settlement
 characters:
-  - elias-thorne
-  - kaelen
-  - jarek
+- elias-thorne
+- kaelen
+- jarek
 mentions:
-  - director-vane
+- director-vane
 arcs-advanced: []
 status: draft
 mode: discovered
-date: ""
-time: ""
+date: ''
+time: ''
 word-count: 688
 prev: /chapters/chapter-26.html
 next: /chapters/chapter-28.html
@@ -57,3 +57,5 @@ The counter-broadcast began. The air above the Scrapyard Settlement shimmered, t
 ## Chapter Notes
 
 Chapter 27 reconciled.
+
+

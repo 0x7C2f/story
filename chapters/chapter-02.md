@@ -1,4 +1,17 @@
 ---
+title: The Descent
+number: 2
+pov: elias-thorne
+locations: []
+characters:
+- elias-thorne
+mentions: []
+arcs-advanced: []
+status: outline
+mode: ''
+date: ''
+time: ''
+word-count: 401
 prev: /chapters/chapter-01.html
 next: /chapters/chapter-03.html
 ---
@@ -30,3 +43,4 @@ He bypassed the initial visual overlay of the coastal seawall. The static return
 Soon, the static coalesced. The holding facility snapped into view, far clearer than before. It wasn't just a corporate installation; it was a black-site modification lab. Rows of containment chairs filled a sterile white room, each occupied by motionless figures wired to central cognitive servers. And standing at the forefront, observing the procedure, was a face Elias recognized—a high-ranking director from the Oversight Committee.
 
 The implication was terrifying. They weren't just storing memories. They were rewriting them at the source.
+

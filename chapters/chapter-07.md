@@ -1,4 +1,20 @@
 ---
+title: The Archive Heist Plan
+number: 7
+pov: elias-thorne
+locations:
+- the-undercity
+characters:
+- elias-thorne
+- kaelen
+mentions:
+- director-vane
+arcs-advanced: []
+status: draft
+mode: ''
+date: ''
+time: ''
+word-count: 466
 prev: /chapters/chapter-06.html
 next: /chapters/chapter-08.html
 ---
@@ -40,3 +56,4 @@ Elias swallowed hard. He knew the risks of an aggressive neural dive. Archiving 
 "Might," Kaelen repeated, raising an eyebrow. "That's a thin wire to walk, Thorne."
 
 "It's the only wire we have," Elias countered, beginning to pack up the portable projector and his rig. "We have the partial manifest. We know they rewrote the Sector Two uprising. If we don't finish this, nobody will. We leave in four hours. Get the EMP."
+

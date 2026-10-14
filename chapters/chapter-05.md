@@ -1,4 +1,21 @@
 ---
+title: Sector Four Infiltration
+number: 5
+pov: elias-thorne
+locations:
+- the-undercity
+- sector-four-black-site
+characters:
+- elias-thorne
+- kaelen
+mentions:
+- director-vane
+arcs-advanced: []
+status: draft
+mode: ''
+date: ''
+time: ''
+word-count: 635
 prev: /chapters/chapter-04.html
 next: /chapters/chapter-06.html
 ---
@@ -53,3 +70,4 @@ The synthetic voice echoed from the ceiling speakers, calm and terrifyingly poli
 "Seventy percent is enough to get us killed, and more than enough to prove your point," Kaelen grabbed Elias by the shoulder. "Pull it!"
 
 Elias severed the tether. The transfer terminated abruptly, leaving a jagged, incomplete file in his drive. He didn't look back as they sprinted down the service corridor, the heavy composite door sealing shut behind them just as the first automated security drones descended into the flooded ruins of the transit hub.
+

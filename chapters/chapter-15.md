@@ -1,4 +1,20 @@
 ---
+title: Negotiating Trust
+number: 15
+pov: elias-thorne
+locations:
+- the-scrapyard-settlement
+characters:
+- elias-thorne
+- kaelen
+- jarek
+mentions: []
+arcs-advanced: []
+status: draft
+mode: ''
+date: ''
+time: ''
+word-count: 580
 prev: /chapters/chapter-14.html
 next: /chapters/chapter-16.html
 ---
@@ -34,3 +50,4 @@ Jarek studied them in silence for a long, uncomfortable moment. He glanced over 
 "Words alone don't keep the cold out," Jarek said, his expression remaining hard and unreadable. "But concrete actions might just buy you some time. You'll get a damp corner in the lower hab block for tonight. Tomorrow morning, you prove you're as useful as you claim to be. If you can't, you're going right back out into the dust."
 
 It wasn't a warm welcome by any means, but it was a much-needed start. Elias nodded. "We'll prove it."
+

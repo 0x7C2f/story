@@ -1,4 +1,21 @@
 ---
+title: Chapter 21
+number: 21
+pov: elias-thorne
+locations:
+- the-scrapyard-settlement
+characters:
+- elias-thorne
+- kaelen
+- jarek
+mentions:
+- director-vane
+arcs-advanced: []
+status: draft
+mode: ''
+date: ''
+time: ''
+word-count: 513
 prev: /chapters/chapter-20.html
 next: /chapters/chapter-22.html
 ---
@@ -38,3 +55,4 @@ Jarek’s expression hardened. "They think they're hunting us," he said, drawing
 Elias looked up from the screen. The fear that had driven him since he fled the Nexus Archives was gone, replaced by a cold, procedural clarity. "We aren't going to run," he said, confirming the decision. "We're going to set an ambush. If we can capture one of their transports, we won't just survive the sweep—we'll have a way to strike back."
 
 Jarek grinned, a flash of white teeth in the gloom. "Now you're talking like a Scavenger, archivist. Let's move."
+

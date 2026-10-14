@@ -1,4 +1,18 @@
 ---
+title: The Outskirts Settlement
+number: 14
+pov: elias-thorne
+locations:
+- the-scrapyard-settlement
+characters:
+- elias-thorne
+- kaelen
+mentions: []
+arcs-advanced: []
+status: draft
+date: ''
+time: ''
+word-count: 443
 prev: /chapters/chapter-13.html
 next: /chapters/chapter-15.html
 ---
@@ -30,3 +44,4 @@ The guard's expression shifted, the hostility giving way to wary curiosity. For 
 The guard lowered the rifle slightly, gesturing toward a heavily reinforced gate built from a repurposed airlock. "The Scavengers might want to hear what you have to say. But if you're lying, you'll end up as fertilizer for the fungal farms."
 
 Elias exchanged a look with Kaelen. It wasn't a warm welcome, but out here in the dust, it was the best they were going to get. They stepped forward, passing into the shadow of the settlement.
+

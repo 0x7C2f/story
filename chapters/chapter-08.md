@@ -1,4 +1,20 @@
 ---
+title: The Spire Heist
+number: 8
+pov: elias-thorne
+locations:
+- the-nexus-spire
+characters:
+- elias-thorne
+- kaelen
+mentions:
+- director-vane
+arcs-advanced: []
+status: draft
+mode: ''
+date: ''
+time: ''
+word-count: 715
 prev: /chapters/chapter-07.html
 next: /chapters/chapter-09.html
 ---
@@ -66,3 +82,4 @@ Elias ripped the node from his temple with a strangled cry, collapsing onto the 
 "Did you get it?" Kaelen demanded, hauling Elias to his feet as the distant hum of the secondary generators began to rise.
 
 "I got the key," Elias rasped, his vision swimming. "But Kaelen... it's worse than we thought. They're going to overwrite the whole city."
+

@@ -1,4 +1,19 @@
 ---
+title: Forging a Resistance
+number: 17
+pov: elias-thorne
+locations:
+- the-scrapyard-settlement
+characters:
+- elias-thorne
+- kaelen
+- jarek
+mentions: []
+arcs-advanced: []
+status: draft
+date: ''
+time: ''
+word-count: 546
 prev: /chapters/chapter-16.html
 next: /chapters/chapter-18.html
 ---
@@ -26,3 +41,4 @@ Jarek rubbed his jaw thoughtfully. "There's an old, abandoned relay station abou
 Jarek stared at the flickering map for a long moment before nodding slowly. "Alright. I'll assemble a salvage team. Kaelen, you're leading the security detail. Elias, you're with me. We make sure the tech is still viable before we haul it back. Any of you know what a signal repeater looks like?"
 
 As the meeting concluded and they began to finalize the logistics for the salvage run, Elias felt a subtle shift in the atmosphere. The desperation of their flight from the city had evolved into something sharper, something far more potent. They were no longer just running; they were organizing. They were building a resistance.
+

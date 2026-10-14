@@ -1,4 +1,19 @@
 ---
+title: The Black Site Protocol
+number: 4
+pov: elias-thorne
+locations:
+- the-undercity
+characters:
+- elias-thorne
+- kaelen
+mentions: []
+arcs-advanced: []
+status: draft
+mode: ''
+date: ''
+time: ''
+word-count: 450
 prev: /chapters/chapter-03.html
 next: /chapters/chapter-05.html
 ---
@@ -38,3 +53,4 @@ Elias leaned closer, studying the schematic. It depicted a subterranean structur
 "It's a suicide run," Kaelen warned, though the gleam in her eyes suggested they were already calculating the odds. "We'll need to bypass the sentries. Spoof the biometric scanners. Pull the data before their failsafes trigger a purge."
 
 "Then we better start planning," Elias said, his voice steady. He looked at the fragmented memory on the screen, the fabricated childhood of an unknown citizen. He couldn't save the past that had already been lost, but he could fight for the truth of tomorrow.
+

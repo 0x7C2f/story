@@ -1,4 +1,17 @@
 ---
+title: Chapter 10
+number: 10
+mode: ''
+pov: elias-thorne
+status: draft
+word-count: 396
+characters:
+- elias-thorne
+- kaelen
+mentions:
+- director-vane
+locations:
+- the-undercity
 prev: /chapters/chapter-09.html
 next: /chapters/chapter-11.html
 ---
@@ -26,3 +39,4 @@ Elias nodded slowly. "We need a diversion. Something loud enough to draw the Com
 "They won't," Kaelen said, her tone resolute. "We didn't come this far to let them rewrite history."
 
 Elias looked at the drive again. The weight of the city's truth rested in his palm. The past was slipping away, but for the first time since he found the fragment, he felt a surge of clarity. They were going to the surface, and they were going to broadcast the truth.
+

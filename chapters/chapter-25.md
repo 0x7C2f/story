@@ -1,4 +1,21 @@
 ---
+title: The Signal Repeater Strike
+number: 25
+pov: elias-thorne
+locations:
+- sector-six-staging-ground
+characters:
+- elias-thorne
+- kaelen
+- jarek
+mentions:
+- director-vane
+arcs-advanced: []
+status: draft
+mode: outlined
+date: ''
+time: ''
+word-count: 941
 prev: /chapters/chapter-24.html
 next: /chapters/chapter-26.html
 ---
@@ -64,3 +81,4 @@ Jarek tore through the remaining barrier of the western gate, the transport shud
 Elias looked at the map. The red markers were beginning to fan out, moving steadily toward the Outskirts.
 
 "It means we didn't stop the wipe," Elias said quietly, the grim reality settling over him like ash. "We just forced them to deploy early."
+

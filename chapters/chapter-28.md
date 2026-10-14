@@ -3,18 +3,18 @@ title: The Aftermath
 number: 28
 pov: elias-thorne
 locations:
-  - the-scrapyard-settlement
+- the-scrapyard-settlement
 characters:
-  - elias-thorne
-  - kaelen
-  - jarek
+- elias-thorne
+- kaelen
+- jarek
 mentions:
-  - director-vane
+- director-vane
 arcs-advanced: []
 status: draft
 mode: discovered
-date: ""
-time: ""
+date: ''
+time: ''
 word-count: 728
 prev: /chapters/chapter-27.html
 ---
@@ -58,3 +58,6 @@ Elias pulled the root key from the console. The metal was warm to the touch. "We
 Jarek looked around the settlement, at the exhausted scavengers and the cooling generator. "You're asking my people to hold off the Committee's heavy armor."
 
 "I'm asking your people to win the war," Elias said.
+
+
+

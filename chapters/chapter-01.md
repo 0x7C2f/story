@@ -1,4 +1,17 @@
 ---
+title: The Fragment
+number: 1
+pov: elias-thorne
+locations: []
+characters:
+- elias-thorne
+mentions: []
+arcs-advanced: []
+status: outline
+mode: ''
+date: ''
+time: ''
+word-count: 451
 next: /chapters/chapter-02.html
 ---
 
@@ -31,3 +44,4 @@ Elias knew the protocol. He was supposed to flag the file as corrupted, delete t
 As the transfer completed, the lights in his office flickered, and the archive node emitted a low, warning hum. A notification flashed on his main screen: *Unauthorized Data Extraction Detected. Security Protocol Initiated.*
 
 He had less than two minutes before the Archive sentinels breached his sector. Grabbing his coat and the drive, Elias plunged into the labyrinthine corridors of the Archives, leaving behind the safety of his routine and stepping into the shadows of a rewritten past.
+

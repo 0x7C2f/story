@@ -1,4 +1,19 @@
 ---
+title: The Outskirts
+number: 13
+pov: elias-thorne
+locations:
+- new-providence-outskirts
+characters:
+- elias-thorne
+- kaelen
+mentions:
+- director-vane
+arcs-advanced: []
+status: draft
+date: ''
+time: ''
+word-count: 287
 prev: /chapters/chapter-12.html
 next: /chapters/chapter-14.html
 ---
@@ -18,3 +33,4 @@ He touched his pocket, feeling the reassuring shape of the physical drive. It wa
 "It's going to be a long road, Elias," Kaelen warned, though a rare, faint smile touched her lips.
 
 "We have time," he said, turning away from the city at last and looking out into the expansive, unwritten terrain of the Outskirts. "We have the rest of our lives. And this time, we get to remember it all."
+
