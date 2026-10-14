@@ -52,6 +52,9 @@ progressions:
   - from: chapter-23
     field: standing
     value: "Committed to attacking the Sector Six staging ground"
+  - from: chapter-25
+    field: standing
+    value: "Fleeing the staging ground after planting the charges, forced to deal with the early deployment"
 ---
 
 # Jarek
@@ -178,3 +181,5 @@ the price of the question, not agreement with it.
 | Chapter 17 | Scouts report drones on the ridge; commits the settlement to resistance and assembles the salvage team | The settlement stops hiding |
 | Chapter 22 | Detonates the EMP charge and helps capture a transport | Proves the resistance's capability |
 | Chapter 23 | Learns of the mobile rewrite protocol; agrees to assault the staging ground to protect the settlement | Defends his people by taking the fight to the enemy |
+| Chapter 24 | Pilots the captured transport into Sector Six | Takes a direct, frontline role in the assault |
+| Chapter 25 | Plants the EMP charges on the primary node and pilots the escape transport | Executes the tactical strike, but learns his settlement is still in immediate danger |

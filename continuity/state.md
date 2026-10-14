@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 24
+current-chapter: 25
 character-state:
   - character: director-vane
     location: the-nexus-spire
@@ -9,12 +9,12 @@ character-state:
     emotional: Paranoid, determined, commanding
   - character: elias-thorne
     location: sector-six-staging-ground
-    physical: Exhausted but uninjured from the radiation exposure
-    emotional: Relieved, allied, tense
+    physical: Exhausted, suffering from a blinding migraine
+    emotional: Horrified, desperate
   - character: kaelen
     location: sector-six-staging-ground
-    physical: Uninjured from the radiation exposure
-    emotional: Vigilant, allied, tense
+    physical: Uninjured
+    emotional: Hardened, resolute
   - character: jarek
     location: sector-six-staging-ground
     physical: Uninjured from the radiation exposure
@@ -205,6 +205,15 @@ knowledge-state:
   - character: jarek
     knows: The resistance has successfully infiltrated the Sector Six staging ground.
     learned-in: chapter-24
+  - character: elias-thorne
+    knows: Destroying the primary node was insufficient; the secondary transports are operating as a decentralized mesh network.
+    learned-in: chapter-25
+  - character: kaelen
+    knows: The secondary transports have initiated a localized failsafe and do not need the central hub to synchronize.
+    learned-in: chapter-25
+  - character: jarek
+    knows: The staging ground assault forced the Committee to deploy the mobile repeaters early.
+    learned-in: chapter-25
 ---
 
 # Continuity State
@@ -219,9 +228,9 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |-----------|----------|----------------|-----------------|-----------|
-| Elias Thorne | Sector Six Staging Ground | Exhausted but uninjured from the radiation exposure | Relieved, allied | The salvaged military-grade signal repeaters are viable |
-| Kaelen | Sector Six Staging Ground | Uninjured from the radiation exposure | Vigilant, allied | The salvaged military-grade signal repeaters are viable |
-| Jarek | Sector Six Staging Ground | Uninjured from the radiation exposure | Allied and determined | The salvaged military-grade signal repeaters are viable |
+| Elias Thorne | Heavy Transport (fleeing Sector Six) | Exhausted, suffering from a blinding migraine | Horrified, desperate | The secondary transports are operating as a decentralized mesh network |
+| Kaelen | Heavy Transport (fleeing Sector Six) | Uninjured | Hardened, resolute | The secondary transports have initiated a localized failsafe |
+| Jarek | Heavy Transport (fleeing Sector Six) | Uninjured | Strained, focused | The staging ground assault forced early deployment of the mobile repeaters |
 | Director Vane | The Nexus Spire | Uninjured, composed | Paranoid, determined, commanding | The synchronization overwrite has failed and the command structure is fracturing |
 
 ## Object State
@@ -232,7 +241,7 @@ frontmatter above; the tables below are optional notes it does not read.
 | Partial Batch Manifest | Elias Thorne | The Undercity | Active |
 | Signal Repeaters | Jarek | Sector Six Staging Ground | Active |
 | Mesh Network | Elias Thorne | Sector Six Staging Ground | Active |
-| Heavy Transport | Jarek | Old Transit Bridge | Active |
+| Heavy Transport | Jarek | Fleeing Sector Six | Active |
 
 ## Knowledge State
 
@@ -283,3 +292,6 @@ frontmatter above; the tables below are optional notes it does not read.
 | Elias Thorne | The resistance has captured a heavy transport and secured a physical tap into the operational network | Chapter 22 |
 | Kaelen | The resistance has captured a heavy transport and secured a physical tap into the operational network | Chapter 22 |
 | Jarek | The resistance has captured a heavy transport and secured a physical tap into the operational network | Chapter 22 |
+| Elias Thorne | Destroying the primary node was insufficient; the secondary transports are operating as a decentralized mesh network | Chapter 25 |
+| Kaelen | The secondary transports have initiated a localized failsafe and do not need the central hub to synchronize | Chapter 25 |
+| Jarek | The staging ground assault forced the Committee to deploy the mobile repeaters early | Chapter 25 |

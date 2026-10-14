@@ -33,3 +33,4 @@ story: the-memory-archivist
 | chapter-22 | 1 | The Transit Bridge Ambush | elias-thorne | draft | [chapter-22-scene-01](chapter-22-scene-01.md) |
 | chapter-23 | 1 | Network Analysis | elias-thorne | draft | [chapter-23-scene-01](chapter-23-scene-01.md) |
 | chapter-24 | 1 | Sector Six Staging Ground Infiltration | elias-thorne | draft | [chapter-24-scene-01](chapter-24-scene-01.md) |
+| chapter-25 | 1 | The Signal Repeater Strike | elias-thorne | draft | [chapter-25-scene-01](chapter-25-scene-01.md) |
