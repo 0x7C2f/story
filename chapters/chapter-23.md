@@ -12,7 +12,7 @@ mentions:
   - director-vane
 arcs-advanced: []
 status: draft
-mode: discovered
+mode: ""
 date: ""
 time: ""
 word-count: 788

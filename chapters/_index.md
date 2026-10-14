@@ -33,5 +33,6 @@ story: the-memory-archivist
 | 22 | Chapter 22 | elias-thorne | draft | 716 | [chapter-22](chapter-22.md) |
 | 23 | Chapter 23 | elias-thorne | draft | 788 | [chapter-23](chapter-23.md) |
 | 24 | Chapter 24 | elias-thorne | draft | 679 | [chapter-24](chapter-24.md) |
+| 25 | Chapter 25 | elias-thorne | outline | 0 | [chapter-25](chapter-25.md) |
 
 ## Total Word Count: 13332
