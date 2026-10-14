@@ -3,17 +3,9 @@ name: record-integrity
 on:
   push:
     branches: [main]
-    paths-ignore:
-      - 'README.md'
-      - '.github/workflows/pages.yml'
-      - '.nojekyll'
   pull_request:
     branches: [main]
     types: [opened, synchronize, reopened, closed]
-    paths-ignore:
-      - 'README.md'
-      - '.github/workflows/pages.yml'
-      - '.nojekyll'
   merge_group:
   workflow_dispatch:
 
@@ -21,6 +13,8 @@ permissions:
   contents: write
   issues: write
   pull-requests: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: record-integrity-${{ github.ref }}
@@ -137,3 +131,135 @@ jobs:
             exit 0
           fi
           gh pr merge "$pr" --merge
+
+  deploy-pages:
+    name: Build and deploy GitHub Pages
+    needs: gate
+    if: success() && (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    concurrency:
+      group: "pages"
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out the record
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Set up Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 22
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build static reader site in isolated temp directory
+        shell: bash
+        run: |
+          SITE_DIR="$RUNNER_TEMP/site"
+          mkdir -p "$SITE_DIR/docs"
+
+          for dir in chapters scenes characters worldbuilding glossary plot continuity; do
+            if [ -d "$dir" ]; then
+              cp -r "$dir" "$SITE_DIR/docs/"
+            fi
+          done
+
+          if [ -f "story.md" ]; then
+            cp story.md "$SITE_DIR/docs/index.md"
+          elif [ -f "README.md" ]; then
+            cp README.md "$SITE_DIR/docs/index.md"
+          else
+            echo "# Story Archive" > "$SITE_DIR/docs/index.md"
+          fi
+
+          cd "$SITE_DIR"
+          npm init -y
+          npm install -D vitepress
+
+          mkdir -p docs/.vitepress
+          cat << 'EOF' > docs/.vitepress/config.mjs
+          import { defineConfig } from 'vitepress'
+          import fs from 'node:fs'
+          import path from 'node:path'
+
+          const docsRoot = path.resolve(import.meta.dirname, '..')
+
+          function getSidebarItems(dir) {
+            const fullDir = path.join(docsRoot, dir)
+            if (!fs.existsSync(fullDir)) return []
+            return fs.readdirSync(fullDir)
+              .filter(f => f.endsWith('.md') && f !== 'index.md' && f !== '_index.md')
+              .sort()
+              .map(f => {
+                const name = f.replace(/\.md$/, '')
+                const content = fs.readFileSync(path.join(fullDir, f), 'utf-8')
+                const titleMatch = content.match(/^#\s+(.+)$/m)
+                return {
+                  text: titleMatch ? titleMatch[1].trim() : name,
+                  link: `/${dir}/${name}`
+                }
+              })
+          }
+
+          const sections = [
+            { title: 'Chapters', dir: 'chapters' },
+            { title: 'Scenes', dir: 'scenes' },
+            { title: 'Plot', dir: 'plot' },
+            { title: 'Characters', dir: 'characters' },
+            { title: 'Worldbuilding', dir: 'worldbuilding' },
+            { title: 'Glossary', dir: 'glossary' },
+            { title: 'Continuity', dir: 'continuity' }
+          ]
+
+          const nav = [{ text: 'Home', link: '/' }]
+          const sidebar = []
+
+          for (const s of sections) {
+            const fullDir = path.join(docsRoot, s.dir)
+            if (fs.existsSync(fullDir)) {
+              const hasIndex = fs.existsSync(path.join(fullDir, '_index.md'))
+              const items = getSidebarItems(s.dir)
+              if (hasIndex || items.length > 0) {
+                nav.push({
+                  text: s.title,
+                  link: hasIndex ? `/${s.dir}/` : items[0].link
+                })
+                sidebar.push({
+                  text: s.title,
+                  collapsed: false,
+                  link: hasIndex ? `/${s.dir}/` : undefined,
+                  items
+                })
+              }
+            }
+          }
+
+          export default defineConfig({
+            title: "Story Archive",
+            description: "Autonomous Story Repository",
+            base: "/story/",
+            ignoreDeadLinks: true,
+            rewrites: {
+              ':dir/_index.md': ':dir/index.md'
+            },
+            themeConfig: {
+              search: { provider: 'local' },
+              nav,
+              sidebar
+            }
+          })
+          EOF
+
+          npx vitepress build docs
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ runner.temp }}/site/docs/.vitepress/dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
