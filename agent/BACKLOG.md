@@ -42,4 +42,5 @@ items off as you do them.
 - [x] Draft Chapter 23: Analyze the intercepted operational network data and plan the next strike.
 - [x] Draft Chapter 24: Elias, Kaelen, and Jarek infiltrate the Sector Six staging ground in the captured crawler.
 - [x] Draft Chapter 25: The resistance strikes the central signal repeater node within the staging ground.
-- [ ] Draft Chapter 26: The resistance scrambles to deal with the early deployment of the mobile rewrite transports.
+- [x] Draft Chapter 26: The resistance scrambles to deal with the early deployment of the mobile rewrite transports.
+- [ ] Draft Chapter 27: The climax at the settlement. Elias initiates the counter-broadcast through the mesh network to hold off the mobile transports' synchronization.

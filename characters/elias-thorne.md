@@ -198,6 +198,8 @@ answers himself in the second person when he is alone with a screen.
   command structure. He is no longer preserving memory; he is the reason it
   survived.
 
+- **Chapter 26:** Shifted from defense to offense, theorizing a preemptive counter-broadcast to fracture the mobile rewrite protocol's synchronization.
+
 ## Timeline
 
 | When | Event | Relevance |
@@ -224,3 +226,5 @@ answers himself in the second person when he is alone with a screen.
 | Chapter 23 | Analyzes the operational network to discover a mobile rewrite protocol; plans assault on Sector Six | Chooses to strike rather than run or hide |
 | Chapter 24 | Infiltrates Sector Six using spoofed transponder | Puts his technical skills to use in an offensive field operation |
 | Chapter 25 | Assists in the destruction of the primary node but realizes the secondary transports are operating as a decentralized mesh network | Discovers that blunt force alone is insufficient to stop the Committee |
+
+- **Chapter 26:** Races back to the settlement, planning to use the mesh network to push uncorrupted memories and disrupt the mobile transports.
