@@ -15,7 +15,7 @@ status: draft
 mode: discovered
 date: ""
 time: ""
-word-count: 783
+word-count: 828
 ---
 
 # Chapter 23
@@ -75,3 +75,7 @@ He isolated the command node in the Sector Six schematics, a small, heavily fort
 Elias looked at the screen, the data streaming continuously across the terminal. They had the transport. They had the map. And they had the target.
 
 "Then we better start planning," Elias said.
+
+## Chapter Notes
+
+Elias analyzes the intercepted network data from the captured transport. He discovers Vane's plan to deploy a mobile rewrite protocol using heavy transports anchored in Sector Six. The resistance plans an assault on the Sector Six staging ground to destroy the central node.

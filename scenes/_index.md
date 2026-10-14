@@ -32,4 +32,4 @@ story: the-memory-archivist
 | chapter-21 | 1 | Scene 01 | elias-thorne | draft | [chapter-21-scene-01](chapter-21-scene-01.md) |
 | chapter-22 | 1 | The Transit Bridge Ambush | elias-thorne | draft | [chapter-22-scene-01](chapter-22-scene-01.md) |
 | chapter-23 | 1 | Network Analysis | elias-thorne | draft | [chapter-23-scene-01](chapter-23-scene-01.md) |
-| chapter-24 | 1 | Sector Six Staging Ground Infiltration |  | draft | [chapter-24-scene-01](chapter-24-scene-01.md) |
+| chapter-24 | 1 | Infiltrating the Staging Ground | elias-thorne | draft | [chapter-24-scene-01](chapter-24-scene-01.md) |
