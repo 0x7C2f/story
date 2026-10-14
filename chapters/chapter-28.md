@@ -15,7 +15,7 @@ status: draft
 mode: discovered
 date: ''
 time: ''
-word-count: 728
+word-count: 733
 prev: /chapters/chapter-27.html
 ---
 
@@ -61,3 +61,7 @@ Jarek looked around the settlement, at the exhausted scavengers and the cooling 
 
 
 
+
+## Chapter Notes
+
+Chapter 28 reconciled.

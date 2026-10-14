@@ -36,7 +36,8 @@ story: the-memory-archivist
 | 25 | The Signal Repeater Strike | elias-thorne | draft | 941 | [chapter-25](chapter-25.md) |
 | 26 | The Mobile Rewrite | elias-thorne | draft | 506 | [chapter-26](chapter-26.md) |
 | 27 | The Counter-Broadcast | elias-thorne | draft | 688 | [chapter-27](chapter-27.md) |
-| 28 | The Aftermath | elias-thorne | draft | 728 | [chapter-28](chapter-28.md) |
+| 28 | The Aftermath | elias-thorne | draft | 733 | [chapter-28](chapter-28.md) |
 | 29 | Chapter 29 | elias-thorne | draft | 667 | [chapter-29](chapter-29.md) |
+| 30 | Chapter 30 | elias-thorne | draft | 649 | [chapter-30](chapter-30.md) |
 
-## Total Word Count: 16862
+## Total Word Count: 17516

@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 29
+current-chapter: 30
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -10,15 +10,15 @@ character-state:
 - character: elias-thorne
   location: the-scrapyard-settlement
   physical: Recovering from severe neural strain
-  emotional: Determined, procedural
+  emotional: Resolved, preparing for infiltration
 - character: kaelen
   location: the-scrapyard-settlement
   physical: Uninjured
-  emotional: Tense, focused
+  emotional: Calculating, preparing for infiltration
 - character: jarek
   location: the-scrapyard-settlement
   physical: Uninjured
-  emotional: Resolved, preparing for siege
+  emotional: Grim, organizing defense
 object-state:
 - artifact: physical-drive-m-774-b
   owner: elias-thorne
@@ -34,7 +34,7 @@ object-state:
   status: active
 - artifact: heavy-transport
   owner: jarek
-  location: old-transit-bridge
+  location: the-scrapyard-settlement
   status: active
 knowledge-state:
 - character: elias-thorne

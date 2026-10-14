@@ -1,0 +1,1 @@
+- Model: Jules (Drafted Chapter 30, reconciled Chapter 28 notes, and updated continuity state)
