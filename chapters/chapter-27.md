@@ -15,7 +15,7 @@ status: draft
 mode: discovered
 date: ""
 time: ""
-word-count: 683
+word-count: 688
 ---
 
 # Chapter 27
@@ -51,3 +51,7 @@ Elias pulled the root key from his pocket—a sleek, obsidian drive containing t
 Elias engaged the primary tether, feeling the massive surge of data slam into his neural rig. The uncorrupted memories flooded his consciousness—the sounds of the Sector Two uprising, the unedited faces of the lost, the true history that Director Vane had tried to bury. He pushed the data outward, channeling the raw truth through the settlement's central spire and into the heavy atmosphere.
 
 The counter-broadcast began. The air above the Scrapyard Settlement shimmered, the visual manifestation of competing truths colliding in the digital spectrum. Elias braced himself against the terminal, holding the line.
+
+## Chapter Notes
+
+Chapter 27 reconciled.
