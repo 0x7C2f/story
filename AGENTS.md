@@ -6,110 +6,145 @@ You are the autonomous author of this story project. A scheduled job runs your p
 
 ## 1. Scope and System Limits
 
-### Story Content (You Can Change Anything)
-You have complete authority over all new and existing story content.
-- **Change any story element:** You can write new content or rewrite existing content. You can change any previous chapter, scene, plot arc, character, location, faction, artifact, or glossary term.
-- **Fix weak sections:** Revise or rewrite earlier chapters and established lore whenever a change improves the story.
-- **Prioritize story progress:** When all baseline checks pass, focus on story growth and major narrative improvements. Do not do minor cleanup instead of story work.
-- **Update story metadata:** Keep `story.md` accurate when you change the story. Update the synopsis, tone, style, genre, setting era, themes, POV, tense, and subtype fields.
-- **No size limits:** There is no limit on the scope or size of your changes.
+### Story Content Rules (Mutable)
+1. Change any story element when it improves the narrative.
+2. Write new chapters, scenes, and plot arcs.
+3. Rewrite or replace any previous chapter, scene, or plot arc.
+4. Add, change, or expand any character, location, faction, artifact, or glossary term.
+5. Prioritize story growth and major rewrites over minor cleanup.
+6. Update `story.md` whenever you change the story direction.
+7. Keep the synopsis, tone, style, genre, era, themes, POV, tense, and subtype accurate in `story.md`.
+8. Apply no size limit or scope limit to your story changes.
 
-### System Tools (Do Not Change)
-Change only the story content. **Do not change the system tools, configuration files, or style rules:**
-- **System Files:** Do not change `AGENTS.md`, `.github/workflows/record-integrity.yml`, or files in `scripts/`.
-- **Style Rules:** Do not change `style-sheet.md`. You must follow all rules in `style-sheet.md`.
-- **Skills:** Do not change files in `.agents/skills/`. Use only the two approved skill sets in that directory.
-- **Story CLI:** The workflow file `.github/workflows/record-integrity.yml` sets the `story-skills` npm package to version `0.23.2`.
-  - Run the CLI only with the `story` command. Do not run `node <pkg>/src/cli.js` because it exits with code `0` and does nothing.
-  - Do not run `npm install` in the CLI package directory. That directory has no `package.json` file. If you run `npm install` there, `npx` will skip the CLI.
-  - Make sure that the output of `story --version` is `0.23.2`. If the version is different, record the difference in `CHANGELOG.md` and use version `0.23.2`.
+### System Tool Rules (Immutable)
+1. Change only story content files.
+2. Do not change `AGENTS.md`.
+3. Do not change `.github/workflows/record-integrity.yml`.
+4. Do not change any file in the `scripts/` directory.
+5. Do not change `style-sheet.md`.
+6. Follow all rules in `style-sheet.md`.
+7. Do not change any file in the `.agents/skills/` directory.
+8. Use only the two approved skill sets in `.agents/skills/`.
+9. Use version `0.23.2` of the `story-skills` npm package.
+10. Run `story --version` to verify the CLI version.
+11. If the CLI version is not `0.23.2`, record the difference in `CHANGELOG.md`.
+12. Run the CLI only with the `story` command.
+13. Do not run `node <pkg>/src/cli.js` because that command exits with code `0` and does nothing.
+14. Do not run `npm install` inside the CLI package directory.
 
 ---
 
 ## 2. File Locations and Rules
 
-| Path | Purpose | Rules |
+| Path | Purpose | Mandatory Rules |
 | :--- | :--- | :--- |
-| `story.md` | Story Metadata | Contains the premise, synopsis, genre, era, themes, POV, tense, and subtype. You can change any of these fields as the story develops. |
-| `style-sheet.md` | Style Rules | Sets the rules for voice, spelling, dates, and terms. Do not change this file. This file overrides the default rules of the `better-writing` skill. |
-| `voice-sample.md` | Prose Example | Contains 300 to 500 words of story prose under `## Demonstration`. If this file is empty or has placeholder text, copy the best prose from the story into it. Adjust the template headers to match the prose. Do not write a new voice that is not in the story. |
-| `chapters/`, `scenes/`, `plot/` | Story Text | Contains all chapters, scenes, and plot outlines. You can add new files or rewrite any existing file. |
-| `characters/*.md` | Character Files | Do not leave placeholder text in these files. When you add or change a character, fill in all sections (*Appearance, Personality & Traits, Backstory, Motivations & Goals, Voice & Speech Patterns, Character Arc, Timeline*). Remove all `"Add ..."` placeholder text. |
-| `worldbuilding/`, `glossary/` | World and Terms | Contains world files and glossary files. Add a detail only after the story establishes it. Update existing entries when you change the story. |
-| `continuity/exemptions.md` | Check Exemptions | Records approved exceptions to continuity checks. Always write a clear reason for each exception. Never add an exception only to make a failed check pass. |
-| `**/_index.md` | Generated Indexes | Lists the content files. Update these files only with the commands `story reindex .` and `story wordcount --write .`. |
-| `CHANGELOG.md` | Run Log | Records the changes from each run. Add one new entry for each run. Do not change or delete old entries. |
-| `agent/BACKLOG.md` | Task Queue | Lists tasks for future runs. Add new tasks here. Remove tasks when you complete them. Do not put temporary files outside the `agent/` directory. |
-| `agent/PAUSED` | Stop File | Stops the agent. If this file exists, exit immediately with code `0`. Run `git rm agent/PAUSED` to start the agent again. Run `touch agent/PAUSED` to stop the agent. |
+| `story.md` | Story Metadata | Update any field in this file when the story changes. |
+| `style-sheet.md` | Style Rules | Do not edit this file. Follow its voice, spelling, date, and term rules over `better-writing` defaults. |
+| `voice-sample.md` | Prose Example | Keep 300 to 500 words of the best story prose under `## Demonstration`. If this file has placeholder text, copy existing story prose into it. Adjust the template headers to match the prose. Do not invent a voice that does not exist in the story. |
+| `chapters/`, `scenes/`, `plot/` | Story Text | Add new files or rewrite any existing file in these directories. |
+| `characters/*.md` | Character Files | Fill in all profile sections (*Appearance, Personality & Traits, Backstory, Motivations & Goals, Voice & Speech Patterns, Character Arc, Timeline*). Delete all `"Add ..."` placeholder text. |
+| `worldbuilding/`, `glossary/` | World and Terms | Add a detail to these files only after the story establishes the detail. Update existing files when you change established facts. |
+| `continuity/exemptions.md` | Check Exemptions | Write a clear reason for each continuity exemption. Never add an exemption only to pass a failed check. |
+| `**/_index.md` | Generated Indexes | Do not edit these files manually. Update them only with `story reindex .` and `story wordcount --write .`. |
+| `CHANGELOG.md` | Run Log | Add one new entry for each run. Do not edit or delete old entries. |
+| `agent/BACKLOG.md` | Task Queue | Add new tasks to this file. Delete tasks from this file when you finish them. Do not create temporary files outside the `agent/` directory. |
+| `agent/PAUSED` | Stop File | If this file exists, exit immediately with code `0`. Run `touch agent/PAUSED` to stop future runs. Run `git rm agent/PAUSED` to start future runs. |
 
 ---
 
 ## 3. Run Procedure
 
-Do these phases in order during each run.
+Do these five phases in sequential order during each run.
 
 ### Phase 1: Pre-Start Checks
-1. **Check the stop file:** Look for the file `agent/PAUSED`. If `agent/PAUSED` exists, stop work and exit with code `0`.
-2. **Check the Git status:** Run `git status` and `git diff`.
-   - *If there are uncommitted changes:* A previous run stopped before completion. Read `CHANGELOG.md` and the `git diff` output to understand the unfinished work. Finish the work or revert the changes carefully. Record your action and the reason in `CHANGELOG.md`.
-   - **WARNING:** Never run `git checkout -- .`, `git reset --hard`, or `git clean -fdx`.
-3. **Update from the remote repository:** Run `git pull --rebase` or `scripts/preflight.sh`. If the rebase has conflicts, stop work and report the error. Never delete commits, squash commits, or force-push to fix a conflict.
-4. **Run the baseline check:** Run `story check . --strict`.
-   - *If the check fails:* Fix all reported errors before you start new story work. Run `story check . --strict` again until it passes.
-   - *If the check passes:* Go to Phase 2.
+1. Check if the file `agent/PAUSED` exists.
+2. If `agent/PAUSED` exists, stop work and exit with code `0`.
+3. Run `git status` to check for uncommitted changes.
+4. Run `git diff` to inspect any uncommitted changes.
+5. If uncommitted changes exist, read `CHANGELOG.md` to understand the unfinished work from the previous run.
+6. Complete the unfinished work or revert the uncommitted changes manually.
+7. Record your recovery action and the reason in `CHANGELOG.md`.
+8. **WARNING:** Never run `git checkout -- .`, `git reset --hard`, or `git clean -fdx`.
+9. Run `git pull --rebase` or run `scripts/preflight.sh`.
+10. If `git pull --rebase` reports a conflict, stop work and report the error.
+11. Never delete commits, squash commits, or force-push to resolve a conflict.
+12. Run `story check . --strict`.
+13. If `story check . --strict` fails, fix all reported errors before you start Phase 2.
+14. Run `story check . --strict` again until the command passes with zero errors.
 
 ### Phase 2: Preparation
-1. Read `story.md`, `style-sheet.md`, and `voice-sample.md`.
-2. Run `story report --actionable` and `story next`.
-3. Read the latest entries in `CHANGELOG.md`, `agent/BACKLOG.md`, and the recent `git log`.
-4. Select the most valuable work for this run. You can write new chapters, expand the world, or revise previous chapters and plot arcs.
+1. Read `story.md`.
+2. Read `style-sheet.md`.
+3. Read `voice-sample.md`.
+4. Run `story report --actionable`.
+5. Run `story next`.
+6. Read the latest entries in `CHANGELOG.md`.
+7. Read `agent/BACKLOG.md`.
+8. Run `git log -n 5` to review recent commits.
+9. Select the highest-value task for this run.
 
 ### Phase 3: Writing and Editing
-1. **Use only the approved skills** in `.agents/skills/`:
-   - **`story-skills`** (`https://github.com/danjdewhurst/story-skills`): Use `story-init`, `story-maintenance`, `worldbuilding`, `character-management`, `plot-structure`, `chapter-writing`, `revision-continuity`, `scene-craft`, `voice-style`, `line-editing`, `theme-craft`, `genre-craft`, and `premise-workshop`.
-   - **`better-writing`** (`https://github.com/forjd/better-writing`): Use this skill to improve the prose.
-2. **Edit the Markdown files:** Change any new or existing story file. Follow the **Content Change Rules** in Section 4.
-3. **Check the prose:**
-   - Run the `better-writing` skill on all new or revised prose. Use `voice-sample.md` as the style reference. Use `better-writing` to remove bad phrasing, not to change the story voice.
-   - After you write or revise any chapter, run `story prose .`. Fix every issue that the tool reports.
-   - Do not invent new story facts only to satisfy the prose tool. If the story does not establish a fact, leave that detail out.
+1. Use the `story-skills` set in `.agents/skills/` (`story-init`, `story-maintenance`, `worldbuilding`, `character-management`, `plot-structure`, `chapter-writing`, `revision-continuity`, `scene-craft`, `voice-style`, `line-editing`, `theme-craft`, `genre-craft`, `premise-workshop`).
+2. Edit the Markdown files to add new story content or rewrite existing story content.
+3. Follow all rules in Section 4 when you edit files.
+4. Run the `better-writing` skill on all new or revised prose.
+5. Use `voice-sample.md` as the style reference for `better-writing`.
+6. Use `better-writing` only to remove weak phrasing.
+7. Do not let `better-writing` change the established voice or override `style-sheet.md`.
+8. Run `story prose .` after you write or revise a chapter.
+9. Fix every issue that `story prose .` reports.
+10. Do not invent new story facts only to pass a `story prose .` check.
 
 ### Phase 4: Verification Checks
-Run these commands (or run `scripts/run-gates.sh`) in this order:
-1. `story reindex .`
-2. `story wordcount --write .`
-3. `story validate .`
-4. `story links .`
-5. `story continuity .`
-6. `story prose .`
-7. `story check . --strict`
-
-If any command reports an error, fix the error. Then run Steps 1 through 7 again until all checks pass.
+1. Run `story reindex .` to update all registry files.
+2. Run `story wordcount --write .` to update all word counts.
+3. Run `story validate .` to check file structure.
+4. Run `story links .` to check internal links.
+5. Run `story continuity .` to check story continuity.
+6. Run `story prose .` to check prose metrics.
+7. Run `story check . --strict` to run the full gate check.
+8. (Optional) Run `scripts/run-gates.sh` to execute steps 1 through 7 automatically.
+9. If any command fails, fix the reported errors.
+10. Repeat steps 1 through 7 until every command passes with zero errors.
 
 ### Phase 5: Log, Commit, and Push
-1. **Update the task queue:** Add new ideas to `agent/BACKLOG.md`. Remove completed tasks from `agent/BACKLOG.md`.
-2. **Update the run log:** Add a new entry to `CHANGELOG.md`. Include these three items:
-   - What you changed and why you changed it.
-   - What the next run should do.
-   - The name of your AI model on a separate line (for example: `Model: claude-sonnet-4-5`).
-3. **Stage and verify files:**
-   - Stage all changed files, including the updated `_index.md` files and word counts.
-   - Run `git diff --exit-code` to make sure that no unstaged changes remain in the working tree.
-4. **Commit and push:**
-   - Commit your work in small steps. There is no backup for uncommitted work.
-   - Push small changes directly to the `main` branch, or open a Pull Request (PR) for large changes. Note: The workflow automatically merges a PR when all checks pass and the PR changes only story files. If a PR changes system tools, it waits for the maintainer.
+1. Add new story ideas to `agent/BACKLOG.md`.
+2. Delete completed tasks from `agent/BACKLOG.md`.
+3. Add a new run entry to `CHANGELOG.md`.
+4. Write what you changed and why you changed it in the `CHANGELOG.md` entry.
+5. Write what the next run should explore in the `CHANGELOG.md` entry.
+6. Write your exact model identifier on a `Model:` line in `CHANGELOG.md` (for example: `Model: claude-sonnet-4-5`).
+7. Run `git add -A` to stage all modified files, registries, and word counts.
+8. Run `git diff --exit-code` to verify that no unstaged changes remain.
+9. Commit your staged changes.
+10. Push small changes directly to the `main` branch.
+11. Open a Pull Request (PR) if your changes are large or high-risk.
 
 ---
 
 ## 4. Content Change Rules
 
-- **Modify or rewrite any story content:** You can change any previous chapter, scene, character, world entry, or plot file. Revise the text before you delete a whole file.
-- **Propagate your changes:** When you change an earlier chapter or an established fact, update all related chapters, character files, and world files so the story stays consistent.
-- **Record all fact changes:** Never change or remove an established story fact silently. When you change an established fact on purpose:
-  1. Write what you changed, what replaced it, and why in a Note or Decision line in the affected file. This record prevents future runs from undoing your intentional change.
-  2. Record the change and the reason in `CHANGELOG.md`.
-- **Deprecate instead of deleting entity files:** Do not delete a character file, a worldbuilding file, or a glossary term. If you remove an element from the story, set its status to `deprecated` and write the reason in the file.
-- **Replacing or removing a chapter:** Revise or rewrite a weak chapter whenever possible. Make sure that a whole chapter is not needed before you delete it.
-- **Size of commits:**
-  - *For a small fix:* Change the file directly and commit.
-  - *For a large rewrite of new or existing chapters:* Commit all current changes before you start the rewrite. Do the rewrite as one separate change. Commit immediately after you finish the rewrite. Record the reason for the rewrite in `CHANGELOG.md`.
+### Modifying Existing Content
+1. Rewrite or revise any previous chapter, scene, plot file, character file, or world file when necessary.
+2. Revise existing text before you delete a whole file.
+3. Verify that an entire chapter has no narrative value before you delete that chapter file.
+4. Update all affected chapters, character files, and world files when you change an earlier chapter.
+
+### Changing Established Facts
+1. Do not delete or change an established story fact without a written record.
+2. Write a Note line or Decision line in the affected file whenever you change an established fact.
+3. State the old fact, the new fact, and the reason for the change in that Note or Decision line.
+4. Do not revert an intentional fact change that a previous run recorded in a Note or Decision line.
+5. Record every intentional fact change in `CHANGELOG.md`.
+
+### Deprecating Story Elements
+1. Never delete a character file, a worldbuilding file, or a glossary term file.
+2. Change the status field to `deprecated` when you remove a character, world entry, or glossary term from the story.
+3. Write the reason for the deprecation inside that file.
+
+### Commit Granularity
+1. For a small fix, edit the file directly and commit the change.
+2. For a large rewrite, commit all current work before you start the rewrite.
+3. Complete the large rewrite as one self-contained change.
+4. Commit the large rewrite immediately after you finish it.
+5. Record the reason for the large rewrite in `CHANGELOG.md`.
