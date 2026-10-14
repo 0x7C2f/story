@@ -36,3 +36,4 @@ story: the-memory-archivist
 | chapter-25 | 1 | The Signal Repeater Strike | elias-thorne | draft | [chapter-25-scene-01](chapter-25-scene-01.md) |
 | chapter-26 | 1 | Chapter 26 Scene 1 | elias-thorne | draft | [chapter-26-scene-01](chapter-26-scene-01.md) |
 | chapter-27 | 1 | The Counter-Broadcast | elias-thorne | draft | [chapter-27-scene-01](chapter-27-scene-01.md) |
+| chapter-28 | 1 | Scene 1 | elias-thorne | draft | [chapter-28-scene-01](chapter-28-scene-01.md) |
