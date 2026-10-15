@@ -12,3 +12,4 @@ Model: Jules - Drafted chapter 34 and updated tracking files.
   - Summary: Wrote chapter 37 where Director Vane observes the city-wide counter-broadcast and retaliates by ordering a localized strike on the Sector Six staging ground.
   - Next Run: Outline and draft Chapter 38.
 - Model: Jules. Drafted Chapter 38, detailing the strike on the Sector Six staging ground and the destruction of the signal repeaters. Next Run: Draft Chapter 39 to continue the retreat and survival of the resistance in the Outskirts.
+- Model: Jules\n  Action: Drafted chapter 39\n  Summary: Elias, Kaelen, and Jarek flee the destroyed Sector Six staging ground in the heavy transport, evading Vane's loyalist forces and making their way to the Outskirts.\n  Next Run: Draft Chapter 40
