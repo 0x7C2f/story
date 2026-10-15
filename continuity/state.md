@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 40
+current-chapter: 41
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -34,7 +34,7 @@ object-state:
   status: destroyed
 - artifact: heavy-transport
   owner: jarek
-  location: old-transit-bridge
+  location: new-providence-outskirts
   status: active
 knowledge-state:
 - character: elias-thorne
@@ -381,9 +381,9 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |-----------|----------|----------------|-----------------|-----------|
-| Elias Thorne | Heavy Transport (fleeing Sector Six) | Exhausted, suffering from a blinding migraine | Horrified, desperate | The secondary transports are operating as a decentralized mesh network |
-| Kaelen | Heavy Transport (fleeing Sector Six) | Uninjured | Hardened, resolute | The secondary transports have initiated a localized failsafe |
-| Jarek | Heavy Transport (fleeing Sector Six) | Uninjured | Strained, focused | The staging ground assault forced early deployment of the mobile repeaters |
+| Elias Thorne | Outskirts Canyon | Exhausted, suffering from a blinding migraine | Focused, urgent | The decentralized mesh network has been successfully initiated |
+| Kaelen | Outskirts Canyon | Uninjured | Hardened, resolute | The decentralized mesh network has been successfully initiated |
+| Jarek | Outskirts Canyon | Uninjured | Strained, focused | The decentralized mesh network has been successfully initiated |
 | Director Vane | The Nexus Spire | Uninjured, composed | Paranoid, determined, commanding | The synchronization overwrite has failed and the command structure is fracturing |
 
 ## Object State
@@ -394,7 +394,7 @@ frontmatter above; the tables below are optional notes it does not read.
 | Partial Batch Manifest | Elias Thorne | The Undercity | Active |
 | Signal Repeaters | Jarek | Sector Six Staging Ground | Active |
 | Mesh Network | Elias Thorne | Sector Six Staging Ground | Active |
-| Heavy Transport | Jarek | Fleeing Sector Six | Active |
+| Heavy Transport | Jarek | Outskirts Canyon | Active |
 
 ## Knowledge State
 
@@ -451,3 +451,6 @@ frontmatter above; the tables below are optional notes it does not read.
 | Elias Thorne | They plan to use the transport as a mobile transmitter to create a decentralized mesh network | Chapter 40 |
 | Kaelen | They plan to use the transport as a mobile transmitter to create a decentralized mesh network | Chapter 40 |
 | Jarek | They plan to use the transport as a mobile transmitter to create a decentralized mesh network | Chapter 40 |
+| Elias Thorne | The decentralized mesh network has been successfully initiated | Chapter 41 |
+| Kaelen | The decentralized mesh network has been successfully initiated | Chapter 41 |
+| Jarek | The decentralized mesh network has been successfully initiated | Chapter 41 |

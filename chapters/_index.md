@@ -49,5 +49,6 @@ story: the-memory-archivist
 | 38 | Chapter 38 | elias-thorne | draft | 772 | [chapter-38](chapter-38.md) |
 | 39 | Chapter 39 | elias-thorne | draft | 647 | [chapter-39](chapter-39.md) |
 | 40 | Chapter 40 | elias-thorne | draft | 707 | [chapter-40](chapter-40.md) |
+| 41 | Chapter 41 | elias-thorne | draft | 636 | [chapter-41](chapter-41.md) |
 
-## Total Word Count: 22306
+## Total Word Count: 22942
