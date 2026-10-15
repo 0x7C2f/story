@@ -12,10 +12,10 @@ mentions:
 - director-vane
 arcs-advanced: []
 status: draft
-mode: discovered
+mode: ""
 date: ''
 time: ''
-word-count: 679
+word-count: 690
 prev: /chapters/chapter-23.html
 next: /chapters/chapter-25.html
 ---
@@ -78,3 +78,7 @@ The archivist tightened the strap of the satchel. He was no longer just preservi
 
 Chapter 24 reconciled.
 
+
+## Chapter Notes (post-hoc)
+
+This chapter was written during the discovery-drafting loop.

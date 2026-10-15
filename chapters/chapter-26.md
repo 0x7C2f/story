@@ -12,10 +12,10 @@ mentions:
 - director-vane
 arcs-advanced: []
 status: draft
-mode: discovered
+mode: ""
 date: ''
 time: ''
-word-count: 506
+word-count: 517
 prev: /chapters/chapter-25.html
 next: /chapters/chapter-27.html
 ---
@@ -56,3 +56,7 @@ Elias closed his eyes, preparing for the strain of the coming synchronization. T
 
 Chapter 26 reconciled.
 
+
+## Chapter Notes (post-hoc)
+
+This chapter was written during the discovery-drafting loop.
