@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 32
+current-chapter: 33
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -211,12 +211,9 @@ knowledge-state:
 - character: elias-thorne
   knows: The heavy transport bluff failed, forcing an entry via the ventilation shafts.
   learned-in: chapter-32
-- character: kaelen
-  knows: The heavy transport bluff failed, forcing an entry via the ventilation shafts.
-  learned-in: chapter-32
 - character: director-vane
   knows: Elias and Kaelen have breached the outer perimeter of the Nexus Spire.
-  learned-in: chapter-32
+  learned-in: chapter-33
 
 - character: kaelen
   knows: The secondary transports have initiated a localized failsafe and do not need the central hub to synchronize.

@@ -9,4 +9,4 @@ story: the-memory-archivist
 
 | Promise | Status | Planted | File |
 |---------|--------|---------|------|
-| Deliver unaltered memories to city | planted | chapter-03 | [deliver-truth](deliver-truth.md) |
+| Deliver unaltered memories to city | paid-off | chapter-03 | [deliver-truth](deliver-truth.md) |

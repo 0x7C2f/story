@@ -1,6 +1,6 @@
 ---
 title: Deliver unaltered memories to city
-status: planted
+status: paid-off
 planted: chapter-03
 payoff: chapter-32
 arcs: []
