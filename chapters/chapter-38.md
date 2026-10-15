@@ -17,7 +17,7 @@ status: draft
 mode: ""
 date: ""
 time: ""
-word-count: 773
+word-count: 772
 ---
 
 # Chapter 38
@@ -74,6 +74,6 @@ They sprinted for the secondary access tunnels, the remaining resistance fighter
 
 Elias hit the heavy blast door at the tunnel entrance, sealing it just as the whine of the capacitors reached a deafening pitch.
 
-The detonation was not a sound, but a physical force. The shockwave slammed into the blast door, buckling the thick metal outward. The ground heaved, throwing Elias against the damp concrete wall. A profound silence followed, thick and ringing.
+The detonation hit them as a purely physical force. The shockwave slammed into the blast door, buckling the thick metal outward. The ground heaved, throwing Elias against the damp concrete wall. A deep silence followed, thick and ringing.
 
 Elias pushed himself up, tasting blood and dust. The staging ground was gone. Their network was destroyed. They were alive, but the war had just become a desperate fight in the dark.
