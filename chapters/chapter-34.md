@@ -12,14 +12,14 @@ status: draft
 mode: ''
 date: ''
 time: ''
-word-count: 496
+word-count: 495
 ---
 # Chapter 34: The Ascent
 
 ## Outline
 
 1. Elias and Kaelen slip into the Nexus Spire's maintenance levels from the ventilation shaft.
-2. They confront automated internal security drones operating without synchronization.
+2. They confront internal security drones operating without synchronization.
 3. They disable the drones and breach the outer blast doors of the primary data core.
 
 ---
@@ -34,7 +34,7 @@ Elias unlatched a heavy steel grate and shoved it aside. He rolled out onto the 
 
 "Move fast, step light," Kaelen replied, her eyes scanning the dim corridor.
 
-They advanced through the labyrinth of exposed pipes and heavy cabling. The air here vibrated with the raw power of the Spire's reactors. As they rounded a corner near a massive coolant nexus, the shadows shifted. Two automated security drones—sleek, thickly armored, and without a sound—dropped from their charging alcoves on the ceiling.
+They advanced through the labyrinth of exposed pipes and heavy cabling. The air here vibrated with the raw power of the Spire's reactors. As they rounded a corner near a massive coolant nexus, the shadows shifted. Two security drones—sleek, thickly armored, and without a sound—dropped from their charging alcoves on the ceiling.
 
 Kaelen reacted in a flash, diving behind a cluster of pressure valves as the drones opened fire. The corridor erupted in a storm of high-velocity plasma, scoring deep trenches in the ferrocrete. Elias scrambled for cover, dragging his hand across his neural rig to interface with the local node.
 

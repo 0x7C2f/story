@@ -239,10 +239,10 @@ knowledge-state:
   knows: Elias plans to use the settlement defense as a diversion to attack the Nexus Spire.
   learned-in: chapter-28
 - character: elias-thorne
-  knows: The automated security drones in the maintenance levels are uncoordinated due to the fractured synchronization protocol.
+  knows: The security drones in the maintenance levels are uncoordinated due to the fractured synchronization protocol.
   learned-in: chapter-34
 - character: kaelen
-  knows: The automated security drones in the maintenance levels are uncoordinated due to the fractured synchronization protocol.
+  knows: The security drones in the maintenance levels are uncoordinated due to the fractured synchronization protocol.
   learned-in: chapter-34
 ---
 

@@ -17,7 +17,7 @@ dilemma: ''
 state-changes:
 - entity: elias-thorne
   type: knowledge
-  update: The automated security drones in the maintenance levels are uncoordinated due to the fractured synchronization protocol.
+  update: The security drones in the maintenance levels are uncoordinated due to the fractured synchronization protocol.
 ---
 # Scene 1
 
@@ -28,5 +28,5 @@ Elias and Kaelen navigate the Nexus Spire maintenance levels and bypass the inte
 ## Continuity Notes
 
 - Elias and Kaelen have reached the Nexus Spire maintenance levels after the transport bluff failed.
-- The automated security drones are uncoordinated because the synchronization protocol is fractured.
+- The security drones are uncoordinated because the synchronization protocol is fractured.
 - They bypass the security and breach the service elevator leading to the primary data core.

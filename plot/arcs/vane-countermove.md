@@ -34,7 +34,7 @@ What changes because of this arc.
 
 | # | Plot Point | Act | Chapter | Status | Notes |
 |---|------------|-----|---------|--------|-------|
-| 1 | The automated internal security drones of the Nexus Spire act uncoordinated | 3 | 34 | planned | |
+| 1 | The internal security drones of the Nexus Spire act uncoordinated | 3 | 34 | planned | |
 
 ## Foreshadowing
 
