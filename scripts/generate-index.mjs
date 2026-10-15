@@ -7,7 +7,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-const docsRoot = path.resolve(import.meta.dirname, '..');
+// The script runs from $SITE_DIR/docs, and the story files are in $SITE_DIR/docs/
+const docsRoot = path.resolve(import.meta.dirname);
 
 function readFrontmatter(file) {
   const lines = fs.readFileSync(file, 'utf8').split(/\r?\n/);
