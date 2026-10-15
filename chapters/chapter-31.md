@@ -1,5 +1,5 @@
 ---
-title: Chapter 31
+title: The Infiltration Bluff
 number: 31
 pov: elias-thorne
 locations:

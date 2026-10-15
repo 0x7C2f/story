@@ -18,7 +18,7 @@ story: the-memory-archivist
 | 7 | The Archive Heist Plan | elias-thorne | draft | 466 | [chapter-07](chapter-07.md) |
 | 8 | The Spire Heist | elias-thorne | draft | 715 | [chapter-08](chapter-08.md) |
 | 9 | Escape and Implications | elias-thorne | draft | 815 | [chapter-09](chapter-09.md) |
-| 10 | Chapter 10 | elias-thorne | draft | 396 | [chapter-10](chapter-10.md) |
+| 10 | The Broadcast Tower Plan | elias-thorne | draft | 396 | [chapter-10](chapter-10.md) |
 | 11 | The Broadcast Assault | elias-thorne | draft | 347 | [chapter-11](chapter-11.md) |
 | 12 | The Aftermath | elias-thorne | draft | 345 | [chapter-12](chapter-12.md) |
 | 13 | The Outskirts | elias-thorne | draft | 287 | [chapter-13](chapter-13.md) |
@@ -26,19 +26,19 @@ story: the-memory-archivist
 | 15 | Negotiating Trust | elias-thorne | draft | 580 | [chapter-15](chapter-15.md) |
 | 16 | Proving Their Worth | elias-thorne | draft | 620 | [chapter-16](chapter-16.md) |
 | 17 | Forging a Resistance | elias-thorne | draft | 546 | [chapter-17](chapter-17.md) |
-| 18 | Chapter 18 | elias-thorne | draft | 964 | [chapter-18](chapter-18.md) |
+| 18 | The Relay Station | elias-thorne | draft | 964 | [chapter-18](chapter-18.md) |
 | 19 | Director Vane's Move | director-vane | draft | 546 | [chapter-19](chapter-19.md) |
-| 20 | Chapter 20 | elias-thorne | draft | 567 | [chapter-20](chapter-20.md) |
-| 21 | Chapter 21 | elias-thorne | draft | 513 | [chapter-21](chapter-21.md) |
-| 22 | Chapter 22 | elias-thorne | draft | 716 | [chapter-22](chapter-22.md) |
-| 23 | Chapter 23 | elias-thorne | draft | 799 | [chapter-23](chapter-23.md) |
-| 24 | Chapter 24 | elias-thorne | draft | 690 | [chapter-24](chapter-24.md) |
+| 20 | The Mesh Network | elias-thorne | draft | 567 | [chapter-20](chapter-20.md) |
+| 21 | The Transit Bridge Ambush | elias-thorne | draft | 513 | [chapter-21](chapter-21.md) |
+| 22 | The Transport Capture | elias-thorne | draft | 716 | [chapter-22](chapter-22.md) |
+| 23 | The Mobile Repeaters | elias-thorne | draft | 799 | [chapter-23](chapter-23.md) |
+| 24 | Sector Six Infiltration | elias-thorne | draft | 690 | [chapter-24](chapter-24.md) |
 | 25 | The Signal Repeater Strike | elias-thorne | draft | 941 | [chapter-25](chapter-25.md) |
 | 26 | The Mobile Rewrite | elias-thorne | draft | 517 | [chapter-26](chapter-26.md) |
 | 27 | The Counter-Broadcast | elias-thorne | draft | 699 | [chapter-27](chapter-27.md) |
 | 28 | The Aftermath | elias-thorne | draft | 739 | [chapter-28](chapter-28.md) |
-| 29 | Chapter 29 | elias-thorne | draft | 667 | [chapter-29](chapter-29.md) |
-| 30 | Chapter 30 | elias-thorne | draft | 316 | [chapter-30](chapter-30.md) |
-| 31 | Chapter 31 | elias-thorne | draft | 482 | [chapter-31](chapter-31.md) |
+| 29 | The Nexus Gambit | elias-thorne | draft | 667 | [chapter-29](chapter-29.md) |
+| 30 | The Diversion | elias-thorne | draft | 316 | [chapter-30](chapter-30.md) |
+| 31 | The Infiltration Bluff | elias-thorne | draft | 482 | [chapter-31](chapter-31.md) |
 
-## Total Word Count: 17715
+## Total Word Count: 17714

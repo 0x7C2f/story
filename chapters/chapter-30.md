@@ -1,5 +1,5 @@
 ---
-title: Chapter 30
+title: The Diversion
 number: 30
 pov: elias-thorne
 locations:
@@ -18,7 +18,7 @@ time: ""
 word-count: 316
 ---
 
-# Chapter 30
+# The Diversion
 
 ## Outline
 

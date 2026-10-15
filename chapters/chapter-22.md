@@ -1,5 +1,5 @@
 ---
-title: Chapter 22
+title: The Transport Capture
 number: 22
 pov: elias-thorne
 locations:
@@ -20,7 +20,7 @@ prev: /chapters/chapter-21.html
 next: /chapters/chapter-23.html
 ---
 
-# Chapter 22
+# The Transport Capture
 
 The undercarriage of the old transit bridge smelled of rust and damp earth. Elias crouched on a narrow maintenance gantry, his portable neural rig balanced precariously on a crossbeam. Below him, the eastern ravine plunged into darkness; above him, the cracked ferrocrete of the main span groaned under the constant pressure of the Outskirts wind.
 

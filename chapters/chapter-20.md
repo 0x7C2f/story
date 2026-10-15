@@ -1,5 +1,5 @@
 ---
-title: Chapter 20
+title: The Mesh Network
 number: 20
 pov: elias-thorne
 locations:
@@ -21,7 +21,7 @@ prev: /chapters/chapter-19.html
 next: /chapters/chapter-21.html
 ---
 
-# Chapter 20
+# The Mesh Network
 
 The dust of the Outskirts tasted like copper and old rust. Elias knelt beside the battered chassis of a military-grade signal repeater, wiping a streak of grime from his forehead. The unit hummed, a low and steady vibration that traveled through his boots. Beside him, Kaelen handed over a spool of coaxial cable, her expression tight with focus.
 

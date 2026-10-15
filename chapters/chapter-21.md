@@ -1,5 +1,5 @@
 ---
-title: Chapter 21
+title: The Transit Bridge Ambush
 number: 21
 pov: elias-thorne
 locations:
@@ -20,7 +20,7 @@ prev: /chapters/chapter-20.html
 next: /chapters/chapter-22.html
 ---
 
-# Chapter 21
+# The Transit Bridge Ambush
 
 The screen of Elias’s portable neural rig cast a harsh blue glow across his face. Beside him, the battered military-grade repeater vibrated, its low hum the only sound cutting through the howl of the Outskirts wind. Kaelen and Jarek stood shoulder-to-shoulder behind him, their gazes fixed on the holographic map projecting from the rig’s primary node.
 

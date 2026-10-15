@@ -1,5 +1,5 @@
 ---
-title: Chapter 29
+title: The Nexus Gambit
 number: 29
 pov: elias-thorne
 locations:

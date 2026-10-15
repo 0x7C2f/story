@@ -1,5 +1,5 @@
 ---
-title: Chapter 10
+title: The Broadcast Tower Plan
 number: 10
 mode: ''
 pov: elias-thorne
@@ -16,7 +16,7 @@ prev: /chapters/chapter-09.html
 next: /chapters/chapter-11.html
 ---
 
-# Chapter 10
+# The Broadcast Tower Plan
 
 The hum of the Undercity felt different now—less like a sanctuary and more like a countdown. Elias Thorne sat on a repurposed crate in the safehouse, the small obsidian drive containing the cryptographic root key resting on the metal table before him. The neural ache behind his eyes had faded to a dull throb, a lingering reminder of their escape from the Nexus Spire.
 

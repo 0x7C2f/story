@@ -1,5 +1,5 @@
 ---
-title: Chapter 23
+title: The Mobile Repeaters
 number: 23
 pov: elias-thorne
 locations:
@@ -20,7 +20,7 @@ prev: /chapters/chapter-22.html
 next: /chapters/chapter-24.html
 ---
 
-# Chapter 23
+# The Mobile Repeaters
 
 The interior of the captured crawler was a cramped, claustrophobic shell of polished ferrocrete and heavy mesh. The air smelled of ozone, sweat, and the residual tang of the electromagnetic pulse. The transport's auxiliary lights cast a cold, flickering glow over the cargo bay, leaving the corners in shadow.
 

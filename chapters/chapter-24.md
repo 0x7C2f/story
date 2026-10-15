@@ -1,5 +1,5 @@
 ---
-title: Chapter 24
+title: Sector Six Infiltration
 number: 24
 pov: elias-thorne
 locations:
@@ -20,7 +20,7 @@ prev: /chapters/chapter-23.html
 next: /chapters/chapter-25.html
 ---
 
-# Chapter 24
+# Sector Six Infiltration
 
 ## Outline
 

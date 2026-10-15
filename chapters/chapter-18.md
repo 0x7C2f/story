@@ -1,5 +1,5 @@
 ---
-title: Chapter 18
+title: The Relay Station
 number: 18
 pov: elias-thorne
 locations:
@@ -20,7 +20,7 @@ prev: /chapters/chapter-17.html
 next: /chapters/chapter-19.html
 ---
 
-# Chapter 18
+# The Relay Station
 
 The air in the Dead Zone tasted of metal and dry earth. It wasn't the sharp, processed tang of the city's synthetic atmosphere, nor the localized grit of the Scrapyard Settlement. This was something older, a pervasive radiation that seemed to hum against the skin. Elias checked the dosimeter strapped to his wrist. The needle hovered near the yellow zone, a steady reminder of why the Scavengers usually avoided this stretch of the Outskirts.
 
