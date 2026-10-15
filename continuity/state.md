@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 33
+current-chapter: 34
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -214,6 +214,13 @@ knowledge-state:
 - character: director-vane
   knows: Elias and Kaelen have breached the outer perimeter of the Nexus Spire.
   learned-in: chapter-33
+
+- character: elias-thorne
+  knows: The counter-broadcast is successfully displaying unaltered memories on the public grid in Sector One.
+  learned-in: chapter-34
+- character: kaelen
+  knows: Jarek is holding the perimeter at the staging ground, but Vane's loyalists are still a threat.
+  learned-in: chapter-34
 
 - character: kaelen
   knows: The secondary transports have initiated a localized failsafe and do not need the central hub to synchronize.
