@@ -20,6 +20,7 @@ relationships:
   - character: kaelen
     type: ally
 locations:
+  - sector-six
   - old-transit-bridge
   - the-scrapyard-settlement
   - relay-station

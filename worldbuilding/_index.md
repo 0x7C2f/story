@@ -22,6 +22,7 @@ story: the-memory-archivist
 | Sector Four Black Site | Location | Sector Four | [sector-four-black-site](locations/sector-four-black-site.md) |
 | Sector One | Other |  | [sector-one](locations/sector-one.md) |
 | Sector Six Staging Ground | Military Base | new-providence-outskirts | [sector-six-staging-ground](locations/sector-six-staging-ground.md) |
+| Sector Six | District |  | [sector-six](locations/sector-six.md) |
 | The Dead Zone | Other | Twenty klicks east of the Scrapyard Settlement | [the-dead-zone](locations/the-dead-zone.md) |
 | The Nexus Spire | Building | Sector One | [the-nexus-spire](locations/the-nexus-spire.md) |
 | The Scrapyard Settlement | Neighborhood |  | [the-scrapyard-settlement](locations/the-scrapyard-settlement.md) |

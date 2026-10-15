@@ -23,6 +23,7 @@ relationships:
   - character: jarek
     type: ally
 locations:
+  - sector-six
   - old-transit-bridge
   - nexus-archives
   - the-undercity
