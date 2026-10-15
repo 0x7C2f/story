@@ -1,14 +1,15 @@
 ---
 name: Signal Repeaters
 type: technology
-status: active
-owner: "jarek"
-location: "the-scrapyard-settlement"
+status: destroyed
+owner: jarek
+location: the-scrapyard-settlement
 tags:
-  - pre-collapse
-  - military-grade
-  - uncompromised
+- pre-collapse
+- military-grade
+- uncompromised
 ---
+
 
 # Signal Repeaters
 
