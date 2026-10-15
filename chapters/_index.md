@@ -18,7 +18,7 @@ story: the-memory-archivist
 | 7 | The Archive Heist Plan | elias-thorne | draft | 466 | [chapter-07](chapter-07.md) |
 | 8 | The Spire Heist | elias-thorne | draft | 715 | [chapter-08](chapter-08.md) |
 | 9 | Escape and Implications | elias-thorne | draft | 815 | [chapter-09](chapter-09.md) |
-| 10 | The Broadcast Tower Plan | elias-thorne | draft | 396 | [chapter-10](chapter-10.md) |
+| 10 | The Broadcast Tower Plan | elias-thorne | draft | 448 | [chapter-10](chapter-10.md) |
 | 11 | The Broadcast Assault | elias-thorne | draft | 347 | [chapter-11](chapter-11.md) |
 | 12 | The Aftermath of the Broadcast | elias-thorne | draft | 345 | [chapter-12](chapter-12.md) |
 | 13 | The Outskirts Crossing | elias-thorne | draft | 287 | [chapter-13](chapter-13.md) |
@@ -42,4 +42,4 @@ story: the-memory-archivist
 | 31 | The Infiltration Bluff | elias-thorne | draft | 482 | [chapter-31](chapter-31.md) |
 | 32 | The Nexus Resolution | elias-thorne | outline | 57 | [chapter-32](chapter-32.md) |
 
-## Total Word Count: 17771
+## Total Word Count: 17823

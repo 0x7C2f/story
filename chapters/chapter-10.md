@@ -4,7 +4,7 @@ number: 10
 mode: ''
 pov: elias-thorne
 status: draft
-word-count: 396
+word-count: 448
 characters:
 - elias-thorne
 - kaelen
@@ -39,4 +39,8 @@ Elias nodded slowly. "We need a diversion. Something loud enough to draw the Com
 "They won't," Kaelen said, her tone resolute. "We didn't come this far to let them rewrite history."
 
 Elias looked at the drive again. The weight of the city's truth rested in his palm. The past was slipping away, but for the first time since he found the fragment, he felt a surge of clarity. They were going to the surface, and they were going to broadcast the truth.
+
+"If I miss something," Elias warned as he slipped the drive into his coat, "you pull me out by force. No martyrdom. I need a living archivist when the signal clears."
+
+Kaelen's expression softened, just slightly. "Don't worry. I've survived worse than a Committee sweep. Just make sure the truth gets through."
 

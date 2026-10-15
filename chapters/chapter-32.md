@@ -12,7 +12,7 @@ mode: ""
 date: ""
 time: ""
 hook: decision
-word-count: 0
+word-count: 57
 ---
 
 # Chapter 32: The Nexus Resolution
