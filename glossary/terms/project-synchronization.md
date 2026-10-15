@@ -34,7 +34,7 @@ or "the sync feed" for the live signal. "The mass overwrite" is the characters'
 phrase for what it would have done — use it when the stakes are being described
 rather than the machinery.
 
-**The root key is not part of this project, but it is what defeats it.** The
+**The root key defeats this project from outside it.** The
 cryptographic root key is the separate credential that authorizes access to the
 broadcast network; it is the one thing with clearance high enough to interface
 with the synchronization infrastructure, which is why stealing it from Vane's

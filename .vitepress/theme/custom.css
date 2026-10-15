@@ -80,6 +80,30 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Story frontmatter panel (FrontmatterPanel.vue) */
+.frontmatter-panel {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.25rem 1rem;
+  margin: 0 0 1.5rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  background: var(--vp-c-bg-soft);
+  font-size: 0.85rem;
+}
+
+.frontmatter-panel dt {
+  margin: 0;
+  font-weight: 600;
+  color: var(--vp-c-text-2);
+}
+
+.frontmatter-panel dd {
+  margin: 0;
+  color: var(--vp-c-text-1);
+}
+
 /* Print styles */
 @media print {
   .reading-progress-bar,

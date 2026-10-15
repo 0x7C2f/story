@@ -15,6 +15,9 @@ exemptions:
   - code: stray-file
     pattern: "index.md is not part of the story project model"
     reason: GitHub Pages entry point — static site root. Tooling, not record.
+  - code: symlinked-file
+    pattern: "AGENTS.md is a symlink"
+    reason: The folder guides in record folders are tooling, not record. Each is a link to its text in continuity/guides/, so the record scanner ignores it and the registries, word counts, and gates stay clean.
 ---
 
 # Exemptions

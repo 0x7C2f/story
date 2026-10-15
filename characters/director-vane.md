@@ -178,7 +178,7 @@ Her voice is an unhurried, administrative hum that carries more authority than a
 | Chapter 1 | Her clearance level denies Elias's cross-reference on the holding facility | First contact, at one remove |
 | Chapter 2 | Recognized in the image inside M-774-B, observing a procedure in a black-site mod lab | The face behind the splice |
 | Chapter 5 | Her signature appears on the approval chain for the Sector Two uprising | Named in evidence |
-| Chapter 6 | Shown to have authored the protocol's specific parameters, not merely approved them | The antagonist acquires a style |
+| Chapter 6 | Shown to have authored the protocol's specific parameters, not merely approved them | Her style emerges |
 | Chapter 7 | Deduced to keep the master key in an air-gapped vault beneath the Spire | Her paranoia mapped |
 | Chapter 8 | Vault breached; root key stolen; Project: Synchronization glimpsed | The reversal begins |
 | Chapter 9 | The Spire locks down "Sector Vane" and hunts the pair through the transit shafts | She has a sector named after her |

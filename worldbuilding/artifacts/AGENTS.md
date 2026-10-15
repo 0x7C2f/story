@@ -1,0 +1,1 @@
+../../continuity/guides/artifacts.md

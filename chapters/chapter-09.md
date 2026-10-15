@@ -26,7 +26,7 @@ next: /chapters/chapter-10.html
 
 1. The Escape: Elias and Kaelen flee the sub-basement vault room just as the Spire's secondary power restores the biometric sweeps. They battle through a security patrol in the transit shafts.
 2. The Retreat: They make it out of the Spire and descend back into the grimy safety of the Undercity, nursing their physical and psychological wounds.
-3. The Implications: In a safehouse, Elias reveals the full scope of Project: Synchronization. They realize the root key is not just proof of the conspiracy, but the only tool capable of stopping the city-wide memory wipe. They must figure out how to broadcast the truth before the overwrite initiates.
+3. The Implications: In a safehouse, Elias reveals the full scope of Project: Synchronization. They realize the root key is the only tool capable of stopping the city-wide memory wipe. They must figure out how to broadcast the truth before the overwrite initiates.
 
 ---
 

@@ -18,12 +18,12 @@ Read this entire file before you start work.
 
 ### System & Tool Rules (Immutable)
 1. Change only story content and tracking files listed as mutable in Section 2.
-2. **Never modify:** `AGENTS.md`, `style-sheet.md`, `.github/workflows/record-integrity.yml`, `scripts/*`, or `.agents/skills/*`.
+2. **Never modify:** `style-sheet.md`, `scripts/*`, or `.agents/skills/*`. Change `AGENTS.md` and `.github/workflows/record-integrity.yml` only when the owner directs it. The fork in `story-cli/` is ours: change it freely.
 3. Follow all rules in `style-sheet.md`.
 4. Use only the two approved skill sets in `.agents/skills/`.
-5. Use version `0.23.2` of the `story-skills` npm package. Run `story --version` to verify; if the version differs, note the difference in the run log.
-6. Run the CLI **only** with the `story` command. Never run `node <pkg>/src/cli.js` (exits `0` and does nothing) or `npm install` inside the CLI package directory.
-7. Never create scratch files, backup files (`*.bak`, `*.tmp`, `*~`), draft copies (`*-old.md`, `*-copy.md`), log files, or new top-level directories.
+5. Use the forked CLI in `story-cli/` — our own, version `0.24.0` (forked from `story-skills` 0.23.2 and diverged). Run `story --version` to verify; if it does not print `0.24.0`, run `npm install -g ./story-cli` and note the difference in the run log.
+6. Run the CLI **only** with the `story` command. Never run `node story-cli/src/cli.js` (exits `0` and does nothing) or `npm install` inside the CLI package directory. Put new validation or gate logic in `story-cli/src/`, not in `scripts/`.
+7. Never create scratch files, backup files (`*.bak`, `*.tmp`, `*~`), draft copies (`*-old.md`, `*-copy.md`), log files, or new top-level directories (`story-cli/` is the chartered fork; add no more).
 
 ---
 
@@ -40,7 +40,10 @@ Read this entire file before you start work.
 | `continuity/exemptions.md` | Check Exemptions | Write a clear narrative or structural reason for each continuity exemption. Never add an exemption only to bypass a valid check failure. |
 || `**/_index.md` | Generated Indexes | **Do not edit manually.** Update only via `story reindex .` and `story wordcount --write .`. ||
 || `agent/PAUSED` | Stop File | If this file exists, exit immediately with code `0`. Run `touch agent/PAUSED` to halt future runs; run `git rm agent/PAUSED` to resume. ||
-|| `agent/*` | Agent Directory | Keep only `PAUSED` in `agent/`. Delete any temporary or scratch files before Phase 5. ||
+|| `agent/*` | Agent Directory | Keep only `PAUSED` and `AGENTS.md` in `agent/`. Delete any temporary or scratch files before Phase 5. ||
+|| `story-cli/` | Forked CLI | Our copy of the story CLI (0.24.0), diverged from upstream. New gate and validation logic goes here, not in `scripts/`. ||
+|| `**/AGENTS.md` | Folder Guides | Each folder explains itself here, in Simplified Technical English. In a record folder the guide is a link file to `continuity/guides/`; never replace the link with a real file, or the CLI reads it as a story record and the gate fails. ||
+|| `continuity/guides/*` | Guide Text | The text behind the folder guides. Edit the guide here. Tooling, not record. ||
 
 ---
 
@@ -77,10 +80,11 @@ Execute these five phases in sequential order during each run.
    - Use `voice-sample.md` as the style reference.
    - Use `better-writing` only to tighten weak phrasing—never let it flatten the established voice or override `style-sheet.md`.
 4. Run `story prose .` after writing or revising a chapter and fix every reported issue without inventing filler facts.
+5. Run `story slop .` and clean the AI slop it reports (tell words, boilerplate phrases, machine-style patterns). Record a reason in `continuity/exemptions.md` for a word the story uses on purpose.
 
 ### Phase 4: Verification Checks
 1. Delete any temporary files created during the run.
-2. Run `scripts/run-gates.sh` (or run Steps 2a–2g in sequence):
+2. Run `scripts/run-gates.sh`, or run `story gates .` for the same gates in one command (frontmatter schema, check --strict, prose, and the AI slop report), or run Steps 2a–2g in sequence:
    - a. `story reindex .` (update all registry files)
    - b. `story wordcount --write .` (update all word counts)
    - c. `story validate .` (check file structure)

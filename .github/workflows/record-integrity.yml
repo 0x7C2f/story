@@ -33,11 +33,13 @@ jobs:
         with:
           node-version: 22
 
-      - name: Install the story CLI
-        run: npm install -g story-skills@0.23.2
+      - name: Install the story CLI (our fork)
+        run: |
+          npm install -g ./story-cli
+          story --version
 
       - name: Validate content frontmatter schema
-        run: python3 scripts/validate-frontmatter.py .
+        run: story frontmatter .
 
       - name: Structure, links, and continuity (warnings fail)
         shell: bash
@@ -54,6 +56,16 @@ jobs:
             echo "::error::Undismissed prose findings. Fix the prose, or record a design reason in continuity/exemptions.md."
             exit 1
           fi
+
+      - name: AI slop guard (blocking findings fail)
+        shell: bash
+        run: |
+          set -o pipefail
+          story slop . --all --fail-on=blocking 2>&1 | tee -a "$RUNNER_TEMP/gate.log" || {
+            echo "::error::Blocking AI-slop findings (banned words / AI tells). Fix the prose, or record a design reason in continuity/exemptions.md."
+            exit 1
+          }
+          echo "::notice::AI slop report above (blocking findings enforced, advisory is informational)."
 
       - name: Registry tables and word counts are current
         shell: bash
@@ -167,94 +179,24 @@ jobs:
             fi
           done
 
-          if [ -f "story.md" ]; then
-            cp story.md "$SITE_DIR/docs/index.md"
+          # The reader site's home page, and the story metadata behind /about.
+          if [ -f "index.md" ]; then
+            cp index.md "$SITE_DIR/docs/index.md"
           elif [ -f "README.md" ]; then
             cp README.md "$SITE_DIR/docs/index.md"
           else
             echo "# Story Archive" > "$SITE_DIR/docs/index.md"
           fi
+          if [ -f "story.md" ]; then
+            cp story.md "$SITE_DIR/docs/about.md"
+          fi
 
+          # docs/.vitepress/config.mts builds the sidebar from every story
+          # folder's frontmatter. Folder guides and their text stay out of
+          # the build (see srcExclude there).
           cd "$SITE_DIR"
           npm init -y
           npm install -D vitepress
-
-          mkdir -p docs/.vitepress
-          cat << 'EOF' > docs/.vitepress/config.mjs
-          import { defineConfig } from 'vitepress'
-          import fs from 'node:fs'
-          import path from 'node:path'
-
-          const docsRoot = path.resolve(import.meta.dirname, '..')
-
-          function getSidebarItems(dir) {
-            const fullDir = path.join(docsRoot, dir)
-            if (!fs.existsSync(fullDir)) return []
-            return fs.readdirSync(fullDir)
-              .filter(f => f.endsWith('.md') && f !== 'index.md' && f !== '_index.md')
-              .sort()
-              .map(f => {
-                const name = f.replace(/\.md$/, '')
-                const content = fs.readFileSync(path.join(fullDir, f), 'utf-8')
-                const titleMatch = content.match(/^#\s+(.+)$/m)
-                return {
-                  text: titleMatch ? titleMatch[1].trim() : name,
-                  link: `/${dir}/${name}`
-                }
-              })
-          }
-
-          const sections = [
-            { title: 'Chapters', dir: 'chapters' },
-            { title: 'Scenes', dir: 'scenes' },
-            { title: 'Plot', dir: 'plot' },
-            { title: 'Characters', dir: 'characters' },
-            { title: 'Worldbuilding', dir: 'worldbuilding' },
-            { title: 'Glossary', dir: 'glossary' },
-            { title: 'Continuity', dir: 'continuity' }
-          ]
-
-          const nav = [{ text: 'Home', link: '/' }]
-          const sidebar = []
-
-          for (const s of sections) {
-            const fullDir = path.join(docsRoot, s.dir)
-            if (fs.existsSync(fullDir)) {
-              const hasIndex = fs.existsSync(path.join(fullDir, '_index.md'))
-              const items = getSidebarItems(s.dir)
-              if (hasIndex || items.length > 0) {
-                nav.push({
-                  text: s.title,
-                  link: hasIndex ? `/${s.dir}/` : items[0].link
-                })
-                sidebar.push({
-                  text: s.title,
-                  collapsed: false,
-                  link: hasIndex ? `/${s.dir}/` : undefined,
-                  items
-                })
-              }
-            }
-          }
-
-          export default defineConfig({
-            title: "Story Archive",
-            description: "Autonomous Story Repository",
-            base: "/story/",
-            ignoreDeadLinks: true,
-            rewrites: {
-              ':dir/_index.md': ':dir/index.md'
-            },
-            themeConfig: {
-              search: { provider: 'local' },
-              nav,
-              sidebar,
-              darkModeSwitchLabel: 'Appearance',
-              outline: { level: [2, 3], label: 'On this page' }
-            }
-          })
-          EOF
-
           npx vitepress build docs
 
       - name: Upload Pages artifact

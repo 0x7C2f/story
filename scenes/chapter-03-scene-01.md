@@ -21,7 +21,7 @@ state-changes: []
 
 ## Purpose
 
-Elias meets his contact Kaelen in the Undercity. Kaelen analyzes the drive, confirming that the Oversight Committee is not just deleting memories, but actively rewriting history on an industrial scale. This forces Elias to confront the enormity of the conspiracy and commit to exposing it.
+Elias meets his contact Kaelen in the Undercity. Kaelen analyzes the drive, confirming that the Oversight Committee is rewriting history on an industrial scale. This forces Elias to confront the enormity of the conspiracy and commit to exposing it.
 
 ## Continuity Notes
 

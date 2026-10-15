@@ -23,7 +23,7 @@ next: /chapters/chapter-04.html
 ## Outline
 
 1. Elias meets his contact Kaelen in the Undercity.
-2. Kaelen analyzes the drive, confirming that the Oversight Committee is not just deleting memories, but actively rewriting history on an industrial scale.
+2. Kaelen analyzes the drive, confirming that the Oversight Committee is rewriting history on an industrial scale.
 3. This forces Elias to confront the enormity of the conspiracy and commit to exposing it.
 
 ---

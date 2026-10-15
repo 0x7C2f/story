@@ -14,7 +14,7 @@ status: draft
 mode: ''
 date: ''
 time: ''
-word-count: 549
+word-count: 546
 prev: /chapters/chapter-18.html
 next: /chapters/chapter-20.html
 ---
@@ -27,7 +27,7 @@ Her posture was relaxed, but the slight furrow between her brows betrayed the in
 
 "History is not a record of what happened," she murmured to the empty air, her voice an unhurried, administrative hum that carried more authority than a shout. "It is a maintenance schedule. And someone has disrupted the schedule."
 
-Behind her, Enforcers moved in silent, practiced sweeps across the lower terminals, feeding her continuous data readouts. The breach was clear: a massive signal disruption originating from the central broadcast tower, deploying the very root key she had air-gapped beneath her feet. The irony was not lost on her, but paranoia had long ago immunized her against surprise.
+Behind her, Enforcers moved in silent, practiced sweeps across the lower terminals, feeding her continuous data readouts. The breach was clear: a massive signal disruption originating from the central broadcast tower, deploying the very root key she had air-gapped beneath her feet. She filed the irony away. Paranoia had long ago immunized her against surprise.
 
 "Status on the broadcast tower," Vane demanded.
 

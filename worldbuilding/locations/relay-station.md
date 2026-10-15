@@ -40,7 +40,7 @@ leaving pristine equipment locked inside its vaults for decades.
 
 ## Culture & Customs
 
-None. It is a target, not a place anyone lives.
+None. Nobody lives there. It is a target.
 
 ## Notable Features
 

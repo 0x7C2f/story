@@ -14,7 +14,7 @@ status: draft
 mode: ''
 date: ''
 time: ''
-word-count: 343
+word-count: 345
 prev: /chapters/chapter-11.html
 next: /chapters/chapter-13.html
 ---
@@ -25,7 +25,7 @@ The central broadcast tower stood silent, save for the low, rhythmic hum of the 
 
 Outside the reinforced windows, the city of New Providence lay bathed in the harsh, pre-dawn light. The synchronization pulse from the Oversight Committee had failed. In its place, the raw, unedited memories of the Sector Two uprising—and countless other suppressed truths—had flooded the grid. Down in the streets, the silence was breaking.
 
-Kaelen stepped away from the heavy blast doors, lowering her weapon. The static on the encrypted channels had dissolved into chaos as Oversight response teams realized their own internal records were unspooling alongside the public broadcast. "They're falling apart," she said, her voice quiet but steady. "Vane's entire command structure is fracturing."
+Kaelen stepped away from the heavy blast doors, lowering her weapon. The static on the encrypted channels had dissolved into chaos as Oversight response teams realized their own internal records were unspooling alongside the public broadcast. "They're falling apart," she said, quiet and steady. "Vane's entire command structure is fracturing."
 
 Elias looked at the obsidian root key still slotted into the ancient terminal. He reached out and disengaged the drive, feeling the unusual weight of it in his palm. It was just a piece of hardware, yet it held the entirety of human history they had almost lost.
 
@@ -35,5 +35,5 @@ Kaelen moved to stand beside him, her reflection ghosting against the reinforced
 
 "I know," Elias said, a faint, resolute smile touching his lips. The fear that had driven him since he first discovered the corrupted file in his node had burned away. "But the memory is out there now. They can't erase it again."
 
-They watched the city wake up, changed forever.
+Kaelen checked the charge on her weapon and did not holster it.
 
