@@ -11,16 +11,16 @@ tags: []
 
 ## Description
 
-What it is and how readers recognize it.
+A partial export of the Oversight Committee's batch-protocol schedule, showing memory-rewrite job ids, sectors, and timestamps.
 
 ## Function
 
-What it can do, cannot do, costs, and constraints.
+Proof that the rewrites were systematic and batch-run, not isolated crimes. Cannot authenticate itself without the cryptographic root key.
 
 ## History
 
-Where it came from and why it matters.
+Recovered from the Sector Four black site in the early chapters; shaped Elias's certainty that the conspiracy was institutional.
 
 ## Current State
 
-Who has it, where it is, and what changed recently.
+In Elias's possession in the Undercity, still lacking the root key needed to certify it.
