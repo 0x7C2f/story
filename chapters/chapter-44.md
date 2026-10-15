@@ -17,7 +17,7 @@ status: draft
 mode: ""
 date: ""
 time: ""
-word-count: 708
+word-count: 706
 ---
 
 # Chapter 44
@@ -66,7 +66,7 @@ Kaelen emerged from her alcove, dusting concrete powder from her shoulders. "It 
 
 "Then we don't stay to chat," Jarek said, already moving past the wreckage. The path ahead was partially blocked by the cave-in, but there was enough clearance near the right wall to squeeze through. "The tunnel forks a klick ahead. It will take us closer to Sector Five, away from Vane's perimeter sweeps."
 
-Elias followed them, stepping over the jagged chunks of rock. The throbbing in his head had not stopped, but the immediate adrenaline surge sharpened his focus. They had survived the canyon, they had bypassed the loyalists, and they had beaten the tunnel's defenses.
+Elias followed them, stepping over the jagged chunks of rock. The throbbing in his head continued, though the immediate adrenaline surge sharpened his focus. They had survived the canyon, they had bypassed the loyalists, and they had beaten the tunnel's defenses.
 
 He checked his wrist terminal once more. The mesh network was holding strong, the broadcast data still replicating across the lower sectors. The truth was out there, rippling through the city’s sanitized history.
 
