@@ -1,5 +1,5 @@
 ---
-title: The Aftermath
+title: The Aftermath of the City Awakening
 number: 28
 pov: elias-thorne
 locations:

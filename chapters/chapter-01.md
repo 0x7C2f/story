@@ -6,8 +6,9 @@ locations: []
 characters:
 - elias-thorne
 mentions: []
-arcs-advanced: []
-status: outline
+arcs-advanced:
+- memory-liberation
+status: draft
 mode: ''
 date: ''
 time: ''

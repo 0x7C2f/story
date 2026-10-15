@@ -9,8 +9,8 @@ story: the-memory-archivist
 
 | # | Title | POV | Status | Word Count | File |
 |---|-------|-----|--------|------------|------|
-| 1 | The Fragment | elias-thorne | outline | 451 | [chapter-01](chapter-01.md) |
-| 2 | The Descent | elias-thorne | outline | 401 | [chapter-02](chapter-02.md) |
+| 1 | The Fragment | elias-thorne | draft | 451 | [chapter-01](chapter-01.md) |
+| 2 | The Descent | elias-thorne | draft | 401 | [chapter-02](chapter-02.md) |
 | 3 | The Undercity Meeting | elias-thorne | draft | 571 | [chapter-03](chapter-03.md) |
 | 4 | The Black Site Protocol | elias-thorne | draft | 450 | [chapter-04](chapter-04.md) |
 | 5 | Sector Four Infiltration | elias-thorne | draft | 635 | [chapter-05](chapter-05.md) |
@@ -20,8 +20,8 @@ story: the-memory-archivist
 | 9 | Escape and Implications | elias-thorne | draft | 815 | [chapter-09](chapter-09.md) |
 | 10 | The Broadcast Tower Plan | elias-thorne | draft | 396 | [chapter-10](chapter-10.md) |
 | 11 | The Broadcast Assault | elias-thorne | draft | 347 | [chapter-11](chapter-11.md) |
-| 12 | The Aftermath | elias-thorne | draft | 345 | [chapter-12](chapter-12.md) |
-| 13 | The Outskirts | elias-thorne | draft | 287 | [chapter-13](chapter-13.md) |
+| 12 | The Aftermath of the Broadcast | elias-thorne | draft | 345 | [chapter-12](chapter-12.md) |
+| 13 | The Outskirts Crossing | elias-thorne | draft | 287 | [chapter-13](chapter-13.md) |
 | 14 | The Outskirts Settlement | elias-thorne | draft | 443 | [chapter-14](chapter-14.md) |
 | 15 | Negotiating Trust | elias-thorne | draft | 580 | [chapter-15](chapter-15.md) |
 | 16 | Proving Their Worth | elias-thorne | draft | 620 | [chapter-16](chapter-16.md) |
@@ -32,13 +32,14 @@ story: the-memory-archivist
 | 21 | The Transit Bridge Ambush | elias-thorne | draft | 513 | [chapter-21](chapter-21.md) |
 | 22 | The Transport Capture | elias-thorne | draft | 716 | [chapter-22](chapter-22.md) |
 | 23 | The Mobile Repeaters | elias-thorne | draft | 799 | [chapter-23](chapter-23.md) |
-| 24 | Sector Six Infiltration | elias-thorne | draft | 690 | [chapter-24](chapter-24.md) |
+| 24 | Into Sector Six | elias-thorne | draft | 690 | [chapter-24](chapter-24.md) |
 | 25 | The Signal Repeater Strike | elias-thorne | draft | 941 | [chapter-25](chapter-25.md) |
 | 26 | The Mobile Rewrite | elias-thorne | draft | 517 | [chapter-26](chapter-26.md) |
 | 27 | The Counter-Broadcast | elias-thorne | draft | 699 | [chapter-27](chapter-27.md) |
-| 28 | The Aftermath | elias-thorne | draft | 739 | [chapter-28](chapter-28.md) |
+| 28 | The Aftermath of the City Awakening | elias-thorne | draft | 739 | [chapter-28](chapter-28.md) |
 | 29 | The Nexus Gambit | elias-thorne | draft | 667 | [chapter-29](chapter-29.md) |
 | 30 | The Diversion | elias-thorne | draft | 316 | [chapter-30](chapter-30.md) |
 | 31 | The Infiltration Bluff | elias-thorne | draft | 482 | [chapter-31](chapter-31.md) |
+| 32 | The Nexus Resolution | elias-thorne | outline | 0 | [chapter-32](chapter-32.md) |
 
 ## Total Word Count: 17714

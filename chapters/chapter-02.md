@@ -7,7 +7,7 @@ characters:
 - elias-thorne
 mentions: []
 arcs-advanced: []
-status: outline
+status: draft
 mode: ''
 date: ''
 time: ''

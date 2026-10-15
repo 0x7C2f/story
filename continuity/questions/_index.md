@@ -9,4 +9,4 @@ story: the-memory-archivist
 
 | Question | Status | Introduced | File |
 |----------|--------|------------|------|
-| *No questions yet* | | | |
+| What happened to Elias's own memories? | answered | chapter-09 | [elias-memory-gap](elias-memory-gap.md) |

@@ -1,5 +1,5 @@
 ---
-title: The Aftermath
+title: The Aftermath of the Broadcast
 number: 12
 pov: elias-thorne
 locations:

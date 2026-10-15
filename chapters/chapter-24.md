@@ -1,5 +1,5 @@
 ---
-title: Sector Six Infiltration
+title: Into Sector Six
 number: 24
 pov: elias-thorne
 locations:
