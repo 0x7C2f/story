@@ -45,5 +45,6 @@ story: the-memory-archivist
 | 34 | The Awakening | elias-thorne | draft | 405 | [chapter-34](chapter-34.md) |
 | 35 | Chapter 35 | elias-thorne | draft | 568 | [chapter-35](chapter-35.md) |
 | 36 | Chapter 36 | elias-thorne | draft | 683 | [chapter-36](chapter-36.md) |
+| 37 | Chapter 37 | director-vane | draft | 487 | [chapter-37](chapter-37.md) |
 
-## Total Word Count: 19693
+## Total Word Count: 20180
