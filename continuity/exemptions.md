@@ -3,6 +3,10 @@ type: exemption-log
 story: untitled
 exemptions:
   - code: stray-file
+    pattern: "CHANGELOG.md is not part of the story project model"
+    reason: Log file for automated agent runs. Tooling, not record.
+
+  - code: stray-file
     pattern: "AGENTS.md is not part of the story project model"
     reason: The agent entry point — the steward charter for any agent pointed at this repository. Tooling, not record.
   - code: stray-file
