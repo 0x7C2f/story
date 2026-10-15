@@ -32,8 +32,8 @@ What changes because of this arc.
 
 ## Plot Points
 
-| # | Plot Point | Act | Chapter | Status | Notes |
-|---|------------|-----|---------|--------|-------|
+| # | Beat | Act | Chapter | Status | Notes |
+|---|------|-----|---------|--------|-------|
 | 1 | | | | planned | |
 
 ## Foreshadowing
