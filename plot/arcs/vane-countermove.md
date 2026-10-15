@@ -34,7 +34,7 @@ What changes because of this arc.
 
 | # | Plot Point | Act | Chapter | Status | Notes |
 |---|------------|-----|---------|--------|-------|
-| 1 | Director Vane evacuates the Nexus Spire after the Committee command structure fractures. | 2 | 34 | draft | |
+| 1 | | | | planned | |
 
 ## Foreshadowing
 
