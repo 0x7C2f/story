@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 33
+current-chapter: 34
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -214,7 +214,6 @@ knowledge-state:
 - character: director-vane
   knows: Elias and Kaelen have breached the outer perimeter of the Nexus Spire.
   learned-in: chapter-33
-
 - character: kaelen
   knows: The secondary transports have initiated a localized failsafe and do not need the central hub to synchronize.
   learned-in: chapter-25
@@ -239,6 +238,12 @@ knowledge-state:
 - character: jarek
   knows: Elias plans to use the settlement defense as a diversion to attack the Nexus Spire.
   learned-in: chapter-28
+- character: elias-thorne
+  knows: The automated security drones in the maintenance levels are uncoordinated due to the fractured synchronization protocol.
+  learned-in: chapter-34
+- character: kaelen
+  knows: The automated security drones in the maintenance levels are uncoordinated due to the fractured synchronization protocol.
+  learned-in: chapter-34
 ---
 
 # Continuity State

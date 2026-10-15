@@ -35,7 +35,7 @@ What changes because of this arc.
 
 | # | Plot Point | Act | Chapter | Status | Notes |
 |---|------------|-----|---------|--------|-------|
-| 1 | | | | planned | |
+| 1 | Elias and Kaelen breach the primary data core through the maintenance levels | 3 | 34 | planned | |
 
 ## Foreshadowing
 
