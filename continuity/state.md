@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 43
+current-chapter: 44
 character-state:
   - character: director-vane
     location: the-nexus-spire
@@ -399,6 +399,18 @@ knowledge-state:
     knows: |-
       They successfully evaded the initial thermal sweeps by escaping into the subterranean smuggler tunnels.
     learned-in: chapter-43
+  - character: elias-thorne
+    knows: |-
+      They successfully destroyed the automated security drone and continue through the smuggler tunnels toward Sector Five.
+    learned-in: chapter-44
+  - character: kaelen
+    knows: |-
+      They successfully destroyed the automated security drone and continue through the smuggler tunnels toward Sector Five.
+    learned-in: chapter-44
+  - character: jarek
+    knows: |-
+      They successfully destroyed the automated security drone and continue through the smuggler tunnels toward Sector Five.
+    learned-in: chapter-44
 ---
 
 
