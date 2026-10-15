@@ -21,6 +21,7 @@ relationships:
   - character: director-vane
     type: enemy
 locations:
+  - sector-six
   - old-transit-bridge
   - the-undercity
   - sector-four-black-site

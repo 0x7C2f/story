@@ -44,5 +44,6 @@ story: the-memory-archivist
 | 33 | Director Vane's Reckoning | director-vane | draft | 103 | [chapter-33](chapter-33.md) |
 | 34 | The Awakening | elias-thorne | draft | 405 | [chapter-34](chapter-34.md) |
 | 35 | Chapter 35 | elias-thorne | draft | 568 | [chapter-35](chapter-35.md) |
+| 36 | Chapter 36 | elias-thorne | draft | 683 | [chapter-36](chapter-36.md) |
 
-## Total Word Count: 19010
+## Total Word Count: 19693

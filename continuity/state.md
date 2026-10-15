@@ -1,22 +1,22 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 35
+current-chapter: 36
 character-state:
 - character: director-vane
   location: the-nexus-spire
   physical: Uninjured, composed
   emotional: Paranoid, determined, commanding
 - character: elias-thorne
-  location: sector-one
+  location: sector-six
   physical: Recovering from severe neural strain
   emotional: Determined, procedural
 - character: kaelen
-  location: sector-one
+  location: sector-six
   physical: Uninjured
   emotional: Tense, focused
 - character: jarek
-  location: the-scrapyard-settlement
+  location: sector-six
   physical: Uninjured
   emotional: Resolved, preparing for siege
 object-state:
@@ -245,6 +245,16 @@ knowledge-state:
 - character: jarek
   knows: Elias plans to use the settlement defense as a diversion to attack the Nexus Spire.
   learned-in: chapter-28
+- character: elias-thorne
+  knows: The resistance successfully linked up at the staging ground after evading the initial loyalist sweeps.
+  learned-in: chapter-36
+- character: kaelen
+  knows: The resistance successfully linked up at the staging ground after evading the initial loyalist sweeps.
+  learned-in: chapter-36
+- character: jarek
+  knows: The resistance successfully linked up at the staging ground after evading the initial loyalist sweeps.
+  learned-in: chapter-36
+
 ---
 
 # Continuity State

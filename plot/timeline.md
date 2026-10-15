@@ -31,3 +31,4 @@ story: the-memory-archivist
 | Day 7 | Elias executes the counter-broadcast at the Nexus Spire, pushing true memories out to the entire city | | 32 |
 | Day 7 | Director Vane watches her control fracture as the city's grid broadcasts the truth | | 33 |
 | Day 7 | Elias descends into Sector One, observes the shocked city grappling with restored memories, and reunites with Kaelen to prepare for Vane's retaliation | | 34 |
+| Day 7 | Elias and Kaelen evade loyalist sweep teams in the transit tunnels and link up with Jarek at the Sector Six staging ground | | 36 |
