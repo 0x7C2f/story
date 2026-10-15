@@ -184,14 +184,7 @@ jobs:
           cd "$SITE_DIR/docs"
           node generate-index.mjs
 
-          # The reader site's home page, and the story metadata behind /about.
-          if [ -f "index.md" ]; then
-            cp index.md "$SITE_DIR/docs/index.md"
-          elif [ -f "README.md" ]; then
-            cp README.md "$SITE_DIR/docs/index.md"
-          else
-            echo "# Story Archive" > "$SITE_DIR/docs/index.md"
-          fi
+          # The reader site's story metadata behind /about.
           if [ -f "story.md" ]; then
             cp story.md "$SITE_DIR/docs/about.md"
           fi
