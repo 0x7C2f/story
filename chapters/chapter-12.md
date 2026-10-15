@@ -21,7 +21,7 @@ next: /chapters/chapter-13.html
 
 # Chapter 12: The Aftermath
 
-The central broadcast tower stood silent, save for the low, rhythmic hum of the server banks processing the immense data load. On the primary terminal, the progress bars had vanished, replaced by a single, pulsing green confirmation of the counter-broadcast. Elias Thorne leaned against the cold metal casing of the console, his chest heaving as the adrenaline slowly drained from his veins, leaving behind a profound ache.
+The central broadcast tower stood silent, save for the low, rhythmic hum of the server banks processing the immense data load. On the primary terminal, the progress bars had vanished, replaced by a single, pulsing green confirmation of the counter-broadcast. Elias Thorne leaned against the cold metal casing of the console, his chest heaving as the adrenaline slowly drained from his veins, leaving behind a dull ache.
 
 Outside the reinforced windows, the city of New Providence lay bathed in the harsh, pre-dawn light. The synchronization pulse from the Oversight Committee had failed. In its place, the raw, unedited memories of the Sector Two uprising—and countless other suppressed truths—had flooded the grid. Down in the streets, the silence was breaking.
 

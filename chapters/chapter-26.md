@@ -15,7 +15,7 @@ status: draft
 mode: ""
 date: ''
 time: ''
-word-count: 517
+word-count: 516
 prev: /chapters/chapter-25.html
 next: /chapters/chapter-27.html
 ---
@@ -24,7 +24,7 @@ next: /chapters/chapter-27.html
 
 The heavy transport surged away from the Sector Six staging ground, its tires gripping the fractured ferrocrete. Inside the cabin, the atmosphere was suffocating. Elias stared at the tactical projection hovering over his console, the red markers of the mobile transports fanning out in a coordinated, predatory formation.
 
-"They're not just deploying early," Elias said, his voice tight. The interface ache throbbed relentlessly against his skull. "They're moving in a dispersed grid. The failsafe was designed to operate without the central node."
+"They're not just deploying early," Elias said, his voice tight. The interface ache throbbed against his skull. "They're moving in a dispersed grid. The failsafe was designed to operate without the central node."
 
 Jarek ground the gears, coaxing every ounce of speed from the engine. "How much time before they hit the perimeter of the Outskirts?" he asked, his deep rumble barely audible over the engine's roar.
 

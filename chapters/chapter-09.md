@@ -48,7 +48,7 @@ Elias grabbed the cold iron of the ladder, his muscles trembling as he pulled hi
 
 Below him, the sound of heavy boots echoed from the vault room. The Spire's security patrols were fast.
 
-"Keep climbing," Kaelen ordered from below, unleashing another pulse burst that illuminated the shaft in harsh, blue flashes.
+"Keep climbing," Kaelen ordered from below, firing another pulse burst that illuminated the shaft in harsh, blue flashes.
 
 They scaled the shaft for what felt like hours, though it was likely only minutes, until they reached the access hatch that led out to the lower maintenance tunnels. Elias heaved his shoulder against the rusted metal, forcing it open. The humid, polluted air of the Undercity flooded over them, smelling of ozone, synthetic rot, and salvation.
 

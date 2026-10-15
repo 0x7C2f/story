@@ -31,7 +31,7 @@ They were led to a central clearing where a makeshift, reinforced command center
 
 Jarek looked them up and down, unimpressed by their appearance. "You look like city soft-skins. What makes you think you're capable of bringing down the Oversight Committee's crown jewel?"
 
-"Looks can be deceiving, as I'm sure you know," Kaelen said, her tone level but carrying an unmistakable edge of firm resolve. "We disrupted the synchronization protocol. We stopped them from overwriting the entire city's collective memory."
+"Looks can be deceiving, as I'm sure you know," Kaelen said, her tone level but carrying a hard edge of firm resolve. "We disrupted the synchronization protocol. We stopped them from overwriting the entire city's collective memory."
 
 Jarek chuckled, a dry, humorless sound that vanished into the wind. "Memory. That's a luxury for those who don't have to worry about where their next meal is coming from. Out here, we deal in scrap, water, and survival. Your high-minded memory wars mean nothing to the dust."
 

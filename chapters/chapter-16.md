@@ -27,7 +27,7 @@ A heavy fist pounded against the rusted door. It swung open to reveal a pair of 
 
 "Jarek wants you at the main generator," one of them growled, gesturing sharply with the barrel of a scavenged rifle. "Move."
 
-Elias and Kaelen followed the guards through the labyrinthine alleys of the Scrapyard Settlement. The settlement was already awake and bustling, a chaotic symphony of grinding metal, shouted orders, and the ever-present howling wind. They arrived at a massive, subterranean cavern where the settlement's main generator thrummed unevenly, coughing thick, acrid smoke from multiple exhaust vents. The air was thick with the scent of burning ozone and machine oil.
+Elias and Kaelen followed the guards through the labyrinthine alleys of the Scrapyard Settlement. The settlement was already awake and bustling, a chaotic chorus of grinding metal, shouted orders, and the ever-present howling wind. They arrived at a massive, subterranean cavern where the settlement's main generator thrummed unevenly, coughing thick, acrid smoke from multiple exhaust vents. The air was thick with the scent of burning ozone and machine oil.
 
 Jarek stood on a raised catwalk, overlooking the struggling machinery with a deep scowl. He spotted them and gestured them over.
 

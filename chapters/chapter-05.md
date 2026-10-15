@@ -15,7 +15,7 @@ status: draft
 mode: ''
 date: ''
 time: ''
-word-count: 635
+word-count: 636
 prev: /chapters/chapter-04.html
 next: /chapters/chapter-06.html
 ---
@@ -41,7 +41,7 @@ Elias swallowed the knot of tension in his throat. His neural implant felt heavy
 
 "I see the access point," Elias whispered. He pointed to a recessed alcove where the damp concrete gave way to smooth, modern composite paneling. A single red status LED pulsed in the gloom like a slow heartbeat.
 
-Kaelen knelt by the panel, pulling a frayed splicing rig from her satchel. "Standard Committee architecture. Brutalist. Efficient. Let's see if Director Vane left the back door unlocked." She connected the rig, her fingers dancing across a haptic projection. A moment later, the red LED flared green. The panel slid open with a pneumatic hiss, revealing a narrow service corridor lit by cold strip lighting.
+Kaelen knelt by the panel, pulling a frayed splicing rig from her satchel. "Standard Committee architecture. Brutalist. Efficient. Let's see if Director Vane left the back door wide open." She connected the rig, her fingers dancing across a haptic projection. A moment later, the red LED flared green. The panel slid open with a pneumatic hiss, revealing a narrow service corridor lit by cold strip lighting.
 
 They stepped inside, the oppressive damp of the ruins instantly replaced by the sterilized, climate-controlled air of a server farm. Rows of obsidian archive nodes lined the walls, identical to the ones in Elias's workspace, but these were unmarked, stripped of all public-facing metadata.
 

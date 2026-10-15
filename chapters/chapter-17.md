@@ -20,7 +20,7 @@ next: /chapters/chapter-18.html
 
 # Chapter 17: Forging a Resistance
 
-The rhythmic hum of the newly stabilized generator resonated through the floor plating, a constant reminder of their newly minted alliance. Elias sat in Jarek's makeshift command center, a repurposed shipping container reinforced with scavenged armor plating. Holographic schematics of the city limits flickered across a cracked display table, casting a harsh, blue light over the room.
+The rhythmic hum of the newly stabilized generator vibrated through the floor plating, a constant reminder of their newly minted alliance. Elias sat in Jarek's makeshift command center, a repurposed shipping container reinforced with scavenged armor plating. Holographic schematics of the city limits flickered across a cracked display table, casting a harsh, blue light over the room.
 
 Kaelen leaned against the bulkhead, her arms crossed. "The Oversight Committee won't just let us go. The counter-broadcast disrupted their immediate synchronization, but it didn't dismantle their infrastructure. They will regroup, and when they do, they'll sweep the Outskirts."
 

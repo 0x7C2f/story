@@ -14,7 +14,7 @@ status: draft
 mode: ''
 date: ''
 time: ''
-word-count: 715
+word-count: 711
 prev: /chapters/chapter-07.html
 next: /chapters/chapter-09.html
 ---
@@ -49,7 +49,7 @@ The doors slid open to a cavernous, windowless sub-basement. In the center of th
 
 "I've got the door," Kaelen said, drawing a heavy pulse pistol and taking position by the lift. "You've got the lock. Don't let it fry you, Thorne."
 
-Elias approached the obsidian cube. A slick, metallic access port extended from its surface like a striking snake. He swallowed hard, unwinding the neural interface cable from his rig.
+Elias approached the obsidian cube. A slick, metallic access port extended from its surface. He swallowed hard, unwinding the neural interface cable from his rig.
 
 "Initiating handshake," Elias whispered, plugging the cable into the port and attaching the primary node to his temple.
 
