@@ -1,18 +1,18 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 31
+current-chapter: 32
 character-state:
 - character: director-vane
   location: the-nexus-spire
   physical: Uninjured, composed
   emotional: Paranoid, determined, commanding
 - character: elias-thorne
-  location: heavy-transport
+  location: the-nexus-spire
   physical: Recovering from severe neural strain
   emotional: Determined, procedural
 - character: kaelen
-  location: heavy-transport
+  location: the-nexus-spire
   physical: Uninjured
   emotional: Tense, focused
 - character: jarek
@@ -208,6 +208,16 @@ knowledge-state:
 - character: elias-thorne
   knows: Destroying the primary node was insufficient; the secondary transports are operating as a decentralized mesh network.
   learned-in: chapter-25
+- character: elias-thorne
+  knows: The heavy transport bluff failed, forcing an entry via the ventilation shafts.
+  learned-in: chapter-32
+- character: kaelen
+  knows: The heavy transport bluff failed, forcing an entry via the ventilation shafts.
+  learned-in: chapter-32
+- character: director-vane
+  knows: Elias and Kaelen have breached the outer perimeter of the Nexus Spire.
+  learned-in: chapter-32
+
 - character: kaelen
   knows: The secondary transports have initiated a localized failsafe and do not need the central hub to synchronize.
   learned-in: chapter-25
