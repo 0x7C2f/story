@@ -42,5 +42,6 @@ story: the-memory-archivist
 | 31 | The Infiltration Bluff | elias-thorne | draft | 482 | [chapter-31](chapter-31.md) |
 | 32 | The Nexus Resolution | elias-thorne | draft | 172 | [chapter-32](chapter-32.md) |
 | 33 | Director Vane's Reckoning | director-vane | draft | 103 | [chapter-33](chapter-33.md) |
+| 34 | The Awakening | elias-thorne | draft | 405 | [chapter-34](chapter-34.md) |
 
-## Total Word Count: 18037
+## Total Word Count: 18442

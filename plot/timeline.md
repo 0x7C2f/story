@@ -25,3 +25,9 @@ story: the-memory-archivist
 | Day 7 | Elias, Kaelen, and Jarek flee the staging ground, racing against the early-deploying mobile rewrite transports to reach the settlement and initiate a counter-broadcast via the mesh network | | 26 |
 | Day 7 | Elias, Kaelen, and Jarek arrive at the settlement; Elias initiates a massive counter-broadcast through the mesh network using the root key to hold off the mobile transports | | 27 |
 | Day 7 | Elias recovers from the counter-broadcast and plans a final strike on the Nexus Spire while the Scavengers prepare to draw the Committee sweep teams | | 28 |
+| Day 7 | Elias uses the settlement diversion to slip past Committee forces and infiltrate the Nexus Spire | | 29 |
+| Day 7 | Elias distracts the Nexus Spire defenses while Kaelen coordinates the Scavenger assault | | 30 |
+| Day 7 | Elias bluffs his way past the inner security cordons to reach the broadcast center | | 31 |
+| Day 7 | Elias executes the counter-broadcast at the Nexus Spire, pushing true memories out to the entire city | | 32 |
+| Day 7 | Director Vane watches her control fracture as the city's grid broadcasts the truth | | 33 |
+| Day 7 | Elias descends into Sector One, observes the shocked city grappling with restored memories, and reunites with Kaelen to prepare for Vane's retaliation | | 34 |
