@@ -1,18 +1,18 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 33
+current-chapter: 34
 character-state:
 - character: director-vane
   location: the-nexus-spire
   physical: Uninjured, composed
   emotional: Paranoid, determined, commanding
 - character: elias-thorne
-  location: the-nexus-spire
+  location: the-scrapyard-settlement
   physical: Recovering from severe neural strain
   emotional: Determined, procedural
 - character: kaelen
-  location: the-nexus-spire
+  location: the-scrapyard-settlement
   physical: Uninjured
   emotional: Tense, focused
 - character: jarek
@@ -34,7 +34,7 @@ object-state:
   status: active
 - artifact: heavy-transport
   owner: jarek
-  location: old-transit-bridge
+  location: the-scrapyard-settlement
   status: active
 knowledge-state:
 - character: elias-thorne
@@ -239,6 +239,15 @@ knowledge-state:
 - character: jarek
   knows: Elias plans to use the settlement defense as a diversion to attack the Nexus Spire.
   learned-in: chapter-28
+- character: elias-thorne
+  knows: Director Vane's forces are retreating to build a defensive firewall around the core sectors.
+  learned-in: chapter-34
+- character: kaelen
+  knows: Director Vane's forces are retreating to build a defensive firewall around the core sectors.
+  learned-in: chapter-34
+- character: jarek
+  knows: Director Vane's forces are retreating to build a defensive firewall around the core sectors.
+  learned-in: chapter-34
 ---
 
 # Continuity State

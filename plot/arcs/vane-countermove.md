@@ -34,7 +34,7 @@ What changes because of this arc.
 
 | # | Plot Point | Act | Chapter | Status | Notes |
 |---|------------|-----|---------|--------|-------|
-| 1 | | | | planned | |
+| 1 | Vane begins consolidating her loyalist forces, retreating from the Outskirts to build a defensive firewall around the core sectors, preparing a new protocol. | 3 | 34 | completed | |
 
 ## Foreshadowing
 
