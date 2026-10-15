@@ -1,9 +1,9 @@
 ---
 name: Heavy Transport
 type: object
-status: active
+status: destroyed
 owner: jarek
-location: old-transit-bridge
+location: new-providence-outskirts
 tags: []
 ---
 # Heavy Transport
