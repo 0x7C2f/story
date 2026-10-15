@@ -33,3 +33,5 @@ story: the-memory-archivist
 | Day 7 | Elias descends into Sector One, observes the shocked city grappling with restored memories, and reunites with Kaelen to prepare for Vane's retaliation | | 34 |
 | Day 7 | Elias and Kaelen evade loyalist sweep teams in the transit tunnels and link up with Jarek at the Sector Six staging ground | | 36 |
 | Day 7 | Director Vane analyzes the staging ground breach and initiates a targeted strike against Elias and Kaelen at Sector Six | vane-countermove | 37 |
+| Day 7 | Elias, Kaelen, and Jarek realize they are trapped by Director Vane's forces and are forced to destroy the Sector Six staging ground to escape | | 38 |
+| Day 7 | Elias, Kaelen, and Jarek flee the destroyed Sector Six staging ground in the heavy transport, evading Vane's loyalists and heading toward the Outskirts | | 39 |

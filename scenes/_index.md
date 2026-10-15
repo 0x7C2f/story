@@ -47,3 +47,4 @@ story: the-memory-archivist
 | chapter-36 | 1 | The Tunnel Escape | elias-thorne | draft | [chapter-36-scene-01](chapter-36-scene-01.md) |
 | chapter-37 | 1 | The Countermove | director-vane | draft | [chapter-37-scene-01](chapter-37-scene-01.md) |
 | chapter-38 | 1 | The Strike on Sector Six | elias-thorne | draft | [chapter-38-scene-01](chapter-38-scene-01.md) |
+| chapter-39 | 1 | The Escape | elias-thorne | draft | [chapter-39-scene-01](chapter-39-scene-01.md) |
