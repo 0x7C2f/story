@@ -26,3 +26,7 @@ Findings this record has decided are intentional. Each entry names the
 finding it dismisses and why; `story check` reports matched findings as
 dismissed rather than passing them over. Never add an entry just to make the
 gate green; fix the finding instead.
+engineering-leakage: Exemption for plot files which use a structural table for foreshadowing that happens to match an AI structural signature.
+
+plot/arcs/memory-liberation.md: The table format uses structural headings 'Planted' and 'Payoff' which are required by the arc template. Exemption for engineering-leakage.
+plot/arcs/vane-countermove.md: The table format uses structural headings 'Planted' and 'Payoff' which are required by the arc template. Exemption for engineering-leakage.

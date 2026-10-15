@@ -28,11 +28,11 @@ Decision point or highest tension.
 
 ## Resolution
 
-What changes because of this arc.
+The outcome.
 
-## Plot Points
+## Events
 
-| # | Plot Point | Act | Chapter | Status | Notes |
+| # | Event | Act | Chapter | Status | Notes |
 |---|------------|-----|---------|--------|-------|
 | 1 | | | | planned | |
 
