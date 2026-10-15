@@ -35,7 +35,7 @@ What changes because of this arc.
 
 | # | Plot Point | Act | Chapter | Status | Notes |
 |---|------------|-----|---------|--------|-------|
-| 1 | The settlement experiences the true memories from the counter-broadcast; Elias commits to defending the liberated memory rather than just holding the Outskirts. | 3 | 34 | completed | |
+| 1 | | | | planned | |
 
 ## Foreshadowing
 

@@ -42,4 +42,3 @@ story: the-memory-archivist
 | chapter-31 | 1 | The Transport Flight | elias-thorne | draft | [chapter-31-scene-01](chapter-31-scene-01.md) |
 | chapter-32 | 1 | The Final Reckoning | elias-thorne | outline | [chapter-32-scene-01](chapter-32-scene-01.md) |
 | chapter-33 | 1 | Vane's Reckoning | director-vane | outline | [chapter-33-scene-01](chapter-33-scene-01.md) |
-| chapter-34 | 1 | The Horizon Unbroken | elias-thorne | draft | [chapter-34-scene-01](chapter-34-scene-01.md) |
