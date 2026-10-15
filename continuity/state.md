@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 33
+current-chapter: 34
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -239,6 +239,9 @@ knowledge-state:
 - character: jarek
   knows: Elias plans to use the settlement defense as a diversion to attack the Nexus Spire.
   learned-in: chapter-28
+- character: elias-thorne
+  knows: The mesh network has held and true memories are surging through the city's public displays.
+  learned-in: chapter-34
 ---
 
 # Continuity State
