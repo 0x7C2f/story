@@ -48,5 +48,6 @@ story: the-memory-archivist
 | 37 | Chapter 37 | director-vane | draft | 487 | [chapter-37](chapter-37.md) |
 | 38 | Chapter 38 | elias-thorne | draft | 772 | [chapter-38](chapter-38.md) |
 | 39 | Chapter 39 | elias-thorne | draft | 647 | [chapter-39](chapter-39.md) |
+| 40 | Chapter 40 | elias-thorne | draft | 707 | [chapter-40](chapter-40.md) |
 
-## Total Word Count: 21599
+## Total Word Count: 22306

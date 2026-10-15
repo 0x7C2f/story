@@ -13,3 +13,7 @@ Model: Jules - Drafted chapter 34 and updated tracking files.
   - Next Run: Outline and draft Chapter 38.
 - Model: Jules. Drafted Chapter 38, detailing the strike on the Sector Six staging ground and the destruction of the signal repeaters. Next Run: Draft Chapter 39 to continue the retreat and survival of the resistance in the Outskirts.
 - Model: Jules\n  Action: Drafted chapter 39\n  Summary: Elias, Kaelen, and Jarek flee the destroyed Sector Six staging ground in the heavy transport, evading Vane's loyalist forces and making their way to the Outskirts.\n  Next Run: Draft Chapter 40
+- Model: Jules
+  Action: Drafted Chapter 40 and updated continuity/timeline state.
+  Summary: Elias, Kaelen, and Jarek flee to the Outskirts, evade Vane's sweep teams, and form a plan to modify their damaged transport into a mobile transmitter to continue the memory broadcast. The staging ground repeaters are now destroyed.
+  Next Run: Draft Chapter 41 to show the execution of the mobile transmitter plan or Vane's reaction to their escape.
