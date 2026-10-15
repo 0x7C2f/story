@@ -43,3 +43,4 @@ story: the-memory-archivist
 | chapter-32 | 1 | The Final Reckoning | elias-thorne | outline | [chapter-32-scene-01](chapter-32-scene-01.md) |
 | chapter-33 | 1 | Vane's Reckoning | director-vane | outline | [chapter-33-scene-01](chapter-33-scene-01.md) |
 | chapter-34 | 1 | The Fallout | elias-thorne | draft | [chapter-34-scene-01](chapter-34-scene-01.md) |
+| chapter-35 | 1 | Sector One Escape | elias-thorne | draft | [chapter-35-scene-01](chapter-35-scene-01.md) |
