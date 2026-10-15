@@ -48,4 +48,4 @@ story: the-memory-archivist
 | Heavy Transport | Object | active | [heavy-transport](artifacts/heavy-transport.md) |
 | Partial Batch Manifest | Object | active | [partial-batch-manifest](artifacts/partial-batch-manifest.md) |
 | Physical Drive M-774-B | Object | active | [physical-drive-m-774-b](artifacts/physical-drive-m-774-b.md) |
-| Signal Repeaters | Technology | active | [signal-repeaters](artifacts/signal-repeaters.md) |
+| Signal Repeaters | Technology | destroyed | [signal-repeaters](artifacts/signal-repeaters.md) |
