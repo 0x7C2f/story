@@ -40,6 +40,6 @@ story: the-memory-archivist
 | 29 | The Nexus Gambit | elias-thorne | draft | 667 | [chapter-29](chapter-29.md) |
 | 30 | The Diversion | elias-thorne | draft | 316 | [chapter-30](chapter-30.md) |
 | 31 | The Infiltration Bluff | elias-thorne | draft | 482 | [chapter-31](chapter-31.md) |
-| 32 | The Nexus Resolution | elias-thorne | outline | 0 | [chapter-32](chapter-32.md) |
+| 32 | The Nexus Resolution | elias-thorne | outline | 57 | [chapter-32](chapter-32.md) |
 
-## Total Word Count: 17714
+## Total Word Count: 17771
