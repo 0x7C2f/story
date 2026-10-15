@@ -14,9 +14,9 @@ story: the-memory-archivist
 | Name | Type | Region | File |
 |------|------|--------|------|
 | central-broadcast-tower | Location |  | [central-broadcast-tower](locations/central-broadcast-tower.md) |
-| Heavy Transport | Other |  | [heavy-transport](locations/heavy-transport.md) |
-| New Providence Outskirts | Other |  | [new-providence-outskirts](locations/new-providence-outskirts.md) |
-| Nexus Archives | Location |  | [nexus-archives](locations/nexus-archives.md) |
+| Heavy Transport | Other | sector-six-staging-ground | [heavy-transport](locations/heavy-transport.md) |
+| New Providence Outskirts | Other | new-providence-outskirts | [new-providence-outskirts](locations/new-providence-outskirts.md) |
+| Nexus Archives | Location | sector-one | [nexus-archives](locations/nexus-archives.md) |
 | Old Transit Bridge | Other | new-providence-outskirts | [old-transit-bridge](locations/old-transit-bridge.md) |
 | The Abandoned Relay Station | Building | The Dead Zone, twenty klicks east of the Scrapyard Settlement | [relay-station](locations/relay-station.md) |
 | Sector Four Black Site | Location | Sector Four | [sector-four-black-site](locations/sector-four-black-site.md) |
@@ -24,13 +24,13 @@ story: the-memory-archivist
 | The Dead Zone | Other | Twenty klicks east of the Scrapyard Settlement | [the-dead-zone](locations/the-dead-zone.md) |
 | The Nexus Spire | Building | Sector One | [the-nexus-spire](locations/the-nexus-spire.md) |
 | The Scrapyard Settlement | Neighborhood |  | [the-scrapyard-settlement](locations/the-scrapyard-settlement.md) |
-| The Undercity | Location |  | [the-undercity](locations/the-undercity.md) |
+| The Undercity | Location | the-undercity | [the-undercity](locations/the-undercity.md) |
 
 ## Systems
 
 | Name | Type | File |
 |------|------|------|
-| *No systems yet* | | |
+| Memory Digitization Protocol | Other | [memory-digitization](systems/memory-digitization.md) |
 
 ## Factions
 
