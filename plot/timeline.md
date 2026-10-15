@@ -35,3 +35,4 @@ story: the-memory-archivist
 | Day 7 | Director Vane analyzes the staging ground breach and initiates a targeted strike against Elias and Kaelen at Sector Six | vane-countermove | 37 |
 | Day 7 | Elias, Kaelen, and Jarek realize they are trapped by Director Vane's forces and are forced to destroy the Sector Six staging ground to escape | | 38 |
 | Day 7 | Elias, Kaelen, and Jarek flee the destroyed Sector Six staging ground in the heavy transport, evading Vane's loyalists and heading toward the Outskirts | | 39 |
+| Day 7 | Elias, Kaelen, and Jarek flee to the Outskirts, evade sweep teams, and plan to convert the transport into a mobile transmitter | memory-liberation | 40 |
