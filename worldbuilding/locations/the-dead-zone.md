@@ -3,7 +3,7 @@ name: The Dead Zone
 type: other
 region: "Twenty klicks east of the Scrapyard Settlement"
 population: "None known"
-controlled-by: ""
+controlled-by: the-oversight-committee
 notable-characters:
   - elias-thorne
   - kaelen

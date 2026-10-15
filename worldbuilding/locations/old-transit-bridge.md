@@ -3,7 +3,7 @@ name: Old Transit Bridge
 type: other
 region: new-providence-outskirts
 population: "None"
-controlled-by: ""
+controlled-by: the-oversight-committee
 notable-characters:
   - elias-thorne
   - kaelen

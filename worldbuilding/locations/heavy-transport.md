@@ -2,7 +2,7 @@
 name: Heavy Transport
 type: other
 region: sector-six-staging-ground
-population: ''
+population: "None"
 controlled-by: the-truth-committee
 notable-characters:
 - elias-thorne

@@ -8,7 +8,7 @@ notable-characters:
   - elias-thorne
 region: sector-one
 population: ""
-controlled-by: ""
+controlled-by: the-oversight-committee
 ---
 
 # Nexus Archives

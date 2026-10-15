@@ -3,7 +3,7 @@ name: The Abandoned Relay Station
 type: building
 region: "The Dead Zone, twenty klicks east of the Scrapyard Settlement"
 population: "None"
-controlled-by: ""
+controlled-by: the-oversight-committee
 notable-characters:
   - elias-thorne
   - kaelen
