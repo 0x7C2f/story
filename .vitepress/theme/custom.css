@@ -1,119 +1,544 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   The Memory Archivist — reader-site theme
+   Ten visual enhancements, numbered by section:
+     1. "Archive Neon" design tokens (palette + type stacks)
+     2. Novel-grade prose typography (serif reading voice, drop caps)
+     3. Cinematic homepage (hero shimmer, glowing actions, feature cards)
+     4. Scene-break ornaments + recovered-memory blockquotes
+     5. Registry data-grids (zebra, hover glow, rounded frames)
+     6. Sidebar / outline / nav polish + custom scrollbar
+     7. Chapter portal pager (prev/next as glowing cards)
+     8. Status pills + memory-chip inline code
+     9. Ambient page wash + reading-progress variables
+    10. Ambient details: selection, focus rings, motion, print
+   ───────────────────────────────────────────────────────────────────────── */
+
+/* ── 1. Design tokens ────────────────────────────────────────────────────── */
+
 :root {
   --reading-progress-height: 3px;
+
+  /* Brand: archive neon (light). cyan core, violet accent. */
+  --vp-c-brand-1: #0891b2;
+  --vp-c-brand-2: #0aa8cc;
+  --vp-c-brand-3: #67e8f9;
+  --story-accent: #7c3aed;
+
+  /* Surfaces: cool paper */
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-alt: #f6f8fc;
+  --vp-c-bg-soft: #eef2f9;
+  --vp-c-border: #d9e0ec;
+  --vp-c-divider: #e4e9f2;
+  --vp-c-gutter: #f6f8fc;
+  --vp-c-text-1: #1c2333;
+  --vp-c-text-2: #475069;
+  --vp-c-text-3: #7d879e;
+
+  /* Type: a reading serif for prose, mono for data */
+  --story-font-serif: 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua',
+    Palatino, 'URW Palladio L', P052, Georgia, 'Times New Roman', serif;
+  --story-font-mono: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Menlo,
+    Consolas, 'Liberation Mono', monospace;
+
+  /* Hero name: cyan → violet → pale cyan */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(
+    120deg,
+    var(--vp-c-brand-1),
+    var(--story-accent) 45%,
+    var(--vp-c-brand-3) 90%
+  );
 }
 
 .dark {
-  --reading-progress-color: var(--vp-c-brand-2, #5cd89d);
+  /* Brand: archive neon (dark). phosphor cyan, violet afterglow. */
+  --vp-c-brand-1: #22d3ee;
+  --vp-c-brand-2: #67e8f9;
+  --vp-c-brand-3: #a5f3fc;
+  --story-accent: #a78bfa;
+
+  /* Surfaces: deep blue-black with a cold cast */
+  --vp-c-bg: #0a0d14;
+  --vp-c-bg-alt: #0d111a;
+  --vp-c-bg-soft: #121826;
+  --vp-c-border: #212b3e;
+  --vp-c-divider: #1c2534;
+  --vp-c-gutter: #0d111a;
+  --vp-c-text-1: #e8eefb;
+  --vp-c-text-2: #9aa7bf;
+  --vp-c-text-3: #66718c;
+
+  /* Reading progress: defined for BOTH themes (the old sheet only had dark) */
+  --reading-progress-color: var(--vp-c-brand-1);
 }
 
-/* Improve chapter content readability */
+:root {
+  --reading-progress-color: var(--vp-c-brand-1);
+}
+
+/* ── 2. Prose typography ─────────────────────────────────────────────────── */
+
+/* The prose reads in serif; chrome stays in the UI sans. */
+.vp-doc p,
+.vp-doc blockquote,
+.vp-doc li {
+  font-family: var(--story-font-serif);
+}
+
+.vp-doc p,
+.vp-doc blockquote {
+  font-size: 1.0625rem;
+  line-height: 1.85;
+}
+
+.vp-doc li {
+  line-height: 1.75;
+}
+
 .vp-doc h1 {
-  border-bottom: 2px solid var(--vp-c-divider);
+  border-bottom: 1px solid var(--vp-c-divider);
   padding-bottom: 0.5rem;
   margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
 }
 
 .vp-doc h2 {
   margin-top: 2.5rem;
   padding-top: 1rem;
+  letter-spacing: -0.01em;
 }
 
 .vp-doc h3 {
   margin-top: 2rem;
 }
 
-/* Better code block styling */
-.vp-doc pre {
-  border-radius: 8px;
-  overflow: auto;
+/* Drop cap: the first paragraph of a chapter's prose (after the scene break
+   and the "Chapter Text" heading) and any page opening directly under its h1.
+   Note: VitePress wraps markdown in an inner div inside .vp-doc, so the
+   adjacent-sibling selectors cannot use the direct-child `>` combinator. */
+.vp-doc hr + h2 + p::first-letter,
+.vp-doc h1 + p::first-letter {
+  float: left;
+  font-family: var(--story-font-serif);
+  font-size: 3.3em;
+  line-height: 0.82;
+  padding: 0.06em 0.12em 0 0;
+  font-weight: 600;
+  color: var(--vp-c-brand-1);
+  text-shadow: 0 0 18px color-mix(in srgb, var(--vp-c-brand-1) 45%, transparent);
 }
 
-/* Table improvements */
-.vp-doc table {
-  width: 100%;
+/* ── 3. Homepage ──────────────────────────────────────────────────────────── */
+
+/* Hero name: the gradient var (section 1) + a slow shimmer across it.
+   1.6.4 markup: <h1 class="heading"><span class="name clip">Title</span>… */
+.VPHero .heading .name {
+  background-size: 220% 100%;
+  animation: story-hero-shimmer 9s ease-in-out infinite;
+}
+
+@keyframes story-hero-shimmer {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.VPHero .text {
+  letter-spacing: -0.01em;
+}
+
+.VPHero .tagline {
+  color: var(--vp-c-text-2);
+}
+
+/* Primary action: a lit console key. */
+.VPHero .actions .VPButton.brand {
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--vp-c-brand-1) 30%, transparent),
+    0 10px 30px -10px color-mix(in srgb, var(--vp-c-brand-1) 65%, transparent);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.VPHero .actions .VPButton.brand:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--vp-c-brand-1) 55%, transparent),
+    0 14px 38px -10px color-mix(in srgb, var(--vp-c-brand-1) 80%, transparent);
+}
+
+/* Feature cards: quiet glass tiles that lift and light up. */
+.VPFeature {
+  border: 1px solid var(--vp-c-border);
+  border-radius: 14px;
+  background: var(--vp-c-bg-soft);
+  height: 100%;
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.VPFeature .box {
+  border-top: 2px solid transparent;
+  border-image: linear-gradient(
+      90deg,
+      var(--vp-c-brand-1),
+      var(--story-accent)
+    )
+    1;
+  height: 100%;
+}
+
+.VPFeature .icon {
+  color: var(--vp-c-brand-1);
+  filter: drop-shadow(0 0 10px color-mix(in srgb, var(--vp-c-brand-1) 40%, transparent));
+}
+
+.VPFeature .title {
+  letter-spacing: -0.01em;
+}
+
+.VPFeature:hover {
+  transform: translateY(-4px);
+  border-color: color-mix(in srgb, var(--vp-c-brand-1) 40%, transparent);
+  box-shadow:
+    0 16px 40px -18px color-mix(in srgb, var(--vp-c-brand-1) 55%, transparent),
+    0 0 0 1px color-mix(in srgb, var(--vp-c-brand-1) 22%, transparent);
+}
+
+/* ── 4. Scene breaks + blockquotes ───────────────────────────────────────── */
+
+/* A scene break becomes a lit diamond on a fading hairline. */
+.vp-doc hr {
+  position: relative;
+  border: 0;
+  height: 1px;
+  margin: 2.75rem auto;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--vp-c-divider) 30%,
+    var(--vp-c-divider) 70%,
+    transparent
+  );
+}
+
+.vp-doc hr::after {
+  content: '❖';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0 0.85rem;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-brand-1);
+  font-size: 0.85rem;
+  line-height: 1;
+  text-shadow: 0 0 14px color-mix(in srgb, var(--vp-c-brand-1) 70%, transparent);
+}
+
+/* Blockquotes read as recovered memory fragments. */
+.vp-doc blockquote {
+  position: relative;
   margin: 1.5rem 0;
+  padding: 0.9rem 1.25rem;
+  border: 1px solid color-mix(in srgb, var(--vp-c-brand-1) 22%, transparent);
+  border-left: 3px solid var(--vp-c-brand-1);
+  border-radius: 4px 12px 12px 4px;
+  background: color-mix(in srgb, var(--vp-c-brand-1) 6%, var(--vp-c-bg));
+  box-shadow: inset 6px 0 18px -12px color-mix(in srgb, var(--vp-c-brand-1) 55%, transparent);
+  color: var(--vp-c-text-2);
+}
+
+.vp-doc blockquote > p {
+  margin: 0.2rem 0;
+}
+
+/* ── 5. Registry data-grids ─────────────────────────────────────────────── */
+
+.vp-doc table {
+  display: table;
+  width: 100%;
+  margin: 1.75rem 0;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  font-size: 0.925rem;
 }
 
 .vp-doc th {
-  background: var(--vp-c-bg-soft);
+  padding: 0.65rem 0.9rem;
+  background: color-mix(in srgb, var(--vp-c-brand-1) 10%, var(--vp-c-bg-soft));
+  color: var(--vp-c-text-1);
+  font-family: inherit;
   font-weight: 600;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
-/* Chapter status badges */
-.chapter-status {
-  display: inline-block;
-  padding: 0.125rem 0.5rem;
-  border-radius: 9999px;
-  font-size: 0.7rem;
+.vp-doc td {
+  padding: 0.55rem 0.9rem;
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+.vp-doc tbody tr:nth-child(even) td {
+  background: color-mix(in srgb, var(--vp-c-bg-soft) 55%, transparent);
+}
+
+.vp-doc tbody tr td {
+  transition: background 0.2s ease;
+}
+
+.vp-doc tbody tr:hover td {
+  background: color-mix(in srgb, var(--vp-c-brand-1) 8%, var(--vp-c-bg));
+}
+
+/* ── 6. Sidebar, outline, nav ────────────────────────────────────────────── */
+
+/* Thin brand-tinted scrollbars everywhere. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--vp-c-brand-1) 40%, transparent) transparent;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--vp-c-brand-1) 40%, transparent);
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Sidebar items (VPSidebarItem > .item > a.link > p.text; `active` is set on
+   the item wrapper at runtime, the default marker is .indicator). */
+#VPSidebarNav .VPSidebarItem .item .link {
+  border-radius: 6px;
+  transition: color 0.25s ease;
+}
+
+#VPSidebarNav .VPSidebarItem .item .link:hover {
+  color: var(--vp-c-brand-1);
+}
+
+#VPSidebarNav .VPSidebarItem.is-active > .item .link {
+  color: var(--vp-c-brand-1);
+}
+
+#VPSidebarNav .VPSidebarItem.is-active > .item > .indicator,
+#VPSidebarNav .VPSidebarItem.is-active > .item > .indicator::before {
+  background: var(--vp-c-brand-1);
+  border-radius: 999px;
+  box-shadow: 0 0 10px color-mix(in srgb, var(--vp-c-brand-1) 80%, transparent);
+}
+
+/* Group carets fold with a snap instead of jumping. */
+#VPSidebarNav .caret {
+  transition: transform 0.25s ease;
+}
+
+/* Outline ("On this page"): glowing marker, calm links. */
+.outline-marker {
+  background: var(--vp-c-brand-1);
+  box-shadow: 0 0 10px color-mix(in srgb, var(--vp-c-brand-1) 80%, transparent);
+  border-radius: 999px;
+}
+
+.outline-link:hover,
+.outline-link.active {
+  color: var(--vp-c-brand-1);
+}
+
+/* ── 7. Chapter portal navigation ────────────────────────────────────────── */
+
+/* The built-in prev/next pager only echoes the raw frontmatter link as its
+   title (e.g. "/chapters/chapter-07.html"), so it is retired in favor of the
+   ChapterNav component (mounted at doc-after), which renders real chapter
+   labels as portal cards. !important beats the default theme's
+   .prev-next[data-v-…] attribute selector (specificity 0,2,0). */
+nav.prev-next {
+  display: none !important;
+}
+
+/* ── 8. Status pills + memory chips ─────────────────────────────────────── */
+
+/* One pill system for every story status value. */
+.story-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.18rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.06em;
+  line-height: 1.4;
+  border: 1px solid transparent;
 }
 
-.chapter-status--outline {
-  background: var(--vp-c-yellow-soft, #fef3c7);
+.story-pill::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: currentColor;
+  box-shadow: 0 0 8px currentColor;
+}
+
+.story-pill--outline,
+.story-pill--missing {
+  background: color-mix(in srgb, var(--vp-c-yellow-1, #b45309) 12%, transparent);
   color: var(--vp-c-yellow-1, #b45309);
+  border-color: color-mix(in srgb, var(--vp-c-yellow-1, #b45309) 30%, transparent);
 }
 
-.chapter-status--draft {
-  background: var(--vp-c-green-soft, #dcfce7);
-  color: var(--vp-c-green-1, #166534);
+.dark .story-pill--outline,
+.dark .story-pill--missing {
+  color: var(--vp-c-yellow-3, #fbbf24);
 }
 
-.chapter-status--discovered {
-  background: var(--vp-c-blue-soft, #dbeafe);
-  color: var(--vp-c-blue-1, #1e40af);
+.story-pill--draft,
+.story-pill--alive {
+  background: color-mix(in srgb, var(--vp-c-brand-1) 12%, transparent);
+  color: var(--vp-c-brand-1);
+  border-color: color-mix(in srgb, var(--vp-c-brand-1) 35%, transparent);
 }
 
-/* Homepage feature cards */
-:root {
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(135deg, var(--vp-c-brand-1) 0%, var(--vp-c-brand-2) 100%);
+.story-pill--final {
+  background: color-mix(in srgb, var(--vp-c-green-1, #16a34a) 12%, transparent);
+  color: var(--vp-c-green-1, #16a34a);
+  border-color: color-mix(in srgb, var(--vp-c-green-1, #16a34a) 30%, transparent);
 }
 
-.dark {
-  --vp-home-hero-name-background: linear-gradient(135deg, var(--vp-c-brand-1) 0%, var(--vp-c-brand-2) 100%);
+.dark .story-pill--final {
+  color: var(--vp-c-green-3, #4ade80);
 }
 
-/* Smooth scroll */
+.story-pill--dead {
+  background: color-mix(in srgb, var(--vp-c-red-1, #dc2626) 12%, transparent);
+  color: var(--vp-c-red-1, #dc2626);
+  border-color: color-mix(in srgb, var(--vp-c-red-1, #dc2626) 30%, transparent);
+}
+
+.dark .story-pill--dead {
+  color: var(--vp-c-red-3, #f87171);
+}
+
+.story-pill--unknown,
+.story-pill--deprecated {
+  background: color-mix(in srgb, var(--vp-c-text-3) 12%, transparent);
+  color: var(--vp-c-text-3);
+  border-color: color-mix(in srgb, var(--vp-c-text-3) 30%, transparent);
+}
+
+/* Inline code reads as a memory chip. */
+.vp-doc :not(pre) > code {
+  font-family: var(--story-font-mono);
+  font-size: 0.85em;
+  padding: 0.15em 0.5em;
+  border-radius: 6px;
+  color: var(--vp-c-brand-1);
+  background: color-mix(in srgb, var(--vp-c-brand-1) 9%, var(--vp-c-bg-soft));
+  border: 1px solid color-mix(in srgb, var(--vp-c-brand-1) 20%, transparent);
+  transition: box-shadow 0.25s ease;
+}
+
+.vp-doc :not(pre) > code:hover {
+  box-shadow: 0 0 12px color-mix(in srgb, var(--vp-c-brand-1) 30%, transparent);
+}
+
+/* Code blocks: framed terminals. */
+.vp-doc pre {
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-border);
+  overflow: auto;
+}
+
+/* ── 9. Ambient wash + progress variables ───────────────────────────────── */
+
+/* A faint aurora wash behind every page: cyan above, violet below. */
+body {
+  background-color: var(--vp-c-bg);
+  background-image:
+    radial-gradient(
+      1100px 560px at 85% -12%,
+      color-mix(in srgb, var(--vp-c-brand-1) 7%, transparent),
+      transparent 62%
+    ),
+    radial-gradient(
+      900px 520px at -12% 112%,
+      color-mix(in srgb, var(--story-accent) 6%, transparent),
+      transparent 58%
+    );
+  background-attachment: fixed;
+  transition:
+    background-color 0.35s ease,
+    color 0.35s ease;
+}
+
+/* Smooth scroll for outline jumps. */
 html {
   scroll-behavior: smooth;
 }
 
-/* Story frontmatter panel (FrontmatterPanel.vue) */
-.frontmatter-panel {
-  display: grid;
-  grid-template-columns: max-content 1fr;
-  gap: 0.25rem 1rem;
-  margin: 0 0 1.5rem;
-  padding: 0.75rem 1rem;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 8px;
-  background: var(--vp-c-bg-soft);
-  font-size: 0.85rem;
+/* ── 10. Ambient details ─────────────────────────────────────────────────── */
+
+/* Brand selection. */
+::selection {
+  background: color-mix(in srgb, var(--vp-c-brand-1) 28%, transparent);
 }
 
-.frontmatter-panel dt {
-  margin: 0;
-  font-weight: 600;
-  color: var(--vp-c-text-2);
+/* Visible, on-brand keyboard focus. */
+:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--vp-c-brand-1) 75%, transparent);
+  outline-offset: 2px;
 }
 
-.frontmatter-panel dd {
-  margin: 0;
-  color: var(--vp-c-text-1);
+/* Honor reduced motion: effects settle, nothing animates. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
 }
 
-/* Print styles */
+/* Print: the book, not the site. */
 @media print {
-  .reading-progress-bar,
-  .chapter-nav,
-  .vp-nav,
-  .vp-sidebar,
-  .vp-doc .edit-link,
-  .vp-doc .page-edit {
+  .reading-progress,
+  .VPNav,
+  aside,
+  nav.prev-next,
+  .chapter-nav {
     display: none !important;
   }
+
+  body {
+    background-image: none;
+  }
+
   .vp-doc {
     max-width: none;
     padding: 0;

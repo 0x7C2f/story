@@ -12,11 +12,14 @@ hero:
       text: View All Chapters
       link: /chapters/
 features:
-  - title: 34 Chapters
+  - icon: 📖
+    title: 34 Chapters
     details: Complete story arc from discovery to liberation (18,442 words)
-  - title: Rich Worldbuilding
+  - icon: 🌐
+    title: Rich Worldbuilding
     details: Characters, locations, factions, and glossary
-  - title: Continuity Tracked
+  - icon: 🧩
+    title: Continuity Tracked
     details: Automated validation ensures consistency
 ---
 
