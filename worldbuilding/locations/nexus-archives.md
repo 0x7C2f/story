@@ -6,7 +6,7 @@ status: active
 notable-characters:
   - director-vane
   - elias-thorne
-region: ""
+region: sector-one
 population: ""
 controlled-by: ""
 ---

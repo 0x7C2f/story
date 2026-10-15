@@ -6,7 +6,7 @@ status: active
 notable-characters:
   - elias-thorne
   - kaelen
-region: ""
+region: the-undercity
 population: ""
 controlled-by: ""
 ---

@@ -1,7 +1,7 @@
 ---
 name: Heavy Transport
 type: other
-region: ''
+region: sector-six-staging-ground
 population: ''
 controlled-by: the-truth-committee
 notable-characters:

@@ -1,7 +1,7 @@
 ---
 name: New Providence Outskirts
 type: other
-region: ""
+region: new-providence-outskirts
 population: ""
 controlled-by: ""
 notable-characters:
