@@ -179,6 +179,11 @@ jobs:
             fi
           done
 
+          # Generate dynamic homepage from chapter registry
+          cp scripts/generate-index.mjs "$SITE_DIR/docs/"
+          cd "$SITE_DIR/docs"
+          node generate-index.mjs
+
           # The reader site's home page, and the story metadata behind /about.
           if [ -f "index.md" ]; then
             cp index.md "$SITE_DIR/docs/index.md"

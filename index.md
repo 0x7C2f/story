@@ -12,8 +12,8 @@ hero:
       text: View All Chapters
       link: /chapters/
 features:
-  - title: 27 Chapters
-    details: Complete story arc from discovery to climax
+  - title: 34 Chapters
+    details: Complete story arc from discovery to liberation (18,442 words)
   - title: Rich Worldbuilding
     details: Characters, locations, factions, and glossary
   - title: Continuity Tracked
@@ -28,13 +28,14 @@ Elias Thorne is a memory archivist in a near-future society where personal exper
 
 | Arc | Chapters | Status |
 |-----|----------|--------|
-| **The Discovery** | 1–2 | Outline |
+| **The Discovery** | 1–2 | Draft |
 | **The Conspiracy Unfolds** | 3–9 | Draft |
 | **The Counter-Broadcast** | 10–13 | Draft |
 | **The Outskirts** | 14–17 | Draft |
 | **The Resistance** | 18–27 | Draft |
+| **The Liberation** | 28–34 | Draft |
 
-**Total: ~15,500 words across 27 chapters**
+**Total: ~18.4k words across 34 chapters**
 
 ## Quick Navigation
 
