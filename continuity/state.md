@@ -1,12 +1,12 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 36
+current-chapter: 37
 character-state:
 - character: director-vane
   location: the-nexus-spire
   physical: Uninjured, composed
-  emotional: Paranoid, determined, commanding
+  emotional: Calculating, furious
 - character: elias-thorne
   location: sector-six
   physical: Recovering from severe neural strain
@@ -254,6 +254,11 @@ knowledge-state:
 - character: jarek
   knows: The resistance successfully linked up at the staging ground after evading the initial loyalist sweeps.
   learned-in: chapter-36
+
+- character: director-vane
+  knows: The resistance is marshaling at Sector Six and must be targeted directly.
+  learned-in: chapter-37
+
 
 ---
 
