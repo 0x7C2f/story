@@ -1,18 +1,18 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 30
+current-chapter: 31
 character-state:
 - character: director-vane
   location: the-nexus-spire
   physical: Uninjured, composed
   emotional: Paranoid, determined, commanding
 - character: elias-thorne
-  location: the-scrapyard-settlement
+  location: heavy-transport
   physical: Recovering from severe neural strain
   emotional: Determined, procedural
 - character: kaelen
-  location: the-scrapyard-settlement
+  location: heavy-transport
   physical: Uninjured
   emotional: Tense, focused
 - character: jarek

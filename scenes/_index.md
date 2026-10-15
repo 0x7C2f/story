@@ -39,3 +39,4 @@ story: the-memory-archivist
 | chapter-28 | 1 | Scene 1 | elias-thorne | draft | [chapter-28-scene-01](chapter-28-scene-01.md) |
 | chapter-29 | 1 | Chapter 29 Scene 1 | elias-thorne | draft | [chapter-29-scene-01](chapter-29-scene-01.md) |
 | chapter-30 | 1 | Siege Preparation | elias-thorne | draft | [chapter-30-scene-01](chapter-30-scene-01.md) |
+| chapter-31 | 1 | The Transport Flight | elias-thorne | draft | [chapter-31-scene-01](chapter-31-scene-01.md) |
