@@ -38,3 +38,4 @@ story: the-memory-archivist
 | Day 7 | Elias, Kaelen, and Jarek flee to the Outskirts, evade sweep teams, and plan to convert the transport into a mobile transmitter | memory-liberation | 40 |
 | Day 7 | Elias, Kaelen, and Jarek strip the transport in the Outskirts to initiate the decentralized mesh network broadcast | memory-liberation | 41 |
 | Day 7 | Elias, Kaelen, and Jarek initiate the broadcast but are forced to abandon the destroyed transport and escape on foot | memory-liberation | 42 |
+| Day 7 | Elias, Kaelen, and Jarek evade an automated security drone in the subterranean tunnels | memory-liberation | 44 |
