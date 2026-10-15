@@ -28,7 +28,7 @@ Decision point or highest tension.
 
 ## Resolution
 
-What changes because of this arc.
+The consequences.
 
 ## Plot Points
 

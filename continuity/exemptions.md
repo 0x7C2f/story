@@ -18,6 +18,14 @@ exemptions:
   - code: symlinked-file
     pattern: "AGENTS.md is a symlink"
     reason: The folder guides in record folders are tooling, not record. Each is a link to its text in continuity/guides/, so the record scanner ignores it and the registries, word counts, and gates stay clean.
+
+  - code: ai-slop-pattern
+    pattern: "engineering-leakage x1 (line 36) repeats like machine prose"
+    reason: The phrase "What changes because of this arc" is part of the story-cli arc template.
+
+  - code: ai-slop-pattern
+    pattern: "engineering-leakage x1 (line 35) repeats like machine prose"
+    reason: The phrase "What changes because of this arc" is part of the story-cli arc template.
 ---
 
 # Exemptions
