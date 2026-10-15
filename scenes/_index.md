@@ -51,3 +51,4 @@ story: the-memory-archivist
 | chapter-40 | 1 | The Escape Fallout | elias-thorne | draft | [chapter-40-scene-01](chapter-40-scene-01.md) |
 | chapter-41 | 1 | Chapter 41 Scene 1 | elias-thorne | draft | [chapter-41-scene-01](chapter-41-scene-01.md) |
 | chapter-42 | 1 | Chapter 42 Scene 1 | elias-thorne | draft | [chapter-42-scene-01](chapter-42-scene-01.md) |
+| chapter-43 | 1 | Chapter 43 Scene 1 | elias-thorne | draft | [chapter-43-scene-01](chapter-43-scene-01.md) |
