@@ -7,7 +7,7 @@ notable-characters:
   - director-vane
   - elias-thorne
 region: sector-one
-population: ""
+population: "Variable"
 controlled-by: the-oversight-committee
 ---
 

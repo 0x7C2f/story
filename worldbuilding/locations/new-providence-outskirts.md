@@ -2,7 +2,7 @@
 name: New Providence Outskirts
 type: other
 region: new-providence-outskirts
-population: ""
+population: "Variable"
 controlled-by: the-oversight-committee
 notable-characters:
   - elias-thorne

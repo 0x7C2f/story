@@ -7,7 +7,7 @@ notable-characters:
   - elias-thorne
   - kaelen
 region: the-undercity
-population: ""
+population: "Variable"
 controlled-by: the-oversight-committee
 ---
 

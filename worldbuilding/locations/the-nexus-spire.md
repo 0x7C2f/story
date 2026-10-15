@@ -2,7 +2,7 @@
 name: The Nexus Spire
 type: building
 region: Sector One
-population: ""
+population: "Variable"
 controlled-by: oversight-committee
 notable-characters:
   - director-vane
