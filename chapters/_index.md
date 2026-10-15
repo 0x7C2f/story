@@ -39,5 +39,6 @@ story: the-memory-archivist
 | 28 | The Aftermath | elias-thorne | draft | 739 | [chapter-28](chapter-28.md) |
 | 29 | Chapter 29 | elias-thorne | draft | 667 | [chapter-29](chapter-29.md) |
 | 30 | Chapter 30 | elias-thorne | draft | 316 | [chapter-30](chapter-30.md) |
+| 31 | Chapter 31 | elias-thorne | draft | 482 | [chapter-31](chapter-31.md) |
 
-## Total Word Count: 17233
+## Total Word Count: 17715

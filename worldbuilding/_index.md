@@ -14,6 +14,7 @@ story: the-memory-archivist
 | Name | Type | Region | File |
 |------|------|--------|------|
 | central-broadcast-tower | Location |  | [central-broadcast-tower](locations/central-broadcast-tower.md) |
+| Heavy Transport | Other |  | [heavy-transport](locations/heavy-transport.md) |
 | New Providence Outskirts | Other |  | [new-providence-outskirts](locations/new-providence-outskirts.md) |
 | Nexus Archives | Location |  | [nexus-archives](locations/nexus-archives.md) |
 | Old Transit Bridge | Other | new-providence-outskirts | [old-transit-bridge](locations/old-transit-bridge.md) |

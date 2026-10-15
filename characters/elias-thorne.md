@@ -33,6 +33,7 @@ locations:
   - the-scrapyard-settlement
   - relay-station
   - the-dead-zone
+  - heavy-transport
 tags:
   - memory-archivist
   - technician
