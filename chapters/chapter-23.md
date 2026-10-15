@@ -12,10 +12,10 @@ mentions:
 - director-vane
 arcs-advanced: []
 status: draft
-mode: discovered
+mode: ""
 date: ''
 time: ''
-word-count: 788
+word-count: 799
 prev: /chapters/chapter-22.html
 next: /chapters/chapter-24.html
 ---
@@ -82,3 +82,7 @@ Elias looked at the screen, the data streaming continuously across the terminal.
 
 Chapter 23 reconciled.
 
+
+## Chapter Notes (post-hoc)
+
+This chapter was written during the discovery-drafting loop.

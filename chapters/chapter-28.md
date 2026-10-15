@@ -12,10 +12,10 @@ mentions:
 - director-vane
 arcs-advanced: []
 status: draft
-mode: discovered
+mode: ""
 date: ''
 time: ''
-word-count: 728
+word-count: 739
 prev: /chapters/chapter-27.html
 ---
 
@@ -61,3 +61,7 @@ Jarek looked around the settlement, at the exhausted scavengers and the cooling 
 
 
 
+
+## Chapter Notes (post-hoc)
+
+This chapter was written during the discovery-drafting loop.

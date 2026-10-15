@@ -12,10 +12,10 @@ mentions:
 - director-vane
 arcs-advanced: []
 status: draft
-mode: discovered
+mode: ""
 date: ''
 time: ''
-word-count: 688
+word-count: 699
 prev: /chapters/chapter-26.html
 next: /chapters/chapter-28.html
 ---
@@ -59,3 +59,7 @@ The counter-broadcast began. The air above the Scrapyard Settlement shimmered, t
 Chapter 27 reconciled.
 
 
+
+## Chapter Notes (post-hoc)
+
+This chapter was written during the discovery-drafting loop.
