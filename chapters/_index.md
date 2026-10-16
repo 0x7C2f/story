@@ -60,5 +60,6 @@ story: the-memory-archivist
 | 49 | Chapter 49 | elias-thorne | draft | 596 | [chapter-49](chapter-49.md) |
 | 50 | Chapter 50 | elias-thorne | draft | 779 | [chapter-50](chapter-50.md) |
 | 51 | Chapter 51 | elias-thorne | draft | 678 | [chapter-51](chapter-51.md) |
+| 52 | Chapter 52 | director-vane | draft | 498 | [chapter-52](chapter-52.md) |
 
-## Total Word Count: 29524
+## Total Word Count: 30022
