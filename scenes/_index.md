@@ -80,6 +80,7 @@ story: the-memory-archivist
 | chapter-45 | 1 | Chapter 45 Scene 1 | elias-thorne | draft | [chapter-45-scene-01](chapter-45-scene-01.md) |
 | chapter-46 | 1 | Chapter 46 Scene 1 | elias-thorne | draft | [chapter-46-scene-01](chapter-46-scene-01.md) |
 | chapter-47 | 1 | Chapter 47 Scene 1 | elias-thorne | draft | [chapter-47-scene-01](chapter-47-scene-01.md) |
+| chapter-48 | 1 | Chapter 48 Scene 1 | elias-thorne | draft | [chapter-48-scene-01](chapter-48-scene-01.md) |
 
 ## Purpose
 

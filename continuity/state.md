@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 47
+current-chapter: 48
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -337,6 +337,15 @@ knowledge-state:
 - character: jarek
   knows: The resistance in Sector Five successfully held off the initial enforcer drone assault.
   learned-in: chapter-47
+- character: elias-thorne
+  knows: Vane is sending heavy armor and sealing the sector perimeter.
+  learned-in: chapter-48
+- character: kaelen
+  knows: Vane is sending heavy armor and sealing the sector perimeter.
+  learned-in: chapter-48
+- character: jarek
+  knows: Vane is sending heavy armor and sealing the sector perimeter.
+  learned-in: chapter-48
 ---
 
 
