@@ -1,22 +1,22 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 44
+current-chapter: 45
 character-state:
   - character: director-vane
     location: the-nexus-spire
     physical: Uninjured, composed
     emotional: Calculating, furious
   - character: elias-thorne
-    location: new-providence-outskirts
+    location: sector-five
     physical: Recovering from severe neural strain
     emotional: Determined, procedural
   - character: kaelen
-    location: new-providence-outskirts
+    location: sector-five
     physical: Uninjured
     emotional: Tense, focused
   - character: jarek
-    location: new-providence-outskirts
+    location: sector-five
     physical: Uninjured
     emotional: Resolved, preparing for siege
 object-state:
@@ -411,6 +411,18 @@ knowledge-state:
     knows: |-
       They successfully destroyed the automated security drone and continue through the smuggler tunnels toward Sector Five.
     learned-in: chapter-44
+  - character: elias-thorne
+    knows: |-
+      They have emerged into Sector Five and plan to recruit the factory workers.
+    learned-in: chapter-45
+  - character: kaelen
+    knows: |-
+      They have emerged into Sector Five and plan to recruit the factory workers.
+    learned-in: chapter-45
+  - character: jarek
+    knows: |-
+      They have emerged into Sector Five and plan to recruit the factory workers.
+    learned-in: chapter-45
 ---
 
 
@@ -429,9 +441,9 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |-----------|----------|----------------|-----------------|-----------|
-| Elias Thorne | Outskirts Canyon | Battered, recovering from shockwave | Determined, urgent | The transport is destroyed, they are on foot |
-| Kaelen | Outskirts Canyon | Uninjured | Hardened, resolute | The transport is destroyed, they are on foot |
-| Jarek | Outskirts Canyon | Uninjured | Strained, focused | The transport is destroyed, they are on foot |
+| Elias Thorne | Sector Five | Battered, recovering from shockwave | Determined, urgent | The transport is destroyed, they are on foot |
+| Kaelen | Sector Five | Uninjured | Hardened, resolute | The transport is destroyed, they are on foot |
+| Jarek | Sector Five | Uninjured | Strained, focused | The transport is destroyed, they are on foot |
 | Director Vane | The Nexus Spire | Uninjured, composed | Paranoid, determined, commanding | The synchronization overwrite has failed and the command structure is fracturing |
 
 ## Object State
@@ -442,7 +454,7 @@ frontmatter above; the tables below are optional notes it does not read.
 | Partial Batch Manifest | Elias Thorne | The Undercity | Active |
 | Signal Repeaters | Jarek | Sector Six Staging Ground | Active |
 | Mesh Network | Elias Thorne | Sector Six Staging Ground | Active |
-| Heavy Transport | Jarek | Outskirts Canyon | Destroyed |
+| Heavy Transport | Jarek | Sector Five | Destroyed |
 
 ## Knowledge State
 

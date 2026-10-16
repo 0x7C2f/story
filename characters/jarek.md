@@ -25,6 +25,7 @@ locations:
   - the-scrapyard-settlement
   - relay-station
   - the-dead-zone
+  - sector-five
 tags:
   - scavengers
   - settlement-leader

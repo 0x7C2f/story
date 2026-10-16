@@ -32,6 +32,7 @@ locations:
   - relay-station
   - the-dead-zone
   - heavy-transport
+  - sector-five
 tags:
   - information-broker
   - field-operator

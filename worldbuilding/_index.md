@@ -19,6 +19,7 @@ story: the-memory-archivist
 | Nexus Archives | Location | sector-one | [nexus-archives](locations/nexus-archives.md) |
 | Old Transit Bridge | Other | new-providence-outskirts | [old-transit-bridge](locations/old-transit-bridge.md) |
 | The Abandoned Relay Station | Building | The Dead Zone, twenty klicks east of the Scrapyard Settlement | [relay-station](locations/relay-station.md) |
+| Sector Five | District |  | [sector-five](locations/sector-five.md) |
 | Sector Four Black Site | Location | Sector Four | [sector-four-black-site](locations/sector-four-black-site.md) |
 | Sector One | Other |  | [sector-one](locations/sector-one.md) |
 | Sector Six Staging Ground | Military Base | new-providence-outskirts | [sector-six-staging-ground](locations/sector-six-staging-ground.md) |

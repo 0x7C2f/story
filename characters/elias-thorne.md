@@ -35,6 +35,7 @@ locations:
   - relay-station
   - the-dead-zone
   - heavy-transport
+  - sector-five
 tags:
   - memory-archivist
   - technician
