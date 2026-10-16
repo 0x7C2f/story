@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 66
+current-chapter: 67
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -499,6 +499,22 @@ knowledge-state:
   fact: vane-mapping-interference
   knows: Vane is mapping the resistance interference pattern to hunt Elias through the mesh network.
   learned-in: chapter-66
+- character: elias-thorne
+  fact: vane-tracker
+  knows: Vane has planted a digital tracker on Elias's deck.
+  learned-in: chapter-67
+- character: kaelen
+  fact: vane-tracker
+  knows: Vane has planted a digital tracker on Elias's deck.
+  learned-in: chapter-67
+- character: jarek
+  fact: vane-tracker
+  knows: Vane has planted a digital tracker on Elias's deck.
+  learned-in: chapter-67
+- character: director-vane
+  fact: vane-tracker-active
+  knows: She is successfully tracking Elias's deck.
+  learned-in: chapter-67
 ---
 
 
@@ -522,6 +538,6 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | sector-four | Exhausted but focused | Anxious | The Sector Five resistance has launched an assault on the Sector Four transit hub. |
-| kaelen | sector-four | Battle-ready | Determined | The Sector Five resistance has launched an assault on the Sector Four transit hub. |
-| jarek | sector-four | Battle-ready | Resolute | The Sector Five resistance has launched an assault on the Sector Four transit hub. |
+| elias-thorne | sector-four | Exhausted but focused | Anxious | Vane has planted a digital tracker on Elias's deck. |
+| kaelen | sector-four | Battle-ready | Determined | Vane has planted a digital tracker on Elias's deck. |
+| jarek | sector-four | Battle-ready | Resolute | Vane has planted a digital tracker on Elias's deck. |
