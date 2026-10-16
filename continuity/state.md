@@ -1,22 +1,22 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 56
+current-chapter: 57
 character-state:
 - character: director-vane
   location: the-nexus-spire
   physical: Uninjured, composed
   emotional: Calculating, furious
 - character: elias-thorne
-  location: nexus-archives
+  location: the-nexus-spire
   physical: Recovering from severe neural strain
   emotional: Determined, procedural
 - character: kaelen
-  location: nexus-archives
+  location: the-nexus-spire
   physical: Uninjured
   emotional: Tense, focused
 - character: jarek
-  location: nexus-archives
+  location: the-nexus-spire
   physical: Uninjured
   emotional: Resolved, preparing for siege
 object-state:
@@ -37,6 +37,12 @@ object-state:
   location: new-providence-outskirts
   status: destroyed
 knowledge-state:
+- character: elias-thorne
+  knows: Witnessed the city reacting to the uncompressed memories.
+  learned-in: chapter-57
+- character: director-vane
+  knows: Activated contingency protocols against the uprising.
+  learned-in: chapter-57
 - character: elias-thorne
   knows: Memory M-774-B was altered in a black-site mod lab run by the Oversight Committee.
   learned-in: chapter-01
