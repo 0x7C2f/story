@@ -93,6 +93,8 @@ story: the-memory-archivist
 | chapter-58 | 1 | Chapter 58 Scene 1 | elias-thorne | draft | [chapter-58-scene-01](chapter-58-scene-01.md) |
 | chapter-59 | 1 | Chapter 59 Scene 1 | director-vane | draft | [chapter-59-scene-01](chapter-59-scene-01.md) |
 | chapter-60 | 1 | Chapter 60 Scene 1 | elias-thorne | draft | [chapter-60-scene-01](chapter-60-scene-01.md) |
+| chapter-61 | 1 | Chapter 61 Scene 1 | elias-thorne | draft | [chapter-61-scene-01](chapter-61-scene-01.md) |
+| chapter-61 | 2 | Chapter 61 Scene 2 | elias-thorne | draft | [chapter-61-scene-02](chapter-61-scene-02.md) |
 
 ## Purpose
 

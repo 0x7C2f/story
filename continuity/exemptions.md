@@ -26,3 +26,6 @@ Findings this record has decided are intentional. Each entry names the
 finding it dismisses and why; `story check` reports matched findings as
 dismissed rather than passing them over. Never add an entry just to make the
 gate green; fix the finding instead.
+- **location:** chapters/chapter-61.md
+  **word:** navigate
+  **reason:** Structural necessity; alternate phrasing introduces ungrammatical constructions.
