@@ -16,3 +16,6 @@ Thumbs.db
 # Volatile Obsidian editor state: rewrites itself while the editor runs
 # and would dirty every steward run and the registry-sync gate
 .obsidian/
+
+__pycache__/
+*.pyc
