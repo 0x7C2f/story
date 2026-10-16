@@ -5,6 +5,10 @@ set -euo pipefail
 
 cd "$(git rev-parse --show-toplevel)"
 
+is_tree_clean() {
+  git diff --quiet && git diff --cached --quiet && [[ -z "$(git status --porcelain --untracked-files=all)" ]]
+}
+
 # Pause switch (AGENTS.md)
 if [[ -f agent/PAUSED ]]; then
   echo "PAUSED: agent/PAUSED exists; exiting 0"
@@ -12,7 +16,7 @@ if [[ -f agent/PAUSED ]]; then
 fi
 
 # Resume safety: never silently continue a dirty tree
-if ! git diff --quiet || ! git diff --cached --quiet || [[ -n "$(git status --porcelain --untracked-files=all)" ]]; then
+if ! is_tree_clean; then
   echo "DIRTY TREE: assess in-flight work manually before running"
   git status --short
   exit 0
@@ -42,7 +46,7 @@ fi
 ./scripts/run-gates.sh
 
 # Idempotent commit: only if there is work
-if git diff --quiet && git diff --cached --quiet && [[ -z "$(git status --porcelain --untracked-files=all)" ]]; then
+if is_tree_clean; then
   echo "NO CHANGES: exiting 0"
   exit 0
 fi
