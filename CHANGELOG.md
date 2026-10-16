@@ -42,3 +42,8 @@ Model: Jules - Drafted chapter 34 and updated tracking files.
   - Action: Drafted Chapter 49
   - Summary: Elias, Kaelen, and Jarek defend Sector Five against Goliath-class assault frames, discovering that the frames carry seismic charges meant to drop the entire sector into the undercity.
   - Next Run: Continue the defense of Sector Five and the attempt to stop the seismic charges in Chapter 50.
+
+- Model: Jules
+  - Action: Drafted Chapter 50 and scene 50-01.
+  - Summary: The Goliath tanks unleash their payload, cracking Sector Five's foundation. Jarek sacrifices himself so Elias and Kaelen can escape into the smuggler tunnels as the sector falls into the undercity.
+  - Next Run: Draft Chapter 51. Elias and Kaelen must navigate the smuggler tunnels and figure out a new plan to stop Vane, now that they've lost Jarek and their uprising base.

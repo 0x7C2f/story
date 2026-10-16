@@ -1,24 +1,20 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 49
+current-chapter: 50
 character-state:
 - character: director-vane
   location: the-nexus-spire
   physical: Uninjured, composed
   emotional: Calculating, furious
 - character: elias-thorne
-  location: sector-five
-  physical: Recovering from severe neural strain
-  emotional: Determined, procedural
+  location: smuggler-tunnels
+  physical: Exhausted, bruised
+  emotional: Grief-stricken but determined
 - character: kaelen
-  location: sector-five
-  physical: Uninjured
-  emotional: Tense, focused
-- character: jarek
-  location: sector-five
-  physical: Uninjured
-  emotional: Resolved, preparing for siege
+  location: smuggler-tunnels
+  physical: Exhausted, bruised
+  emotional: Shocked but focused
 object-state:
 - artifact: physical-drive-m-774-b
   owner: elias-thorne
@@ -355,6 +351,12 @@ knowledge-state:
 - character: jarek
   knows: The Goliath assault frames carry seismic charges meant to drop Sector Five into the undercity.
   learned-in: chapter-49
+- character: elias-thorne
+  knows: Director Vane will destroy entire sectors, like Sector Five, to maintain control.
+  learned-in: chapter-50
+- character: kaelen
+  knows: Director Vane will destroy entire sectors, like Sector Five, to maintain control.
+  learned-in: chapter-50
 ---
 
 

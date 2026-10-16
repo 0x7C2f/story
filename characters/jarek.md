@@ -1,62 +1,63 @@
 ---
 name: Jarek
 role: supporting
-status: alive
+status: deceased
 aliases: []
-pronunciation: "YAR-ek"
+pronunciation: YAR-ek
 image: jarek.jpg
 voice-words:
-  - "dust"
-  - "weight"
-  - "scrap"
-  - "prove"
+- dust
+- weight
+- scrap
+- prove
 voice-avoid:
-  - "awesome"
-  - "literally"
-  - "friend"
+- awesome
+- literally
+- friend
 relationships:
-  - character: elias-thorne
-    type: ally
-  - character: kaelen
-    type: ally
+- character: elias-thorne
+  type: ally
+- character: kaelen
+  type: ally
 locations:
-  - sector-six
-  - old-transit-bridge
-  - the-scrapyard-settlement
-  - relay-station
-  - the-dead-zone
-  - sector-five
+- sector-six
+- old-transit-bridge
+- the-scrapyard-settlement
+- relay-station
+- the-dead-zone
+- sector-five
 tags:
-  - scavengers
-  - settlement-leader
-  - maintenance-worker
-arc: "from gatekeeper who prices everything to a leader who has bought something worth keeping"
+- scavengers
+- settlement-leader
+- maintenance-worker
+arc: from gatekeeper who prices everything to a leader who has bought something worth keeping
 arc-type: change-positive
-lie: "Out here, only what you can hold in your hands is real; everything else is a city person's story."
-truth: "A settlement that only ever trades in scrap has no way to recognize the one thing it actually needs."
-ghost-wound: "Exiled from New Providence for seeing too much of how the city allocated its resources — the city's answer to an inconvenient maintenance worker was to throw him away."
+lie: Out here, only what you can hold in your hands is real; everything else is a city person's story.
+truth: A settlement that only ever trades in scrap has no way to recognize the one thing it actually needs.
+ghost-wound: "Exiled from New Providence for seeing too much of how the city allocated its resources \u2014 the city's answer to an inconvenient maintenance worker was to throw him away."
 progressions:
-  - from: chapter-14
-    field: standing
-    value: "Leader of the Scrapyard Settlement, holding two arrivals at the gate"
-  - from: chapter-15
-    field: standing
-    value: "Provisional host: one night in the lower hab block against a test of usefulness"
-  - from: chapter-16
-    field: standing
-    value: "Allied: the Scrapyard is their base, the Scavengers are their people"
-  - from: chapter-17
-    field: standing
-    value: "Committed the settlement to open resistance against the Committee; assembling a salvage team for the Dead Zone relay station"
-  - from: chapter-22
-    field: standing
-    value: "Co-led a successful ambush against Committee forces, securing a heavy transport"
-  - from: chapter-23
-    field: standing
-    value: "Committed to attacking the Sector Six staging ground"
-  - from: chapter-25
-    field: standing
-    value: "Fleeing the staging ground after planting the charges, forced to deal with the early deployment"
+- from: chapter-14
+  field: standing
+  value: Leader of the Scrapyard Settlement, holding two arrivals at the gate
+- from: chapter-15
+  field: standing
+  value: 'Provisional host: one night in the lower hab block against a test of usefulness'
+- from: chapter-16
+  field: standing
+  value: 'Allied: the Scrapyard is their base, the Scavengers are their people'
+- from: chapter-17
+  field: standing
+  value: Committed the settlement to open resistance against the Committee; assembling a salvage team for the Dead Zone relay station
+- from: chapter-22
+  field: standing
+  value: Co-led a successful ambush against Committee forces, securing a heavy transport
+- from: chapter-23
+  field: standing
+  value: Committed to attacking the Sector Six staging ground
+- from: chapter-25
+  field: standing
+  value: Fleeing the staging ground after planting the charges, forced to deal with the early deployment
+died-in: chapter-50
 ---
 
 # Jarek

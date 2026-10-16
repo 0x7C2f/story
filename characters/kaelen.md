@@ -3,67 +3,68 @@ name: Kaelen
 role: supporting
 status: alive
 aliases: []
-pronunciation: "KAY-len"
+pronunciation: KAY-len
 voice-words:
-  - "heat"
-  - "protocol"
-  - "ghosts"
-  - "rig"
+- heat
+- protocol
+- ghosts
+- rig
 voice-avoid:
-  - "awesome"
-  - "literally"
-  - "buddy"
+- awesome
+- literally
+- buddy
 relationships:
-  - character: elias-thorne
-    type: ally
-  - character: jarek
-    type: ally
-  - character: director-vane
-    type: enemy
+- character: elias-thorne
+  type: ally
+- character: jarek
+  type: ally
+- character: director-vane
+  type: enemy
 locations:
-  - sector-six
-  - old-transit-bridge
-  - the-undercity
-  - sector-four-black-site
-  - the-nexus-spire
-  - central-broadcast-tower
-  - new-providence-outskirts
-  - the-scrapyard-settlement
-  - relay-station
-  - the-dead-zone
-  - heavy-transport
-  - sector-five
+- sector-six
+- old-transit-bridge
+- the-undercity
+- sector-four-black-site
+- the-nexus-spire
+- central-broadcast-tower
+- new-providence-outskirts
+- the-scrapyard-settlement
+- relay-station
+- the-dead-zone
+- heavy-transport
+- sector-five
+- smuggler-tunnels
 tags:
-  - information-broker
-  - field-operator
-  - fugitive
-arc: "from a contact who sells access to a person who has something left to lose"
+- information-broker
+- field-operator
+- fugitive
+arc: from a contact who sells access to a person who has something left to lose
 arc-type: change-positive
-lie: "Attachment is a liability: work alone, take the job, and nobody can burn you for caring."
-truth: "The only thing that outlives an overwrite is what people build together."
-ghost-wound: "Ousted from a data conglomerate for finding the manipulation in its public records — the system did not reward the truth, it deleted the person who carried it."
+lie: 'Attachment is a liability: work alone, take the job, and nobody can burn you for caring.'
+truth: The only thing that outlives an overwrite is what people build together.
+ghost-wound: "Ousted from a data conglomerate for finding the manipulation in its public records \u2014 the system did not reward the truth, it deleted the person who carried it."
 progressions:
-  - from: chapter-01
-    field: standing
-    value: "Elias Thorne's Undercity contact, two minutes late and already suspicious of him"
-  - from: chapter-08
-    field: standing
-    value: "Co-conspirator in the theft of the root key from Director Vane's vault"
-  - from: chapter-11
-    field: standing
-    value: "Architect of the Sector Three diversion; fugitive after the counter-broadcast"
-  - from: chapter-16
-    field: standing
-    value: "Defense planner for the Scrapyard Settlement, allied with the Scavengers"
-  - from: chapter-17
-    field: standing
-    value: "Leading the security detail for the salvage run to the Dead Zone relay station"
-  - from: chapter-23
-    field: standing
-    value: "Committed to the assault on the Sector Six staging ground"
-  - from: chapter-25
-    field: standing
-    value: "Fleeing the staging ground after destroying the primary node, aware of the decentralized failsafe"
+- from: chapter-01
+  field: standing
+  value: Elias Thorne's Undercity contact, two minutes late and already suspicious of him
+- from: chapter-08
+  field: standing
+  value: Co-conspirator in the theft of the root key from Director Vane's vault
+- from: chapter-11
+  field: standing
+  value: Architect of the Sector Three diversion; fugitive after the counter-broadcast
+- from: chapter-16
+  field: standing
+  value: Defense planner for the Scrapyard Settlement, allied with the Scavengers
+- from: chapter-17
+  field: standing
+  value: Leading the security detail for the salvage run to the Dead Zone relay station
+- from: chapter-23
+  field: standing
+  value: Committed to the assault on the Sector Six staging ground
+- from: chapter-25
+  field: standing
+  value: Fleeing the staging ground after destroying the primary node, aware of the decentralized failsafe
 ---
 
 # Kaelen

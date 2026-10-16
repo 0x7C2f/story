@@ -1,4 +1,5 @@
 ---
+
 name: Sector Five
 type: district
 region: ''
@@ -9,9 +10,8 @@ notable-characters:
 - kaelen
 - jarek
 tags: []
-status: established
+status: destroyed
 ---
-
 # Sector Five
 
 ## Description
@@ -33,4 +33,4 @@ The workers here wear heavy canvas jumpsuits and adhere to strict shift schedule
 
 ## Current State
 
-Currently in a state of growing unrest. The public terminals are broadcasting the counter-broadcast on a loop, exposing the Oversight Committee's memory alterations. The factory workers are confused and their anger is rapidly rising, on the verge of turning into a full-scale riot.
+Destroyed. Director Vane used Goliath tanks to shatter the foundation pillars, dropping the entire sector into the undercity to crush the resistance and contain the counter-broadcast.

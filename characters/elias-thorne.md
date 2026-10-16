@@ -3,78 +3,79 @@ name: Elias Thorne
 role: protagonist
 status: alive
 aliases:
-  - Thorne
-  - archivist
-pronunciation: "EE-lee-us THORN"
+- Thorne
+- archivist
+pronunciation: EE-lee-us THORN
 voice-words:
-  - "protocol"
-  - "parameters"
-  - "splice"
-  - "handshake"
+- protocol
+- parameters
+- splice
+- handshake
 voice-avoid:
-  - "awesome"
-  - "literally"
-  - "guys"
+- awesome
+- literally
+- guys
 relationships:
-  - character: kaelen
-    type: ally
-  - character: director-vane
-    type: antagonist
-  - character: jarek
-    type: ally
+- character: kaelen
+  type: ally
+- character: director-vane
+  type: antagonist
+- character: jarek
+  type: ally
 locations:
-  - sector-six
-  - old-transit-bridge
-  - nexus-archives
-  - the-undercity
-  - sector-four-black-site
-  - the-nexus-spire
-  - central-broadcast-tower
-  - new-providence-outskirts
-  - the-scrapyard-settlement
-  - relay-station
-  - the-dead-zone
-  - heavy-transport
-  - sector-five
+- sector-six
+- old-transit-bridge
+- nexus-archives
+- the-undercity
+- sector-four-black-site
+- the-nexus-spire
+- central-broadcast-tower
+- new-providence-outskirts
+- the-scrapyard-settlement
+- relay-station
+- the-dead-zone
+- heavy-transport
+- sector-five
+- smuggler-tunnels
 tags:
-  - memory-archivist
-  - technician
-  - fugitive
-arc: "from custodian of the record to witness who will not hand it back"
+- memory-archivist
+- technician
+- fugitive
+arc: from custodian of the record to witness who will not hand it back
 arc-type: change-positive
-lie: "If I follow protocol and keep my head down, the record protects itself and me with it."
-truth: "A record only stays true because someone is willing to be the anomaly in it."
+lie: If I follow protocol and keep my head down, the record protects itself and me with it.
+truth: A record only stays true because someone is willing to be the anomaly in it.
 progressions:
-  - from: chapter-01
-    field: standing
-    value: "Flagged by the Archives for unauthorized data extraction"
-  - from: chapter-02
-    field: standing
-    value: "Off the grid in the Undercity, in possession of the M-774-B fragment"
-  - from: chapter-08
-    field: injury
-    value: "Nosebleed and neural aftershocks from the hostile dive into Director Vane's vault"
-  - from: chapter-11
-    field: standing
-    value: "Author of the counter-broadcast; wanted by the Committee"
-  - from: chapter-13
-    field: standing
-    value: "Fugitive beyond the city limits"
-  - from: chapter-16
-    field: standing
-    value: "Settlement technician, allied with the Scavengers"
-  - from: chapter-17
-    field: standing
-    value: "Organizing a resistance from the Scrapyard Settlement; planning a shadow network on the still-active root key"
-  - from: chapter-22
-    field: standing
-    value: "Secured a direct physical tap into Director Vane's operational network"
-  - from: chapter-23
-    field: standing
-    value: "Planning an assault on a fortified Committee staging ground in Sector Six"
-  - from: chapter-25
-    field: standing
-    value: "Realizes the primary node's destruction forced an early deployment of the mobile rewrite protocol"
+- from: chapter-01
+  field: standing
+  value: Flagged by the Archives for unauthorized data extraction
+- from: chapter-02
+  field: standing
+  value: Off the grid in the Undercity, in possession of the M-774-B fragment
+- from: chapter-08
+  field: injury
+  value: Nosebleed and neural aftershocks from the hostile dive into Director Vane's vault
+- from: chapter-11
+  field: standing
+  value: Author of the counter-broadcast; wanted by the Committee
+- from: chapter-13
+  field: standing
+  value: Fugitive beyond the city limits
+- from: chapter-16
+  field: standing
+  value: Settlement technician, allied with the Scavengers
+- from: chapter-17
+  field: standing
+  value: Organizing a resistance from the Scrapyard Settlement; planning a shadow network on the still-active root key
+- from: chapter-22
+  field: standing
+  value: Secured a direct physical tap into Director Vane's operational network
+- from: chapter-23
+  field: standing
+  value: Planning an assault on a fortified Committee staging ground in Sector Six
+- from: chapter-25
+  field: standing
+  value: Realizes the primary node's destruction forced an early deployment of the mobile rewrite protocol
 ---
 
 # Elias Thorne
