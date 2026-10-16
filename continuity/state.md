@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 49
+current-chapter: 50
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -355,7 +355,17 @@ knowledge-state:
 - character: jarek
   knows: The Goliath assault frames carry seismic charges meant to drop Sector Five into the undercity.
   learned-in: chapter-49
+- character: elias-thorne
+  knows: The command telemetry of the Goliath assault frames can be spoofed using the decentralized mesh network.
+  learned-in: chapter-50
+- character: kaelen
+  knows: The command telemetry of the Goliath assault frames can be spoofed using the decentralized mesh network.
+  learned-in: chapter-50
+- character: jarek
+  knows: The command telemetry of the Goliath assault frames can be spoofed using the decentralized mesh network.
+  learned-in: chapter-50
 ---
+
 
 
 

@@ -42,3 +42,5 @@ story: the-memory-archivist
 | Day 7 | Elias, Kaelen, and Jarek emerge into Sector Five and decide to recruit the factory workers who have seen the counter-broadcast | memory-liberation | 45 |
 | Day 7 | Elias, Kaelen, and Jarek lead the Sector Five workers to hold off the initial enforcer drone assault at Checkpoint Charlie | | 47 |
 | Day 7 | Elias, Kaelen, and Jarek rally the workers to retreat and prepare for Vane's heavy artillery assault in Sector Five | memory-liberation | 48 |
+| Day 7 | The Goliath assault frames breach the Sector Five foundry, carrying seismic charges meant to drop the sector | vane-countermove | 49 |
+| Day 7 | Elias attempts to spoof the command telemetry of the Goliath assault frames using the decentralized mesh network | memory-liberation | 50 |
