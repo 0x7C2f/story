@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 54
+current-chapter: 55
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -409,6 +409,18 @@ knowledge-state:
 - character: director-vane
   knows: Elias and his team have infiltrated the Nexus Archives.
   learned-in: chapter-54
+- character: elias-thorne
+  knows: The master root keys have been extracted and uncompressed histories dumped to the grid.
+  learned-in: chapter-55
+- character: director-vane
+  knows: Elias successfully bypassed the broadcast delay and dumped the uncompressed histories.
+  learned-in: chapter-55
+- character: kaelen
+  knows: The master root keys have been extracted and uncompressed histories dumped to the grid.
+  learned-in: chapter-55
+- character: jarek
+  knows: The master root keys have been extracted and uncompressed histories dumped to the grid.
+  learned-in: chapter-55
 ---
 
 
