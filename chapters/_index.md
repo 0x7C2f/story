@@ -53,5 +53,6 @@ story: the-memory-archivist
 | 42 | Chapter 42 | elias-thorne | draft | 696 | [chapter-42](chapter-42.md) |
 | 43 | Chapter 43 | elias-thorne | draft | 662 | [chapter-43](chapter-43.md) |
 | 44 | Chapter 44 | elias-thorne | draft | 706 | [chapter-44](chapter-44.md) |
+| 45 | Chapter 45 | elias-thorne | draft | 700 | [chapter-45](chapter-45.md) |
 
-## Total Word Count: 25006
+## Total Word Count: 25706

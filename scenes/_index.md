@@ -53,3 +53,4 @@ story: the-memory-archivist
 | chapter-42 | 1 | Chapter 42 Scene 1 | elias-thorne | draft | [chapter-42-scene-01](chapter-42-scene-01.md) |
 | chapter-43 | 1 | Chapter 43 Scene 1 | elias-thorne | draft | [chapter-43-scene-01](chapter-43-scene-01.md) |
 | chapter-44 | 1 | Chapter 44 Scene 1 | elias-thorne | draft | [chapter-44-scene-01](chapter-44-scene-01.md) |
+| chapter-45 | 1 | Chapter 45 Scene 1 | elias-thorne | draft | [chapter-45-scene-01](chapter-45-scene-01.md) |
