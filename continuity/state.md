@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 61
+current-chapter: 62
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -451,6 +451,15 @@ knowledge-state:
 - character: director-vane
   knows: The fugitives escaped via the sub-level exhaust vents into the Undercity.
   learned-in: chapter-59
+- character: elias-thorne
+  knows: Director Vane's true plan is a mass rewrite protocol to replace the city's collective memory.
+  learned-in: chapter-62
+- character: kaelen
+  knows: Director Vane's true plan is a mass rewrite protocol to replace the city's collective memory.
+  learned-in: chapter-62
+- character: jarek
+  knows: Director Vane's true plan is a mass rewrite protocol to replace the city's collective memory.
+  learned-in: chapter-62
 ---
 
 
