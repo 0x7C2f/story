@@ -45,3 +45,4 @@ story: the-memory-archivist
 | Day 7 | The Goliath assault frames breach the Sector Five foundry, carrying seismic charges meant to drop the sector | vane-countermove | 49 |
 | Day 7 | Elias attempts to spoof the command telemetry of the Goliath assault frames using the decentralized mesh network | memory-liberation | 50 |
 | Day 7 | Director Vane learns that Elias Thorne successfully stopped the Goliath assault frames and reroutes all available assets, including the Archives' inner guard, to concentrate on the Sector Five boundary | vane-countermove | 52 |
+| | Elias realizes the Archives are undefended and plans a counter-strike on the Nexus | memory-liberation | 53 |
