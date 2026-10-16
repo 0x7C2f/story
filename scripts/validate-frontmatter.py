@@ -10,6 +10,7 @@ Unknown extra keys are allowed.
 from __future__ import annotations
 
 import sys
+import os
 from pathlib import Path
 import yaml
 
@@ -59,28 +60,31 @@ def expected_keys(path: Path) -> set[str] | None:
 def main() -> int:
     failures: list[str] = []
     checked = 0
-    for path in ROOT.rglob("*.md"):
-        rel = path.relative_to(ROOT)
-        if any(part.startswith(".") for part in rel.parts):
-            continue
-        # Registry/index files are generated; skip them.
-        if path.name == "_index.md":
-            continue
-        keys_required = expected_keys(path)
-        if keys_required is None:
-            continue
-        checked += 1
-        try:
-            actual = frontmatter_keys(path)
-        except Exception as exc:  # pylint: disable=broad-except
-            failures.append(str(exc))
-            continue
-        if actual is None:
-            failures.append(f"{rel}: missing YAML frontmatter")
-            continue
-        missing = keys_required - actual
-        if missing:
-            failures.append(f"{rel}: missing frontmatter keys: {sorted(missing)}")
+    for dirpath, dirnames, filenames in os.walk(ROOT):
+        dirnames[:] = [d for d in dirnames if not d.startswith(".")]
+        for filename in filenames:
+            if not filename.endswith(".md") or filename.startswith("."):
+                continue
+            path = Path(dirpath) / filename
+            rel = path.relative_to(ROOT)
+            # Registry/index files are generated; skip them.
+            if path.name == "_index.md":
+                continue
+            keys_required = expected_keys(path)
+            if keys_required is None:
+                continue
+            checked += 1
+            try:
+                actual = frontmatter_keys(path)
+            except Exception as exc:  # pylint: disable=broad-except
+                failures.append(str(exc))
+                continue
+            if actual is None:
+                failures.append(f"{rel}: missing YAML frontmatter")
+                continue
+            missing = keys_required - actual
+            if missing:
+                failures.append(f"{rel}: missing frontmatter keys: {sorted(missing)}")
     print(f"checked {checked} files")
     if failures:
         for failure in failures:
