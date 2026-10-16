@@ -1,22 +1,22 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 63
+current-chapter: 64
 character-state:
 - character: director-vane
   location: the-nexus-spire
   physical: Uninjured, composed
   emotional: Calculating, furious
 - character: elias-thorne
-  location: the-undercity
+  location: sector-five
   physical: Recovering from severe neural strain
   emotional: Determined, procedural
 - character: kaelen
-  location: the-undercity
+  location: sector-five
   physical: Uninjured
   emotional: Tense, focused
 - character: jarek
-  location: the-undercity
+  location: sector-five
   physical: Uninjured
   emotional: Resolved, preparing for siege
 object-state:
@@ -478,7 +478,18 @@ knowledge-state:
 - character: jarek
   knows: Sector Five resistance will mobilize a massive diversion to draw the inner guard away from the Spire.
   learned-in: chapter-63
+- character: elias-thorne
+  knows: The Sector Five resistance has launched an assault on the Sector Four transit hub.
+  learned-in: chapter-64
+- character: kaelen
+  knows: The Sector Five resistance has launched an assault on the Sector Four transit hub.
+  learned-in: chapter-64
+- character: jarek
+  knows: The Sector Five resistance has launched an assault on the Sector Four transit hub.
+  learned-in: chapter-64
 ---
+
+
 
 
 
@@ -498,4 +509,7 @@ frontmatter above; the tables below are optional notes it does not read.
 ## Character State
 
 | Character | Location | Physical State | Emotional State | Knowledge |
-|
+|---|---|---|---|---|
+| elias-thorne | sector-five | Exhausted but focused | Anxious | The Sector Five resistance has launched an assault on the Sector Four transit hub. |
+| kaelen | sector-five | Battle-ready | Determined | The Sector Five resistance has launched an assault on the Sector Four transit hub. |
+| jarek | sector-five | Battle-ready | Resolute | The Sector Five resistance has launched an assault on the Sector Four transit hub. |
