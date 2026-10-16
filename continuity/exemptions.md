@@ -29,3 +29,6 @@ gate green; fix the finding instead.
 - **location:** chapters/chapter-61.md
   **word:** navigate
   **reason:** Structural necessity; alternate phrasing introduces ungrammatical constructions.
+  - code: ai-slop-phrase
+    pattern: "deep dive"
+    reason: Intentional phrase from the voice sample, describing the physical cost of heavy neural link usage.
