@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 52
+current-chapter: 53
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -388,6 +388,15 @@ knowledge-state:
 - character: director-vane
   knows: The origin of the spoofed transmission was deep within Sector Five.
   learned-in: chapter-52
+- character: elias-thorne
+  knows: The Archives' inner guard has been pulled to reinforce Sector Five, leaving the vaults undefended.
+  learned-in: chapter-53
+- character: kaelen
+  knows: The Archives' inner guard has been pulled to reinforce Sector Five, leaving the vaults undefended.
+  learned-in: chapter-53
+- character: jarek
+  knows: The Archives' inner guard has been pulled to reinforce Sector Five, leaving the vaults undefended.
+  learned-in: chapter-53
 ---
 
 
