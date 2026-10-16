@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 55
+current-chapter: 56
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -421,6 +421,18 @@ knowledge-state:
 - character: jarek
   knows: The master root keys have been extracted and uncompressed histories dumped to the grid.
   learned-in: chapter-55
+- character: elias-thorne
+  knows: Elias successfully hacked the environment to assist the escape from the central terminal.
+  learned-in: chapter-56
+- character: kaelen
+  knows: Elias successfully hacked the environment to assist the escape from the central terminal.
+  learned-in: chapter-56
+- character: jarek
+  knows: Elias successfully hacked the environment to assist the escape from the central terminal.
+  learned-in: chapter-56
+- character: director-vane
+  knows: Elias, Kaelen, and Jarek escaped the central terminal.
+  learned-in: chapter-56
 ---
 
 

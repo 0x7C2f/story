@@ -88,6 +88,7 @@ story: the-memory-archivist
 | chapter-53 | 1 | Chapter 53 Scene 1 | elias-thorne | draft | [chapter-53-scene-01](chapter-53-scene-01.md) |
 | chapter-54 | 1 | Chapter 54 Scene 1 | elias-thorne | draft | [chapter-54-scene-01](chapter-54-scene-01.md) |
 | chapter-55 | 1 | Chapter 55 Scene 1 | elias-thorne | draft | [chapter-55-scene-01](chapter-55-scene-01.md) |
+| chapter-56 | 1 | Chapter 56 Scene 1 | elias-thorne | draft | [chapter-56-scene-01](chapter-56-scene-01.md) |
 
 ## Purpose
 
