@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 51
+current-chapter: 52
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -382,7 +382,14 @@ knowledge-state:
 - character: jarek
   knows: Sector Five is successfully secured by the resistance after halting the Goliaths.
   learned-in: chapter-51
+- character: director-vane
+  knows: The Goliath assault frames were neutralized by an override command spoofed through the encrypted mesh network by Elias Thorne.
+  learned-in: chapter-52
+- character: director-vane
+  knows: The origin of the spoofed transmission was deep within Sector Five.
+  learned-in: chapter-52
 ---
+
 
 
 

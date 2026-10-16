@@ -84,6 +84,7 @@ story: the-memory-archivist
 | chapter-49 | 1 | Chapter 49 Scene 1 | elias-thorne | draft | [chapter-49-scene-01](chapter-49-scene-01.md) |
 | chapter-50 | 1 | Chapter 50 Scene 1 | elias-thorne | draft | [chapter-50-scene-01](chapter-50-scene-01.md) |
 | chapter-51 | 1 | Chapter 51 Scene 1 | elias-thorne | draft | [chapter-51-scene-01](chapter-51-scene-01.md) |
+| chapter-52 | 1 | Vane's Next Move | director-vane | draft | [chapter-52-scene-01](chapter-52-scene-01.md) |
 
 ## Purpose
 
