@@ -29,18 +29,18 @@ REQUIRED = {
 
 
 def frontmatter_keys(path: Path) -> set[str] | None:
-    text = path.read_text(encoding="utf-8")
-    lines = text.splitlines()
-    if len(lines) < 3 or lines[0].strip() != "---":
-        return None
-    end = None
-    for i in range(1, len(lines)):
-        if lines[i].strip() == "---":
-            end = i
-            break
-    if end is None:
-        raise ValueError(f"{path}: unterminated frontmatter")
-    data = yaml.safe_load("\n".join(lines[1:end])) or {}
+    with path.open(encoding="utf-8") as f:
+        first = f.readline()
+        if not first or first.strip() != "---":
+            return None
+        lines = []
+        for line in f:
+            if line.strip() == "---":
+                break
+            lines.append(line)
+        else:
+            raise ValueError(f"{path}: unterminated frontmatter")
+    data = yaml.safe_load("".join(lines)) or {}
     if not isinstance(data, dict):
         raise ValueError(f"{path}: frontmatter is not a mapping")
     return set(data.keys())
