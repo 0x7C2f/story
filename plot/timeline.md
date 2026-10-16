@@ -40,3 +40,4 @@ story: the-memory-archivist
 | Day 7 | Elias, Kaelen, and Jarek initiate the broadcast but are forced to abandon the destroyed transport and escape on foot | memory-liberation | 42 |
 | Day 7 | Elias, Kaelen, and Jarek evade an automated security drone in the subterranean tunnels | memory-liberation | 44 |
 | Day 7 | Elias, Kaelen, and Jarek emerge into Sector Five and decide to recruit the factory workers who have seen the counter-broadcast | memory-liberation | 45 |
+| Day 7 | Elias, Kaelen, and Jarek lead the Sector Five workers to hold off the initial enforcer drone assault at Checkpoint Charlie | | 47 |
