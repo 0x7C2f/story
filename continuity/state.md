@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 50
+current-chapter: 51
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -364,6 +364,24 @@ knowledge-state:
 - character: jarek
   knows: The command telemetry of the Goliath assault frames can be spoofed using the decentralized mesh network.
   learned-in: chapter-50
+- character: elias-thorne
+  knows: The mesh network successfully spoofed the command telemetry of the Goliath assault frames, neutralizing them.
+  learned-in: chapter-51
+- character: kaelen
+  knows: The mesh network successfully spoofed the command telemetry of the Goliath assault frames, neutralizing them.
+  learned-in: chapter-51
+- character: jarek
+  knows: The mesh network successfully spoofed the command telemetry of the Goliath assault frames, neutralizing them.
+  learned-in: chapter-51
+- character: elias-thorne
+  knows: Sector Five is successfully secured by the resistance after halting the Goliaths.
+  learned-in: chapter-51
+- character: kaelen
+  knows: Sector Five is successfully secured by the resistance after halting the Goliaths.
+  learned-in: chapter-51
+- character: jarek
+  knows: Sector Five is successfully secured by the resistance after halting the Goliaths.
+  learned-in: chapter-51
 ---
 
 
