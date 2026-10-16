@@ -59,5 +59,6 @@ story: the-memory-archivist
 | 48 | Chapter 48 | elias-thorne | draft | 491 | [chapter-48](chapter-48.md) |
 | 49 | Chapter 49 | elias-thorne | draft | 596 | [chapter-49](chapter-49.md) |
 | 50 | Chapter 50 | elias-thorne | draft | 779 | [chapter-50](chapter-50.md) |
+| 51 | Chapter 51 | elias-thorne | draft | 678 | [chapter-51](chapter-51.md) |
 
-## Total Word Count: 28846
+## Total Word Count: 29524
