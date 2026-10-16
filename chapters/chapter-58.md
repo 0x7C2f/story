@@ -17,7 +17,7 @@ status: draft
 mode: ''
 date: ''
 time: ''
-word-count: 393
+word-count: 388
 ---
 
 # Chapter 58
@@ -32,7 +32,7 @@ word-count: 393
 
 ## Chapter Text
 
-The digital static of Director Vane's hard reset crashed against Elias's shielded link. It struck not as a sound, rather as a tearing pressure behind his eyes, a violent frequency designed to scour the neural pathways of anyone caught in its radius.
+The digital static of Director Vane's hard reset crashed against Elias's shielded link. It struck as a tearing pressure behind his eyes, a violent frequency designed to scour the neural pathways of anyone caught in its radius.
 
 "Stay low!" Kaelen commanded, her voice harsh in the narrow maintenance corridor. She grabbed Jarek's armored pauldron and hauled him toward a heavy structural crossbeam.
 
