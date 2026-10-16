@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 62
+current-chapter: 63
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -460,6 +460,24 @@ knowledge-state:
 - character: jarek
   knows: Director Vane's true plan is a mass rewrite protocol to replace the city's collective memory.
   learned-in: chapter-62
+- character: elias-thorne
+  knows: They must inject a counter-signal into the central router using the mesh network to stop the memory rewrite.
+  learned-in: chapter-63
+- character: elias-thorne
+  knows: Sector Five resistance will mobilize a massive diversion to draw the inner guard away from the Spire.
+  learned-in: chapter-63
+- character: kaelen
+  knows: They must inject a counter-signal into the central router using the mesh network to stop the memory rewrite.
+  learned-in: chapter-63
+- character: kaelen
+  knows: Sector Five resistance will mobilize a massive diversion to draw the inner guard away from the Spire.
+  learned-in: chapter-63
+- character: jarek
+  knows: They must inject a counter-signal into the central router using the mesh network to stop the memory rewrite.
+  learned-in: chapter-63
+- character: jarek
+  knows: Sector Five resistance will mobilize a massive diversion to draw the inner guard away from the Spire.
+  learned-in: chapter-63
 ---
 
 
