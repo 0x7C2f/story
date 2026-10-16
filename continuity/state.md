@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 48
+current-chapter: 49
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -346,14 +346,21 @@ knowledge-state:
 - character: jarek
   knows: Vane is sending heavy armor and sealing the sector perimeter.
   learned-in: chapter-48
+- character: elias-thorne
+  knows: The Goliath assault frames carry seismic charges meant to drop Sector Five into the undercity.
+  learned-in: chapter-49
+- character: kaelen
+  knows: The Goliath assault frames carry seismic charges meant to drop Sector Five into the undercity.
+  learned-in: chapter-49
+- character: jarek
+  knows: The Goliath assault frames carry seismic charges meant to drop Sector Five into the undercity.
+  learned-in: chapter-49
 ---
 
 
 
 
-
-
-# Continuity State
+# Continuity State# Continuity State
 
 ## Current Story State
 
