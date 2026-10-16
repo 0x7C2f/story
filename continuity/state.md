@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 45
+current-chapter: 46
 character-state:
   - character: director-vane
     location: the-nexus-spire
@@ -517,3 +517,15 @@ frontmatter above; the tables below are optional notes it does not read.
 | Elias Thorne | The heavy transport is destroyed and they are on the run on foot | Chapter 42 |
 | Kaelen | The heavy transport is destroyed and they are on the run on foot | Chapter 42 |
 | Jarek | The heavy transport is destroyed and they are on the run on foot | Chapter 42 |
+| Elias Thorne | They successfully evaded the initial thermal sweeps by escaping into the subterranean smuggler tunnels | Chapter 43 |
+| Kaelen | They successfully evaded the initial thermal sweeps by escaping into the subterranean smuggler tunnels | Chapter 43 |
+| Jarek | They successfully evaded the initial thermal sweeps by escaping into the subterranean smuggler tunnels | Chapter 43 |
+| Elias Thorne | They successfully destroyed the automated security drone and continue through the smuggler tunnels toward Sector Five | Chapter 44 |
+| Kaelen | They successfully destroyed the automated security drone and continue through the smuggler tunnels toward Sector Five | Chapter 44 |
+| Jarek | They successfully destroyed the automated security drone and continue through the smuggler tunnels toward Sector Five | Chapter 44 |
+| Elias Thorne | They have emerged into Sector Five and plan to recruit the factory workers | Chapter 45 |
+| Kaelen | They have emerged into Sector Five and plan to recruit the factory workers | Chapter 45 |
+| Jarek | They have emerged into Sector Five and plan to recruit the factory workers | Chapter 45 |
+| Elias Thorne | They are organizing the Sector Five workers into a resistance cell | Chapter 46 |
+| Kaelen | They are organizing the Sector Five workers into a resistance cell | Chapter 46 |
+| Jarek | They are organizing the Sector Five workers into a resistance cell | Chapter 46 |
