@@ -26,7 +26,6 @@ REQUIRED = {
     "plot": {"type"},
 }
 
-FENCES = ("---",)
 
 
 def frontmatter_keys(path: Path) -> set[str] | None:
