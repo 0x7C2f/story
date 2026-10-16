@@ -1,22 +1,22 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 53
+current-chapter: 54
 character-state:
 - character: director-vane
   location: the-nexus-spire
   physical: Uninjured, composed
   emotional: Calculating, furious
 - character: elias-thorne
-  location: sector-five
+  location: nexus-archives
   physical: Recovering from severe neural strain
   emotional: Determined, procedural
 - character: kaelen
-  location: sector-five
+  location: nexus-archives
   physical: Uninjured
   emotional: Tense, focused
 - character: jarek
-  location: sector-five
+  location: nexus-archives
   physical: Uninjured
   emotional: Resolved, preparing for siege
 object-state:
@@ -397,6 +397,18 @@ knowledge-state:
 - character: jarek
   knows: The Archives' inner guard has been pulled to reinforce Sector Five, leaving the vaults undefended.
   learned-in: chapter-53
+- character: elias-thorne
+  knows: They have infiltrated the central terminal of the Nexus Archives.
+  learned-in: chapter-54
+- character: kaelen
+  knows: They have infiltrated the central terminal of the Nexus Archives.
+  learned-in: chapter-54
+- character: jarek
+  knows: They have infiltrated the central terminal of the Nexus Archives.
+  learned-in: chapter-54
+- character: director-vane
+  knows: Elias and his team have infiltrated the Nexus Archives.
+  learned-in: chapter-54
 ---
 
 
@@ -404,7 +416,9 @@ knowledge-state:
 
 
 
-# Continuity State# Continuity State
+
+
+# Continuity State
 
 ## Current Story State
 
