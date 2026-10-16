@@ -1,22 +1,22 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 59
+current-chapter: 60
 character-state:
 - character: director-vane
   location: the-nexus-spire
   physical: Uninjured, composed
   emotional: Calculating, furious
 - character: elias-thorne
-  location: the-nexus-spire
+  location: the-undercity
   physical: Recovering from severe neural strain
   emotional: Determined, procedural
 - character: kaelen
-  location: the-nexus-spire
+  location: the-undercity
   physical: Uninjured
   emotional: Tense, focused
 - character: jarek
-  location: the-nexus-spire
+  location: the-undercity
   physical: Uninjured
   emotional: Resolved, preparing for siege
 object-state:
