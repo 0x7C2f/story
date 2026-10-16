@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 57
+current-chapter: 58
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -439,6 +439,15 @@ knowledge-state:
 - character: director-vane
   knows: Elias, Kaelen, and Jarek escaped the central terminal.
   learned-in: chapter-56
+- character: elias-thorne
+  knows: They survived the hard reset and escaped the Nexus Spire deeper into the undercity.
+  learned-in: chapter-58
+- character: kaelen
+  knows: They survived the hard reset and escaped the Nexus Spire deeper into the undercity.
+  learned-in: chapter-58
+- character: jarek
+  knows: They survived the hard reset and escaped the Nexus Spire deeper into the undercity.
+  learned-in: chapter-58
 ---
 
 
