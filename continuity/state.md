@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 58
+current-chapter: 59
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -448,6 +448,9 @@ knowledge-state:
 - character: jarek
   knows: They survived the hard reset and escaped the Nexus Spire deeper into the undercity.
   learned-in: chapter-58
+- character: director-vane
+  knows: The fugitives escaped via the sub-level exhaust vents into the Undercity.
+  learned-in: chapter-59
 ---
 
 
