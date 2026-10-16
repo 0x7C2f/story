@@ -1,22 +1,22 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 64
+current-chapter: 65
 character-state:
 - character: director-vane
   location: the-nexus-spire
   physical: Uninjured, composed
   emotional: Calculating, furious
 - character: elias-thorne
-  location: sector-five
+  location: sector-four
   physical: Recovering from severe neural strain
   emotional: Determined, procedural
 - character: kaelen
-  location: sector-five
+  location: sector-four
   physical: Uninjured
   emotional: Tense, focused
 - character: jarek
-  location: sector-five
+  location: sector-four
   physical: Uninjured
   emotional: Resolved, preparing for siege
 object-state:
