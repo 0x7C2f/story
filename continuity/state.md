@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 65
+current-chapter: 66
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -487,6 +487,18 @@ knowledge-state:
 - character: jarek
   knows: The Sector Five resistance has launched an assault on the Sector Four transit hub.
   learned-in: chapter-64
+- character: elias-thorne
+  fact: vane-mapping-interference
+  knows: Vane is mapping the resistance interference pattern to hunt Elias through the mesh network.
+  learned-in: chapter-66
+- character: kaelen
+  fact: vane-mapping-interference
+  knows: Vane is mapping the resistance interference pattern to hunt Elias through the mesh network.
+  learned-in: chapter-66
+- character: jarek
+  fact: vane-mapping-interference
+  knows: Vane is mapping the resistance interference pattern to hunt Elias through the mesh network.
+  learned-in: chapter-66
 ---
 
 
@@ -510,6 +522,6 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | sector-five | Exhausted but focused | Anxious | The Sector Five resistance has launched an assault on the Sector Four transit hub. |
-| kaelen | sector-five | Battle-ready | Determined | The Sector Five resistance has launched an assault on the Sector Four transit hub. |
-| jarek | sector-five | Battle-ready | Resolute | The Sector Five resistance has launched an assault on the Sector Four transit hub. |
+| elias-thorne | sector-four | Exhausted but focused | Anxious | The Sector Five resistance has launched an assault on the Sector Four transit hub. |
+| kaelen | sector-four | Battle-ready | Determined | The Sector Five resistance has launched an assault on the Sector Four transit hub. |
+| jarek | sector-four | Battle-ready | Resolute | The Sector Five resistance has launched an assault on the Sector Four transit hub. |
