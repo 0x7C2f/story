@@ -1,9 +1,33 @@
 ---
+title: "Chapter 46 Scene 1"
+chapter: chapter-46
+scene: 1
+pov: elias-thorne
+locations:
+  - sector-five
+characters:
+  - elias-thorne
+  - kaelen
+  - jarek
+mentions:
+  - director-vane
+arcs-advanced:
+  - memory-liberation
+  - vane-countermove
+status: draft
+date: ""
+time: ""
+sequel: false
+dilemma: ""
+state-changes:
+  - entity: elias-thorne
+    type: knowledge
+    update: Organizing the Sector Five workers into a resistance cell.
 type: scene-registry
 story: the-memory-archivist
 ---
 
-# Scenes
+# Chapter 46 Scene 1
 
 ## Registry
 
@@ -54,3 +78,12 @@ story: the-memory-archivist
 | chapter-43 | 1 | Chapter 43 Scene 1 | elias-thorne | draft | [chapter-43-scene-01](chapter-43-scene-01.md) |
 | chapter-44 | 1 | Chapter 44 Scene 1 | elias-thorne | draft | [chapter-44-scene-01](chapter-44-scene-01.md) |
 | chapter-45 | 1 | Chapter 45 Scene 1 | elias-thorne | draft | [chapter-45-scene-01](chapter-45-scene-01.md) |
+| chapter-46 | 1 | Chapter 46 Scene 1 | elias-thorne | draft | [chapter-46-scene-01](chapter-46-scene-01.md) |
+
+## Purpose
+
+Elias, Kaelen, and Jarek organize the furious workers in Sector Five into a resistance cell, but Committee enforcers breach the sector.
+
+## Continuity Notes
+
+Elias, Kaelen, and Jarek successfully rally the workers, turning their anger into organized resistance. They are preparing to defend Sector Five from incoming enforcers.
