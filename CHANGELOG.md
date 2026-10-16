@@ -38,3 +38,7 @@ Model: Jules - Drafted chapter 34 and updated tracking files.
   - Action: Drafted Chapter 48 and Scene 48-1.
   - Summary: Elias, Kaelen, and Jarek rally the workers to retreat from Checkpoint Charlie and set up layered defenses in the Sector Five foundries before Vane's heavy artillery arrives.
   - Next Run: Draft Chapter 49, where the resistance engages the Goliath-class assault frames in the foundries.
+- Model: Jules
+  - Action: Drafted Chapter 49
+  - Summary: Elias, Kaelen, and Jarek defend Sector Five against Goliath-class assault frames, discovering that the frames carry seismic charges meant to drop the entire sector into the undercity.
+  - Next Run: Continue the defense of Sector Five and the attempt to stop the seismic charges in Chapter 50.
