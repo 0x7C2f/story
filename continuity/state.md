@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 65
+current-chapter: 66
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -487,6 +487,10 @@ knowledge-state:
 - character: jarek
   knows: The Sector Five resistance has launched an assault on the Sector Four transit hub.
   learned-in: chapter-64
+- character: elias-thorne
+  fact: vane-countermove-ambush
+  learned-in: chapter-66
+  knows: Director Vane perfectly anticipated their route by mapping their blind spots and setting an ambush at the sealed checkpoint deeper in Sector Four.
 ---
 
 
