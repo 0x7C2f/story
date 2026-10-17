@@ -1530,6 +1530,12 @@ function validateChapters(project, errors, warnings) {
     if ((Array.isArray(data.author) ? data.author : [data.author]).some(isPlaceholder)) {
       warnings.push(warn("todo-placeholder", `${label} author is still a [TODO] placeholder; builds leave it out`, label));
     }
+    // A title that restates the number prints as "Chapter 35" in the sidebar,
+    // the registry, and the book heading: that is a placeholder, not a title.
+    const titleText = typeof data.title === "string" ? data.title.trim() : "";
+    if (/^chapters?\s*\d+$/i.test(titleText) || titleText === String(data.number)) {
+      errors.push(err("placeholder-chapter-title", `${label} title "${titleText}" only repeats the chapter number; give the chapter a real title`, label));
+    }
     errors.push(...chapterChoices(chapter, label).problems);
     if (data.numbered !== undefined && typeof data.numbered !== "boolean") {
       errors.push(err("field-not-boolean", `${label} numbered must be true or false`, label));

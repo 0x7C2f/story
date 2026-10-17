@@ -2,13 +2,13 @@
 // Enhancement 7 — chapter prev/next as portal cards, mounted at doc-after.
 // The built-in pager is retired (custom.css §7) because it shows the raw
 // frontmatter link as its title. This card reads the same frontmatter and
-// derives clean "Chapter N" labels. All links and the chapter-page check are
-// base-aware, so the site works under any base (here: /story/).
+// shows each destination's real title (from the sidebar labels). All links and
+// the chapter-page check are base-aware, so the site works under any base.
 import { computed } from 'vue'
 import { useData, useRoute, withBase } from 'vitepress'
 
 const route = useRoute()
-const { frontmatter } = useData()
+const { frontmatter, theme } = useData()
 
 const isChapterPage = computed(() =>
   route.path.startsWith(withBase('/chapters/'))
@@ -27,8 +27,31 @@ const nextHref = computed(() => {
 const prevText = computed(() => frontmatter.value.prevText || 'Previous Chapter')
 const nextText = computed(() => frontmatter.value.nextText || 'Next Chapter')
 
-// "Chapter 7" from a link like /chapters/chapter-07.html
+// Link -> label. config.mts builds the sidebar with label(), which already
+// resolved each page's real title from frontmatter, so the sidebar is the
+// authoritative lookup: "The Manifest Analysis", not "Chapter 7".
+function sidebarTitles() {
+  const map = new Map()
+  const visit = (items) => {
+    for (const item of items || []) {
+      if (!item) continue
+      if (item.link) map.set(hrefKey(item.link), item.text)
+      if (item.items) visit(item.items)
+    }
+  }
+  const sb = theme.value.sidebar
+  visit(Array.isArray(sb) ? sb : Object.values(sb || {}))
+  return map
+}
+
+function hrefKey(link) {
+  return withBase(String(link)).replace(/\.html$/, '')
+}
+
+// The real title from the sidebar, or "Chapter 7" as a last resort.
 function chapterTitle(link) {
+  const known = sidebarTitles().get(hrefKey(link))
+  if (known) return known
   const match = String(link || '').match(/chapter-(\d+)/)
   return match ? `Chapter ${parseInt(match[1], 10)}` : ''
 }

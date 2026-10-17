@@ -76,6 +76,7 @@ export const FINDING_CODES = {
   "filename-number-mismatch": "error",
   "duplicate-chapter-number": "error",
   "duplicate-scene-number": "error",
+  "placeholder-chapter-title": "error",
   "unnumbered-without-title": "error",
   "invalid-choice": "error",
   "invalid-route-hours": "error",

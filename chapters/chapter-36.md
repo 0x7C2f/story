@@ -1,5 +1,5 @@
 ---
-title: Chapter 36
+title: The Staging Ground
 number: 36
 pov: elias-thorne
 locations:
@@ -21,7 +21,7 @@ time: ""
 word-count: 683
 ---
 
-# Chapter 36
+# Chapter 36: The Staging Ground
 
 ## Outline
 

@@ -239,7 +239,11 @@ jobs:
                out. A line marked character-knowledge, do not reveal, is known
                to the POV and must not be stated. Outline first, then prose under "## Chapter Text",
                between ${{ env.MIN_WORDS }} and ${{ env.MAX_WORDS }} words, with
-               accurate frontmatter (pov, status, word-count, locations, characters, mentions, arcs-advanced).
+               accurate frontmatter (number, title, pov, status, word-count, locations, characters, mentions, arcs-advanced).
+               The title names the chapter in a few words, the way the
+               existing chapters do ("The Manifest Analysis"), and never
+               restates the number: "Chapter 35" is not a title, and
+               story check rejects it.
                Add matching scene records and update continuity/state.md,
                promises, questions, and the timeline.
             5. Run the maintenance commands and make them pass, apart from any

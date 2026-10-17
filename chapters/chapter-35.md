@@ -1,5 +1,5 @@
 ---
-title: Chapter 35
+title: The Tunnel Descent
 number: 35
 pov: elias-thorne
 locations:
@@ -20,7 +20,7 @@ time: ""
 word-count: 568
 ---
 
-# Chapter 35
+# Chapter 35: The Tunnel Descent
 
 ## Outline
 
