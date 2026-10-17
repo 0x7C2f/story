@@ -78,5 +78,6 @@ story: the-memory-archivist
 | 67 | Chapter 67 | elias-thorne | draft | 456 | [chapter-67](chapter-67.md) |
 | 68 | Chapter 68 | elias-thorne | draft | 388 | [chapter-68](chapter-68.md) |
 | 69 | Chapter 69 | elias-thorne | draft | 756 | [chapter-69](chapter-69.md) |
+| 70 | Chapter 70 | elias-thorne | draft | 916 | [chapter-70](chapter-70.md) |
 
-## Total Word Count: 40206
+## Total Word Count: 41122
