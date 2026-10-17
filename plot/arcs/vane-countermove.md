@@ -43,6 +43,7 @@ What changes because of this arc.
 
 | 7 | The mechanized hunter drone corners Elias's team but is destroyed in a localized structural collapse | 2 | chapter-76 | drafted | |
 | 8 | Vane's forces lose track of Elias's team in the collapsed tunnels, leaving them temporarily blind to his movements in the deep Undercity | 2 | chapter-77 | drafted | |
+| 9 | A localized power surge in the deep Undercity alerts Vane's hunter-killer subsystems to Elias's position, prompting a renewed attack on the pre-Committee transit station | 2 | chapter-78 | drafted | |
 
 ## Foreshadowing
 

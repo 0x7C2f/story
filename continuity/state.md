@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 77
+current-chapter: 78
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -666,6 +666,21 @@ knowledge-state:
   knows: |
     Elias discovered an old pre-Committee transit station with a dormant terminal that might have a hardline to the surface.
   learned-in: chapter-77
+- character: elias-thorne
+  fact: terminal-surge
+  knows: |
+    Elias triggered a power surge while booting the dormant terminal, alerting Vane's hunter subsystems.
+  learned-in: chapter-78
+- character: kaelen
+  fact: terminal-surge
+  knows: |
+    Elias triggered a power surge while booting the dormant terminal, alerting Vane's hunter subsystems.
+  learned-in: chapter-78
+- character: jarek
+  fact: terminal-surge
+  knows: |
+    Elias triggered a power surge while booting the dormant terminal, alerting Vane's hunter subsystems.
+  learned-in: chapter-78
 ---
 
 
@@ -692,6 +707,6 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | the-undercity | Exhausted, knee throbbing | Hopeful | Discovered dormant terminal in Undercity |
-| kaelen | the-undercity | Fatigued | Cautiously optimistic | Discovered dormant terminal in Undercity |
-| jarek | the-undercity | Bruised | Weary | Discovered dormant terminal in Undercity |
+| elias-thorne | the-undercity | Exhausted, knee throbbing | Focused | Establishing uplink to Nexus Archives |
+| kaelen | the-undercity | Fatigued | Tense | Preparing defense against hunter subsystems |
+| jarek | the-undercity | Bruised | Weary | Preparing defense against hunter subsystems |
