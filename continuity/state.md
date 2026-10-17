@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 81
+current-chapter: 82
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -737,6 +737,22 @@ knowledge-state:
   fact: alpha-perimeter-established
   knows: She has locked down the perimeter of Quarantine Sector Alpha, waiting for Elias to surface.
   learned-in: chapter-81
+- character: elias-thorne
+  fact: alpha-terminal-found
+  knows: Elias located a hidden maintenance terminal inside Quarantine Sector Alpha.
+  learned-in: chapter-82
+- character: kaelen
+  fact: alpha-terminal-found
+  knows: Elias located a hidden maintenance terminal inside Quarantine Sector Alpha.
+  learned-in: chapter-82
+- character: jarek
+  fact: alpha-terminal-found
+  knows: Elias located a hidden maintenance terminal inside Quarantine Sector Alpha.
+  learned-in: chapter-82
+- character: director-vane
+  fact: vane-internal-sweep
+  knows: Vane ordered an internal sweep of Quarantine Sector Alpha after detecting unauthorized access.
+  learned-in: chapter-82
 ---
 
 # Continuity State
@@ -751,7 +767,7 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | quarantine-sector-alpha | Exhausted, drained | Resolved | Has entered the thermal exhaust port of Quarantine Sector Alpha |
-| kaelen | quarantine-sector-alpha | Fatigued | Exhausted | Navigating the thermal port |
-| jarek | quarantine-sector-alpha | Bruised | Cautious | Wedged in the thermal port descent |
-| director-vane | the-nexus-spire | Uninjured, composed | Calculating, furious | Has locked down the perimeter of Quarantine Sector Alpha |
+| elias-thorne | quarantine-sector-alpha | Exhausted, drained | Anxious, focused | Accessed hidden terminal in Sector Alpha |
+| kaelen | quarantine-sector-alpha | Fatigued | Alert, tense | Evaded loyalist enforcer patrol |
+| jarek | quarantine-sector-alpha | Bruised | Cautious | Inside Quarantine Sector Alpha |
+| director-vane | the-nexus-spire | Uninjured, composed | Calculating | Ordered internal sweep of Sector Alpha |
