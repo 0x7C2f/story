@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 72
+current-chapter: 73
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -9,16 +9,16 @@ character-state:
   emotional: Calculating, furious
 - character: elias-thorne
   location: sector-four
-  physical: Recovering from severe neural strain
-  emotional: Determined, procedural
+  physical: Exhausted, recovering from adrenaline spike
+  emotional: Relieved but terrified
 - character: kaelen
   location: sector-four
   physical: Uninjured
-  emotional: Tense, focused
+  emotional: Battle-ready, focused on the breach
 - character: jarek
   location: sector-four
-  physical: Uninjured
-  emotional: Resolved, preparing for siege
+  physical: Thrown backward by explosion
+  emotional: Bracing for combat
 object-state:
 - artifact: physical-drive-m-774-b
   owner: elias-thorne
@@ -587,6 +587,30 @@ knowledge-state:
   fact: elias-fights-hunter-killer
   knows: Elias is fighting off Vane's active hunter-killer defense protocol to keep the counter-signal alive
   learned-in: chapter-72
+- character: elias-thorne
+  fact: counter-signal-embedded
+  knows: Elias successfully embedded the counter-signal into the central router, halting the rewrite.
+  learned-in: chapter-73
+- character: kaelen
+  fact: counter-signal-embedded
+  knows: Elias successfully embedded the counter-signal into the central router, halting the rewrite.
+  learned-in: chapter-73
+- character: jarek
+  fact: counter-signal-embedded
+  knows: Elias successfully embedded the counter-signal into the central router, halting the rewrite.
+  learned-in: chapter-73
+- character: elias-thorne
+  fact: substation-breached
+  knows: The relay substation was breached by Loyalist enforcers.
+  learned-in: chapter-73
+- character: kaelen
+  fact: substation-breached
+  knows: The relay substation was breached by Loyalist enforcers.
+  learned-in: chapter-73
+- character: jarek
+  fact: substation-breached
+  knows: The relay substation was breached by Loyalist enforcers.
+  learned-in: chapter-73
 ---
 
 
@@ -613,6 +637,6 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | sector-four | Exhausted | Panicked | Triggered a hunter-killer defense protocol while launching the counter-signal |
-| kaelen | sector-four | Battle-ready | Focused | Elias triggered a defense protocol while launching the counter-signal |
-| jarek | sector-four | Battle-ready | Focused | Elias triggered a defense protocol while launching the counter-signal |
+| elias-thorne | sector-four | Exhausted, recovering from adrenaline spike | Relieved but terrified | Successfully embedded the counter-signal; the substation is breached |
+| kaelen | sector-four | Uninjured | Battle-ready, focused on the breach | Successfully embedded the counter-signal; the substation is breached |
+| jarek | sector-four | Thrown backward by explosion | Bracing for combat | Successfully embedded the counter-signal; the substation is breached |
