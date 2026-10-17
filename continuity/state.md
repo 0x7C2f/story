@@ -1,22 +1,22 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 88
+current-chapter: 89
 character-state:
 - character: director-vane
-  location: quarantine-sector-alpha
+  location: the-undercity
   physical: Uninjured, furious
   emotional: Enraged
 - character: elias-thorne
-  location: quarantine-sector-alpha
+  location: the-undercity
   physical: Exhausted
   emotional: Determined
 - character: kaelen
-  location: quarantine-sector-alpha
+  location: the-undercity
   physical: Escaping
   emotional: Defiant
 - character: jarek
-  location: quarantine-sector-alpha
+  location: the-undercity
   physical: Escaping
   emotional: Defiant
 object-state:
@@ -841,6 +841,14 @@ knowledge-state:
   fact: core-secured-late
   knows: Her forces secured the Archive core, but she suspects the download was completed.
   learned-in: chapter-87
+- character: elias-thorne
+  fact: exhaust-port-escape
+  knows: Escaped through the thermal exhaust port into the Undercity.
+  learned-in: chapter-89
+- character: director-vane
+  fact: vane-exhaust-hunt
+  knows: Deployed forces to seal the exhaust ports leading to the Undercity.
+  learned-in: chapter-89
 ---
 
 # Continuity State
@@ -855,7 +863,7 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | quarantine-sector-alpha | Exhausted | Determined | Escaped with the uncorrupted history |
-| kaelen | quarantine-sector-alpha | Escaping | Defiant | Covered Elias's escape |
-| jarek | quarantine-sector-alpha | Escaping | Defiant | Covered Elias's escape |
-| director-vane | quarantine-sector-alpha | Uninjured, furious | Enraged | Secured the core but lost the data |
+| elias-thorne | the-undercity | Exhausted | Determined | Escaped with the uncorrupted history |
+| kaelen | the-undercity | Escaping | Defiant | Covered Elias's escape |
+| jarek | the-undercity | Escaping | Defiant | Covered Elias's escape |
+| director-vane | the-undercity | Uninjured, furious | Enraged | Deploying forces to the exhaust vents |
