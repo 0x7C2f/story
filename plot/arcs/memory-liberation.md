@@ -59,6 +59,7 @@ What changes because of this arc.
 | 18 | Elias completes the download of the uncorrupted history just as the defensive line collapses | 2 | chapter-87 | drafted | |
 | 19 | Elias destroys the terminal and escapes into the exhaust port with the drive. | 2 | chapter-88 | drafted | |
 | 20 | Elias navigates the treacherous thermal exhaust port and emerges into the Undercity. | 2 | chapter-89 | drafted | |
+| 21 | Elias, Kaelen, and Jarek navigate deeper into the Undercity but encounter Vane's seeker drones establishing a perimeter. | 2 | chapter-90 | drafted | |
 
 ## Foreshadowing
 

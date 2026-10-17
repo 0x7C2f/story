@@ -58,6 +58,7 @@ What changes because of this arc.
 | 18 | Vane's enforcers overwhelm Kaelen and Jarek, securing the Archive core as the download finishes | 2 | chapter-87 | drafted | |
 | 19 | Vane secures the Archive core, but loses the data as Elias escapes. | 2 | chapter-88 | drafted | |
 | 20 | Vane deploys forces to seal the exhaust ports and hunt down Elias in the Undercity. | 2 | chapter-89 | drafted | |
+| 21 | Vane deploys seeker drones to scan the Undercity and establish a perimeter around Elias's position. | 2 | chapter-90 | drafted | |
 
 ## Foreshadowing
 
