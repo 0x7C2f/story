@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 69
+current-chapter: 70
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -551,6 +551,18 @@ knowledge-state:
   fact: jarek-relay-substation
   knows: Jarek knows of an abandoned relay substation deep in the undercity that could provide mesh network access.
   learned-in: chapter-69
+- character: elias-thorne
+  fact: reach-abandoned-substation
+  knows: The team successfully crossed the fracture zone and reached the abandoned relay substation in Sector Four.
+  learned-in: chapter-70
+- character: kaelen
+  fact: reach-abandoned-substation
+  knows: The team successfully crossed the fracture zone and reached the abandoned relay substation in Sector Four.
+  learned-in: chapter-70
+- character: jarek
+  fact: reach-abandoned-substation
+  knows: The team successfully crossed the fracture zone and reached the abandoned relay substation in Sector Four.
+  learned-in: chapter-70
 ---
 
 
@@ -577,6 +589,6 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | sector-four | Exhausted | Relieved | The tracker was attached to a decoy drone |
-| kaelen | sector-four | Battle-ready | Focused | The tracker was attached to a decoy drone |
-| jarek | sector-four | Battle-ready | Focused | The tracker was attached to a decoy drone |
+| elias-thorne | sector-four | Exhausted | Relieved | Reached abandoned relay substation |
+| kaelen | sector-four | Battle-ready | Focused | Reached abandoned relay substation |
+| jarek | sector-four | Battle-ready | Focused | Reached abandoned relay substation |
