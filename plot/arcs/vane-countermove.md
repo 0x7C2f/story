@@ -47,6 +47,7 @@ What changes because of this arc.
 | 10 | Vane's heavy sentry unit breaches the transit station, forcing Elias and his team to abandon the uplink and retreat into a maintenance shaft | 2 | chapter-79 | drafted | |
 | 11 | Vane's heavy sentry secures the transit station, and Vane analyzes the data Elias accessed, realizing his target is Quarantine Sector Alpha and deploying her forces there | 2 | chapter-80 | drafted | |
 | 12 | Vane's forces lock down the exterior of Sector Alpha, pushing the team further down | 2 | chapter-81 | drafted | |
+| 13 | Vane realizes Elias bypassed the outer perimeter and orders an internal sweep | 2 | chapter-82 | drafted | |
 
 ## Foreshadowing
 
