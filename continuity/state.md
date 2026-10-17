@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 73
+current-chapter: 74
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -9,16 +9,16 @@ character-state:
   emotional: Calculating, furious
 - character: elias-thorne
   location: sector-four
-  physical: Exhausted, recovering from adrenaline spike
-  emotional: Relieved but terrified
+  physical: Adrenaline-flooded, coughing on ozone
+  emotional: Desperate focus
 - character: kaelen
   location: sector-four
-  physical: Uninjured
-  emotional: Battle-ready, focused on the breach
+  physical: Uninjured, returning fire
+  emotional: Coldly pragmatic
 - character: jarek
   location: sector-four
-  physical: Thrown backward by explosion
-  emotional: Bracing for combat
+  physical: Bruised from the blast door explosion
+  emotional: Combative
 object-state:
 - artifact: physical-drive-m-774-b
   owner: elias-thorne
@@ -611,6 +611,22 @@ knowledge-state:
   fact: substation-breached
   knows: The relay substation was breached by Loyalist enforcers.
   learned-in: chapter-73
+- character: elias-thorne
+  fact: substation-firefight
+  knows: Loyalist enforcers have breached the substation and engaged Elias, Kaelen, and Jarek in close-quarters combat.
+  learned-in: chapter-74
+- character: kaelen
+  fact: substation-firefight
+  knows: Loyalist enforcers have breached the substation and engaged Elias, Kaelen, and Jarek in close-quarters combat.
+  learned-in: chapter-74
+- character: jarek
+  fact: substation-firefight
+  knows: Loyalist enforcers have breached the substation and engaged Elias, Kaelen, and Jarek in close-quarters combat.
+  learned-in: chapter-74
+- character: director-vane
+  fact: substation-firefight
+  knows: Loyalist enforcers have breached the substation and engaged Elias, Kaelen, and Jarek in close-quarters combat.
+  learned-in: chapter-74
 ---
 
 
@@ -637,6 +653,6 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | sector-four | Exhausted, recovering from adrenaline spike | Relieved but terrified | Successfully embedded the counter-signal; the substation is breached |
-| kaelen | sector-four | Uninjured | Battle-ready, focused on the breach | Successfully embedded the counter-signal; the substation is breached |
-| jarek | sector-four | Thrown backward by explosion | Bracing for combat | Successfully embedded the counter-signal; the substation is breached |
+| elias-thorne | sector-four | Adrenaline-flooded, coughing on ozone | Desperate focus | The Loyalist enforcers have breached the substation |
+| kaelen | sector-four | Uninjured, returning fire | Coldly pragmatic | The Loyalist enforcers have breached the substation |
+| jarek | sector-four | Bruised from the blast door explosion | Combative | The Loyalist enforcers have breached the substation |
