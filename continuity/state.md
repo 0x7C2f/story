@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 70
+current-chapter: 71
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -37,6 +37,18 @@ object-state:
   location: new-providence-outskirts
   status: destroyed
 knowledge-state:
+- character: elias-thorne
+  fact: elias-counter-signal-defense
+  knows: Elias accessed the mesh network from the substation and launched the counter-signal, but triggered a defense protocol.
+  learned-in: chapter-71
+- character: kaelen
+  fact: elias-counter-signal-defense
+  knows: Elias accessed the mesh network from the substation and launched the counter-signal, but triggered a defense protocol.
+  learned-in: chapter-71
+- character: jarek
+  fact: elias-counter-signal-defense
+  knows: Elias accessed the mesh network from the substation and launched the counter-signal, but triggered a defense protocol.
+  learned-in: chapter-71
 - character: elias-thorne
   knows: Witnessed the city reacting to the uncompressed memories.
   learned-in: chapter-57
@@ -589,6 +601,6 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | sector-four | Exhausted | Relieved | Reached abandoned relay substation |
-| kaelen | sector-four | Battle-ready | Focused | Reached abandoned relay substation |
-| jarek | sector-four | Battle-ready | Focused | Reached abandoned relay substation |
+| elias-thorne | sector-four | Exhausted | Panicked | Triggered a hunter-killer defense protocol while launching the counter-signal |
+| kaelen | sector-four | Battle-ready | Focused | Elias triggered a defense protocol while launching the counter-signal |
+| jarek | sector-four | Battle-ready | Focused | Elias triggered a defense protocol while launching the counter-signal |
