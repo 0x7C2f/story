@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 74
+current-chapter: 75
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -627,6 +627,18 @@ knowledge-state:
   fact: substation-firefight
   knows: Loyalist enforcers have breached the substation and engaged Elias, Kaelen, and Jarek in close-quarters combat.
   learned-in: chapter-74
+- character: elias-thorne
+  fact: drone-pursuit
+  knows: Vane has deployed mechanized hunter drones into the Undercity maintenance shafts.
+  learned-in: chapter-75
+- character: kaelen
+  fact: drone-pursuit
+  knows: Vane has deployed mechanized hunter drones into the Undercity maintenance shafts.
+  learned-in: chapter-75
+- character: jarek
+  fact: drone-pursuit
+  knows: Vane has deployed mechanized hunter drones into the Undercity maintenance shafts.
+  learned-in: chapter-75
 ---
 
 
@@ -653,6 +665,6 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | sector-four | Adrenaline-flooded, coughing on ozone | Desperate focus | The Loyalist enforcers have breached the substation |
-| kaelen | sector-four | Uninjured, returning fire | Coldly pragmatic | The Loyalist enforcers have breached the substation |
-| jarek | sector-four | Bruised from the blast door explosion | Combative | The Loyalist enforcers have breached the substation |
+| elias-thorne | sector-four | Exhausted, knee injured | Determined but weary | Mechanized hunter drones are pursuing them through the tunnels |
+| kaelen | sector-four | Uninjured, hyper-vigilant | Coldly pragmatic | Mechanized hunter drones are pursuing them through the tunnels |
+| jarek | sector-four | Bruised, armed | Combative, tense | Mechanized hunter drones are pursuing them through the tunnels |

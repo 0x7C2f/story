@@ -83,5 +83,6 @@ story: the-memory-archivist
 | 72 | Chapter 72 | elias-thorne | draft | 462 | [chapter-72](chapter-72.md) |
 | 73 | Chapter 73 | elias-thorne | draft | 317 | [chapter-73](chapter-73.md) |
 | 74 | Chapter 74 | elias-thorne | draft | 445 | [chapter-74](chapter-74.md) |
+| 75 | Chapter 75 | elias-thorne | draft | 403 | [chapter-75](chapter-75.md) |
 
-## Total Word Count: 43014
+## Total Word Count: 43417
