@@ -49,6 +49,7 @@ What changes because of this arc.
 | 11 | Elias, Kaelen, and Jarek escape into the maintenance shafts and analyze the partial schematics of Quarantine Sector Alpha, uncovering a hidden access point | 2 | chapter-80 | drafted | |
 | 12 | Elias, Kaelen, and Jarek traverse the thermal exhaust port to infiltrate Quarantine Sector Alpha | 2 | chapter-81 | drafted | |
 | 13 | Elias interfaces with the hidden terminal inside Sector Alpha | 2 | chapter-82 | drafted | |
+| 14 | Elias neutralizes Vane's counter-measure and gains access to the Archive core | 2 | chapter-83 | drafted | |
 
 ## Foreshadowing
 

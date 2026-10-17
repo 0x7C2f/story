@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 82
+current-chapter: 83
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -753,6 +753,22 @@ knowledge-state:
   fact: vane-internal-sweep
   knows: Vane ordered an internal sweep of Quarantine Sector Alpha after detecting unauthorized access.
   learned-in: chapter-82
+- character: elias-thorne
+  fact: archive-core-accessed
+  knows: Elias neutralized the counter-measure and accessed the Archive core.
+  learned-in: chapter-83
+- character: kaelen
+  fact: archive-core-accessed
+  knows: Elias neutralized the counter-measure and accessed the Archive core.
+  learned-in: chapter-83
+- character: jarek
+  fact: archive-core-accessed
+  knows: Elias neutralized the counter-measure and accessed the Archive core.
+  learned-in: chapter-83
+- character: director-vane
+  fact: vane-sealed-egress
+  knows: Vane has sealed the physical egress from the Archive core.
+  learned-in: chapter-83
 ---
 
 # Continuity State

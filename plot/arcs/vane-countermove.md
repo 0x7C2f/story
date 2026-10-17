@@ -48,6 +48,7 @@ What changes because of this arc.
 | 11 | Vane's heavy sentry secures the transit station, and Vane analyzes the data Elias accessed, realizing his target is Quarantine Sector Alpha and deploying her forces there | 2 | chapter-80 | drafted | |
 | 12 | Vane's forces lock down the exterior of Sector Alpha, pushing the team further down | 2 | chapter-81 | drafted | |
 | 13 | Vane realizes Elias bypassed the outer perimeter and orders an internal sweep | 2 | chapter-82 | drafted | |
+| 14 | Vane seals the physical egress from the Archive core, trapping Elias and his team | 2 | chapter-83 | drafted | |
 
 ## Foreshadowing
 
