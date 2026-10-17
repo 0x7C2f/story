@@ -46,6 +46,7 @@ What changes because of this arc.
 | 8 | Elias, Kaelen, and Jarek navigate the unmapped Undercity and discover an old pre-Committee transit station with a dormant terminal | 2 | chapter-77 | drafted | |
 | 9 | Elias interfaces with the dormant terminal but triggers a power surge that alerts Vane's hunter subsystems, forcing a desperate defense to establish an uplink | 2 | chapter-78 | drafted | |
 | 10 | Elias secures a partial extraction of the Nexus Archives schematics before a heavy sentry unit forces them to flee the station | 2 | chapter-79 | drafted | |
+| 11 | Elias, Kaelen, and Jarek escape into the maintenance shafts and analyze the partial schematics of Quarantine Sector Alpha, uncovering a hidden access point | 2 | chapter-80 | drafted | |
 
 ## Foreshadowing
 
