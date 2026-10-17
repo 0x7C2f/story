@@ -57,6 +57,7 @@ What changes because of this arc.
 | 17 | Vane's enforcers breach the Archive core, engaging Kaelen and Jarek while Elias struggles to finish the download | 2 | chapter-86 | drafted | |
 
 | 18 | Elias completes the download of the uncorrupted history just as the defensive line collapses | 2 | chapter-87 | drafted | |
+| 19 | Elias destroys the terminal and escapes into the exhaust port with the drive. | 2 | chapter-88 | drafted | |
 
 ## Foreshadowing
 

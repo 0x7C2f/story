@@ -56,6 +56,7 @@ What changes because of this arc.
 | 17 | Vane's heavy breaching charge shatters the primary gate, allowing her forces to storm the Archive core | 2 | chapter-86 | drafted | |
 
 | 18 | Vane's enforcers overwhelm Kaelen and Jarek, securing the Archive core as the download finishes | 2 | chapter-87 | drafted | |
+| 19 | Vane secures the Archive core, but loses the data as Elias escapes. | 2 | chapter-88 | drafted | |
 
 ## Foreshadowing
 

@@ -1,23 +1,23 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 87
+current-chapter: 88
 character-state:
 - character: director-vane
-  location: the-nexus-spire
-  physical: Uninjured, composed
-  emotional: Satisfied
+  location: quarantine-sector-alpha
+  physical: Uninjured, furious
+  emotional: Enraged
 - character: elias-thorne
   location: quarantine-sector-alpha
-  physical: Exhausted, trapped
-  emotional: Desperate
+  physical: Exhausted
+  emotional: Determined
 - character: kaelen
   location: quarantine-sector-alpha
-  physical: Trapped, under fire
+  physical: Escaping
   emotional: Defiant
 - character: jarek
   location: quarantine-sector-alpha
-  physical: Trapped, under fire
+  physical: Escaping
   emotional: Defiant
 object-state:
 - artifact: physical-drive-m-774-b
@@ -37,6 +37,22 @@ object-state:
   location: new-providence-outskirts
   status: destroyed
 knowledge-state:
+- character: elias-thorne
+  fact: elias-secured-drive-escape
+  knows: Secured the uncorrupted history drive and escaped through the thermal exhaust port.
+  learned-in: chapter-88
+- character: director-vane
+  fact: vane-secured-core-lost-data
+  knows: Secured the Archive core but lost the uncorrupted history data as Elias escaped.
+  learned-in: chapter-88
+- character: kaelen
+  fact: kaelen-covered-elias-escape
+  knows: Covered Elias's escape with suppressive fire as he fled with the drive.
+  learned-in: chapter-88
+- character: jarek
+  fact: jarek-covered-elias-escape
+  knows: Covered Elias's escape with a fragmentation grenade as he fled with the drive.
+  learned-in: chapter-88
 - character: director-vane
   fact: vane-breach-doors-prep
   knows: Ordered the deployment of heavier breaching charges on the Archive core blast doors
@@ -839,7 +855,7 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | quarantine-sector-alpha | Exhausted, trapped | Desperate | Completed the download, surrounded by enforcers |
-| kaelen | quarantine-sector-alpha | Trapped, under fire | Defiant | Archive core overrun |
-| jarek | quarantine-sector-alpha | Trapped, under fire | Defiant | Archive core overrun |
-| director-vane | the-nexus-spire | Uninjured, composed | Satisfied | Archive core secured by her forces |
+| elias-thorne | quarantine-sector-alpha | Exhausted | Determined | Escaped with the uncorrupted history |
+| kaelen | quarantine-sector-alpha | Escaping | Defiant | Covered Elias's escape |
+| jarek | quarantine-sector-alpha | Escaping | Defiant | Covered Elias's escape |
+| director-vane | quarantine-sector-alpha | Uninjured, furious | Enraged | Secured the core but lost the data |
