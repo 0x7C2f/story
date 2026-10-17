@@ -43,6 +43,7 @@ What changes because of this arc.
 | 6 | Elias, Kaelen, and Jarek flee into the deeper Undercity to escape Vane's enforcers and hunter drones | 2 | chapter-75 | drafted | |
 
 | 7 | Elias and the team crush the hunter drone in a tunnel collapse, but seal themselves into the unmapped Undercity | 2 | chapter-76 | drafted | |
+| 8 | Elias, Kaelen, and Jarek navigate the unmapped Undercity and discover an old pre-Committee transit station with a dormant terminal | 2 | chapter-77 | drafted | |
 
 ## Foreshadowing
 

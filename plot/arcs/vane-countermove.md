@@ -42,6 +42,7 @@ What changes because of this arc.
 | 6 | Vane deploys a mechanized hunter drone into the maintenance tunnels to track down and eliminate Elias | 2 | chapter-75 | drafted | |
 
 | 7 | The mechanized hunter drone corners Elias's team but is destroyed in a localized structural collapse | 2 | chapter-76 | drafted | |
+| 8 | Vane's forces lose track of Elias's team in the collapsed tunnels, leaving them temporarily blind to his movements in the deep Undercity | 2 | chapter-77 | drafted | |
 
 ## Foreshadowing
 
