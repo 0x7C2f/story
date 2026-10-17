@@ -18,6 +18,7 @@ story: the-memory-archivist
 | New Providence Outskirts | Other | new-providence-outskirts | [new-providence-outskirts](locations/new-providence-outskirts.md) |
 | Nexus Archives | Location | sector-one | [nexus-archives](locations/nexus-archives.md) |
 | Old Transit Bridge | Other | new-providence-outskirts | [old-transit-bridge](locations/old-transit-bridge.md) |
+| Quarantine Sector Alpha | Location | the-undercity | [quarantine-sector-alpha](locations/quarantine-sector-alpha.md) |
 | The Abandoned Relay Station | Building | The Dead Zone, twenty klicks east of the Scrapyard Settlement | [relay-station](locations/relay-station.md) |
 | Sector Five | District |  | [sector-five](locations/sector-five.md) |
 | Sector Four Black Site | Location | Sector Four | [sector-four-black-site](locations/sector-four-black-site.md) |
