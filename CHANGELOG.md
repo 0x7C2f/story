@@ -1,6 +1,13 @@
 ## [2026-10-17] - Agent Run
 
 - Model: Jules
+  - Action: Drafted Chapter 75 and Scene 1.
+  - Summary: The team escapes into the deeper Undercity maintenance shafts to evade Vane's Enforcers, only to discover that Vane has deployed mechanized hunter drones ahead of them to track their thermal signatures.
+  - Next Run: Continue to Chapter 76, where Elias, Kaelen, and Jarek must fight or evade the hunter drones while navigating the unmapped Undercity tunnels.
+
+## [2026-10-17] - Agent Run
+
+- Model: Jules
   - Action: Drafted Chapter 73
   - Summary: Elias successfully embeds the counter-signal into the central router, halting Vane's mass rewrite. The relay substation is subsequently breached by Loyalist enforcers.
   - Next Run: Draft Chapter 74, continuing the confrontation or escape from the breached substation.
