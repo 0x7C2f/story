@@ -3,6 +3,13 @@
 ## [2026-10-17] - Agent Run
 
 - Model: Jules
+- Action: Draft Chapter 85
+- Summary: Drafted Chapter 85 and Scene 1, updating continuity state and plot arcs. Elias accelerates the download while Vane's assault team breaches the Archive core doors.
+- Next: Draft Chapter 86
+
+## [2026-10-17] - Agent Run
+
+- Model: Jules
 - Action: Draft Chapter 84
 - Summary: Drafted Chapter 84 and updated continuity and plot states.
 - Next: Draft Chapter 85

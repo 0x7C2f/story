@@ -51,6 +51,8 @@ What changes because of this arc.
 | 14 | Vane seals the physical egress from the Archive core, trapping Elias and his team | 2 | chapter-83 | drafted | |
 | 15 | Vane discovers the core is isolated from the network and prepares a physical assault force to breach the blast doors | 2 | chapter-84 | drafted | |
 
+| 16 | Vane's assault team begins cutting through the blast doors to stop Elias's download | 2 | chapter-85 | drafted | |
+
 ## Foreshadowing
 
 | Planted | Payoff | Chapter Planted | Chapter Payoff | Status |

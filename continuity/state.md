@@ -1,24 +1,24 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 84
+current-chapter: 85
 character-state:
 - character: director-vane
   location: the-nexus-spire
   physical: Uninjured, composed
-  emotional: Preparing assault
+  emotional: Impatient
 - character: elias-thorne
   location: quarantine-sector-alpha
-  physical: Exhausted, drained
-  emotional: Focused, downloading
+  physical: Frantic
+  emotional: Desperate
 - character: kaelen
   location: quarantine-sector-alpha
-  physical: Alert
-  emotional: Exhausted
+  physical: Ready
+  emotional: Resolute
 - character: jarek
   location: quarantine-sector-alpha
   physical: Bruised
-  emotional: Cautious
+  emotional: Determined
 object-state:
 - artifact: physical-drive-m-774-b
   owner: elias-thorne
@@ -37,6 +37,10 @@ object-state:
   location: new-providence-outskirts
   status: destroyed
 knowledge-state:
+- character: director-vane
+  fact: vane-breach-doors-prep
+  knows: Ordered the deployment of heavier breaching charges on the Archive core blast doors
+  learned-in: chapter-85
 - character: elias-thorne
   fact: elias-counter-signal-defense
   knows: Elias accessed the mesh network from the substation and launched the counter-signal, but triggered a defense protocol.
@@ -803,7 +807,7 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | quarantine-sector-alpha | Exhausted, drained | Focused, downloading | Began downloading uncorrupted history |
-| kaelen | quarantine-sector-alpha | Alert | Alert, tense | Secured the Archive core perimeter |
-| jarek | quarantine-sector-alpha | Bruised | Cautious | Inside Quarantine Sector Alpha |
-| director-vane | the-nexus-spire | Uninjured, composed | Preparing assault | Preparing physical assault force |
+| elias-thorne | quarantine-sector-alpha | Frantic | Desperate | Began downloading uncorrupted history |
+| kaelen | quarantine-sector-alpha | Ready | Resolute | Secured the Archive core perimeter |
+| jarek | quarantine-sector-alpha | Bruised | Determined | Inside Quarantine Sector Alpha |
+| director-vane | the-nexus-spire | Uninjured, composed | Impatient | Ordered heavier breaching charges |

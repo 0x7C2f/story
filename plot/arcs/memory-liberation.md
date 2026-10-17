@@ -52,6 +52,8 @@ What changes because of this arc.
 | 14 | Elias neutralizes Vane's counter-measure and gains access to the Archive core | 2 | chapter-83 | drafted | |
 | 15 | Elias begins downloading the uncorrupted history from the isolated Archive core terminal | 2 | chapter-84 | drafted | |
 
+| 16 | Elias accelerates the download of the uncorrupted history as Vane's assault team breaches the Archive core | 2 | chapter-85 | drafted | |
+
 ## Foreshadowing
 
 | Planted | Payoff | Chapter Planted | Chapter Payoff | Status |
