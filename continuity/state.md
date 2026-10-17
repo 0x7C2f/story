@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 79
+current-chapter: 80
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -9,16 +9,16 @@ character-state:
   emotional: Calculating, furious
 - character: elias-thorne
   location: the-undercity
-  physical: Exhausted, knee throbbing
-  emotional: Hopeful
+  physical: Exhausted, drained
+  emotional: Resolved
 - character: kaelen
   location: the-undercity
   physical: Fatigued
-  emotional: Cautiously optimistic
+  emotional: Exhausted
 - character: jarek
   location: the-undercity
   physical: Bruised
-  emotional: Weary
+  emotional: Cautious
 object-state:
 - artifact: physical-drive-m-774-b
   owner: elias-thorne
@@ -705,19 +705,23 @@ knowledge-state:
   fact: heavy-sentry-pursuit
   knows: A heavy tracked sentry unit has been deployed by Vane to pursue them through the Undercity.
   learned-in: chapter-79
+- character: elias-thorne
+  fact: sector-alpha-access-point
+  knows: They found a hidden physical access point to Quarantine Sector Alpha from the partial schematics.
+  learned-in: chapter-80
+- character: kaelen
+  fact: sector-alpha-access-point
+  knows: They found a hidden physical access point to Quarantine Sector Alpha from the partial schematics.
+  learned-in: chapter-80
+- character: jarek
+  fact: sector-alpha-access-point
+  knows: They found a hidden physical access point to Quarantine Sector Alpha from the partial schematics.
+  learned-in: chapter-80
+- character: director-vane
+  fact: vane-knows-alpha-target
+  knows: She knows Elias is targeting Quarantine Sector Alpha and has redeployed her forces there.
+  learned-in: chapter-80
 ---
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Continuity State
 
@@ -731,6 +735,7 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | the-undercity | Adrenaline-fueled | Urgent | Has partial schematics of Quarantine Sector Alpha |
-| kaelen | the-undercity | Strained | Alert | Covering the retreat from the heavy sentry |
-| jarek | the-undercity | Scraped | Determined | Covering the retreat from the heavy sentry |
+| elias-thorne | the-undercity | Exhausted, drained | Resolved | Has located a hidden access point to Quarantine Sector Alpha |
+| kaelen | the-undercity | Fatigued | Exhausted | Knows about the hidden access point |
+| jarek | the-undercity | Bruised | Cautious | Knows the thermal risk of the access point |
+| director-vane | the-nexus-spire | Uninjured, composed | Calculating, furious | Knows Elias's target is Quarantine Sector Alpha |

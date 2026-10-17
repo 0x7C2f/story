@@ -45,6 +45,7 @@ What changes because of this arc.
 | 8 | Vane's forces lose track of Elias's team in the collapsed tunnels, leaving them temporarily blind to his movements in the deep Undercity | 2 | chapter-77 | drafted | |
 | 9 | A localized power surge in the deep Undercity alerts Vane's hunter-killer subsystems to Elias's position, prompting a renewed attack on the pre-Committee transit station | 2 | chapter-78 | drafted | |
 | 10 | Vane's heavy sentry unit breaches the transit station, forcing Elias and his team to abandon the uplink and retreat into a maintenance shaft | 2 | chapter-79 | drafted | |
+| 11 | Vane's heavy sentry secures the transit station, and Vane analyzes the data Elias accessed, realizing his target is Quarantine Sector Alpha and deploying her forces there | 2 | chapter-80 | drafted | |
 
 ## Foreshadowing
 
