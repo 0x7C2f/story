@@ -1,19 +1,19 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 83
+current-chapter: 84
 character-state:
 - character: director-vane
   location: the-nexus-spire
   physical: Uninjured, composed
-  emotional: Calculating, furious
+  emotional: Preparing assault
 - character: elias-thorne
   location: quarantine-sector-alpha
   physical: Exhausted, drained
-  emotional: Resolved
+  emotional: Focused, downloading
 - character: kaelen
   location: quarantine-sector-alpha
-  physical: Fatigued
+  physical: Alert
   emotional: Exhausted
 - character: jarek
   location: quarantine-sector-alpha
@@ -769,6 +769,26 @@ knowledge-state:
   fact: vane-sealed-egress
   knows: Vane has sealed the physical egress from the Archive core.
   learned-in: chapter-83
+- character: elias-thorne
+  fact: archive-sealed
+  knows: Elias and his team are sealed inside the Archive core.
+  learned-in: chapter-84
+- character: kaelen
+  fact: archive-sealed
+  knows: Elias and his team are sealed inside the Archive core.
+  learned-in: chapter-84
+- character: jarek
+  fact: archive-sealed
+  knows: Elias and his team are sealed inside the Archive core.
+  learned-in: chapter-84
+- character: elias-thorne
+  fact: core-download-started
+  knows: Elias has begun downloading the uncorrupted history from the Archive core.
+  learned-in: chapter-84
+- character: director-vane
+  fact: vane-assault-prep
+  knows: Vane is preparing a physical assault force to breach the sealed blast doors.
+  learned-in: chapter-84
 ---
 
 # Continuity State
@@ -783,7 +803,7 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | quarantine-sector-alpha | Exhausted, drained | Anxious, focused | Accessed hidden terminal in Sector Alpha |
-| kaelen | quarantine-sector-alpha | Fatigued | Alert, tense | Evaded loyalist enforcer patrol |
+| elias-thorne | quarantine-sector-alpha | Exhausted, drained | Focused, downloading | Began downloading uncorrupted history |
+| kaelen | quarantine-sector-alpha | Alert | Alert, tense | Secured the Archive core perimeter |
 | jarek | quarantine-sector-alpha | Bruised | Cautious | Inside Quarantine Sector Alpha |
-| director-vane | the-nexus-spire | Uninjured, composed | Calculating | Ordered internal sweep of Sector Alpha |
+| director-vane | the-nexus-spire | Uninjured, composed | Preparing assault | Preparing physical assault force |

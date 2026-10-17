@@ -49,6 +49,7 @@ What changes because of this arc.
 | 12 | Vane's forces lock down the exterior of Sector Alpha, pushing the team further down | 2 | chapter-81 | drafted | |
 | 13 | Vane realizes Elias bypassed the outer perimeter and orders an internal sweep | 2 | chapter-82 | drafted | |
 | 14 | Vane seals the physical egress from the Archive core, trapping Elias and his team | 2 | chapter-83 | drafted | |
+| 15 | Vane discovers the core is isolated from the network and prepares a physical assault force to breach the blast doors | 2 | chapter-84 | drafted | |
 
 ## Foreshadowing
 
