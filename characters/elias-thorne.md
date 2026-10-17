@@ -23,6 +23,7 @@ relationships:
   - character: jarek
     type: ally
 locations:
+  - quarantine-sector-alpha
   - sector-six
   - old-transit-bridge
   - nexus-archives

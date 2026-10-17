@@ -21,6 +21,7 @@ relationships:
   - character: director-vane
     type: enemy
 locations:
+  - quarantine-sector-alpha
   - sector-six
   - old-transit-bridge
   - the-undercity

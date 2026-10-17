@@ -1,22 +1,22 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 80
+current-chapter: 81
 character-state:
 - character: director-vane
   location: the-nexus-spire
   physical: Uninjured, composed
   emotional: Calculating, furious
 - character: elias-thorne
-  location: the-undercity
+  location: quarantine-sector-alpha
   physical: Exhausted, drained
   emotional: Resolved
 - character: kaelen
-  location: the-undercity
+  location: quarantine-sector-alpha
   physical: Fatigued
   emotional: Exhausted
 - character: jarek
-  location: the-undercity
+  location: quarantine-sector-alpha
   physical: Bruised
   emotional: Cautious
 object-state:
@@ -721,6 +721,22 @@ knowledge-state:
   fact: vane-knows-alpha-target
   knows: She knows Elias is targeting Quarantine Sector Alpha and has redeployed her forces there.
   learned-in: chapter-80
+- character: elias-thorne
+  fact: entered-thermal-exhaust
+  knows: Elias successfully navigated into the dangerous thermal exhaust port leading to Quarantine Sector Alpha.
+  learned-in: chapter-81
+- character: kaelen
+  fact: entered-thermal-exhaust
+  knows: Elias successfully navigated into the dangerous thermal exhaust port leading to Quarantine Sector Alpha.
+  learned-in: chapter-81
+- character: jarek
+  fact: entered-thermal-exhaust
+  knows: Elias successfully navigated into the dangerous thermal exhaust port leading to Quarantine Sector Alpha.
+  learned-in: chapter-81
+- character: director-vane
+  fact: alpha-perimeter-established
+  knows: She has locked down the perimeter of Quarantine Sector Alpha, waiting for Elias to surface.
+  learned-in: chapter-81
 ---
 
 # Continuity State
@@ -735,7 +751,7 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | the-undercity | Exhausted, drained | Resolved | Has located a hidden access point to Quarantine Sector Alpha |
-| kaelen | the-undercity | Fatigued | Exhausted | Knows about the hidden access point |
-| jarek | the-undercity | Bruised | Cautious | Knows the thermal risk of the access point |
-| director-vane | the-nexus-spire | Uninjured, composed | Calculating, furious | Knows Elias's target is Quarantine Sector Alpha |
+| elias-thorne | quarantine-sector-alpha | Exhausted, drained | Resolved | Has entered the thermal exhaust port of Quarantine Sector Alpha |
+| kaelen | quarantine-sector-alpha | Fatigued | Exhausted | Navigating the thermal port |
+| jarek | quarantine-sector-alpha | Bruised | Cautious | Wedged in the thermal port descent |
+| director-vane | the-nexus-spire | Uninjured, composed | Calculating, furious | Has locked down the perimeter of Quarantine Sector Alpha |
