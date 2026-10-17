@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 68
+current-chapter: 69
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -527,6 +527,30 @@ knowledge-state:
   fact: vane-tracker-decoy
   knows: The tracker was attached to a decoy drone to misdirect Heavy Enforcer Squad Seven.
   learned-in: chapter-68
+- character: elias-thorne
+  fact: elias-lost-deck
+  knows: Elias sacrificed his deck to misdirect Vane's forces and now needs a new access point.
+  learned-in: chapter-69
+- character: kaelen
+  fact: elias-lost-deck
+  knows: Elias sacrificed his deck to misdirect Vane's forces and now needs a new access point.
+  learned-in: chapter-69
+- character: jarek
+  fact: elias-lost-deck
+  knows: Elias sacrificed his deck to misdirect Vane's forces and now needs a new access point.
+  learned-in: chapter-69
+- character: elias-thorne
+  fact: jarek-relay-substation
+  knows: Jarek knows of an abandoned relay substation deep in the undercity that could provide mesh network access.
+  learned-in: chapter-69
+- character: kaelen
+  fact: jarek-relay-substation
+  knows: Jarek knows of an abandoned relay substation deep in the undercity that could provide mesh network access.
+  learned-in: chapter-69
+- character: jarek
+  fact: jarek-relay-substation
+  knows: Jarek knows of an abandoned relay substation deep in the undercity that could provide mesh network access.
+  learned-in: chapter-69
 ---
 
 

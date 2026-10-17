@@ -102,6 +102,7 @@ story: the-memory-archivist
 | chapter-66 | 1 | Chapter 66 Scene 1 | elias-thorne | draft | [chapter-66-scene-01](chapter-66-scene-01.md) |
 | chapter-67 | 1 | Chapter 67 Scene 1 | elias-thorne | draft | [chapter-67-scene-01](chapter-67-scene-01.md) |
 | chapter-68 | 1 | Chapter 68 Scene 1 | elias-thorne | draft | [chapter-68-scene-01](chapter-68-scene-01.md) |
+| chapter-69 | 1 | Chapter 69 Scene 1 | elias-thorne | draft | [chapter-69-scene-01](chapter-69-scene-01.md) |
 
 ## Purpose
 
