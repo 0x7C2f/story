@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 75
+current-chapter: 76
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -639,6 +639,18 @@ knowledge-state:
   fact: drone-pursuit
   knows: Vane has deployed mechanized hunter drones into the Undercity maintenance shafts.
   learned-in: chapter-75
+- character: elias-thorne
+  fact: drone-trap
+  knows: They lured the hunter drone into a narrow tunnel and triggered a structural collapse to crush it, sealing their path back.
+  learned-in: chapter-76
+- character: kaelen
+  fact: drone-trap
+  knows: They lured the hunter drone into a narrow tunnel and triggered a structural collapse to crush it, sealing their path back.
+  learned-in: chapter-76
+- character: jarek
+  fact: drone-trap
+  knows: They lured the hunter drone into a narrow tunnel and triggered a structural collapse to crush it, sealing their path back.
+  learned-in: chapter-76
 ---
 
 
@@ -665,6 +677,6 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | sector-four | Exhausted, knee injured | Determined but weary | Mechanized hunter drones are pursuing them through the tunnels |
-| kaelen | sector-four | Uninjured, hyper-vigilant | Coldly pragmatic | Mechanized hunter drones are pursuing them through the tunnels |
-| jarek | sector-four | Bruised, armed | Combative, tense | Mechanized hunter drones are pursuing them through the tunnels |
+| elias-thorne | sector-four | Exhausted, knee injured | Trapped but relieved | The hunter drone is crushed but the path behind them is sealed |
+| kaelen | sector-four | Uninjured, hyper-vigilant | Coldly pragmatic | The hunter drone is crushed but the path behind them is sealed |
+| jarek | sector-four | Bruised, armed | Combative, tense | The hunter drone is crushed but the path behind them is sealed |

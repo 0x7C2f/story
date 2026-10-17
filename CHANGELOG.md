@@ -148,3 +148,7 @@ Model: Jules - Drafted chapter 34 and updated tracking files.
   - Summary: Drafted Chapter 72 where Elias combats the hunter-killer defense protocol to keep the counter-signal active, while Kaelen and Jarek prepare to defend the substation from loyalist sweeps.
   - Next Run: Continue advancing the memory-liberation and vane-countermove arcs in Chapter 73.
 - Model: Jules. Action: Drafted Chapter 74, detailing the firefight and retreat into the maintenance shafts while protecting the counter-signal. Continuity, arcs, and prose checked and verified. Next run should draft Chapter 75, focusing on their escape through the shafts and Vane's response to the holding counter-signal.
+- Model: Jules
+  Action: Drafted Chapter 76 and Scene 1.
+  Summary: Elias, Kaelen, and Jarek flee from the mechanized hunter drone down a collapsing service artery. They trigger an old explosive charge, burying the drone under tons of concrete but sealing the passageway behind them, forcing them deeper into an unmapped sector of the Undercity.
+  Next Run: Draft Chapter 77, continuing their journey through the unmapped Undercity.
