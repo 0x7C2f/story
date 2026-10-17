@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 78
+current-chapter: 79
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -681,6 +681,30 @@ knowledge-state:
   knows: |
     Elias triggered a power surge while booting the dormant terminal, alerting Vane's hunter subsystems.
   learned-in: chapter-78
+- character: elias-thorne
+  fact: schematic-extraction
+  knows: Elias successfully extracted a partial schematic of Quarantine Sector Alpha from the Nexus Archives.
+  learned-in: chapter-79
+- character: kaelen
+  fact: schematic-extraction
+  knows: Elias successfully extracted a partial schematic of Quarantine Sector Alpha from the Nexus Archives.
+  learned-in: chapter-79
+- character: jarek
+  fact: schematic-extraction
+  knows: Elias successfully extracted a partial schematic of Quarantine Sector Alpha from the Nexus Archives.
+  learned-in: chapter-79
+- character: elias-thorne
+  fact: heavy-sentry-pursuit
+  knows: A heavy tracked sentry unit has been deployed by Vane to pursue them through the Undercity.
+  learned-in: chapter-79
+- character: kaelen
+  fact: heavy-sentry-pursuit
+  knows: A heavy tracked sentry unit has been deployed by Vane to pursue them through the Undercity.
+  learned-in: chapter-79
+- character: jarek
+  fact: heavy-sentry-pursuit
+  knows: A heavy tracked sentry unit has been deployed by Vane to pursue them through the Undercity.
+  learned-in: chapter-79
 ---
 
 
@@ -707,6 +731,6 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | the-undercity | Exhausted, knee throbbing | Focused | Establishing uplink to Nexus Archives |
-| kaelen | the-undercity | Fatigued | Tense | Preparing defense against hunter subsystems |
-| jarek | the-undercity | Bruised | Weary | Preparing defense against hunter subsystems |
+| elias-thorne | the-undercity | Adrenaline-fueled | Urgent | Has partial schematics of Quarantine Sector Alpha |
+| kaelen | the-undercity | Strained | Alert | Covering the retreat from the heavy sentry |
+| jarek | the-undercity | Scraped | Determined | Covering the retreat from the heavy sentry |
