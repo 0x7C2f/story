@@ -1,24 +1,24 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 76
+current-chapter: 77
 character-state:
 - character: director-vane
   location: the-nexus-spire
   physical: Uninjured, composed
   emotional: Calculating, furious
 - character: elias-thorne
-  location: sector-four
-  physical: Adrenaline-flooded, coughing on ozone
-  emotional: Desperate focus
+  location: the-undercity
+  physical: Exhausted, knee throbbing
+  emotional: Hopeful
 - character: kaelen
-  location: sector-four
-  physical: Uninjured, returning fire
-  emotional: Coldly pragmatic
+  location: the-undercity
+  physical: Fatigued
+  emotional: Cautiously optimistic
 - character: jarek
-  location: sector-four
-  physical: Bruised from the blast door explosion
-  emotional: Combative
+  location: the-undercity
+  physical: Bruised
+  emotional: Weary
 object-state:
 - artifact: physical-drive-m-774-b
   owner: elias-thorne
@@ -651,6 +651,21 @@ knowledge-state:
   fact: drone-trap
   knows: They lured the hunter drone into a narrow tunnel and triggered a structural collapse to crush it, sealing their path back.
   learned-in: chapter-76
+- character: elias-thorne
+  fact: elias-undercity-station
+  knows: |
+    Elias discovered an old pre-Committee transit station with a dormant terminal that might have a hardline to the surface.
+  learned-in: chapter-77
+- character: kaelen
+  fact: elias-undercity-station
+  knows: |
+    Elias discovered an old pre-Committee transit station with a dormant terminal that might have a hardline to the surface.
+  learned-in: chapter-77
+- character: jarek
+  fact: elias-undercity-station
+  knows: |
+    Elias discovered an old pre-Committee transit station with a dormant terminal that might have a hardline to the surface.
+  learned-in: chapter-77
 ---
 
 
@@ -677,6 +692,6 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | sector-four | Exhausted, knee injured | Trapped but relieved | The hunter drone is crushed but the path behind them is sealed |
-| kaelen | sector-four | Uninjured, hyper-vigilant | Coldly pragmatic | The hunter drone is crushed but the path behind them is sealed |
-| jarek | sector-four | Bruised, armed | Combative, tense | The hunter drone is crushed but the path behind them is sealed |
+| elias-thorne | the-undercity | Exhausted, knee throbbing | Hopeful | Discovered dormant terminal in Undercity |
+| kaelen | the-undercity | Fatigued | Cautiously optimistic | Discovered dormant terminal in Undercity |
+| jarek | the-undercity | Bruised | Weary | Discovered dormant terminal in Undercity |
