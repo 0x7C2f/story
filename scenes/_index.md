@@ -112,6 +112,7 @@ story: the-memory-archivist
 | chapter-76 | 1 | Chapter 76 Scene 1 | elias-thorne | draft | [chapter-76-scene-01](chapter-76-scene-01.md) |
 | chapter-77 | 1 | Chapter 77 Scene 1 | elias-thorne | draft | [chapter-77-scene-01](chapter-77-scene-01.md) |
 | chapter-78 | 1 | Chapter 78 Scene 1 |  | outline | [chapter-78-scene-01](chapter-78-scene-01.md) |
+| chapter-79 | 1 | Chapter 79 Scene 1 | elias-thorne | outline | [chapter-79-scene-01](chapter-79-scene-01.md) |
 
 ## Purpose
 

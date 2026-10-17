@@ -45,6 +45,7 @@ What changes because of this arc.
 | 7 | Elias and the team crush the hunter drone in a tunnel collapse, but seal themselves into the unmapped Undercity | 2 | chapter-76 | drafted | |
 | 8 | Elias, Kaelen, and Jarek navigate the unmapped Undercity and discover an old pre-Committee transit station with a dormant terminal | 2 | chapter-77 | drafted | |
 | 9 | Elias interfaces with the dormant terminal but triggers a power surge that alerts Vane's hunter subsystems, forcing a desperate defense to establish an uplink | 2 | chapter-78 | drafted | |
+| 10 | Elias secures a partial extraction of the Nexus Archives schematics before a heavy sentry unit forces them to flee the station | 2 | chapter-79 | drafted | |
 
 ## Foreshadowing
 
