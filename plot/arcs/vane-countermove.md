@@ -35,6 +35,7 @@ What changes because of this arc.
 | # | Beat | Act | Chapter | Status | Notes |
 |---|------|-----|---------|--------|-------|
 | 1 | | | | planned | |
+| 2 | Vane's active hunter-killer defense protocol triggers when Elias launches the counter-signal, threatening to trace him | 2 | chapter-71 | drafted | |
 
 ## Foreshadowing
 

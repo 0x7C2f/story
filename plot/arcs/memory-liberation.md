@@ -36,6 +36,7 @@ What changes because of this arc.
 | # | Beat | Act | Chapter | Status | Notes |
 |---|------|-----|---------|--------|-------|
 | 1 | | | | planned | |
+| 2 | Elias accesses mesh network from relay substation, launches counter-signal, and triggers defense protocol | 2 | chapter-71 | drafted | |
 
 ## Foreshadowing
 
