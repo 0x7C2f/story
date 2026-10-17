@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 71
+current-chapter: 72
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -575,6 +575,18 @@ knowledge-state:
   fact: reach-abandoned-substation
   knows: The team successfully crossed the fracture zone and reached the abandoned relay substation in Sector Four.
   learned-in: chapter-70
+- character: elias-thorne
+  fact: elias-fights-hunter-killer
+  knows: Elias is fighting off Vane's active hunter-killer defense protocol to keep the counter-signal alive
+  learned-in: chapter-72
+- character: kaelen
+  fact: elias-fights-hunter-killer
+  knows: Elias is fighting off Vane's active hunter-killer defense protocol to keep the counter-signal alive
+  learned-in: chapter-72
+- character: jarek
+  fact: elias-fights-hunter-killer
+  knows: Elias is fighting off Vane's active hunter-killer defense protocol to keep the counter-signal alive
+  learned-in: chapter-72
 ---
 
 
