@@ -42,6 +42,8 @@ What changes because of this arc.
 | 5 | Elias and the team defend the transmitting terminal and flee into the maintenance tunnels. | 2 | chapter-74 | drafted | |
 | 6 | Elias, Kaelen, and Jarek flee into the deeper Undercity to escape Vane's enforcers and hunter drones | 2 | chapter-75 | drafted | |
 
+| 7 | Elias and the team crush the hunter drone in a tunnel collapse, but seal themselves into the unmapped Undercity | 2 | chapter-76 | drafted | |
+
 ## Foreshadowing
 
 | Planted | Payoff | Chapter Planted | Chapter Payoff | Status |

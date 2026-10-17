@@ -41,6 +41,8 @@ What changes because of this arc.
 | 5 | Loyalist enforcers push into the substation, overwhelming the defenders and forcing them underground. | 2 | chapter-74 | drafted | |
 | 6 | Vane deploys a mechanized hunter drone into the maintenance tunnels to track down and eliminate Elias | 2 | chapter-75 | drafted | |
 
+| 7 | The mechanized hunter drone corners Elias's team but is destroyed in a localized structural collapse | 2 | chapter-76 | drafted | |
+
 ## Foreshadowing
 
 | Planted | Payoff | Chapter Planted | Chapter Payoff | Status |
