@@ -53,6 +53,8 @@ What changes because of this arc.
 
 | 16 | Vane's assault team begins cutting through the blast doors to stop Elias's download | 2 | chapter-85 | drafted | |
 
+| 17 | Vane's heavy breaching charge shatters the primary gate, allowing her forces to storm the Archive core | 2 | chapter-86 | drafted | |
+
 ## Foreshadowing
 
 | Planted | Payoff | Chapter Planted | Chapter Payoff | Status |
