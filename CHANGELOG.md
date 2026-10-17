@@ -198,3 +198,7 @@ Model: Jules - Drafted chapter 34 and updated tracking files.
 - Model: gemini-2.5-pro
 - Drafted Chapter 87 and Scene 1
 - Updated continuity state and plot arcs
+
+## [2026-10-17] - Agent Run (Jules)
+- Drafted Chapter 88 to advance the memory-liberation and vane-countermove arcs.
+- Ensured all continuity, plotting and word counts are up to date and verified without regressions.
