@@ -117,6 +117,7 @@ story: the-memory-archivist
 | chapter-81 | 1 | Chapter 81 Scene 1 | elias-thorne | draft | [chapter-81-scene-01](chapter-81-scene-01.md) |
 | chapter-82 | 1 | Chapter 82 Scene 1 | elias-thorne | draft | [chapter-82-scene-01](chapter-82-scene-01.md) |
 | chapter-83 | 1 | Chapter 83 Scene 1 |  | outline | [chapter-83-scene-01](chapter-83-scene-01.md) |
+| chapter-84 | 1 | Chapter 84 Scene 1 | elias-thorne | outline | [chapter-84-scene-01](chapter-84-scene-01.md) |
 
 ## Purpose
 

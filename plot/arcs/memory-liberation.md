@@ -50,6 +50,7 @@ What changes because of this arc.
 | 12 | Elias, Kaelen, and Jarek traverse the thermal exhaust port to infiltrate Quarantine Sector Alpha | 2 | chapter-81 | drafted | |
 | 13 | Elias interfaces with the hidden terminal inside Sector Alpha | 2 | chapter-82 | drafted | |
 | 14 | Elias neutralizes Vane's counter-measure and gains access to the Archive core | 2 | chapter-83 | drafted | |
+| 15 | Elias begins downloading the uncorrupted history from the isolated Archive core terminal | 2 | chapter-84 | drafted | |
 
 ## Foreshadowing
 

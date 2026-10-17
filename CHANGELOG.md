@@ -1,3 +1,12 @@
+# Changelog
+
+## [2026-10-17] - Agent Run
+
+- Model: Jules
+- Action: Draft Chapter 84
+- Summary: Drafted Chapter 84 and updated continuity and plot states.
+- Next: Draft Chapter 85
+
 ## [2026-10-17] - Agent Run
 
 - Model: Jules
