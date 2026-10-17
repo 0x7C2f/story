@@ -122,6 +122,7 @@ story: the-memory-archivist
 | chapter-86 | 1 | The Breach of the Archive Core | elias-thorne | draft | [chapter-86-scene-01](chapter-86-scene-01.md) |
 | chapter-87 | 1 | Chapter 87 Scene 1 | elias-thorne | draft | [chapter-87-scene-01](chapter-87-scene-01.md) |
 | chapter-88 | 1 | Chapter 88 Scene 1 | elias-thorne | draft | [chapter-88-scene-01](chapter-88-scene-01.md) |
+| chapter-89 | 1 | Chapter 89 Scene 1 | elias-thorne | draft | [chapter-89-scene-01](chapter-89-scene-01.md) |
 
 ## Purpose
 

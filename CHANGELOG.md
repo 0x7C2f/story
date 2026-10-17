@@ -202,3 +202,8 @@ Model: Jules - Drafted chapter 34 and updated tracking files.
 ## [2026-10-17] - Agent Run (Jules)
 - Drafted Chapter 88 to advance the memory-liberation and vane-countermove arcs.
 - Ensured all continuity, plotting and word counts are up to date and verified without regressions.
+
+## [2026-10-17] - Agent Run
+- Model: claude-3.5-sonnet
+- Drafted Chapter 89 and Scene 1.
+- Updated continuity state and plot arcs to reflect the escape into the Undercity.
