@@ -56,6 +56,8 @@ What changes because of this arc.
 
 | 17 | Vane's enforcers breach the Archive core, engaging Kaelen and Jarek while Elias struggles to finish the download | 2 | chapter-86 | drafted | |
 
+| 18 | Elias completes the download of the uncorrupted history just as the defensive line collapses | 2 | chapter-87 | drafted | |
+
 ## Foreshadowing
 
 | Planted | Payoff | Chapter Planted | Chapter Payoff | Status |

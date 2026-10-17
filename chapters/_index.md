@@ -95,5 +95,6 @@ story: the-memory-archivist
 | 84 | Chapter 84 | elias-thorne | draft | 228 | [chapter-84](chapter-84.md) |
 | 85 | Chapter 85 | elias-thorne | draft | 137 | [chapter-85](chapter-85.md) |
 | 86 | Chapter 86 | elias-thorne | draft | 107 | [chapter-86](chapter-86.md) |
+| 87 | Chapter 87 | elias-thorne | draft | 160 | [chapter-87](chapter-87.md) |
 
-## Total Word Count: 46433
+## Total Word Count: 46593

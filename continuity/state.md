@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 86
+current-chapter: 87
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -9,16 +9,16 @@ character-state:
   emotional: Satisfied
 - character: elias-thorne
   location: quarantine-sector-alpha
-  physical: Frantic
-  emotional: Focused
+  physical: Exhausted, trapped
+  emotional: Desperate
 - character: kaelen
   location: quarantine-sector-alpha
-  physical: Under fire
-  emotional: Resolute
+  physical: Trapped, under fire
+  emotional: Defiant
 - character: jarek
   location: quarantine-sector-alpha
-  physical: Under fire
-  emotional: Determined
+  physical: Trapped, under fire
+  emotional: Defiant
 object-state:
 - artifact: physical-drive-m-774-b
   owner: elias-thorne
@@ -809,6 +809,22 @@ knowledge-state:
   fact: assault-progressing
   knows: Her assault team successfully breached the core and is pushing back the defenders.
   learned-in: chapter-86
+- character: elias-thorne
+  fact: history-downloaded
+  knows: Elias successfully downloaded the complete uncorrupted history before the terminal was taken.
+  learned-in: chapter-87
+- character: kaelen
+  fact: history-downloaded
+  knows: Elias successfully downloaded the complete uncorrupted history before the terminal was taken.
+  learned-in: chapter-87
+- character: jarek
+  fact: history-downloaded
+  knows: Elias successfully downloaded the complete uncorrupted history before the terminal was taken.
+  learned-in: chapter-87
+- character: director-vane
+  fact: core-secured-late
+  knows: Her forces secured the Archive core, but she suspects the download was completed.
+  learned-in: chapter-87
 ---
 
 # Continuity State
@@ -823,7 +839,7 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | quarantine-sector-alpha | Frantic | Focused | Finishing download during firefight |
-| kaelen | quarantine-sector-alpha | Under fire | Resolute | Defending the Archive core |
-| jarek | quarantine-sector-alpha | Under fire | Determined | Defending the Archive core |
-| director-vane | the-nexus-spire | Uninjured, composed | Satisfied | Assault team breached the core |
+| elias-thorne | quarantine-sector-alpha | Exhausted, trapped | Desperate | Completed the download, surrounded by enforcers |
+| kaelen | quarantine-sector-alpha | Trapped, under fire | Defiant | Archive core overrun |
+| jarek | quarantine-sector-alpha | Trapped, under fire | Defiant | Archive core overrun |
+| director-vane | the-nexus-spire | Uninjured, composed | Satisfied | Archive core secured by her forces |
