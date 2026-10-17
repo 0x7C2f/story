@@ -106,6 +106,7 @@ story: the-memory-archivist
 | chapter-70 | 1 | Chapter 70 Scene 1 | elias-thorne | draft | [chapter-70-scene-01](chapter-70-scene-01.md) |
 | chapter-71 | 1 | Chapter 71 Scene 1 | elias-thorne | draft | [chapter-71-scene-01](chapter-71-scene-01.md) |
 | chapter-72 | 1 | Chapter 72 Scene 1 | elias-thorne | draft | [chapter-72-scene-01](chapter-72-scene-01.md) |
+| chapter-73 | 1 | Chapter 73 Scene 1 | elias-thorne | draft | [chapter-73-scene-01](chapter-73-scene-01.md) |
 
 ## Purpose
 

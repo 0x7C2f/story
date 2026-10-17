@@ -37,6 +37,7 @@ What changes because of this arc.
 | 1 | | | | planned | |
 | 2 | Vane's active hunter-killer defense protocol triggers when Elias launches the counter-signal, threatening to trace him | 2 | chapter-71 | drafted | |
 | 3 | The hunter-killer protocol traces the source of the counter-signal to Sector Four | 2 | chapter-72 | drafted | |
+| 4 | Vane's Loyalists breach the substation door just as the hunter-killer algorithm is trapped in the recursive loop | 2 | chapter-73 | drafted | |
 
 ## Foreshadowing
 
