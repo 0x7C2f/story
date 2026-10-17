@@ -1,5 +1,10 @@
 ## [2026-10-17] - Agent Run
 
+- Model: Jules
+  - Action: Drafted Chapter 83 and Scene 1.
+  - Summary: Elias bypassed the local network counter-measure left by Director Vane, gaining deep access to the Archive core. However, Vane responded by physically sealing the egress, trapping the team inside.
+  - Next Run: Draft Chapter 84, detailing the team's attempt to survive inside the Archive core while extracting the final truth.
+
 - Model: gemini-2.5-pro
 - Action: Draft Chapter 82
 
