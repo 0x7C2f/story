@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 89
+current-chapter: 90
 character-state:
 - character: director-vane
   location: the-undercity
@@ -849,6 +849,22 @@ knowledge-state:
   fact: vane-exhaust-hunt
   knows: Deployed forces to seal the exhaust ports leading to the Undercity.
   learned-in: chapter-89
+- character: elias-thorne
+  fact: drone-perimeter
+  knows: Vane has deployed seeker drones to establish a perimeter and box them in the Undercity.
+  learned-in: chapter-90
+- character: kaelen
+  fact: drone-perimeter
+  knows: Vane has deployed seeker drones to establish a perimeter and box them in the Undercity.
+  learned-in: chapter-90
+- character: jarek
+  fact: drone-perimeter
+  knows: Vane has deployed seeker drones to establish a perimeter and box them in the Undercity.
+  learned-in: chapter-90
+- character: director-vane
+  fact: deploy-seeker-drones
+  knows: Deployed seeker drones to map the Undercity and establish a perimeter around Elias's team.
+  learned-in: chapter-90
 ---
 
 # Continuity State
@@ -863,7 +879,7 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | the-undercity | Exhausted | Determined | Escaped with the uncorrupted history |
-| kaelen | the-undercity | Escaping | Defiant | Covered Elias's escape |
-| jarek | the-undercity | Escaping | Defiant | Covered Elias's escape |
-| director-vane | the-undercity | Uninjured, furious | Enraged | Deploying forces to the exhaust vents |
+| elias-thorne | the-undercity | Exhausted | Determined | Escaping the drone perimeter |
+| kaelen | the-undercity | Escaping | Defiant | Evading seeker drones |
+| jarek | the-undercity | Escaping | Defiant | Evading seeker drones |
+| director-vane | the-undercity | Uninjured, furious | Enraged | Establishing perimeter with drones |
