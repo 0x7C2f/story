@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 99
+current-chapter: 100
 character-state:
 - character: director-vane
   location: sector-six-staging-ground
@@ -901,6 +901,22 @@ knowledge-state:
   fact: lost-track-sentries
   knows: Heavy sentries lost track of Elias in the maintenance shafts.
   learned-in: chapter-92
+- character: elias-thorne
+  fact: elias-defended-hub
+  knows: Elias held the central distribution hub against the initial enforcer breach to ensure the broadcast continued.
+  learned-in: chapter-100
+- character: kaelen
+  fact: kaelen-breached-hub
+  knows: Kaelen breached the central distribution hub's outer defenses to reinforce Elias.
+  learned-in: chapter-100
+- character: jarek
+  fact: jarek-secured-flank
+  knows: Jarek secured the outer perimeter of the central distribution hub to prevent flanking.
+  learned-in: chapter-100
+- character: director-vane
+  fact: vane-ordered-heavy-breach
+  knows: Vane ordered heavy enforcers to breach the central distribution hub and stop Elias's counter-broadcast.
+  learned-in: chapter-100
 ---
 
 # Continuity State
@@ -999,7 +1015,7 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | sector-six-staging-ground | Injured | Determined | Initiated the counter-broadcast |
-| kaelen | sector-six-staging-ground | Tense | Cautious | Saw the fortified staging ground |
-| jarek | sector-six-staging-ground | Tense | Grim | Saw the fortified staging ground |
-| director-vane | sector-six-staging-ground | Uninjured | Furious | Pinpointed the counter-broadcast |
+| elias-thorne | sector-six-staging-ground | Injured | Desperate | Defending the hub |
+| kaelen | sector-six-staging-ground | Tense | Urgent | Breaching the hub perimeter |
+| jarek | sector-six-staging-ground | Tense | Focused | Securing the flank |
+| director-vane | sector-six-staging-ground | Uninjured | Furious | Ordering the breach |
