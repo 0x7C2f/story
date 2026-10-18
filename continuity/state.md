@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 105
+current-chapter: 106
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -990,6 +990,23 @@ knowledge-state:
   fact: vane-deployed-sentries-to-vault
   knows: Vane ordered heavy sentries to the vault after detecting the breach.
   learned-in: chapter-104
+- character: elias-thorne
+  fact: elias-severed-trunks
+  knows: Elias successfully severed the primary data trunks in the subterranean vault, stopping the purge protocol.
+  learned-in: chapter-106
+- character: kaelen
+  fact: kaelen-held-vault-door
+  knows: Kaelen held the vault doors against the heavy sentries while Elias severed the trunks.
+  learned-in: chapter-106
+- character: jarek
+  fact: jarek-destroyed-sentry
+  knows: Jarek destroyed the first heavy sentry that breached the vault, buying Elias the time he needed.
+  learned-in: chapter-106
+- character: director-vane
+  fact: vane-lost-trunks
+  knows: The primary data trunks in the Spire were severed, halting the system wipe and blinding her to the lower sectors.
+  learned-in: chapter-106
+
 ---
 
 # Continuity State
@@ -1088,7 +1105,7 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | the-nexus-spire | Wounded but stable | Determined | Plans to physically sever the Spire's data trunks |
-| kaelen | the-nexus-spire | Uninjured | Vigilant | Knows they must sever the data trunks |
-| jarek | the-nexus-spire | Uninjured | Cautious | Agrees to the suicide run to sever the data trunks |
-| director-vane | the-nexus-spire | Uninjured | Ruthless | Executing the final contingency wipe |
+| elias-thorne | the-nexus-spire | Exhausted and trapped | Resolute | Successfully severed the primary data trunks |
+| kaelen | the-nexus-spire | Uninjured | Trapped | Knows the blast doors are sealed |
+| jarek | the-nexus-spire | Uninjured | Grim | Defended the vault against heavy sentries |
+| director-vane | the-nexus-spire | Uninjured | Cold | Blind to the lower sectors after the trunks were severed |

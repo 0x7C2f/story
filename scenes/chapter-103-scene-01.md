@@ -30,7 +30,7 @@ state-changes:
     knows: Jarek discovers Vane has initiated a system wipe that will erase all localized memory cores in the lower sectors.
   - character: director-vane
     fact: executing-system-wipe
-    knows: Vane is executing the final contingency: a complete system wipe across all lower sectors.
+    knows: Vane is executing the final contingency, a complete system wipe.
 ---
 
 # The Wipe Alert
