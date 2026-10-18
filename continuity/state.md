@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 106
+current-chapter: 107
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -1006,6 +1006,15 @@ knowledge-state:
   fact: vane-lost-trunks
   knows: The primary data trunks in the Spire were severed, halting the system wipe and blinding her to the lower sectors.
   learned-in: chapter-106
+
+- character: elias-thorne
+  fact: escaped-toxin-vault
+  knows: Elias and the team escaped the sealed vault via a maintenance shaft to evade neuro-toxin.
+  learned-in: chapter-107
+- character: director-vane
+  fact: deployed-toxin
+  knows: Vane flooded the subterranean vault with neuro-toxin to eliminate Elias's team.
+  learned-in: chapter-107
 
 ---
 

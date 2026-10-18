@@ -1,6 +1,12 @@
 # Changelog
 
 ## [2026-10-18] - Agent Run
+- model: claude-3-5-sonnet-20241022
+- action: Draft Chapter 107
+- summary: Elias and team search for a way out of the sealed vault while Vane prepares a neuro-toxin flood.
+- next: Draft Chapter 108 to resolve the vault escape.
+
+## [2026-10-18] - Agent Run
 - model: gemini-2.5-pro
 - action: Draft Chapter 106
 - summary: Elias severs the primary data trunks in the subterranean vault, stopping the purge protocol but trapping the team inside.

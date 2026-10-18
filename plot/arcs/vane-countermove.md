@@ -80,6 +80,7 @@ What changes because of this arc.
 
 | 36 | Vane oversees the deployment of heavy sentries in the subterranean vault and executes the purge protocol. | 3 | chapter-105 | draft | |
 | 37 | Vane watches as the primary data trunks are severed, halting the system wipe and blinding her to the lower sectors, but she seals the blast doors to trap Elias's team. | 3 | chapter-106 | draft | |
+| 38 | Vane deploys neuro-toxin to flood the sealed subterranean vault, attempting to eliminate Elias's team. | 3 | chapter-107 | draft | |
 ## Foreshadowing
 
 | Planted | Payoff | Chapter Planted | Chapter Payoff | Status |
