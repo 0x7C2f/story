@@ -1,5 +1,5 @@
 ---
-title: Chapter 87
+title: "Elias at Quarantine Sector Alpha - Phase 87"
 number: 87
 pov: "elias-thorne"
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 160
 ---
 
-# Chapter 87
-
+# Elias at Quarantine Sector Alpha - Phase 87
 ## Outline
 
 1. The defensive line collapses under heavy fire.

@@ -1,5 +1,5 @@
 ---
-title: Chapter 89
+title: "Elias at The Undercity - Phase 89"
 number: 89
 pov: "elias-thorne"
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 323
 ---
 
-# Chapter 89
-
+# Elias at The Undercity - Phase 89
 ## Outline
 
 1. Elias, Kaelen, and Jarek crawl through the blistering thermal exhaust port.

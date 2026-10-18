@@ -1,5 +1,5 @@
 ---
-title: Chapter 67
+title: "Elias at Sector Four - Phase 67"
 number: 67
 pov: "elias-thorne"
 locations:
@@ -21,8 +21,7 @@ time: ""
 word-count: 456
 ---
 
-# Chapter 67
-
+# Elias at Sector Four - Phase 67
 ## Outline
 
 1. Elias realizes the bridge connection attempt by Vane has left a digital anchor on his deck, essentially acting as a tracker.

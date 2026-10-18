@@ -1,5 +1,5 @@
 ---
-title: Chapter 70
+title: "Elias at Sector Four - Phase 70"
 number: 70
 pov: elias-thorne
 locations:
@@ -19,8 +19,7 @@ date: ''
 time: ''
 word-count: 916
 ---
-# Chapter 70
-
+# Elias at Sector Four - Phase 70
 ## Outline
 
 1. Elias, Kaelen, and Jarek cross the unstable fracture zone chasm in Sector Four to reach the abandoned relay substation.

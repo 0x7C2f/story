@@ -146,6 +146,7 @@ story: the-memory-archivist
 | chapter-108 | 1 | The Descent Continues | elias-thorne | draft | [chapter-108-scene-01](chapter-108-scene-01.md) |
 | chapter-108 | 2 | Vane's Blind Pursuit | director-vane | draft | [chapter-108-scene-02](chapter-108-scene-02.md) |
 | chapter-109 | 1 | Scene 1 | elias-thorne | draft | [chapter-109-scene-01](chapter-109-scene-01.md) |
+| chapter-110 | 1 | The Vanguard Approaches | elias-thorne | draft | [chapter-110-scene-01](chapter-110-scene-01.md) |
 
 ## Purpose
 

@@ -1,5 +1,5 @@
 ---
-title: Chapter 93
+title: "Elias at The Forgotten Depths - Phase 93"
 number: 93
 pov: "elias-thorne"
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 390
 ---
 
-# Chapter 93
-
+# Elias at The Forgotten Depths - Phase 93
 ## Outline
 
 1. Elias, Kaelen, and Jarek pry open the old access hatch and descend into the Forgotten Depths.

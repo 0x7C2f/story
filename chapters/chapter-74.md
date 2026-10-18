@@ -1,5 +1,5 @@
 ---
-title: Chapter 74
+title: "Elias at Sector Four - Phase 74"
 number: 74
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ date: ''
 time: ''
 word-count: 445
 ---
-# Chapter 74
-
+# Elias at Sector Four - Phase 74
 ## Outline
 
 1. Loyalist enforcers pour through the breached blast door, initiating a fierce firefight.

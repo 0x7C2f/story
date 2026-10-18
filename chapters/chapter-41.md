@@ -1,5 +1,5 @@
 ---
-title: Chapter 41
+title: "Elias at New Providence Outskirts - Phase 41"
 number: 41
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 636
 ---
 
-# Chapter 41
-
+# Elias at New Providence Outskirts - Phase 41
 ## Outline
 
 1. Elias, Kaelen, and Jarek maneuver the damaged heavy transport into an isolated, rusted canyon in the Outskirts.

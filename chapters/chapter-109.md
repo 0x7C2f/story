@@ -1,5 +1,5 @@
 ---
-title: Chapter 109
+title: "Elias at The Undercity - Phase 109"
 number: 109
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 317
 ---
 
-# Chapter 109
-
+# Elias at The Undercity - Phase 109
 ## Outline
 
 1. Elias discovers an isolated terminal in the bunker.

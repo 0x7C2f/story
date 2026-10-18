@@ -1,5 +1,5 @@
 ---
-title: Chapter 46
+title: "Elias at Sector Five - Phase 46"
 number: 46
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 905
 ---
 
-# Chapter 46
-
+# Elias at Sector Five - Phase 46
 ## Outline
 
 1. Elias rallies the factory workers in Sector Five. He reveals the truth about the altered memories and gives them a shared purpose.

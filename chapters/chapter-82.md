@@ -1,5 +1,5 @@
 ---
-title: Chapter 82
+title: "Elias at Quarantine Sector Alpha - Phase 82"
 number: 82
 pov: "elias-thorne"
 locations:
@@ -22,8 +22,7 @@ time: ""
 word-count: 211
 ---
 
-# Chapter 82
-
+# Elias at Quarantine Sector Alpha - Phase 82
 ## Outline
 
 1. Elias, Kaelen, and Jarek clear the exhaust port and enter the main facility of Quarantine Sector Alpha.

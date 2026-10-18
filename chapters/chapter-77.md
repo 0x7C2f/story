@@ -1,5 +1,5 @@
 ---
-title: Chapter 77
+title: "Elias at The Undercity - Phase 77"
 number: 77
 pov: elias-thorne
 locations:
@@ -19,8 +19,7 @@ time: ''
 word-count: 324
 ---
 
-# Chapter 77
-
+# Elias at The Undercity - Phase 77
 ## Outline
 
 1. Elias, Kaelen, and Jarek push through the dark, unmapped tunnel in the deep Undercity.

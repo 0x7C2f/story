@@ -1,5 +1,5 @@
 ---
-title: Chapter 88
+title: "Elias at Quarantine Sector Alpha - Phase 88"
 number: 88
 pov: "elias-thorne"
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 260
 ---
 
-# Chapter 88
-
+# Elias at Quarantine Sector Alpha - Phase 88
 ## Outline
 
 1. Elias triggers an overload in the isolated terminal to create a diversion.

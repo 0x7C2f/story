@@ -1,5 +1,5 @@
 ---
-title: Chapter 61
+title: "Elias at The Undercity - Phase 61"
 number: 61
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 864
 ---
 
-# Chapter 61
-
+# Elias at The Undercity - Phase 61
 ## Outline
 
 1. Elias, Kaelen, and Jarek make their way deeper into the Undercity, seeking a secure staging ground to analyze the raw data stolen from the Spire.

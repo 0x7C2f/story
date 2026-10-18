@@ -1,5 +1,5 @@
 ---
-title: Chapter 55
+title: "Elias at Nexus Archives - Phase 55"
 number: 55
 pov: elias-thorne
 locations:
@@ -21,8 +21,7 @@ time: ''
 word-count: 477
 ---
 
-# Chapter 55
-
+# Elias at Nexus Archives - Phase 55
 ## Outline
 
 1. Extract the master root keys

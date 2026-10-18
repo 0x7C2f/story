@@ -1,5 +1,5 @@
 ---
-title: Chapter 51
+title: "Elias at Sector Five - Phase 51"
 number: 51
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 678
 ---
 
-# Chapter 51
-
+# Elias at Sector Five - Phase 51
 ## Outline
 
 1. Elias manages to complete the spoofing handshake just as the Goliath fires, dodging the blast while sending the abort signal.

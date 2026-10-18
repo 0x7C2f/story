@@ -1,5 +1,5 @@
 ---
-title: Chapter 38
+title: "Elias at Sector Six - Phase 38"
 number: 38
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 772
 ---
 
-# Chapter 38
-
+# Elias at Sector Six - Phase 38
 ## Outline
 
 1. Elias, Kaelen, and Jarek are at the Sector Six staging ground when the alarms blare, signaling the arrival of Director Vane's concentrated strike force.

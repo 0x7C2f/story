@@ -1,5 +1,5 @@
 ---
-title: Chapter 102
+title: "Elias at The Undercity - Phase 102"
 number: 102
 pov: elias-thorne
 locations:
@@ -21,8 +21,7 @@ time: ""
 word-count: 476
 ---
 
-# Chapter 102
-
+# Elias at The Undercity - Phase 102
 ## Outline
 
 1. Opening beat: Kaelen patches up Elias in an Undercity safehouse while the network feeds show the city rioting.

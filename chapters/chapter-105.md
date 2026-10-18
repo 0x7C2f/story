@@ -1,5 +1,5 @@
 ---
-title: Chapter 105
+title: "Elias at The Nexus Spire - Phase 105"
 number: 105
 pov: elias-thorne
 locations:
@@ -21,8 +21,7 @@ time: ""
 word-count: 151
 ---
 
-# Chapter 105
-
+# Elias at The Nexus Spire - Phase 105
 ## Outline
 
 1. Opening beat

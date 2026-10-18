@@ -1,5 +1,5 @@
 ---
-title: Chapter 49
+title: "Elias at Sector Five - Phase 49"
 number: 49
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 596
 ---
 
-# Chapter 49
-
+# Elias at Sector Five - Phase 49
 ## Outline
 
 1. The Goliath-class assault frames breach the outer perimeter of the foundry complex, their heavy weapons tearing through the reinforced walls.

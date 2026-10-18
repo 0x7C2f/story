@@ -1,5 +1,5 @@
 ---
-title: Chapter 45
+title: "Elias at Sector Five - Phase 45"
 number: 45
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ''
 word-count: 539
 ---
 
-# Chapter 45
-
+# Elias at Sector Five - Phase 45
 ## Outline
 
 1. Elias, Kaelen, and Jarek emerge from the subterranean smuggler tunnels into the industrial sprawl of Sector Five.

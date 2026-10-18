@@ -1,5 +1,5 @@
 ---
-title: Chapter 37
+title: "Vane at The Nexus Spire - Phase 37"
 number: 37
 pov: director-vane
 locations:
@@ -17,8 +17,7 @@ date: ""
 time: ""
 word-count: 487
 ---
-# Chapter 37
-
+# Vane at The Nexus Spire - Phase 37
 ## Outline
 
 1. Director Vane stands in her command center, watching the city's grid fracture as true memories broadcast. She suppresses a moment of panic and forces herself into cold analysis.

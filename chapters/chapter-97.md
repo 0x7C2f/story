@@ -1,5 +1,5 @@
 ---
-title: Chapter 97
+title: "Elias at Sector Six Staging Ground - Phase 97"
 number: 97
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 670
 ---
 
-# Chapter 97
-
+# Elias at Sector Six Staging Ground - Phase 97
 ## Outline
 
 1. Opening beat: The mag-lev train approaches the maintenance sublevels of Sector Six, but the tracks end at a sealed barricade. Elias forces an emergency stop.

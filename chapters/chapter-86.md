@@ -1,5 +1,5 @@
 ---
-title: Chapter 86
+title: "Elias at Quarantine Sector Alpha - Phase 86"
 number: 86
 pov: "elias-thorne"
 locations:
@@ -21,9 +21,7 @@ time: ""
 word-count: 107
 ---
 
-# Chapter 86
-
-
+# Elias at Quarantine Sector Alpha - Phase 86
 ## Outline
 
 1. Vane's enforcers breach the Archive core and engage Kaelen and Jarek in a firefight.

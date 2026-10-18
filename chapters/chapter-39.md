@@ -1,5 +1,5 @@
 ---
-title: Chapter 39
+title: "Elias at Sector Six - Phase 39"
 number: 39
 pov: elias-thorne
 locations:
@@ -19,8 +19,7 @@ time: ""
 word-count: 647
 ---
 
-# Chapter 39
-
+# Elias at Sector Six - Phase 39
 ## Outline
 
 1. Elias, Kaelen, and Jarek flee the destroyed Sector Six staging ground in the captured heavy transport.

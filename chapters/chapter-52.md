@@ -1,5 +1,5 @@
 ---
-title: Chapter 52
+title: "Vane at The Nexus Spire - Phase 52"
 number: 52
 pov: director-vane
 locations:
@@ -18,8 +18,7 @@ time: ""
 word-count: 498
 ---
 
-# Chapter 52
-
+# Vane at The Nexus Spire - Phase 52
 ## Outline
 
 1. Opening beat

@@ -1,5 +1,5 @@
 ---
-title: Chapter 80
+title: "Elias at The Undercity - Phase 80"
 number: 80
 pov: "elias-thorne"
 locations: ["the-undercity", "the-nexus-spire"]
@@ -13,8 +13,7 @@ time: ""
 word-count: 410
 ---
 
-# Chapter 80
-
+# Elias at The Undercity - Phase 80
 ## Outline
 
 Escape into the maintenance shafts from the heavy sentry. Elias analyzes the partial schematics of Quarantine Sector Alpha and finds a hidden access point.

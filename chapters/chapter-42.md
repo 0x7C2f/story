@@ -1,5 +1,5 @@
 ---
-title: Chapter 42
+title: "Elias at New Providence Outskirts - Phase 42"
 number: 42
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 696
 ---
 
-# Chapter 42
-
+# Elias at New Providence Outskirts - Phase 42
 ## Outline
 
 1. Elias executes the decentralized mesh network broadcast. The fragmented connections lock into place, surging outward to bypass the perimeter limiters.

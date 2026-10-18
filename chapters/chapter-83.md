@@ -1,5 +1,5 @@
 ---
-title: Chapter 83
+title: "Elias at Quarantine Sector Alpha - Phase 83"
 number: 83
 pov: "elias-thorne"
 locations:
@@ -22,8 +22,7 @@ time: ""
 word-count: 209
 ---
 
-# Chapter 83
-
+# Elias at Quarantine Sector Alpha - Phase 83
 ## Outline
 
 1. Elias overrides the local network counter-measure, granting the team deeper access into the Archive core.

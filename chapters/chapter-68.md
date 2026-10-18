@@ -1,5 +1,5 @@
 ---
-title: Chapter 68
+title: "Elias at Sector Four - Phase 68"
 number: 68
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ word-count: 388
 
 
 
-# Chapter 68
-
+# Elias at Sector Four - Phase 68
 ## Outline
 
 1. Elias realizes he must detach the tracker from his deck to misdirect Director Vane's Heavy Enforcers.

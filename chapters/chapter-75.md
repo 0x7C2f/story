@@ -1,5 +1,5 @@
 ---
-title: Chapter 75
+title: "Elias at Sector Four - Phase 75"
 number: 75
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ''
 word-count: 403
 ---
 
-# Chapter 75
-
+# Elias at Sector Four - Phase 75
 ## Outline
 
 1. Elias, Kaelen, and Jarek land in the dark, waterlogged maintenance shaft as the Loyalist enforcers secure the substation above.

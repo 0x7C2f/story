@@ -1,5 +1,5 @@
 ---
-title: Chapter 72
+title: "Elias at Sector Four - Phase 72"
 number: 72
 pov: elias-thorne
 locations:
@@ -19,8 +19,7 @@ date: ''
 time: ''
 word-count: 462
 ---
-# Chapter 72
-
+# Elias at Sector Four - Phase 72
 ## Outline
 
 1. Elias struggles to maintain the counter-signal against the hunter-killer protocol.

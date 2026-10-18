@@ -1,5 +1,5 @@
 ---
-title: Chapter 84
+title: "Elias at Quarantine Sector Alpha - Phase 84"
 number: 84
 pov: elias-thorne
 locations:
@@ -22,8 +22,7 @@ time: ""
 word-count: 228
 ---
 
-# Chapter 84
-
+# Elias at Quarantine Sector Alpha - Phase 84
 ## Outline
 
 1. Elias and his team process the reality of being sealed inside the Archive core.

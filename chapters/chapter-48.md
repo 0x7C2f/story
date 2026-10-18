@@ -1,5 +1,5 @@
 ---
-title: Chapter 48
+title: "Elias at Sector Five - Phase 48"
 number: 48
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 491
 ---
 
-# Chapter 48
-
+# Elias at Sector Five - Phase 48
 ## Outline
 
 1. Elias, Kaelen, and Jarek rally the workers to fall back from Checkpoint Charlie before the Committee's heavy artillery arrives.

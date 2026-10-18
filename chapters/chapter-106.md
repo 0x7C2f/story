@@ -1,5 +1,5 @@
 ---
-title: Chapter 106
+title: "Elias at The Nexus Spire - Phase 106"
 number: 106
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 244
 ---
 
-# Chapter 106
-
+# Elias at The Nexus Spire - Phase 106
 ## Outline
 
 1. Elias frantically cuts the data trunks as Kaelen and Jarek hold the line against heavy sentries in the subterranean vault.

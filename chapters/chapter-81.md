@@ -1,5 +1,5 @@
 ---
-title: Chapter 81
+title: "Elias at Quarantine Sector Alpha - Phase 81"
 number: 81
 pov: "elias-thorne"
 locations:
@@ -22,8 +22,7 @@ time: ""
 word-count: 98
 ---
 
-# Chapter 81
-
+# Elias at Quarantine Sector Alpha - Phase 81
 ## Outline
 
 1. Opening beat
