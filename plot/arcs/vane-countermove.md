@@ -68,6 +68,8 @@ What changes because of this arc.
 | 27 | Vane remains blind to Elias's movements as he uses the isolated mag-lev train to bypass her perimeter. | 2 | chapter-96 | drafted | |
 | 28 | Vane successfully fortifies the Sector Six staging ground and marshals heavy transports, unaware Elias is right beneath them. | 3 | chapter-97 | draft | |
 
+| 29 | Vane's forces are momentarily distracted by an explosion, but a heavy sentry corners Elias at the hub door, and Vane detects his data spike. | 3 | chapter-98 | draft | |
+
 ## Foreshadowing
 
 | Planted | Payoff | Chapter Planted | Chapter Payoff | Status |

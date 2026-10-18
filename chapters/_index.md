@@ -106,5 +106,6 @@ story: the-memory-archivist
 | 95 | Chapter 95 | elias-thorne | draft | 358 | [chapter-95](chapter-95.md) |
 | 96 | Chapter 96 | elias-thorne | draft | 581 | [chapter-96](chapter-96.md) |
 | 97 | Chapter 97 | elias-thorne | draft | 670 | [chapter-97](chapter-97.md) |
+| 98 | The Hub Assault | elias-thorne | draft | 674 | [chapter-98](chapter-98.md) |
 
-## Total Word Count: 51010
+## Total Word Count: 51684

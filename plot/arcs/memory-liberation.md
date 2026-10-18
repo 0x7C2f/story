@@ -69,6 +69,8 @@ What changes because of this arc.
 | 27 | Elias manages to break the rusted magnetic locks on the mag-lev train, bypassing the physical jam and setting them on course for Sector Six. | 2 | chapter-96 | drafted | |
 | 28 | The train arrives beneath the Sector Six staging ground, and Elias plans to assault the central hub to broadcast the truth. | 2 | chapter-97 | draft | |
 
+| 29 | Elias's team executes a distraction, allowing him to sprint across the yard and brute-force his way into the hub. | 2 | chapter-98 | draft | |
+
 ## Foreshadowing
 
 | Planted | Payoff | Chapter Planted | Chapter Payoff | Status |

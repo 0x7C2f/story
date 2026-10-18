@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 97
+current-chapter: 98
 character-state:
 - character: director-vane
   location: sector-six-staging-ground
@@ -968,6 +968,23 @@ frontmatter above; the tables below are optional notes it does not read.
   fact: vane-fortified-sector-six
   knows: She has successfully fortified the Sector Six staging ground and is marshaling heavy transports.
   learned-in: chapter-97
+
+- character: elias-thorne
+  fact: elias-breached-hub
+  knows: Elias successfully crossed the staging ground and brute-forced his way into the central distribution hub, risking detection by Vane.
+  learned-in: chapter-98
+- character: kaelen
+  fact: kaelen-covered-elias
+  knows: Kaelen provided cover fire from the access shaft, allowing Elias to reach the central distribution hub.
+  learned-in: chapter-98
+- character: jarek
+  fact: jarek-caused-distraction
+  knows: Jarek detonated a charge in the transport refueling lines to distract Vane's enforcers.
+  learned-in: chapter-98
+- character: director-vane
+  fact: vane-detected-override
+  knows: Director Vane detected a massive data spike originating from the central distribution hub's local security protocols.
+  learned-in: chapter-98
 
 ## Character State
 
