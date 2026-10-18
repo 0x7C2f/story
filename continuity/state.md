@@ -1,22 +1,22 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 101
+current-chapter: 102
 character-state:
 - character: director-vane
-  location: sector-six-staging-ground
+  location: the-nexus-spire
   physical: Uninjured
   emotional: Furious
 - character: elias-thorne
-  location: sector-six-staging-ground
+  location: the-undercity
   physical: Injured
   emotional: Determined
 - character: kaelen
-  location: sector-six-staging-ground
+  location: the-undercity
   physical: Tense
   emotional: Cautious
 - character: jarek
-  location: sector-six-staging-ground
+  location: the-undercity
   physical: Tense
   emotional: Grim
 object-state:
@@ -37,6 +37,22 @@ object-state:
   location: new-providence-outskirts
   status: destroyed
 knowledge-state:
+- character: elias-thorne
+  fact: elias-witnessed-city-awakening
+  knows: Elias saw the citizens of New Providence rebelling against the Committee after the broadcast.
+  learned-in: chapter-102
+- character: kaelen
+  fact: kaelen-treated-elias
+  knows: Kaelen treated Elias's wounds in an Undercity safehouse while monitoring the network feeds.
+  learned-in: chapter-102
+- character: jarek
+  fact: jarek-noticed-enforcer-silence
+  knows: Jarek noted that enforcer communications went dark, indicating a tactical withdrawal.
+  learned-in: chapter-102
+- character: director-vane
+  fact: vane-ordered-final-contingency
+  knows: Vane arrived at the Spire and authorized a full system wipe to erase the lower sectors' memory cores.
+  learned-in: chapter-102
 - character: elias-thorne
   fact: elias-train-destination
   knows: The ancient mag-lev train in the Forgotten Depths connects to a maintenance hub beneath Sector Six.
@@ -1031,7 +1047,7 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | sector-six-staging-ground | Severely wounded | Relieved but exhausted | Knows the counter-broadcast succeeded |
-| kaelen | sector-six-staging-ground | Uninjured | Urgent | Covering the retreat |
-| jarek | sector-six-staging-ground | Uninjured | Focused | Extracting Elias |
-| director-vane | sector-six-staging-ground | Uninjured | Coldly calculating | Ordering a strategic retreat |
+| elias-thorne | the-undercity | Wounded but stable | Determined | Knows Vane is preparing a massive retaliation |
+| kaelen | the-undercity | Uninjured | Vigilant | Monitoring network feeds |
+| jarek | the-undercity | Uninjured | Cautious | Securing the perimeter |
+| director-vane | the-nexus-spire | Uninjured | Ruthless | Ordering the final contingency |

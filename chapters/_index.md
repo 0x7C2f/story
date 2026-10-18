@@ -110,5 +110,6 @@ story: the-memory-archivist
 | 99 | Chapter 99 | elias-thorne | draft | 488 | [chapter-99](chapter-99.md) |
 | 100 | The Archivist's Stand | elias-thorne | draft | 438 | [chapter-100](chapter-100.md) |
 | 101 | Chapter 101 | elias-thorne | draft | 522 | [chapter-101](chapter-101.md) |
+| 102 | Chapter 102 | elias-thorne | draft | 476 | [chapter-102](chapter-102.md) |
 
-## Total Word Count: 53132
+## Total Word Count: 53608
