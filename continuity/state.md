@@ -908,16 +908,16 @@ Track facts that must carry forward between chapters. The CLI reads the
 frontmatter above; the tables below are optional notes it does not read.
 
 - character: elias-thorne
-  fact: opened-access-hatch
-  knows: The team pried open the old access hatch and descended into the forgotten depths.
+  fact: elias-opened-access-hatch
+  knows: Elias and the team pried open the old access hatch and descended into the forgotten depths.
   learned-in: chapter-93
 - character: kaelen
-  fact: opened-access-hatch
-  knows: The team pried open the old access hatch and descended into the forgotten depths.
+  fact: kaelen-opened-access-hatch
+  knows: Kaelen and the team pried open the old access hatch and descended into the forgotten depths.
   learned-in: chapter-93
 - character: jarek
-  fact: opened-access-hatch
-  knows: The team pried open the old access hatch and descended into the forgotten depths.
+  fact: jarek-opened-access-hatch
+  knows: Jarek and the team pried open the old access hatch and descended into the forgotten depths.
   learned-in: chapter-93
 ## Character State
 
