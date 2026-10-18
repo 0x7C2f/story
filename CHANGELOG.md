@@ -1,6 +1,13 @@
 # Changelog
 
 ## [2026-10-18] - Agent Run
+
+- **Model:** Jules
+- **Action:** Drafted Chapter 98
+- **Summary:** Wrote Chapter 98 and its outline in `scenes/chapter-98-scene-01.md`. Elias and his team use an explosion crafted by Jarek as a distraction. Elias sprints to the hub door, but when confronted by a heavy sentry, he has to forcefully override the lock, alerting Director Vane. Updated story word counts, arcs, and continuity state.
+- **Next Run Suggestion:** Draft Chapter 99 covering the aftermath of Elias brute-forcing his way into the central distribution hub and the subsequent broadcast attempts, while Vane reacts to his detected location.
+
+## [2026-10-18] - Agent Run
 - Model: gemini-2.5-pro
 - Action: Drafted Chapter 96 and Scene 96-01
 - Summary: Elias manages to start the ancient mag-lev train, breaking the rusted locks with a magnetic pulse and escaping the flooding tunnels.
