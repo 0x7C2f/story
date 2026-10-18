@@ -74,6 +74,7 @@ What changes because of this arc.
 | 31 | Elias overloads the primary relay to destroy the heavy sentry, successfully launching the counter-broadcast but forcing a desperate escape from the burning hub. | 3 | chapter-100 | drafted | |
 | 32 | Elias, Kaelen, and Jarek escape the staging ground as the uncorrupted history floods the city's network. | 3 | chapter-101 | draft | |
 | 33 | Elias and the team retreat to an Undercity safehouse to treat his injuries and watch the mesh network react to the uncorrupted history. | 3 | chapter-102 | draft | |
+| 34 | Elias, monitoring the feeds, realizes Vane has initiated the final protocol—a complete system wipe—and resolves to physically sever the Spire's connection to the lower sectors. | 3 | chapter-103 | draft | |
 
 ## Foreshadowing
 
