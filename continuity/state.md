@@ -1,22 +1,22 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 103
+current-chapter: 104
 character-state:
 - character: director-vane
   location: the-nexus-spire
   physical: Uninjured
   emotional: Furious
 - character: elias-thorne
-  location: the-undercity
+  location: the-nexus-spire
   physical: Injured
   emotional: Determined
 - character: kaelen
-  location: the-undercity
+  location: the-nexus-spire
   physical: Tense
   emotional: Cautious
 - character: jarek
-  location: the-undercity
+  location: the-nexus-spire
   physical: Tense
   emotional: Grim
 object-state:
@@ -966,6 +966,14 @@ knowledge-state:
   knows: Vane is executing the final contingency, a complete system wipe across all lower sectors.
   learned-in: chapter-103
 
+- character: elias-thorne
+  fact: elias-breached-vault
+  knows: Elias breached the subterranean vault housing the data trunks.
+  learned-in: chapter-104
+- character: director-vane
+  fact: vane-deployed-sentries-to-vault
+  knows: Vane ordered heavy sentries to the vault after detecting the breach.
+  learned-in: chapter-104
 ---
 
 # Continuity State
@@ -1064,7 +1072,7 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | the-undercity | Wounded but stable | Determined | Plans to physically sever the Spire's data trunks |
-| kaelen | the-undercity | Uninjured | Vigilant | Knows they must sever the data trunks |
-| jarek | the-undercity | Uninjured | Cautious | Agrees to the suicide run to sever the data trunks |
+| elias-thorne | the-nexus-spire | Wounded but stable | Determined | Plans to physically sever the Spire's data trunks |
+| kaelen | the-nexus-spire | Uninjured | Vigilant | Knows they must sever the data trunks |
+| jarek | the-nexus-spire | Uninjured | Cautious | Agrees to the suicide run to sever the data trunks |
 | director-vane | the-nexus-spire | Uninjured | Ruthless | Executing the final contingency wipe |

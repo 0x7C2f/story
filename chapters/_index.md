@@ -112,5 +112,6 @@ story: the-memory-archivist
 | 101 | Chapter 101 | elias-thorne | draft | 522 | [chapter-101](chapter-101.md) |
 | 102 | Chapter 102 | elias-thorne | draft | 476 | [chapter-102](chapter-102.md) |
 | 103 | Chapter 103 | elias-thorne | draft | 414 | [chapter-103](chapter-103.md) |
+| 104 | Chapter 104 | elias-thorne | draft | 181 | [chapter-104](chapter-104.md) |
 
-## Total Word Count: 54022
+## Total Word Count: 54203
