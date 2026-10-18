@@ -130,6 +130,7 @@ story: the-memory-archivist
 | chapter-94 | 1 | The Depths Navigation | elias-thorne | draft | [chapter-94-scene-01](chapter-94-scene-01.md) |
 | chapter-95 | 1 | The Transit Tunnel | elias-thorne | draft | [chapter-95-scene-01](chapter-95-scene-01.md) |
 | chapter-96 | 1 | The Train Start | elias-thorne | draft | [chapter-96-scene-01](chapter-96-scene-01.md) |
+| chapter-97 | 1 | Entering Sector Six Maintenance Hub | elias-thorne | outline | [chapter-97-scene-01](chapter-97-scene-01.md) |
 
 ## Purpose
 

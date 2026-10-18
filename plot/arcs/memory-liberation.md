@@ -66,7 +66,8 @@ What changes because of this arc.
 | 24 | Elias and the team descend into the flooded Forgotten Depths to evade pursuit. | 2 | chapter-93 | drafted | |
 | 25 | Elias, Kaelen, and Jarek navigate the freezing waters of the Forgotten Depths and discover an ancient, dormant transit tunnel. | 2 | chapter-94 | drafted | |
 | 26 | Elias jump-starts an ancient mag-lev train in the transit tunnel using his neural rig. | 2 | chapter-95 | drafted | |
-| 27 | Elias manages to break the rusted magnetic locks on the mag-lev train, bypassing the physical jam and setting them on course for Sector Six. | 2 | chapter-96 | draft | |
+| 27 | Elias manages to break the rusted magnetic locks on the mag-lev train, bypassing the physical jam and setting them on course for Sector Six. | 2 | chapter-96 | drafted | |
+| 28 | The train arrives beneath the Sector Six staging ground, and Elias plans to assault the central hub to broadcast the truth. | 2 | chapter-97 | draft | |
 
 ## Foreshadowing
 

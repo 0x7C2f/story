@@ -105,5 +105,6 @@ story: the-memory-archivist
 | 94 | Chapter 94 | elias-thorne | draft | 374 | [chapter-94](chapter-94.md) |
 | 95 | Chapter 95 | elias-thorne | draft | 358 | [chapter-95](chapter-95.md) |
 | 96 | Chapter 96 | elias-thorne | draft | 581 | [chapter-96](chapter-96.md) |
+| 97 | Chapter 97 | elias-thorne | draft | 670 | [chapter-97](chapter-97.md) |
 
-## Total Word Count: 50340
+## Total Word Count: 51010
