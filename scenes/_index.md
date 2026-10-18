@@ -126,6 +126,7 @@ story: the-memory-archivist
 | chapter-90 | 1 | Chapter 90 Scene 1 | elias-thorne | draft | [chapter-90-scene-01](chapter-90-scene-01.md) |
 | chapter-91 | 1 | Chapter 91 Scene 1 | elias-thorne | draft | [chapter-91-scene-01](chapter-91-scene-01.md) |
 | chapter-92 | 1 | Chapter 92 Scene 1 | elias-thorne | draft | [chapter-92-scene-01](chapter-92-scene-01.md) |
+| chapter-93 | 1 | The Forgotten Depths | elias-thorne | draft | [chapter-93-scene-01](chapter-93-scene-01.md) |
 
 ## Purpose
 
