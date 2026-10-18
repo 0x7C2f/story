@@ -65,6 +65,7 @@ What changes because of this arc.
 | 23 | Elias and the team dive into a rusted maintenance shaft to evade the heavy sentries and find an old sealed access hatch. | 2 | chapter-92 | drafted | |
 | 24 | Elias and the team descend into the flooded Forgotten Depths to evade pursuit. | 2 | chapter-93 | drafted | |
 | 25 | Elias, Kaelen, and Jarek navigate the freezing waters of the Forgotten Depths and discover an ancient, dormant transit tunnel. | 2 | chapter-94 | drafted | |
+| 26 | Elias jump-starts an ancient mag-lev train in the transit tunnel using his neural rig. | 2 | chapter-95 | draft | |
 
 ## Foreshadowing
 

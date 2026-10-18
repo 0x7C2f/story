@@ -128,6 +128,7 @@ story: the-memory-archivist
 | chapter-92 | 1 | Chapter 92 Scene 1 | elias-thorne | draft | [chapter-92-scene-01](chapter-92-scene-01.md) |
 | chapter-93 | 1 | The Forgotten Depths | elias-thorne | draft | [chapter-93-scene-01](chapter-93-scene-01.md) |
 | chapter-94 | 1 | The Depths Navigation | elias-thorne | draft | [chapter-94-scene-01](chapter-94-scene-01.md) |
+| chapter-95 | 1 | The Transit Tunnel | elias-thorne | draft | [chapter-95-scene-01](chapter-95-scene-01.md) |
 
 ## Purpose
 

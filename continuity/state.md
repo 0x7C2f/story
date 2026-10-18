@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 94
+current-chapter: 95
 character-state:
 - character: director-vane
   location: the-undercity
@@ -931,12 +931,24 @@ frontmatter above; the tables below are optional notes it does not read.
   fact: jarek-discovered-transit-bulkhead
   knows: Jarek discovered an ancient transit bulkhead in the Forgotten Depths.
   learned-in: chapter-94
+- character: elias-thorne
+  fact: elias-jump-started-train
+  knows: Elias connected his rig to the ancient mag-lev train in an attempt to power it.
+  learned-in: chapter-95
+- character: kaelen
+  fact: kaelen-saw-ancient-train
+  knows: Kaelen secured the ancient mag-lev train car while Elias attempted to jump-start it.
+  learned-in: chapter-95
+- character: jarek
+  fact: jarek-encouraged-risk
+  knows: Jarek told Elias to take the risk to power up the ancient train.
+  learned-in: chapter-95
 
 ## Character State
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | the-forgotten-depths | Freezing | Determined | Discovered ancient transit bulkhead |
-| kaelen | the-forgotten-depths | Freezing | Focused | Discovered ancient transit bulkhead |
-| jarek | the-forgotten-depths | Freezing | Focused | Discovered ancient transit bulkhead |
+| elias-thorne | the-forgotten-depths | Exhausted but focused | Cautious hope | Attempting to jump-start ancient train |
+| kaelen | the-forgotten-depths | Cold | Alert | Guarding the ancient train |
+| jarek | the-forgotten-depths | Cold | Determined | Encouraged Elias to take the risk |
 | director-vane | the-undercity | Uninjured, furious | Enraged | Lost track of Elias, continuing hunt |
