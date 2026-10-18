@@ -17,7 +17,7 @@ status: draft
 mode: ""
 date: ""
 time: ""
-word-count: 525
+word-count: 522
 ---
 
 # Chapter 101
