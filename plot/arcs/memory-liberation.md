@@ -71,6 +71,8 @@ What changes because of this arc.
 
 | 29 | Elias's team executes a distraction, allowing him to sprint across the yard and brute-force his way into the hub. | 2 | chapter-98 | draft | |
 | 30 | Elias connects to the central hub and begins the counter-broadcast, suffering an injury. | 2 | chapter-99 | draft | |
+| 31 | Elias overloads the primary relay to destroy the heavy sentry, successfully launching the counter-broadcast but forcing a desperate escape from the burning hub. | 3 | chapter-100 | drafted | |
+| 32 | Elias, Kaelen, and Jarek escape the staging ground as the uncorrupted history floods the city's network. | 3 | chapter-101 | draft | |
 
 ## Foreshadowing
 

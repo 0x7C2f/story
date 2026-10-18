@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 100
+current-chapter: 101
 character-state:
 - character: director-vane
   location: sector-six-staging-ground
@@ -917,6 +917,22 @@ knowledge-state:
   fact: vane-ordered-heavy-breach
   knows: Vane ordered heavy enforcers to breach the central distribution hub and stop Elias's counter-broadcast.
   learned-in: chapter-100
+- character: elias-thorne
+  fact: elias-survived-relay-explosion
+  knows: Elias survived the detonation of the primary relay and verified the counter-broadcast successfully saturated the mesh network.
+  learned-in: chapter-101
+- character: kaelen
+  fact: kaelen-saw-enforcer-panic
+  knows: Kaelen saw the enforcer comms panicking and provided cover fire so Jarek could extract Elias from the ruined hub.
+  learned-in: chapter-101
+- character: jarek
+  fact: jarek-extracted-elias
+  knows: Jarek hauled a wounded Elias from the destroyed hub and led the retreat from the staging ground.
+  learned-in: chapter-101
+- character: director-vane
+  fact: vane-ordered-retreat
+  knows: Vane witnessed the synchronization failure and ordered all remaining units to abandon the staging ground and rally at the Spire.
+  learned-in: chapter-101
 ---
 
 # Continuity State
@@ -1015,7 +1031,7 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | sector-six-staging-ground | Injured | Desperate | Defending the hub |
-| kaelen | sector-six-staging-ground | Tense | Urgent | Breaching the hub perimeter |
-| jarek | sector-six-staging-ground | Tense | Focused | Securing the flank |
-| director-vane | sector-six-staging-ground | Uninjured | Furious | Ordering the breach |
+| elias-thorne | sector-six-staging-ground | Severely wounded | Relieved but exhausted | Knows the counter-broadcast succeeded |
+| kaelen | sector-six-staging-ground | Uninjured | Urgent | Covering the retreat |
+| jarek | sector-six-staging-ground | Uninjured | Focused | Extracting Elias |
+| director-vane | sector-six-staging-ground | Uninjured | Coldly calculating | Ordering a strategic retreat |

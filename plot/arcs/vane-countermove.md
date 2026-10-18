@@ -70,6 +70,8 @@ What changes because of this arc.
 
 | 29 | Vane's forces are momentarily distracted by an explosion, but a heavy sentry corners Elias at the hub door, and Vane detects his data spike. | 3 | chapter-98 | draft | |
 | 30 | Vane traces the broadcast origin and pinpoint its exact location. | 3 | chapter-99 | draft | |
+| 31 | Vane's forces breach the hub, but are caught in the relay explosion, failing to stop the counter-broadcast. | 3 | chapter-100 | drafted | |
+| 32 | Vane witnesses the success of Elias's counter-broadcast and orders a strategic retreat to preserve her remaining forces. | 3 | chapter-101 | draft | |
 
 ## Foreshadowing
 
