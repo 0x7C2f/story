@@ -60,6 +60,7 @@ What changes because of this arc.
 | 19 | Elias destroys the terminal and escapes into the exhaust port with the drive. | 2 | chapter-88 | drafted | |
 | 20 | Elias navigates the treacherous thermal exhaust port and emerges into the Undercity. | 2 | chapter-89 | drafted | |
 | 21 | Elias, Kaelen, and Jarek navigate deeper into the Undercity but encounter Vane's seeker drones establishing a perimeter. | 2 | chapter-90 | drafted | |
+| 22 | Elias, Kaelen, and Jarek set up an ambush in a collapsed transit hub, destroying a seeker drone to break Vane's perimeter net. | 2 | chapter-91 | drafted | |
 
 ## Foreshadowing
 
