@@ -1,5 +1,10 @@
 # Changelog
 
+## [2026-10-18] - Agent Run
+
+- Model: Jules
+- Drafted Chapter 109 and updated story arcs.
+
 ## [2026-10-18] - gemini-2.5-pro-exp-02-05
 
 - **Drafted Chapter 108:** Elias, Kaelen, and Jarek discover a pre-Committee civil defense bunker in the lightless Undercity after escaping the vault.

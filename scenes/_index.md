@@ -145,6 +145,7 @@ story: the-memory-archivist
 | chapter-107 | 1 | Trapped in the Vault | elias-thorne | draft | [chapter-107-scene-01](chapter-107-scene-01.md) |
 | chapter-108 | 1 | The Descent Continues | elias-thorne | draft | [chapter-108-scene-01](chapter-108-scene-01.md) |
 | chapter-108 | 2 | Vane's Blind Pursuit | director-vane | draft | [chapter-108-scene-02](chapter-108-scene-02.md) |
+| chapter-109 | 1 | Scene 1 | elias-thorne | draft | [chapter-109-scene-01](chapter-109-scene-01.md) |
 
 ## Purpose
 
