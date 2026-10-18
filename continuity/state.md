@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 95
+current-chapter: 96
 character-state:
 - character: director-vane
   location: the-undercity
@@ -9,7 +9,7 @@ character-state:
   emotional: Enraged
 - character: elias-thorne
   location: the-forgotten-depths
-  physical: Exhausted
+  physical: Temple ache from interfacing with ancient tech
   emotional: Determined
 - character: kaelen
   location: the-forgotten-depths
@@ -37,6 +37,10 @@ object-state:
   location: new-providence-outskirts
   status: destroyed
 knowledge-state:
+- character: elias-thorne
+  fact: elias-train-destination
+  knows: The ancient mag-lev train in the Forgotten Depths connects to a maintenance hub beneath Sector Six.
+  learned-in: chapter-96
 - character: elias-thorne
   fact: elias-secured-drive-escape
   knows: Secured the uncorrupted history drive and escaped through the thermal exhaust port.
