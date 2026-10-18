@@ -1,6 +1,12 @@
 # Changelog
 
 ## [2026-10-18] - Agent Run
+- model: gemini-2.5-pro
+- action: Draft Chapter 106
+- summary: Elias severs the primary data trunks in the subterranean vault, stopping the purge protocol but trapping the team inside.
+- next: Draft Chapter 107 to detail their escape from the sealed vault and the immediate fallout of the severed connection.
+
+## [2026-10-18] - Agent Run
 - Model: gemini-2.5-pro
 - Action: Drafted Chapter 105 and Scene 1.
 - Summary: Elias, Kaelen, and Jarek face heavy sentries in the subterranean vault while Vane watches from the Nexus Spire.

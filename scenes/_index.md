@@ -141,6 +141,7 @@ story: the-memory-archivist
 | chapter-103 | 1 | The Wipe Alert | elias-thorne | draft | [chapter-103-scene-01](chapter-103-scene-01.md) |
 | chapter-104 | 1 | The Ascent | elias-thorne | draft | [chapter-104-scene-01](chapter-104-scene-01.md) |
 | chapter-105 | 1 | Vane's Ambush | elias-thorne | outline | [chapter-105-scene-01](chapter-105-scene-01.md) |
+| chapter-106 | 1 | The Trunk Sabotage | elias-thorne | draft | [chapter-106-scene-01](chapter-106-scene-01.md) |
 
 ## Purpose
 
