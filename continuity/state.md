@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 106
+current-chapter: 107
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -1007,6 +1007,15 @@ knowledge-state:
   knows: The primary data trunks in the Spire were severed, halting the system wipe and blinding her to the lower sectors.
   learned-in: chapter-106
 
+- character: elias-thorne
+  fact: escaped-vault
+  knows: Elias and his team escaped the sealed vault via a maintenance shaft and descended back into the Undercity.
+  learned-in: chapter-107
+- character: director-vane
+  fact: vane-blind
+  knows: Vane realized she is blind to the lower sectors and must rely on manual sweeps.
+  learned-in: chapter-107
+
 ---
 
 # Continuity State
@@ -1101,11 +1110,20 @@ frontmatter above; the tables below are optional notes it does not read.
   knows: Director Vane pinpointed the exact location of the counter-broadcast originating from the central distribution hub.
   learned-in: chapter-99
 
+- character: elias-thorne
+  fact: elias-escaped-vault
+  knows: Elias and his team escaped the sealed vault via a maintenance shaft and descended back into the Undercity.
+  learned-in: chapter-107
+- character: director-vane
+  fact: vane-blind-to-undercity
+  knows: Vane realized she is blind to the lower sectors and must rely on manual sweeps.
+  learned-in: chapter-107
+
 ## Character State
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | the-nexus-spire | Exhausted and trapped | Resolute | Successfully severed the primary data trunks |
-| kaelen | the-nexus-spire | Uninjured | Trapped | Knows the blast doors are sealed |
-| jarek | the-nexus-spire | Uninjured | Grim | Defended the vault against heavy sentries |
-| director-vane | the-nexus-spire | Uninjured | Cold | Blind to the lower sectors after the trunks were severed |
+| elias-thorne | the-undercity | Exhausted | Resolute | Escaped the sealed vault and reached the Undercity |
+| kaelen | the-undercity | Uninjured | Alert | Escaped the vault into the Undercity |
+| jarek | the-undercity | Uninjured | Grim | Escaped the vault into the Undercity |
+| director-vane | the-nexus-spire | Uninjured | Cold | Blind to the lower sectors, organizing manual sweeps |

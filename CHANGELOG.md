@@ -1,6 +1,12 @@
 # Changelog
 
 ## [2026-10-18] - Agent Run
+- Model: Jules
+- Action: Draft Chapter 107
+- Summary: Elias, Kaelen, and Jarek escaped the sealed subterranean vault via an old maintenance shaft, descending back into the Undercity as Director Vane realizes she is completely blind to the lower sectors.
+- Next Run: Draft Chapter 108.
+
+## [2026-10-18] - Agent Run
 - model: gemini-2.5-pro
 - action: Draft Chapter 106
 - summary: Elias severs the primary data trunks in the subterranean vault, stopping the purge protocol but trapping the team inside.
