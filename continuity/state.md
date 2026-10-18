@@ -1,28 +1,28 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 96
+current-chapter: 97
 character-state:
 - character: director-vane
-  location: the-undercity
-  physical: Uninjured, furious
-  emotional: Enraged
+  location: sector-six-staging-ground
+  physical: Uninjured
+  emotional: Calculating
 - character: elias-thorne
-  location: the-forgotten-depths
-  physical: Temple ache from interfacing with ancient tech
+  location: sector-six-staging-ground
+  physical: Exhausted
   emotional: Determined
 - character: kaelen
-  location: the-forgotten-depths
-  physical: Escaping
-  emotional: Defiant
+  location: sector-six-staging-ground
+  physical: Tense
+  emotional: Cautious
 - character: jarek
-  location: the-forgotten-depths
-  physical: Escaping
-  emotional: Defiant
+  location: sector-six-staging-ground
+  physical: Tense
+  emotional: Grim
 object-state:
 - artifact: physical-drive-m-774-b
   owner: elias-thorne
-  location: the-forgotten-depths
+  location: sector-six-staging-ground
   status: active
 - artifact: partial-batch-manifest
   owner: elias-thorne
@@ -948,11 +948,32 @@ frontmatter above; the tables below are optional notes it does not read.
   knows: Jarek told Elias to take the risk to power up the ancient train.
   learned-in: chapter-95
 
+- character: elias-thorne
+  fact: elias-halted-train
+  knows: Elias successfully halted the ancient train before it crashed into the barricade beneath Sector Six.
+  learned-in: chapter-97
+- character: kaelen
+  fact: kaelen-saw-fortified-staging-ground
+  knows: Kaelen saw that the Sector Six staging ground was heavily fortified by Vane's loyalists.
+  learned-in: chapter-97
+- character: jarek
+  fact: jarek-saw-fortified-staging-ground
+  knows: Jarek saw that the Sector Six staging ground was heavily fortified by Vane's loyalists.
+  learned-in: chapter-97
+- character: elias-thorne
+  fact: elias-plans-hub-assault
+  knows: Elias plans to assault the central distribution hub to broadcast the uncorrupted history.
+  learned-in: chapter-97
+- character: director-vane
+  fact: vane-fortified-sector-six
+  knows: She has successfully fortified the Sector Six staging ground and is marshaling heavy transports.
+  learned-in: chapter-97
+
 ## Character State
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | the-forgotten-depths | Exhausted but focused | Cautious hope | Attempting to jump-start ancient train |
-| kaelen | the-forgotten-depths | Cold | Alert | Guarding the ancient train |
-| jarek | the-forgotten-depths | Cold | Determined | Encouraged Elias to take the risk |
-| director-vane | the-undercity | Uninjured, furious | Enraged | Lost track of Elias, continuing hunt |
+| elias-thorne | sector-six-staging-ground | Exhausted | Determined | Planning assault on the hub |
+| kaelen | sector-six-staging-ground | Tense | Cautious | Saw the fortified staging ground |
+| jarek | sector-six-staging-ground | Tense | Grim | Saw the fortified staging ground |
+| director-vane | sector-six-staging-ground | Uninjured | Calculating | Fortifying the staging ground |
