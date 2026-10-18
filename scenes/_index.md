@@ -143,6 +143,8 @@ story: the-memory-archivist
 | chapter-105 | 1 | Vane's Ambush | elias-thorne | outline | [chapter-105-scene-01](chapter-105-scene-01.md) |
 | chapter-106 | 1 | The Trunk Sabotage | elias-thorne | draft | [chapter-106-scene-01](chapter-106-scene-01.md) |
 | chapter-107 | 1 | Trapped in the Vault | elias-thorne | draft | [chapter-107-scene-01](chapter-107-scene-01.md) |
+| chapter-108 | 1 | The Descent Continues | elias-thorne | draft | [chapter-108-scene-01](chapter-108-scene-01.md) |
+| chapter-108 | 2 | Vane's Blind Pursuit | director-vane | draft | [chapter-108-scene-02](chapter-108-scene-02.md) |
 
 ## Purpose
 
