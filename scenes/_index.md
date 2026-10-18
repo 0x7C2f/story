@@ -124,6 +124,7 @@ story: the-memory-archivist
 | chapter-88 | 1 | Chapter 88 Scene 1 | elias-thorne | draft | [chapter-88-scene-01](chapter-88-scene-01.md) |
 | chapter-89 | 1 | Chapter 89 Scene 1 | elias-thorne | draft | [chapter-89-scene-01](chapter-89-scene-01.md) |
 | chapter-90 | 1 | Chapter 90 Scene 1 | elias-thorne | draft | [chapter-90-scene-01](chapter-90-scene-01.md) |
+| chapter-91 | 1 | Chapter 91 Scene 1 | elias-thorne | draft | [chapter-91-scene-01](chapter-91-scene-01.md) |
 
 ## Purpose
 

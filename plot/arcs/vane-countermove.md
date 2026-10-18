@@ -59,6 +59,7 @@ What changes because of this arc.
 | 19 | Vane secures the Archive core, but loses the data as Elias escapes. | 2 | chapter-88 | drafted | |
 | 20 | Vane deploys forces to seal the exhaust ports and hunt down Elias in the Undercity. | 2 | chapter-89 | drafted | |
 | 21 | Vane deploys seeker drones to scan the Undercity and establish a perimeter around Elias's position. | 2 | chapter-90 | drafted | |
+| 22 | Vane's seeker drone perimeter is compromised when a node drone is destroyed in the Undercity, forcing her to deploy heavy sentries to the disturbance. | 2 | chapter-91 | drafted | |
 
 ## Foreshadowing
 

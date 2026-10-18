@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 90
+current-chapter: 91
 character-state:
 - character: director-vane
   location: the-undercity
@@ -865,6 +865,22 @@ knowledge-state:
   fact: deploy-seeker-drones
   knows: Deployed seeker drones to map the Undercity and establish a perimeter around Elias's team.
   learned-in: chapter-90
+- character: elias-thorne
+  fact: broke-drone-net
+  knows: Elias and his team ambushed and destroyed a node seeker drone in a collapsed transit hub, breaking Vane's perimeter.
+  learned-in: chapter-91
+- character: kaelen
+  fact: broke-drone-net
+  knows: Elias and his team ambushed and destroyed a node seeker drone in a collapsed transit hub, breaking Vane's perimeter.
+  learned-in: chapter-91
+- character: jarek
+  fact: broke-drone-net
+  knows: Elias and his team ambushed and destroyed a node seeker drone in a collapsed transit hub, breaking Vane's perimeter.
+  learned-in: chapter-91
+- character: director-vane
+  fact: drone-net-compromised
+  knows: A seeker drone in the Undercity grid was destroyed, compromising her perimeter and giving her a location to send heavy sentries.
+  learned-in: chapter-91
 ---
 
 # Continuity State
@@ -879,7 +895,7 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | the-undercity | Exhausted | Determined | Escaping the drone perimeter |
-| kaelen | the-undercity | Escaping | Defiant | Evading seeker drones |
-| jarek | the-undercity | Escaping | Defiant | Evading seeker drones |
-| director-vane | the-undercity | Uninjured, furious | Enraged | Establishing perimeter with drones |
+| elias-thorne | the-undercity | Exhausted | Determined | Broke the drone net, fleeing heavy sentries |
+| kaelen | the-undercity | Escaping | Defiant | Broke the drone net |
+| jarek | the-undercity | Escaping | Defiant | Broke the drone net |
+| director-vane | the-undercity | Uninjured, furious | Enraged | Drone net compromised, deploying heavy sentries |

@@ -1,5 +1,11 @@
 # Changelog
 
+## [2026-10-18] - Agent Run
+- **Model:** Jules
+- **Action:** Drafted Chapter 91
+- **Summary:** Wrote Chapter 91 where Elias, Kaelen, and Jarek set up an ambush in a collapsed transit hub to destroy one of Vane's seeker drones, successfully breaking the drone net she was weaving around them in the Undercity. Updated plot arcs and continuity state.
+- **Next Run:** Draft chapter 92 where the team must evade the heavy sentries Vane deploys to the site of the destroyed drone.
+
 ## [2026-10-17] - Agent Run
 
 - Model: Jules
