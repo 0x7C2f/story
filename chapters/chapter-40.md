@@ -1,5 +1,5 @@
 ---
-title: Chapter 40
+title: "Elias at New Providence Outskirts - Phase 40"
 number: 40
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 707
 ---
 
-# Chapter 40
-
+# Elias at New Providence Outskirts - Phase 40
 ## Outline
 
 1. Elias, Kaelen, and Jarek flee the destroyed Sector Six staging ground in the captured heavy transport.

@@ -1,5 +1,5 @@
 ---
-title: Chapter 95
+title: "Elias at The Forgotten Depths - Phase 95"
 number: 95
 pov: "elias-thorne"
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 358
 ---
 
-# Chapter 95
-
+# Elias at The Forgotten Depths - Phase 95
 ## Outline
 
 1. Elias, Kaelen, and Jarek pry open the dormant transit bulkhead in the Forgotten Depths.

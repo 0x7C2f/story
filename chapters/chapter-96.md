@@ -1,5 +1,5 @@
 ---
-title: Chapter 96
+title: "Elias at The Forgotten Depths - Phase 96"
 number: 96
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 581
 ---
 
-# Chapter 96
-
+# Elias at The Forgotten Depths - Phase 96
 ## Outline
 
 1. Opening beat

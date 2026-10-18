@@ -1,5 +1,5 @@
 ---
-title: Chapter 50
+title: "Elias at Sector Five - Phase 50"
 number: 50
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ''
 word-count: 779
 ---
 
-# Chapter 50
-
+# Elias at Sector Five - Phase 50
 ## Outline
 
 1. Elias comprehends the scale of Vane's plan to drop Sector Five into the undercity.

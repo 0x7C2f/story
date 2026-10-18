@@ -1,5 +1,5 @@
 ---
-title: Chapter 94
+title: "Elias at The Forgotten Depths - Phase 94"
 number: 94
 pov: "elias-thorne"
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 374
 ---
 
-# Chapter 94
-
+# Elias at The Forgotten Depths - Phase 94
 ## Outline
 
 1. Elias, Kaelen, and Jarek move through the freezing, submerged tunnels of the Forgotten Depths.

@@ -1,5 +1,5 @@
 ---
-title: Chapter 66
+title: "Elias at Sector Four - Phase 66"
 number: 66
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ''
 word-count: 604
 ---
 
-# Chapter 66
-
+# Elias at Sector Four - Phase 66
 ## Outline
 
 1. The resistance pushes through the blind spots created by the overloaded turrets.

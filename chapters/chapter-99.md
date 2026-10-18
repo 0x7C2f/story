@@ -1,5 +1,5 @@
 ---
-title: Chapter 99
+title: "Elias at Sector Six Staging Ground - Phase 99"
 number: 99
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 488
 ---
 
-# Chapter 99
-
+# Elias at Sector Six Staging Ground - Phase 99
 ## Outline
 
 1. Opening beat: The heavy blast door slides open, and Elias dives inside the central distribution hub just as the heavy sentry fires a barrage of plasma fire, searing his left shoulder.

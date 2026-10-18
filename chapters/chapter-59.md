@@ -1,5 +1,5 @@
 ---
-title: Chapter 59
+title: "Vane at The Nexus Spire - Phase 59"
 number: 59
 pov: director-vane
 locations:
@@ -20,8 +20,7 @@ date: ''
 time: ''
 word-count: 492
 ---
-# Chapter 59
-
+# Vane at The Nexus Spire - Phase 59
 ## Outline
 
 1. Vane evaluates the extent of the memory leak in the Spire's primary command center.

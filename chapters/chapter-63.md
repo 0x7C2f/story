@@ -1,5 +1,5 @@
 ---
-title: Chapter 63
+title: "Elias at The Undercity - Phase 63"
 number: 63
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ''
 word-count: 884
 ---
 
-# Chapter 63
-
+# Elias at The Undercity - Phase 63
 ## Outline
 
 1. Elias outlines the plan to hijack the rewrite protocol.

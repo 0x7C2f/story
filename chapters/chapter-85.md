@@ -1,5 +1,5 @@
 ---
-title: Chapter 85
+title: "Elias at Quarantine Sector Alpha - Phase 85"
 number: 85
 pov: "elias-thorne"
 locations:
@@ -21,8 +21,7 @@ time: ""
 word-count: 137
 ---
 
-# Chapter 85
-
+# Elias at Quarantine Sector Alpha - Phase 85
 ## Outline
 
 1. Vane's assault team begins cutting through the sealed blast doors of the Archive core.

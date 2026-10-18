@@ -1,5 +1,5 @@
 ---
-title: Chapter 108
+title: "Elias at The Undercity - Phase 108"
 number: 108
 pov: elias-thorne
 locations:
@@ -21,8 +21,7 @@ time: ""
 word-count: 402
 ---
 
-# Chapter 108
-
+# Elias at The Undercity - Phase 108
 ## Outline
 
 1. Elias, Kaelen, and Jarek move through the lightless Undercity and discover an old pre-Committee bunker.

@@ -1,5 +1,5 @@
 ---
-title: Chapter 57
+title: "Elias at Nexus Archives - Phase 57"
 number: 57
 pov: elias-thorne
 locations:
@@ -21,8 +21,7 @@ time: ""
 word-count: 554
 ---
 
-# Chapter 57
-
+# Elias at Nexus Archives - Phase 57
 ## Outline
 
 1. The immediate chaotic fallout of the broadcast.

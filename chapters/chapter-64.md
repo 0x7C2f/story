@@ -1,5 +1,5 @@
 ---
-title: Chapter 64
+title: "Elias at Sector Five - Phase 64"
 number: 64
 pov: elias-thorne
 locations:
@@ -21,8 +21,7 @@ word-count: 698
 ---
 
 
-# Chapter 64
-
+# Elias at Sector Five - Phase 64
 ## Outline
 
 1. The resistance prepares for the assault.

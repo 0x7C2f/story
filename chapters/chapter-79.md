@@ -1,5 +1,5 @@
 ---
-title: Chapter 79
+title: "Elias at The Undercity - Phase 79"
 number: 79
 pov: "elias-thorne"
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 422
 ---
 
-# Chapter 79
-
+# Elias at The Undercity - Phase 79
 ## Outline
 
 1. Kaelen and Jarek engage the first wave of hunter subsystems, struggling to hold the perimeter while the uplink processes.

@@ -1,5 +1,5 @@
 ---
-title: Chapter 69
+title: "Elias at Sector Four - Phase 69"
 number: 69
 pov: elias-thorne
 locations:
@@ -19,8 +19,7 @@ date: ''
 time: ''
 word-count: 756
 ---
-# Chapter 69
-
+# Elias at Sector Four - Phase 69
 ## Outline
 
 1. Having successfully misdirected the heavy enforcer squad using the compromised deck and drone, Elias, Kaelen, and Jarek plunge deeper into the uncharted lower levels of the undercity to break line of sight.

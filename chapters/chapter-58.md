@@ -1,5 +1,5 @@
 ---
-title: Chapter 58
+title: "Elias at The Nexus Spire - Phase 58"
 number: 58
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ''
 word-count: 388
 ---
 
-# Chapter 58
-
+# Elias at The Nexus Spire - Phase 58
 ## Outline
 
 1. The hard reset wave cascades through the upper corridors.

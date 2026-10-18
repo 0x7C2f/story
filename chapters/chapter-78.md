@@ -1,5 +1,5 @@
 ---
-title: Chapter 78
+title: "Elias at The Undercity - Phase 78"
 number: 78
 pov: "elias-thorne"
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 399
 ---
 
-# Chapter 78
-
+# Elias at The Undercity - Phase 78
 ## Outline
 
 1. Elias attempts to interface with the dormant terminal in the pre-Committee transit station, using an improvised connection from his remaining gear.

@@ -1,5 +1,5 @@
 ---
-title: Chapter 73
+title: "Elias at Sector Four - Phase 73"
 number: 73
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 317
 ---
 
-# Chapter 73
-
+# Elias at Sector Four - Phase 73
 ## Outline
 
 1. The Loyalist assault begins on the substation.

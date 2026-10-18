@@ -1,5 +1,5 @@
 ---
-title: Chapter 101
+title: "Elias at Sector Six Staging Ground - Phase 101"
 number: 101
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 522
 ---
 
-# Chapter 101
-
+# Elias at Sector Six Staging Ground - Phase 101
 ## Outline
 
 1. Opening beat: The primary relay detonates, throwing Elias clear as the hub collapses, while the uncorrupted history floods the mesh network.

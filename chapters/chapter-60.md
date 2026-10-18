@@ -1,5 +1,5 @@
 ---
-title: Chapter 60
+title: "Elias at The Nexus Spire - Phase 60"
 number: 60
 pov: elias-thorne
 locations:
@@ -21,8 +21,7 @@ time: ""
 word-count: 780
 ---
 
-# Chapter 60
-
+# Elias at The Nexus Spire - Phase 60
 ## Outline
 
 1. The descent through the auxiliary exhaust vent ends in the upper boundaries of the Undercity.

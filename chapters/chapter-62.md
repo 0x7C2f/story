@@ -1,5 +1,5 @@
 ---
-title: Chapter 62
+title: "Elias at The Undercity - Phase 62"
 number: 62
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ''
 word-count: 774
 ---
 
-# Chapter 62
-
+# Elias at The Undercity - Phase 62
 ## Outline
 
 1. Elias taps into the deep-infrastructure trunk, bypassing the ambient interference of the Undercity.

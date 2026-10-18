@@ -1,5 +1,5 @@
 ---
-title: Chapter 71
+title: "Elias at Sector Four - Phase 71"
 number: 71
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 668
 ---
 
-# Chapter 71
-
+# Elias at Sector Four - Phase 71
 ## Outline
 
 1. Inside the abandoned substation, Elias successfully connects a bypass interface to the central router, accessing the mesh network.

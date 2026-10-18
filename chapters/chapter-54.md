@@ -1,5 +1,5 @@
 ---
-title: Chapter 54
+title: "Elias at Nexus Archives - Phase 54"
 number: 54
 pov: elias-thorne
 locations:
@@ -22,8 +22,7 @@ word-count: 369
 ---
 
 
-# Chapter 54
-
+# Elias at Nexus Archives - Phase 54
 ## Outline
 
 1. Infiltrate Nexus Archives

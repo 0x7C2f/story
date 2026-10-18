@@ -1,5 +1,5 @@
 ---
-title: Chapter 43
+title: "Elias at New Providence Outskirts - Phase 43"
 number: 43
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 662
 ---
 
-# Chapter 43
-
+# Elias at New Providence Outskirts - Phase 43
 ## Outline
 
 1. Elias, Kaelen, and Jarek flee through the Outskirts canyon, evading Committee thermal sweeps.

@@ -1,5 +1,5 @@
 ---
-title: Chapter 53
+title: "Elias at Sector Five - Phase 53"
 number: 53
 pov: "elias-thorne"
 locations:
@@ -19,8 +19,7 @@ time: ""
 word-count: 633
 ---
 
-# Chapter 53
-
+# Elias at Sector Five - Phase 53
 ## Outline
 
 1. Opening beat

@@ -1,5 +1,5 @@
 ---
-title: Chapter 92
+title: "Elias at The Undercity - Phase 92"
 number: 92
 pov: "elias-thorne"
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 358
 ---
 
-# Chapter 92
-
+# Elias at The Undercity - Phase 92
 ## Outline
 
 1. Elias, Kaelen, and Jarek flee into a rusted maintenance shaft to evade the heavy sentries deployed by Director Vane.

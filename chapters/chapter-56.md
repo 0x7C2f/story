@@ -1,5 +1,5 @@
 ---
-title: Chapter 56
+title: "Elias at Nexus Archives - Phase 56"
 number: 56
 pov: elias-thorne
 locations:
@@ -21,8 +21,7 @@ time: ''
 word-count: 413
 ---
 
-# Chapter 56
-
+# Elias at Nexus Archives - Phase 56
 ## Outline
 
 1. Opening beat

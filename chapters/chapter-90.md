@@ -1,5 +1,5 @@
 ---
-title: Chapter 90
+title: "Elias at The Undercity - Phase 90"
 number: 90
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 339
 ---
 
-# Chapter 90
-
+# Elias at The Undercity - Phase 90
 ## Outline
 
 1. Elias, Kaelen, and Jarek try to find a safe path deeper into the Undercity maze while avoiding the sealed vents.

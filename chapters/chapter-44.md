@@ -1,5 +1,5 @@
 ---
-title: Chapter 44
+title: "Elias at New Providence Outskirts - Phase 44"
 number: 44
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 706
 ---
 
-# Chapter 44
-
+# Elias at New Providence Outskirts - Phase 44
 ## Outline
 
 1. Elias, Kaelen, and Jarek realize they are trapped by the automated security drone in the subterranean smuggler tunnels.

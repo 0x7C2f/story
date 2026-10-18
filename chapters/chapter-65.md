@@ -1,5 +1,5 @@
 ---
-title: Chapter 65
+title: "Elias at Sector Four - Phase 65"
 number: 65
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 654
 ---
 
-# Chapter 65
-
+# Elias at Sector Four - Phase 65
 ## Outline
 
 1. Elias triggers the physical failsafes of the automated turrets, blinding their sensors.

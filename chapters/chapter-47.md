@@ -1,5 +1,5 @@
 ---
-title: Chapter 47
+title: "Elias at Sector Five - Phase 47"
 number: 47
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ""
 word-count: 530
 ---
 
-# Chapter 47
-
+# Elias at Sector Five - Phase 47
 ## Outline
 
 1. The first wave of enforcer drones breaches Checkpoint Charlie. Elias, Kaelen, and Jarek use the barricades to funnel the machines into a kill zone.

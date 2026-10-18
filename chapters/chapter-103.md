@@ -1,5 +1,5 @@
 ---
-title: Chapter 103
+title: "Elias at The Undercity - Phase 103"
 number: 103
 pov: elias-thorne
 locations:
@@ -21,8 +21,7 @@ time: ""
 word-count: 414
 ---
 
-# Chapter 103
-
+# Elias at The Undercity - Phase 103
 ## Outline
 
 1. Opening beat: The team in the Undercity monitors a sudden drop in network traffic as Vane initiates the system wipe.

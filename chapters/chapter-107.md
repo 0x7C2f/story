@@ -1,5 +1,5 @@
 ---
-title: Chapter 107
+title: "Elias at The Nexus Spire - Phase 107"
 number: 107
 pov: elias-thorne
 locations:
@@ -21,8 +21,7 @@ time: ""
 word-count: 346
 ---
 
-# Chapter 107
-
+# Elias at The Nexus Spire - Phase 107
 ## Outline
 
 1. Elias, Kaelen, and Jarek assess their situation after sealing the blast doors.

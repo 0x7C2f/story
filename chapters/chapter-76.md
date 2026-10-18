@@ -1,5 +1,5 @@
 ---
-title: Chapter 76
+title: "Elias at Sector Four - Phase 76"
 number: 76
 pov: elias-thorne
 locations:
@@ -20,8 +20,7 @@ time: ''
 word-count: 471
 ---
 
-# Chapter 76
-
+# Elias at Sector Four - Phase 76
 ## Outline
 
 1. Elias, Kaelen, and Jarek flee from the mechanized hunter drone down a collapsing service artery.
