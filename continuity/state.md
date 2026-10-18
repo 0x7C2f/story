@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 93
+current-chapter: 94
 character-state:
 - character: director-vane
   location: the-undercity
@@ -919,11 +919,24 @@ frontmatter above; the tables below are optional notes it does not read.
   fact: jarek-opened-access-hatch
   knows: Jarek and the team pried open the old access hatch and descended into the forgotten depths.
   learned-in: chapter-93
+- character: elias-thorne
+  fact: elias-discovered-transit-bulkhead
+  knows: Elias discovered an ancient transit bulkhead in the Forgotten Depths.
+  learned-in: chapter-94
+- character: kaelen
+  fact: kaelen-discovered-transit-bulkhead
+  knows: Kaelen discovered an ancient transit bulkhead in the Forgotten Depths.
+  learned-in: chapter-94
+- character: jarek
+  fact: jarek-discovered-transit-bulkhead
+  knows: Jarek discovered an ancient transit bulkhead in the Forgotten Depths.
+  learned-in: chapter-94
+
 ## Character State
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | the-forgotten-depths | Exhausted | Determined | Opened the old access hatch, descended |
-| kaelen | the-forgotten-depths | Escaping | Defiant | Opened the old access hatch, descended |
-| jarek | the-forgotten-depths | Escaping | Defiant | Descended through the old access hatch |
+| elias-thorne | the-forgotten-depths | Freezing | Determined | Discovered ancient transit bulkhead |
+| kaelen | the-forgotten-depths | Freezing | Focused | Discovered ancient transit bulkhead |
+| jarek | the-forgotten-depths | Freezing | Focused | Discovered ancient transit bulkhead |
 | director-vane | the-undercity | Uninjured, furious | Enraged | Lost track of Elias, continuing hunt |
