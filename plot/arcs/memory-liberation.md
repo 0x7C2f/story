@@ -62,6 +62,8 @@ What changes because of this arc.
 | 21 | Elias, Kaelen, and Jarek navigate deeper into the Undercity but encounter Vane's seeker drones establishing a perimeter. | 2 | chapter-90 | drafted | |
 | 22 | Elias, Kaelen, and Jarek set up an ambush in a collapsed transit hub, destroying a seeker drone to break Vane's perimeter net. | 2 | chapter-91 | drafted | |
 
+| 23 | Elias and the team dive into a rusted maintenance shaft to evade the heavy sentries and find an old sealed access hatch. | 2 | chapter-92 | drafted | |
+
 ## Foreshadowing
 
 | Planted | Payoff | Chapter Planted | Chapter Payoff | Status |
