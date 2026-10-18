@@ -148,6 +148,8 @@ story: the-memory-archivist
 | chapter-109 | 1 | Scene 1 | elias-thorne | draft | [chapter-109-scene-01](chapter-109-scene-01.md) |
 | chapter-110 | 1 | The Vanguard Approaches | elias-thorne | draft | [chapter-110-scene-01](chapter-110-scene-01.md) |
 | chapter-111 | 1 | The Overwrite Push | elias-thorne | draft | [chapter-111-scene-01](chapter-111-scene-01.md) |
+| chapter-111 | 2 | The Breach | elias-thorne | draft | [chapter-111-scene-02](chapter-111-scene-02.md) |
+| chapter-111 | 3 | The Override Commits | elias-thorne | draft | [chapter-111-scene-03](chapter-111-scene-03.md) |
 
 ## Purpose
 

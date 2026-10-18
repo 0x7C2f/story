@@ -84,6 +84,8 @@ What changes because of this arc.
 | 39 | Vane deploys analogue sweep teams into the Undercity, operating without network support. | 3 | chapter-108 | draft | |
 | 40 | Vane's analogue sweep teams locate the bunker in the Undercity and begin breaching the reinforced doors. | 3 | chapter-109 | draft | |
 
+| 41 | Vane's manual sweep teams reach the Undercity perimeter just as Elias initiates a decentralized network override, fracturing her final control mechanisms. | 3 | chapter-111 | draft | |
+
 ## Foreshadowing
 
 | Planted | Payoff | Chapter Planted | Chapter Payoff | Status |

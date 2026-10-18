@@ -119,6 +119,6 @@ story: the-memory-archivist
 | 108 | Elias at The Undercity - Phase 108 | elias-thorne | draft | 402 | [chapter-108](chapter-108.md) |
 | 109 | Elias at The Undercity - Phase 109 | elias-thorne | draft | 317 | [chapter-109](chapter-109.md) |
 | 110 | The Great Memory Liberation | elias-thorne | draft | 183 | [chapter-110](chapter-110.md) |
-| 111 | The Final Strike | elias-thorne | draft | 279 | [chapter-111](chapter-111.md) |
+| 111 | The Final Strike | elias-thorne | draft | 795 | [chapter-111](chapter-111.md) |
 
-## Total Word Count: 56125
+## Total Word Count: 56641

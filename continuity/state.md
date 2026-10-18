@@ -1040,6 +1040,23 @@ knowledge-state:
   fact: elias-found-bunker-terminal
   knows: Elias discovered an old terminal in the bunker that revealed the sweep patterns.
   learned-in: chapter-109
+- character: elias-thorne
+  fact: elias-initiated-override
+  knows: Elias successfully initiated the network override to shatter the synchronization feed.
+  learned-in: chapter-111
+- character: kaelen
+  fact: kaelen-defended-node
+  knows: Kaelen defended the primary node from Vane's manual sweep teams.
+  learned-in: chapter-111
+- character: jarek
+  fact: jarek-held-perimeter
+  knows: Jarek held the outer perimeter against the advancing enforcers.
+  learned-in: chapter-111
+- character: director-vane
+  fact: vane-lost-sync-feed
+  knows: The synchronization feed shattered due to the decentralized counter-broadcast.
+  learned-in: chapter-111
+
 ---
 
 # Continuity State
