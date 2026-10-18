@@ -81,6 +81,8 @@ What changes because of this arc.
 
 | 36 | Elias, Kaelen, and Jarek fight the heavy sentries in the subterranean vault to prevent the purge protocol and find an escape route. | 3 | chapter-105 | draft | |
 | 37 | Elias successfully severs the primary data trunks in the subterranean vault, stopping the purge protocol but trapping his team inside. | 3 | chapter-106 | draft | |
+| 38 | Elias, Kaelen, and Jarek escape the sealed vault via a maintenance shaft and descend into the Undercity to witness the severed connection. | 3 | chapter-107 | draft | |
+
 ## Foreshadowing
 
 | Planted | Payoff | Chapter Planted | Chapter Payoff | Status |
