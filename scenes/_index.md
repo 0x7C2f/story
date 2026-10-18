@@ -133,6 +133,7 @@ story: the-memory-archivist
 | chapter-97 | 1 | Entering Sector Six Maintenance Hub | elias-thorne | outline | [chapter-97-scene-01](chapter-97-scene-01.md) |
 | chapter-98 | 1 | The Distraction Gambit | elias-thorne | draft | [chapter-98-scene-01](chapter-98-scene-01.md) |
 | chapter-99 | 1 | The Node Connection | elias-thorne | draft | [chapter-99-scene-01](chapter-99-scene-01.md) |
+| chapter-100 | 1 | The Enforcers Breach | elias-thorne | draft | [chapter-100-scene-01](chapter-100-scene-01.md) |
 
 ## Purpose
 

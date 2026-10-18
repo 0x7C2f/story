@@ -108,5 +108,6 @@ story: the-memory-archivist
 | 97 | Chapter 97 | elias-thorne | draft | 670 | [chapter-97](chapter-97.md) |
 | 98 | The Hub Assault | elias-thorne | draft | 674 | [chapter-98](chapter-98.md) |
 | 99 | Chapter 99 | elias-thorne | draft | 488 | [chapter-99](chapter-99.md) |
+| 100 | The Archivist's Stand | elias-thorne | draft | 438 | [chapter-100](chapter-100.md) |
 
-## Total Word Count: 52172
+## Total Word Count: 52610

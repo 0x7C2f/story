@@ -1,6 +1,13 @@
 # Changelog
 
 ## [2026-10-18] - Agent Run
+
+- **Model:** gemini-2.5-pro
+- **Action:** Draft Chapter 100
+- **Summary:** Drafted Chapter 100 and Scene 1 ('The Archivist's Stand' and 'The Enforcers Breach'), advancing the 'memory-liberation' and 'vane-countermove' arcs, and updated continuity state.
+- **Next Action:** Review project direction or continue with Chapter 101.
+
+## [2026-10-18] - Agent Run
 - Model: gemini-2.0-pro-exp
 - Action: Drafted Chapter 99 and Scene 1
 - Summary: Elias breached the hub and initiated the counter-broadcast, while Vane pinpointed his location.
