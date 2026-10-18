@@ -134,6 +134,8 @@ story: the-memory-archivist
 | chapter-98 | 1 | The Distraction Gambit | elias-thorne | draft | [chapter-98-scene-01](chapter-98-scene-01.md) |
 | chapter-99 | 1 | The Node Connection | elias-thorne | draft | [chapter-99-scene-01](chapter-99-scene-01.md) |
 | chapter-100 | 1 | The Enforcers Breach | elias-thorne | draft | [chapter-100-scene-01](chapter-100-scene-01.md) |
+| chapter-101 | 1 | The Aftermath | elias-thorne | draft | [chapter-101-scene-01](chapter-101-scene-01.md) |
+| chapter-101 | 2 | Vane's Retreat | director-vane | draft | [chapter-101-scene-02](chapter-101-scene-02.md) |
 
 ## Purpose
 
