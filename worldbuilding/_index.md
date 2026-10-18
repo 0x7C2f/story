@@ -27,6 +27,7 @@ story: the-memory-archivist
 | Sector Six Staging Ground | Military Base | new-providence-outskirts | [sector-six-staging-ground](locations/sector-six-staging-ground.md) |
 | Sector Six | District |  | [sector-six](locations/sector-six.md) |
 | The Dead Zone | Other | Twenty klicks east of the Scrapyard Settlement | [the-dead-zone](locations/the-dead-zone.md) |
+| The Forgotten Depths | Other |  | [the-forgotten-depths](locations/the-forgotten-depths.md) |
 | The Nexus Spire | Building | Sector One | [the-nexus-spire](locations/the-nexus-spire.md) |
 | The Scrapyard Settlement | Neighborhood |  | [the-scrapyard-settlement](locations/the-scrapyard-settlement.md) |
 | The Undercity | Location | the-undercity | [the-undercity](locations/the-undercity.md) |

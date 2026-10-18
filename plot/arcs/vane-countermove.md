@@ -62,6 +62,7 @@ What changes because of this arc.
 | 22 | Vane's seeker drone perimeter is compromised when a node drone is destroyed in the Undercity, forcing her to deploy heavy sentries to the disturbance. | 2 | chapter-91 | drafted | |
 
 | 23 | Vane's heavy sentries lose track of Elias in the maze of maintenance shafts. | 2 | chapter-92 | drafted | |
+| 24 | Vane's forces completely lose Elias's signal as he drops off the tracking grid. | 2 | chapter-93 | drafted | |
 
 ## Foreshadowing
 

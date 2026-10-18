@@ -1,28 +1,28 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 92
+current-chapter: 93
 character-state:
 - character: director-vane
   location: the-undercity
   physical: Uninjured, furious
   emotional: Enraged
 - character: elias-thorne
-  location: the-undercity
+  location: the-forgotten-depths
   physical: Exhausted
   emotional: Determined
 - character: kaelen
-  location: the-undercity
+  location: the-forgotten-depths
   physical: Escaping
   emotional: Defiant
 - character: jarek
-  location: the-undercity
+  location: the-forgotten-depths
   physical: Escaping
   emotional: Defiant
 object-state:
 - artifact: physical-drive-m-774-b
   owner: elias-thorne
-  location: the-undercity
+  location: the-forgotten-depths
   status: active
 - artifact: partial-batch-manifest
   owner: elias-thorne
@@ -907,11 +907,23 @@ Track facts that must carry forward between chapters. The CLI reads the
 `character-state`, `object-state`, and `knowledge-state` lists in the
 frontmatter above; the tables below are optional notes it does not read.
 
+- character: elias-thorne
+  fact: elias-opened-access-hatch
+  knows: Elias and the team pried open the old access hatch and descended into the forgotten depths.
+  learned-in: chapter-93
+- character: kaelen
+  fact: kaelen-opened-access-hatch
+  knows: Kaelen and the team pried open the old access hatch and descended into the forgotten depths.
+  learned-in: chapter-93
+- character: jarek
+  fact: jarek-opened-access-hatch
+  knows: Jarek and the team pried open the old access hatch and descended into the forgotten depths.
+  learned-in: chapter-93
 ## Character State
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | the-undercity | Exhausted | Determined | Found an old access hatch, trapped |
-| kaelen | the-undercity | Escaping | Defiant | Found an old access hatch |
-| jarek | the-undercity | Escaping | Defiant | Trapped in maintenance shaft |
+| elias-thorne | the-forgotten-depths | Exhausted | Determined | Opened the old access hatch, descended |
+| kaelen | the-forgotten-depths | Escaping | Defiant | Opened the old access hatch, descended |
+| jarek | the-forgotten-depths | Escaping | Defiant | Descended through the old access hatch |
 | director-vane | the-undercity | Uninjured, furious | Enraged | Lost track of Elias, continuing hunt |
