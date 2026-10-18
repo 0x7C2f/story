@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 102
+current-chapter: 103
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -949,6 +949,23 @@ knowledge-state:
   fact: vane-ordered-retreat
   knows: Vane witnessed the synchronization failure and ordered all remaining units to abandon the staging ground and rally at the Spire.
   learned-in: chapter-101
+- character: elias-thorne
+  fact: elias-plans-trunk-sever
+  knows: Elias plans to physically sever the Spire's data trunks to stop the system wipe.
+  learned-in: chapter-103
+- character: kaelen
+  fact: kaelen-knows-trunk-plan
+  knows: Kaelen knows they must assault the Sector Four black site to sever the data trunks.
+  learned-in: chapter-103
+- character: jarek
+  fact: jarek-agrees-trunk-plan
+  knows: Jarek agrees to the suicide run to cut the city off from the Spire.
+  learned-in: chapter-103
+- character: director-vane
+  fact: vane-executing-wipe
+  knows: Vane is executing the final contingency, a complete system wipe across all lower sectors.
+  learned-in: chapter-103
+
 ---
 
 # Continuity State
@@ -1047,7 +1064,7 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | the-undercity | Wounded but stable | Determined | Knows Vane is preparing a massive retaliation |
-| kaelen | the-undercity | Uninjured | Vigilant | Monitoring network feeds |
-| jarek | the-undercity | Uninjured | Cautious | Securing the perimeter |
-| director-vane | the-nexus-spire | Uninjured | Ruthless | Ordering the final contingency |
+| elias-thorne | the-undercity | Wounded but stable | Determined | Plans to physically sever the Spire's data trunks |
+| kaelen | the-undercity | Uninjured | Vigilant | Knows they must sever the data trunks |
+| jarek | the-undercity | Uninjured | Cautious | Agrees to the suicide run to sever the data trunks |
+| director-vane | the-nexus-spire | Uninjured | Ruthless | Executing the final contingency wipe |

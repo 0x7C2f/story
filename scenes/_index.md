@@ -138,6 +138,7 @@ story: the-memory-archivist
 | chapter-101 | 2 | Vane's Retreat | director-vane | draft | [chapter-101-scene-02](chapter-101-scene-02.md) |
 | chapter-102 | 1 | The Regrouping | elias-thorne | draft | [chapter-102-scene-01](chapter-102-scene-01.md) |
 | chapter-102 | 2 | Vane's Arrival | director-vane | draft | [chapter-102-scene-02](chapter-102-scene-02.md) |
+| chapter-103 | 1 | The Wipe Alert | elias-thorne | draft | [chapter-103-scene-01](chapter-103-scene-01.md) |
 
 ## Purpose
 
