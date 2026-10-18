@@ -136,6 +136,8 @@ story: the-memory-archivist
 | chapter-100 | 1 | The Enforcers Breach | elias-thorne | draft | [chapter-100-scene-01](chapter-100-scene-01.md) |
 | chapter-101 | 1 | The Aftermath | elias-thorne | draft | [chapter-101-scene-01](chapter-101-scene-01.md) |
 | chapter-101 | 2 | Vane's Retreat | director-vane | draft | [chapter-101-scene-02](chapter-101-scene-02.md) |
+| chapter-102 | 1 | The Regrouping | elias-thorne | draft | [chapter-102-scene-01](chapter-102-scene-01.md) |
+| chapter-102 | 2 | Vane's Arrival | director-vane | draft | [chapter-102-scene-02](chapter-102-scene-02.md) |
 
 ## Purpose
 
