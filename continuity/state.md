@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 108
+current-chapter: 109
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -1032,6 +1032,14 @@ knowledge-state:
   fact: vane-deployed-sweeps
   knows: Vane deployed analogue sweep teams manually into the Undercity.
   learned-in: chapter-108
+- character: director-vane
+  fact: vane-breaching-bunker
+  knows: Vane's sweep teams located the bunker and initiated a breach.
+  learned-in: chapter-109
+- character: elias-thorne
+  fact: elias-found-bunker-terminal
+  knows: Elias discovered an old terminal in the bunker that revealed the sweep patterns.
+  learned-in: chapter-109
 ---
 
 # Continuity State

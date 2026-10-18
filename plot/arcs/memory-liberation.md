@@ -83,6 +83,7 @@ What changes because of this arc.
 | 37 | Elias successfully severs the primary data trunks in the subterranean vault, stopping the purge protocol but trapping his team inside. | 3 | chapter-106 | draft | |
 | 38 | Elias, Kaelen, and Jarek escape the sealed vault via a maintenance shaft and descend into the Undercity to witness the severed connection. | 3 | chapter-107 | draft | |
 | 39 | Elias, Kaelen, and Jarek navigate the lightless Undercity and discover an old pre-Committee bunker. | 3 | chapter-108 | draft | |
+| 40 | Elias discovers an isolated terminal in the bunker, granting him a glimpse of Vane's sweep patterns just as the enforcers breach the outer perimeter. | 3 | chapter-109 | draft | |
 
 ## Foreshadowing
 
