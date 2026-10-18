@@ -1,22 +1,22 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 107
+current-chapter: 108
 character-state:
 - character: director-vane
   location: the-nexus-spire
   physical: Uninjured
   emotional: Furious
 - character: elias-thorne
-  location: the-nexus-spire
+  location: the-undercity
   physical: Injured
   emotional: Determined
 - character: kaelen
-  location: the-nexus-spire
+  location: the-undercity
   physical: Tense
   emotional: Cautious
 - character: jarek
-  location: the-nexus-spire
+  location: the-undercity
   physical: Tense
   emotional: Grim
 object-state:
@@ -1016,6 +1016,22 @@ knowledge-state:
   knows: Vane realized she is blind to the lower sectors and must rely on manual sweeps.
   learned-in: chapter-107
 
+- character: elias-thorne
+  fact: elias-found-bunker
+  knows: Elias found a pre-Committee civil defense bunker in the lightless Undercity.
+  learned-in: chapter-108
+- character: kaelen
+  fact: kaelen-found-bunker
+  knows: Kaelen is with Elias in the pre-Committee civil defense bunker in the lightless Undercity.
+  learned-in: chapter-108
+- character: jarek
+  fact: jarek-found-bunker
+  knows: Jarek is with Elias in the pre-Committee civil defense bunker in the lightless Undercity.
+  learned-in: chapter-108
+- character: director-vane
+  fact: vane-deployed-sweeps
+  knows: Vane deployed analogue sweep teams manually into the Undercity.
+  learned-in: chapter-108
 ---
 
 # Continuity State
@@ -1118,6 +1134,23 @@ frontmatter above; the tables below are optional notes it does not read.
   fact: vane-blind-to-undercity
   knows: Vane realized she is blind to the lower sectors and must rely on manual sweeps.
   learned-in: chapter-107
+
+- character: elias-thorne
+  fact: elias-found-bunker
+  knows: Elias found a pre-Committee civil defense bunker in the lightless Undercity.
+  learned-in: chapter-108
+- character: kaelen
+  fact: kaelen-found-bunker
+  knows: Kaelen is with Elias in the pre-Committee civil defense bunker in the lightless Undercity.
+  learned-in: chapter-108
+- character: jarek
+  fact: jarek-found-bunker
+  knows: Jarek is with Elias in the pre-Committee civil defense bunker in the lightless Undercity.
+  learned-in: chapter-108
+- character: director-vane
+  fact: vane-deployed-sweeps
+  knows: Vane deployed analogue sweep teams manually into the Undercity.
+  learned-in: chapter-108
 
 ## Character State
 

@@ -1,5 +1,13 @@
 # Changelog
 
+## [2026-10-18] - gemini-2.5-pro-exp-02-05
+
+- **Drafted Chapter 108:** Elias, Kaelen, and Jarek discover a pre-Committee civil defense bunker in the lightless Undercity after escaping the vault.
+- **Advanced Plot Arcs:**
+  - `memory-liberation`: Elias's team navigated the Undercity and found the bunker.
+  - `vane-countermove`: Director Vane deployed analogue sweep teams without network support.
+- **Updated Continuity:** Synchronized character locations, knowledge, and chapter tracking in `continuity/state.md`.
+
 ## [2026-10-18] - Agent Run
 - Model: Jules
 - Action: Draft Chapter 107
