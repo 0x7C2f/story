@@ -61,6 +61,8 @@ What changes because of this arc.
 | 21 | Vane deploys seeker drones to scan the Undercity and establish a perimeter around Elias's position. | 2 | chapter-90 | drafted | |
 | 22 | Vane's seeker drone perimeter is compromised when a node drone is destroyed in the Undercity, forcing her to deploy heavy sentries to the disturbance. | 2 | chapter-91 | drafted | |
 
+| 23 | Vane's heavy sentries lose track of Elias in the maze of maintenance shafts. | 2 | chapter-92 | drafted | |
+
 ## Foreshadowing
 
 | Planted | Payoff | Chapter Planted | Chapter Payoff | Status |
