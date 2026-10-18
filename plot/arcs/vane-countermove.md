@@ -64,7 +64,8 @@ What changes because of this arc.
 | 23 | Vane's heavy sentries lose track of Elias in the maze of maintenance shafts. | 2 | chapter-92 | drafted | |
 | 24 | Vane's forces completely lose Elias's signal as he drops off the tracking grid. | 2 | chapter-93 | drafted | |
 | 25 | Vane's enforcers begin a manual sweep of the upper access shafts, their activity echoing down into the depths. | 2 | chapter-94 | drafted | |
-| 26 | Vane's forces continue their manual sweeps, completely unaware of the ancient transit tunnel. | 2 | chapter-95 | draft | |
+| 26 | Vane's forces continue their manual sweeps, completely unaware of the ancient transit tunnel. | 2 | chapter-95 | drafted | |
+| 27 | Vane remains blind to Elias's movements as he uses the isolated mag-lev train to bypass her perimeter. | 2 | chapter-96 | draft | |
 
 ## Foreshadowing
 

@@ -1,6 +1,12 @@
 # Changelog
 
 ## [2026-10-18] - Agent Run
+- Model: gemini-2.5-pro
+- Action: Drafted Chapter 96 and Scene 96-01
+- Summary: Elias manages to start the ancient mag-lev train, breaking the rusted locks with a magnetic pulse and escaping the flooding tunnels.
+- Next Run Suggestion: Draft chapter 97, detailing their arrival at the maintenance hub beneath Sector Six and encountering Vane's forces.
+
+## [2026-10-18] - Agent Run
 - **Model:** Jules
 - **Action:** Drafted Chapter 91
 - **Summary:** Wrote Chapter 91 where Elias, Kaelen, and Jarek set up an ambush in a collapsed transit hub to destroy one of Vane's seeker drones, successfully breaking the drone net she was weaving around them in the Undercity. Updated plot arcs and continuity state.
