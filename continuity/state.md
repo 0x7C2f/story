@@ -1,15 +1,15 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 98
+current-chapter: 99
 character-state:
 - character: director-vane
   location: sector-six-staging-ground
   physical: Uninjured
-  emotional: Calculating
+  emotional: Furious
 - character: elias-thorne
   location: sector-six-staging-ground
-  physical: Exhausted
+  physical: Injured
   emotional: Determined
 - character: kaelen
   location: sector-six-staging-ground
@@ -986,11 +986,20 @@ frontmatter above; the tables below are optional notes it does not read.
   knows: Director Vane detected a massive data spike originating from the central distribution hub's local security protocols.
   learned-in: chapter-98
 
+- character: elias-thorne
+  fact: elias-started-broadcast
+  knows: Elias successfully connected the uncorrupted history drive to the central distribution hub and initiated the counter-broadcast.
+  learned-in: chapter-99
+- character: director-vane
+  fact: vane-located-broadcast
+  knows: Director Vane pinpointed the exact location of the counter-broadcast originating from the central distribution hub.
+  learned-in: chapter-99
+
 ## Character State
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | sector-six-staging-ground | Exhausted | Determined | Planning assault on the hub |
+| elias-thorne | sector-six-staging-ground | Injured | Determined | Initiated the counter-broadcast |
 | kaelen | sector-six-staging-ground | Tense | Cautious | Saw the fortified staging ground |
 | jarek | sector-six-staging-ground | Tense | Grim | Saw the fortified staging ground |
-| director-vane | sector-six-staging-ground | Uninjured | Calculating | Fortifying the staging ground |
+| director-vane | sector-six-staging-ground | Uninjured | Furious | Pinpointed the counter-broadcast |
