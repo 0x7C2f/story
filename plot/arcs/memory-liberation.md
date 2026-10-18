@@ -76,8 +76,10 @@ What changes because of this arc.
 | 33 | Elias and the team retreat to an Undercity safehouse to treat his injuries and watch the mesh network react to the uncorrupted history. | 3 | chapter-102 | draft | |
 | 34 | Elias, monitoring the feeds, realizes Vane has initiated the final protocol—a complete system wipe—and resolves to physically sever the Spire's connection to the lower sectors. | 3 | chapter-103 | draft | |
 
-| 35 | Elias and the team breach the subterranean vault housing the Spire's data trunks using a breaching charge. | 3 | chapter-104 | draft | |
+| 35 | Elias and the team breach the subterranean vault housing the Spire's data trunks using a breaching charge. | 3 | chapter-104 | drafted | |
 
+
+| 36 | Elias, Kaelen, and Jarek fight the heavy sentries in the subterranean vault to prevent the purge protocol and find an escape route. | 3 | chapter-105 | draft | |
 ## Foreshadowing
 
 | Planted | Payoff | Chapter Planted | Chapter Payoff | Status |

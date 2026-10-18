@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 104
+current-chapter: 105
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -37,6 +37,22 @@ object-state:
   location: new-providence-outskirts
   status: destroyed
 knowledge-state:
+- character: elias-thorne
+  fact: elias-facing-sentries-in-vault
+  knows: Elias disconnected from the console as heavy sentries entered the subterranean vault.
+  learned-in: chapter-105
+- character: kaelen
+  fact: kaelen-timed-vault-lockdown
+  knows: Kaelen estimated ninety seconds before the upper blast doors sealed them in.
+  learned-in: chapter-105
+- character: jarek
+  fact: jarek-engaged-vault-sentries
+  knows: Jarek prepared to engage the heavy sentry units dropping into the vault.
+  learned-in: chapter-105
+- character: director-vane
+  fact: vane-ordered-vault-purge
+  knows: Vane ordered her sentries to execute purge protocol and protect the primary trunks.
+  learned-in: chapter-105
 - character: elias-thorne
   fact: elias-witnessed-city-awakening
   knows: Elias saw the citizens of New Providence rebelling against the Committee after the broadcast.

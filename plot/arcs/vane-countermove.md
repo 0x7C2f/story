@@ -75,8 +75,10 @@ What changes because of this arc.
 | 33 | Vane regroups at the Nexus Spire and begins preparations for a massive, final sweep to erase the counter-broadcast. | 3 | chapter-102 | draft | |
 | 34 | Vane isolates the Spire's core network and authorizes the final contingency: a complete system wipe across all lower sectors to induce mass cognitive failure. | 3 | chapter-103 | draft | |
 
-| 35 | Vane detects the breach in the subterranean vault and deploys heavy sentries to terminate Elias. | 3 | chapter-104 | draft | |
+| 35 | Vane detects the breach in the subterranean vault and deploys heavy sentries to terminate Elias. | 3 | chapter-104 | drafted | |
 
+
+| 36 | Vane oversees the deployment of heavy sentries in the subterranean vault and executes the purge protocol. | 3 | chapter-105 | draft | |
 ## Foreshadowing
 
 | Planted | Payoff | Chapter Planted | Chapter Payoff | Status |
