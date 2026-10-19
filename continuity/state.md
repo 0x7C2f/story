@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 112
+current-chapter: 113
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -1049,6 +1049,19 @@ knowledge-state:
   knows: Elias successfully initiated the network override, forcing the uncorrupted history into the mesh despite the bunker breach.
   learned-in: chapter-111
 
+- character: elias-thorne
+  fact: elias-witnessed-liberation
+  knows: Elias witnessed the citizens of Sector Five reacting to the uncorrupted history.
+  learned-in: chapter-113
+- character: kaelen
+  fact: kaelen-verified-broadcast
+  knows: Kaelen verified that the decentralized broadcast was holding strong.
+  learned-in: chapter-113
+- character: jarek
+  fact: jarek-warned-of-loyalists
+  knows: Jarek warned that Vane still has loyalists and the fight might not be entirely over.
+  learned-in: chapter-113
+
 ---
 
 # Continuity State
@@ -1183,7 +1196,7 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | the-undercity | Exhausted | Relieved | Escaped the Committee forces as the network shattered |
-| kaelen | the-undercity | Uninjured | Cautious | Escaped into the deeper Undercity |
-| jarek | the-undercity | Uninjured | Determined | Escaped the bunker during the enforcer confusion |
-| director-vane | the-nexus-spire | Uninjured | Defeated | Lost control of the mesh as her feed shattered |
+| elias-thorne | the-undercity | Exhausted | Hopeful | Witnessed the successful memory liberation |
+| kaelen | the-undercity | Uninjured | Relieved | Confirmed the broadcast is unstoppable |
+| jarek | the-undercity | Uninjured | Wary | Knows Vane's loyalists still exist |
+| director-vane | the-nexus-spire | Uninjured | Defeated | Lost control of the city's narrative |
