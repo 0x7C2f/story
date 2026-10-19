@@ -86,6 +86,7 @@ What changes because of this arc.
 | 40 | Elias discovers an isolated terminal in the bunker, granting him a glimpse of Vane's sweep patterns just as the enforcers breach the outer perimeter. | 3 | chapter-109 | draft | |
 
 | 41 | Elias initiates the network override, forcing the uncorrupted history into the mesh. | 3 | chapter-111 | draft | |
+| 42 | The uncorrupted history floods the mesh, shattering the Committee\'s grip on the citizens and allowing Elias\'s team to escape in the chaos. | 3 | chapter-112 | draft | |
 
 ## Foreshadowing
 

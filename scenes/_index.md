@@ -150,6 +150,7 @@ story: the-memory-archivist
 | chapter-111 | 1 | The Overwrite Push | elias-thorne | draft | [chapter-111-scene-01](chapter-111-scene-01.md) |
 | chapter-111 | 2 | The Committee Breach |  | outline | [chapter-111-scene-02](chapter-111-scene-02.md) |
 | chapter-111 | 3 | Network Override |  | outline | [chapter-111-scene-03](chapter-111-scene-03.md) |
+| chapter-112 | 1 | The System Shatters | elias-thorne | draft | [chapter-112-scene-01](chapter-112-scene-01.md) |
 
 ## Purpose
 
