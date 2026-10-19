@@ -82,10 +82,12 @@ What changes because of this arc.
 | 37 | Vane watches as the primary data trunks are severed, halting the system wipe and blinding her to the lower sectors, but she seals the blast doors to trap Elias's team. | 3 | chapter-106 | draft | |
 | 38 | Vane realizes she is completely blind to the lower sectors and must rely on manual sweeps to find Elias. | 3 | chapter-107 | draft | |
 | 39 | Vane deploys analogue sweep teams into the Undercity, operating without network support. | 3 | chapter-108 | draft | |
-| 40 | Vane's analogue sweep teams locate the bunker in the Undercity and begin breaching the reinforced doors. | 3 | chapter-109 | draft | |
+| 40 | Vane's analogue sweep teams locate the bunker in the Undercity and begin breaching the reinforced doors. | 3 | chapter-109 | drafted | |
 
-| 41 | Vane's enforcers breach the bunker just as Elias launches the override sequence. | 3 | chapter-111 | draft | |
-| 42 | Vane watches her control crumble as the synchronization feed shatters, forcing her remaining enforcers to retreat amidst the systemic failure. | 3 | chapter-112 | draft | |
+| 41 | Vane's enforcers breach the bunker just as Elias launches the override sequence. | 3 | chapter-111 | drafted | |
+| 42 | Vane watches her control crumble as the synchronization feed shatters, forcing her remaining enforcers to retreat amidst the systemic failure. | 3 | chapter-112 | drafted | |
+
+| 43 | Vane's loyalists are scattered, and she loses her grip on the city's narrative as the truth spreads unstoppably. | 3 | chapter-113 | drafted | |
 
 ## Foreshadowing
 
