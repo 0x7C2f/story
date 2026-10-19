@@ -3,6 +3,13 @@
 ## [2026-10-19] - Agent Run
 
 - Model: Jules
+- Action: Acknowledged AGENTS.md charter and verified project gates.
+- Summary: Confirmed adherence to project rules and guidelines, and verified that the project passes all integrity checks.
+- Next Run: Story is complete.
+
+## [2026-10-19] - Agent Run
+
+- Model: Jules
 - Action: Drafted Chapter 114, resolving the memory-liberation and vane-countermove arcs, and updated story status to complete.
 - Summary: The story has reached its conclusion with Director Vane's realization that the Committee's control over the city has crumbled, and the uncorrupted history broadcast by the resistance has been successful.
 - Next Run: The story is complete.
