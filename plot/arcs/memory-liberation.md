@@ -85,6 +85,8 @@ What changes because of this arc.
 | 39 | Elias, Kaelen, and Jarek navigate the lightless Undercity and discover an old pre-Committee bunker. | 3 | chapter-108 | draft | |
 | 40 | Elias discovers an isolated terminal in the bunker, granting him a glimpse of Vane's sweep patterns just as the enforcers breach the outer perimeter. | 3 | chapter-109 | draft | |
 
+| 41 | Elias initiates the network override, forcing the uncorrupted history into the mesh. | 3 | chapter-111 | draft | |
+
 ## Foreshadowing
 
 | Planted | Payoff | Chapter Planted | Chapter Payoff | Status |

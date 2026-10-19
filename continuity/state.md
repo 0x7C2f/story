@@ -1040,6 +1040,15 @@ knowledge-state:
   fact: elias-found-bunker-terminal
   knows: Elias discovered an old terminal in the bunker that revealed the sweep patterns.
   learned-in: chapter-109
+- character: director-vane
+  fact: vane-bunker-breach
+  knows: Vane's sweep teams successfully breached the bunker in the Undercity.
+  learned-in: chapter-111
+- character: elias-thorne
+  fact: elias-network-override
+  knows: Elias successfully initiated the network override, forcing the uncorrupted history into the mesh despite the bunker breach.
+  learned-in: chapter-111
+
 ---
 
 # Continuity State
@@ -1159,6 +1168,16 @@ frontmatter above; the tables below are optional notes it does not read.
   fact: vane-deployed-sweeps
   knows: Vane deployed analogue sweep teams manually into the Undercity.
   learned-in: chapter-108
+
+- character: director-vane
+  fact: vane-bunker-breach
+  knows: Vane's sweep teams successfully breached the bunker in the Undercity.
+  learned-in: chapter-111
+
+- character: elias-thorne
+  fact: elias-network-override
+  knows: Elias successfully initiated the network override, forcing the uncorrupted history into the mesh despite the bunker breach.
+  learned-in: chapter-111
 
 ## Character State
 
