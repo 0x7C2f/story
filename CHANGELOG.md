@@ -1,5 +1,9 @@
 # Changelog
 
+## [2026-10-19] - Agent Run (gemini-2.5-pro)
+- Fixed AI slop in Chapter 114 by rephrasing the sentence with the action-list tic.
+- Ran strict validation gates and updated word count index.
+
 ## [2026-10-19] - Agent Run
 
 - Model: Jules

@@ -15,7 +15,7 @@ status: draft
 mode: ""
 date: ""
 time: ""
-word-count: 423
+word-count: 427
 ---
 
 # Chapter 114: The Architect's Fall
@@ -50,6 +50,6 @@ She closed her eyes, the afterimage of the blazing city etched into her retinas.
 
 For decades, she had believed that history was a volatile element, something that needed to be refined and shaped to ensure order. Now, the raw, unfiltered truth was pouring through the streets, and order was dying.
 
-Vane turned away from the window. The control room, once the absolute center of power in the city, now felt like a tomb. She walked to the private elevator at the rear of the chamber, her footsteps echoing sharply. She wouldn't wait for the mob to breach the Spire. The Committee was dead, but she was not.
+Vane turned away from the window. The control room, once the absolute center of power in the city, now felt like a tomb. Moving toward the private elevator at the rear of the chamber, she let her footsteps echo sharply in the empty space. Waiting for the mob to breach the Spire was pointless. The Committee was dead, yet she remained.
 
 She keyed a sequence into the elevator console, initiating a descent to a sub-basement egress route known only to her. As the doors slid shut, sealing away the panoramic view of her falling city, Director Vane began to calculate the odds of survival in the new world Elias Thorne had created.
