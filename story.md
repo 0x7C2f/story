@@ -5,7 +5,7 @@ subtype: drafting
 genre: science-fiction
 sub-genre: mystery
 setting-era: near-future
-status: planning
+status: complete
 themes:
   - change
   - memory

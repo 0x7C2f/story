@@ -1,7 +1,7 @@
 ---
 name: The Memory Liberation
 type: subplot
-status: planned
+status: resolved
 characters: []
 themes:
 - memory
@@ -89,6 +89,7 @@ What changes because of this arc.
 | 42 | The uncorrupted history floods the mesh, shattering the Committee\'s grip on the citizens and allowing Elias\'s team to escape in the chaos. | 3 | chapter-112 | drafted | |
 
 | 43 | Elias and his team emerge from the Undercity to witness the citizens absorbing the uncorrupted history, marking the beginning of a new era. | 3 | chapter-113 | drafted | |
+| 44 | Vane abandons the control room. The arc reaches its absolute conclusion | 3 | chapter-114 | drafted | |
 
 ## Foreshadowing
 

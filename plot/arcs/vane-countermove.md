@@ -1,7 +1,7 @@
 ---
 name: Director Vane Countermove
 type: subplot
-status: planned
+status: resolved
 characters: []
 themes:
 - truth
@@ -88,6 +88,7 @@ What changes because of this arc.
 | 42 | Vane watches her control crumble as the synchronization feed shatters, forcing her remaining enforcers to retreat amidst the systemic failure. | 3 | chapter-112 | drafted | |
 
 | 43 | Vane's loyalists are scattered, and she loses her grip on the city's narrative as the truth spreads unstoppably. | 3 | chapter-113 | drafted | |
+| 44 | Vane abandons the control room and resolves to survive. | 3 | chapter-114 | drafted | |
 
 ## Foreshadowing
 
