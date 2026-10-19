@@ -30,4 +30,4 @@ Crowds of workers had gathered around public terminals, their faces illuminated 
 
 Jarek crossed his arms, his gaze sweeping over the awestruck populace. "The director will not go quietly. She still commands loyalists."
 
-"But she has lost the narrative," Elias replied, a tired smile touching his lips. "The truth is out there. We have given them back their past. Now, they must decide their future." He looked at his companions, the weight of their journey settling upon him. The memory liberation was complete, but the hard work of rebuilding a fractured society was just beginning.
+"But she has lost the narrative," Elias replied, a tired smile touching his lips. "The truth is out there. We have given them back their past. Now, they must decide their future." He looked at his companions, the weight of their journey settling upon him. The extraction was finished. The real task of assembling a new civilization started now.
