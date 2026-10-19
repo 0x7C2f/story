@@ -1,5 +1,12 @@
 # Changelog
 
+## [2026-10-19] - Agent Run
+
+- Model: Jules
+- Action: Drafted remaining scenes for Chapter 111
+- Summary: Added scenes for the Committee breach and the final network override in Chapter 111. Updated plot arcs and continuity state to reflect the events. Fixed prose and schema errors.
+- Next Run: Continue to the resolution of the story following the network override.
+
 ## [2026-10-18] - Agent Run
 
 - Model: Jules
