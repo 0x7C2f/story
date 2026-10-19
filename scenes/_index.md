@@ -152,6 +152,7 @@ story: the-memory-archivist
 | chapter-111 | 3 | Network Override |  | outline | [chapter-111-scene-03](chapter-111-scene-03.md) |
 | chapter-112 | 1 | The System Shatters | elias-thorne | draft | [chapter-112-scene-01](chapter-112-scene-01.md) |
 | chapter-113 | 1 | Emergence | elias-thorne | final | [chapter-113-scene-01](chapter-113-scene-01.md) |
+| chapter-114 | 1 | Vane's Counterattack | director-vane | draft | [chapter-114-scene-01](chapter-114-scene-01.md) |
 
 ## Purpose
 
