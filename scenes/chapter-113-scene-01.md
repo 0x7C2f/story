@@ -1,7 +1,7 @@
 ---
 title: Emergence
 scene: 1
-status: draft
+status: final
 chapter: chapter-113
 pov: elias-thorne
 location: the-undercity
@@ -14,15 +14,15 @@ mentions:
 date: ""
 time: ""
 state-changes: []
-word-count: 0
+word-count: 296
 ---
 # Emergence
 
 The heavy steel doors groaned as Elias shoved them aside, stepping out from the subterranean bunker into the dim artificial light of the upper tunnels. Kaelen followed closely, her expression tight but carrying a newfound glimmer of hope. Jarek brought up the rear, his massive shoulders relaxing for the first time in cycles.
 
-They navigated the familiar labyrinthine corridors, ascending toward Sector Five. The air grew less stale, tinged with the scent of ozone and the distant hum of machinery. As they reached the primary concourse, a profound silence greeted them. It wasn't the silence of oppression, but of collective shock.
+They moved through the familiar labyrinthine corridors, ascending toward Sector Five. The air grew less stale, tinged with the scent of ozone and the distant hum of machinery. As they reached the primary concourse, a heavy silence met them. It wasn't the stillness of oppression, but of collective shock.
 
-Crowds of workers had gathered around public terminals, their faces illuminated by the stark truth of the uncorrupted history scrolling across the screens. The Committee's fabricated reality was peeling away. Vane's control was broken.
+Crowds of workers had gathered around public terminals, their faces lit by the raw truth of the uncorrupted history scrolling across the screens. The Committee's fabricated reality was peeling away. Vane's control was broken.
 
 "It worked," Elias breathed, leaning heavily against a support pillar. He watched a young woman weep as she recognized a lost memory of her family.
 
