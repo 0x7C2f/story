@@ -85,6 +85,7 @@ What changes because of this arc.
 | 40 | Vane's analogue sweep teams locate the bunker in the Undercity and begin breaching the reinforced doors. | 3 | chapter-109 | draft | |
 
 | 41 | Vane's enforcers breach the bunker just as Elias launches the override sequence. | 3 | chapter-111 | draft | |
+| 42 | Vane watches her control crumble as the synchronization feed shatters, forcing her remaining enforcers to retreat amidst the systemic failure. | 3 | chapter-112 | draft | |
 
 ## Foreshadowing
 

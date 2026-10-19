@@ -1,24 +1,24 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 111
+current-chapter: 112
 character-state:
 - character: director-vane
   location: the-nexus-spire
   physical: Uninjured
-  emotional: Furious
+  emotional: Defeated
 - character: elias-thorne
   location: the-undercity
-  physical: Injured
-  emotional: Determined
+  physical: Exhausted
+  emotional: Relieved
 - character: kaelen
   location: the-undercity
-  physical: Tense
+  physical: Uninjured
   emotional: Cautious
 - character: jarek
   location: the-undercity
-  physical: Tense
-  emotional: Grim
+  physical: Uninjured
+  emotional: Determined
 object-state:
 - artifact: physical-drive-m-774-b
   owner: elias-thorne
@@ -1183,7 +1183,7 @@ frontmatter above; the tables below are optional notes it does not read.
 
 | Character | Location | Physical State | Emotional State | Knowledge |
 |---|---|---|---|---|
-| elias-thorne | the-undercity | Exhausted | Resolute | Escaped the sealed vault and reached the Undercity |
-| kaelen | the-undercity | Uninjured | Alert | Escaped the vault into the Undercity |
-| jarek | the-undercity | Uninjured | Grim | Escaped the vault into the Undercity |
-| director-vane | the-nexus-spire | Uninjured | Cold | Blind to the lower sectors, organizing manual sweeps |
+| elias-thorne | the-undercity | Exhausted | Relieved | Escaped the Committee forces as the network shattered |
+| kaelen | the-undercity | Uninjured | Cautious | Escaped into the deeper Undercity |
+| jarek | the-undercity | Uninjured | Determined | Escaped the bunker during the enforcer confusion |
+| director-vane | the-nexus-spire | Uninjured | Defeated | Lost control of the mesh as her feed shattered |
