@@ -1,6 +1,11 @@
 # Changelog
 
 ## [2026-10-19] - Agent Run
+- Model: Jules
+  - Action: Acknowledged AGENTS.md charter.
+  - Summary: Confirmed adherence to project rules and guidelines.
+
+## [2026-10-19] - Agent Run
 
 - Model: Jules
 - Action: Drafted Chapter 112
