@@ -8,8 +8,6 @@ characters:
   - director-vane
 mentions:
   - elias-thorne
-  - kaelen
-  - jarek
 arcs-advanced:
   - memory-liberation
   - vane-countermove

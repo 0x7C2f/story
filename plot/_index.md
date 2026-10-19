@@ -14,8 +14,8 @@ structure: three-act
 
 | Name | Type | Status | File |
 |------|------|--------|------|
-| The Memory Liberation | subplot | planned | [memory-liberation](arcs/memory-liberation.md) |
-| Director Vane Countermove | subplot | planned | [vane-countermove](arcs/vane-countermove.md) |
+| The Memory Liberation | subplot | resolved | [memory-liberation](arcs/memory-liberation.md) |
+| Director Vane Countermove | subplot | resolved | [vane-countermove](arcs/vane-countermove.md) |
 
 ## Theme Tracking
 
