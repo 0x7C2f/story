@@ -121,6 +121,6 @@ story: the-memory-archivist
 | 110 | The Great Memory Liberation | elias-thorne | draft | 183 | [chapter-110](chapter-110.md) |
 | 111 | The Final Strike | elias-thorne | draft | 579 | [chapter-111](chapter-111.md) |
 | 112 | The Dawn of Truth | elias-thorne | draft | 316 | [chapter-112](chapter-112.md) |
-| 113 | The New Dawn | elias-thorne | draft | 9 | [chapter-113](chapter-113.md) |
+| 113 | The New Dawn | elias-thorne | final | 262 | [chapter-113](chapter-113.md) |
 
-## Total Word Count: 56750
+## Total Word Count: 57003
