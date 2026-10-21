@@ -13,6 +13,7 @@ import sys
 import os
 from pathlib import Path
 import yaml
+import concurrent.futures
 
 ROOT = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else Path.cwd()
 
@@ -56,34 +57,48 @@ def expected_keys(path: Path) -> set[str] | None:
     return None
 
 
+
+def process_file(path: Path) -> tuple[bool, list[str]]:
+    keys_required = expected_keys(path)
+    if keys_required is None:
+        return False, []
+
+    rel = path.relative_to(ROOT)
+    try:
+        actual = frontmatter_keys(path)
+    except Exception as exc:
+        return True, [str(exc)]
+
+    if actual is None:
+        return True, [f"{rel}: missing YAML frontmatter"]
+
+    missing = keys_required - actual
+    if missing:
+        return True, [f"{rel}: missing frontmatter keys: {sorted(missing)}"]
+
+    return True, []
+
+
 def main() -> int:
     failures: list[str] = []
-    checked = 0
+    paths_to_check = []
     for dirpath, dirnames, filenames in os.walk(ROOT):
         dirnames[:] = [d for d in dirnames if not d.startswith(".")]
         for filename in filenames:
             if not filename.endswith(".md") or filename.startswith("."):
                 continue
             path = Path(dirpath) / filename
-            rel = path.relative_to(ROOT)
-            # Registry/index files are generated; skip them.
             if path.name == "_index.md":
                 continue
-            keys_required = expected_keys(path)
-            if keys_required is None:
-                continue
-            checked += 1
-            try:
-                actual = frontmatter_keys(path)
-            except Exception as exc:  # pylint: disable=broad-except
-                failures.append(str(exc))
-                continue
-            if actual is None:
-                failures.append(f"{rel}: missing YAML frontmatter")
-                continue
-            missing = keys_required - actual
-            if missing:
-                failures.append(f"{rel}: missing frontmatter keys: {sorted(missing)}")
+            paths_to_check.append(path)
+
+    checked = 0
+    with concurrent.futures.ProcessPoolExecutor() as executor:
+        for was_checked, file_failures in executor.map(process_file, paths_to_check):
+            if was_checked:
+                checked += 1
+            failures.extend(file_failures)
+
     print(f"checked {checked} files")
     if failures:
         for failure in failures:
