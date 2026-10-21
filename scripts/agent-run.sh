@@ -9,12 +9,6 @@ is_tree_clean() {
   git diff --quiet && git diff --cached --quiet && [[ -z "$(git status --porcelain --untracked-files=all)" ]]
 }
 
-# Pause switch (AGENTS.md)
-if [[ -f agent/PAUSED ]]; then
-  echo "PAUSED: agent/PAUSED exists; exiting 0"
-  exit 0
-fi
-
 # Resume safety: never silently continue a dirty tree
 if ! is_tree_clean; then
   echo "DIRTY TREE: assess in-flight work manually before running"
