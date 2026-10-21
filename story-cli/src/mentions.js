@@ -163,7 +163,7 @@ export function findMentions(text, names) {
 // name's. Used by the continuity check and rename --prose; story mentions
 // lists every match. `uses` is wordUse(text), shared by every mention in
 // the text.
-export function ambiguousMention(text, mention, pack, uses = wordUse(text)) {
+function ambiguousMention(text, mention, pack, uses = wordUse(text)) {
   if (/\s/u.test(mention.text)) {
     return false;
   }
