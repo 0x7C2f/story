@@ -16,7 +16,7 @@ status: draft
 mode: ""
 date: ""
 time: ""
-word-count: 341
+word-count: 337
 ---
 
 # Chapter 115: The Fragile Peace
@@ -31,7 +31,7 @@ word-count: 341
 
 ## Chapter Text
 
-The bunker in the Undercity offered a quiet sanctuary, the heavy stone walls muffling the distant chaos of a city waking up to the truth. Elias sat on a rusted crate, staring at his deactivated rig. The small screen remained dark, a silent testament to the completion of their impossible task. He ran a hand over his face, feeling the grit and exhaustion ground into his skin.
+The bunker in the Undercity offered a quiet sanctuary, the heavy stone walls muffling the distant chaos of a city waking up to the truth. Elias sat on a rusted crate, staring at his deactivated rig. The small screen remained dark, silent evidence of the completion of their impossible task. He ran a hand over his face, feeling the grit and exhaustion ground into his skin.
 
 Across the small chamber, Kaelen was methodically cleaning her weapon, her movements precise and rhythmic. "The chatter on the mesh is overwhelming," she said, not looking up. "People are confused, angry, but... they are free. The Committee’s override is gone."
 
@@ -41,7 +41,7 @@ Elias looked up, meeting Jarek's gaze. "You are right. The Committee provided or
 
 "And nature abhors a vacuum," Kaelen added, slapping a magazine back into her rifle. "Someone will try to fill it. If we do not step up, a new tyrant will take Vane's place."
 
-Elias nodded slowly. The adrenaline of the past cycles had burned away, leaving a profound weariness, but also a stark clarity. The liberation was not an end, but a beginning. "We cannot stop now. We broke the system. It is our responsibility to help build something better in its place."
+Elias nodded slowly. The adrenaline of the past cycles had burned away, leaving a deep weariness, but also a stark clarity. The liberation marked a new beginning. "We cannot stop now. We broke the system. It is our responsibility to help build something better in its place."
 
 He stood up, his legs heavy but his resolve hardening. "We need to organize the local leaders in Sector Five. Set up distribution lines for rations. Establish a defense perimeter."
 

@@ -123,6 +123,6 @@ story: the-memory-archivist
 | 112 | The Dawn of Truth | elias-thorne | draft | 316 | [chapter-112](chapter-112.md) |
 | 113 | The New Dawn | elias-thorne | final | 262 | [chapter-113](chapter-113.md) |
 | 114 | The Architect's Fall | director-vane | draft | 427 | [chapter-114](chapter-114.md) |
-| 115 | The Fragile Peace | elias-thorne | draft | 341 | [chapter-115](chapter-115.md) |
+| 115 | The Fragile Peace | elias-thorne | draft | 337 | [chapter-115](chapter-115.md) |
 
-## Total Word Count: 57771
+## Total Word Count: 57767
