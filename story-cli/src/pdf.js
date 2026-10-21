@@ -226,9 +226,9 @@ const ENGINE_TIMEOUT_MS = 10 * 60 * 1000;
 // any character cmd.exe would still read inside quotes is refused.
 export function windowsScriptCommand(file, args, env) {
   const parts = [file, ...args];
-  const unsafe = parts.find((part) => /["%!\r\n]/.test(part));
+  const unsafe = parts.find((part) => /["%!\r\n&|<>;()^]/.test(part));
   if (unsafe !== undefined) {
-    throw refusedError(`Cannot run ${file} safely through cmd.exe: ${unsafe} contains a quote, %, or !. Give --pdf-engine an .exe instead`);
+    throw refusedError(`Cannot run ${file} safely through cmd.exe: ${unsafe} contains a quote, %, !, or shell metacharacter. Give --pdf-engine an .exe instead`);
   }
   return {
     command: envValue(env, "COMSPEC", "win32") || "cmd.exe",
