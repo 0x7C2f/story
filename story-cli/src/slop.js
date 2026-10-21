@@ -334,6 +334,22 @@ export function slopReport(root, options = {}) {
     lines: proseLines(fs.readFileSync(filePath, "utf8"), whitelist)
   }));
 
+  const precompiledWords = new Map(SLOP_WORDS.map(([name, source]) => [name, wordMatcher(source)]));
+  const precompiledPhrases = new Map(SLOP_PHRASES.map(phrase => [phrase, phraseMatcher(phrase)]));
+  const precompiledPatterns = new Map(SLOP_PATTERNS.map(pattern => [pattern.label, new RegExp(pattern.source, "gi")]));
+
+  const precompiledConstructionGuards = new Map(CONSTRUCTION_GUARDS.map(guard => [
+    guard.id,
+    guard.sources.map(source => new RegExp(source, "gi"))
+  ]));
+
+  const precompiledDensityTics = new Map(DENSITY_TICS.map(tic => [
+    tic.id,
+    tic.patterns.map(source => new RegExp(source, "gi"))
+  ]));
+
+  const precompiledMetaLeak = META_LEAK_GUARD.sources.map(source => new RegExp(source, "gi"));
+
   for (const { label, lines } of corpus) {
     const words = wordCount(lines);
     const found = new Map();
@@ -341,23 +357,21 @@ export function slopReport(root, options = {}) {
     const tail = prose.slice(-TAIL_WINDOW_LINES);
 
     for (const [name, source] of SLOP_WORDS) {
-      const matcher = wordMatcher(source);
+      const matcher = precompiledWords.get(name);
       for (const line of prose) {
         findingEntry(found, totals, "word", name, "advisory", "semantic", countMatches(matcher, line.text), line.number);
       }
     }
     for (const phrase of SLOP_PHRASES) {
-      const matcher = phraseMatcher(phrase);
+      const matcher = precompiledPhrases.get(phrase);
       for (const line of prose) {
         findingEntry(found, totals, "phrase", phrase, "advisory", "semantic", countMatches(matcher, line.text), line.number);
       }
     }
     for (const pattern of SLOP_PATTERNS) {
-      const matcher = new RegExp(pattern.source, "gi");
+      const matcher = precompiledPatterns.get(pattern.label);
       const hitsByLine = prose.map((line) => ({ number: line.number, hits: countMatches(matcher, line.text) }));
       const count = hitsByLine.reduce((sum, entry) => sum + entry.hits, 0);
-      // A rate threshold needs enough prose to mean anything; below it the
-      // pattern reports nothing rather than swinging on a short file.
       const over = count > 0 && (pattern.perThousand === 0 || ratePerThousand(count, words) > pattern.perThousand);
       if (!over) {
         continue;
@@ -367,16 +381,16 @@ export function slopReport(root, options = {}) {
       }
     }
 
-    // Construction tells: sentence-shaped, blocking or advisory per class.
     for (const guard of CONSTRUCTION_GUARDS) {
       const scope = guard.tailOnly ? tail : prose;
       let count = 0;
       let first = null;
+      const matchers = precompiledConstructionGuards.get(guard.id);
       for (const line of scope) {
         const text = guard.narrationOnly ? stripDialogue(line.text) : line.text;
         let hits = 0;
-        for (const source of guard.sources) {
-          hits += countMatches(new RegExp(source, "gi"), text);
+        for (const matcher of matchers) {
+          hits += countMatches(matcher, text);
         }
         count += hits;
         if (hits > 0 && first === null) {
@@ -386,16 +400,15 @@ export function slopReport(root, options = {}) {
       findingEntry(found, totals, "pattern", guard.id, guard.severity, guard.review, count, first);
     }
 
-    // Density tics: both the hit floor and the rate floor must pass, so one
-    // stock beat is normal prose and a cluster is a template.
     for (const tic of DENSITY_TICS) {
       let count = 0;
       let first = null;
+      const matchers = precompiledDensityTics.get(tic.id);
       for (const line of prose) {
         const text = tic.narrationOnly ? stripDialogue(line.text) : line.text;
         let hits = 0;
-        for (const source of tic.patterns) {
-          hits += countMatches(new RegExp(source, "gi"), text);
+        for (const matcher of matchers) {
+          hits += countMatches(matcher, text);
         }
         count += hits;
         if (hits > 0 && first === null) {
@@ -408,15 +421,14 @@ export function slopReport(root, options = {}) {
       }
     }
 
-    // Story-about-itself vocabulary: advisory from two hits.
     {
       let count = 0;
       let first = null;
       for (const line of prose) {
         const text = stripDialogue(line.text);
         let hits = 0;
-        for (const source of META_LEAK_GUARD.sources) {
-          hits += countMatches(new RegExp(source, "gi"), text);
+        for (const matcher of precompiledMetaLeak) {
+          hits += countMatches(matcher, text);
         }
         count += hits;
         if (hits > 0 && first === null) {
