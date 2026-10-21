@@ -68,16 +68,6 @@ export function happensAfter(chronology, later, earlier) {
   return chronology.compare(later, earlier) > 0;
 }
 
-// Whether chapter `earlier` happens at or before `later` in story time. In a
-// branching book two chapters on sibling branches are neither, so a change
-// on one branch stays off the other.
-export function happensAtOrBefore(chronology, earlier, later) {
-  if (chronology.numbers.has(later) && chronology.numbers.has(earlier) && chronology.atOrBefore) {
-    return chronology.atOrBefore(earlier, later);
-  }
-  return !happensAfter(chronology, earlier, later);
-}
-
 // A `progressions` list in story order (the chronology's `compare`), stable,
 // so entries from the same chapter keep their file order. Entries with no
 // known chapter keep their place relative to each other at the end. Used by
@@ -114,7 +104,18 @@ export function entityStateAt(data, atChapterId, chronology) {
   }
   const entries = (Array.isArray(data?.progressions) ? data.progressions : [])
     .map(progressionEntry)
-    .filter((entry) => entry !== null && !Number.isNaN(chapterPosition(chronology, entry.from)) && happensAtOrBefore(chronology, entry.from, atChapterId));
+    .filter((entry) => {
+      if (entry === null || Number.isNaN(chapterPosition(chronology, entry.from))) {
+        return false;
+      }
+      // Whether chapter `earlier` happens at or before `later` in story time. In a
+      // branching book two chapters on sibling branches are neither, so a change
+      // on one branch stays off the other.
+      if (chronology.numbers.has(atChapterId) && chronology.numbers.has(entry.from) && chronology.atOrBefore) {
+        return chronology.atOrBefore(entry.from, atChapterId);
+      }
+      return !happensAfter(chronology, entry.from, atChapterId);
+    });
   // Stable, so entries from the same chapter keep their file order.
   entries.sort((left, right) => chronology.compare(left.from, right.from));
   const changes = [];
