@@ -145,10 +145,11 @@ function continuityLoops(root) {
     const directory = path.join(root, "continuity", folder);
     const records = [];
     if (fs.existsSync(directory)) {
-      for (const entry of fs.readdirSync(directory, { withFileTypes: true }).sort((left, right) => left.name.localeCompare(right.name, undefined, { numeric: true }))) {
-        if (!entry.name.endsWith(".md") || entry.name === "_index.md" || entry.isSymbolicLink() || entry.name === "AGENTS.md") {
-          continue;
-        }
+      const validEntries = fs.readdirSync(directory, { withFileTypes: true })
+        .filter((entry) => entry.name.endsWith(".md") && entry.name !== "_index.md" && !entry.isSymbolicLink() && entry.name !== "AGENTS.md")
+        .sort((left, right) => left.name.localeCompare(right.name, undefined, { numeric: true }));
+
+      for (const entry of validEntries) {
         const { data } = parseFrontmatter(fs.readFileSync(path.join(directory, entry.name), "utf8"));
         records.push({ file: entry.name, status: data.status ?? "unset" });
       }
