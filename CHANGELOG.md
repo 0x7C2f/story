@@ -1,6 +1,12 @@
 # Changelog
 
 ## [2026-10-21] - Agent Run
+- Model: Gemini-2.5-Pro
+- Action: Drafted Chapter 115
+- Summary: Drafted Chapter 115 and updated continuity state to reflect the characters' acceptance of the new world.
+- Next Run: Draft Chapter 116 to explore the early challenges of rebuilding society.
+
+## [2026-10-21] - Agent Run
 
 - Model: Gemini-2.5-Pro
 - Action: Acknowledged AGENTS.md charter and verified project gates.

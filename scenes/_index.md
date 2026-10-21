@@ -153,6 +153,7 @@ story: the-memory-archivist
 | chapter-112 | 1 | The System Shatters | elias-thorne | draft | [chapter-112-scene-01](chapter-112-scene-01.md) |
 | chapter-113 | 1 | Emergence | elias-thorne | final | [chapter-113-scene-01](chapter-113-scene-01.md) |
 | chapter-114 | 1 | Vane's Counterattack | director-vane | draft | [chapter-114-scene-01](chapter-114-scene-01.md) |
+| chapter-115 | 1 | The New World | elias-thorne | draft | [chapter-115-scene-01](chapter-115-scene-01.md) |
 
 ## Purpose
 

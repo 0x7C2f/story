@@ -1,7 +1,7 @@
 ---
 type: continuity-state
 story: the-memory-archivist
-current-chapter: 114
+current-chapter: 115
 character-state:
 - character: director-vane
   location: the-nexus-spire
@@ -1061,6 +1061,19 @@ knowledge-state:
   fact: jarek-warned-of-loyalists
   knows: Jarek warned that Vane still has loyalists and the fight might not be entirely over.
   learned-in: chapter-113
+
+- character: elias-thorne
+  fact: elias-accepts-future
+  knows: Elias understands that the fight is over but the work of building a society without the Committee has just begun.
+  learned-in: chapter-115
+- character: kaelen
+  fact: kaelen-accepts-future
+  knows: Kaelen is ready to help Elias build a new future free of the Committee's lies.
+  learned-in: chapter-115
+- character: jarek
+  fact: jarek-accepts-future
+  knows: Jarek knows the physical dangers remain but is willing to defend the fragile new peace.
+  learned-in: chapter-115
 
 ---
 
