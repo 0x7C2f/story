@@ -270,9 +270,9 @@ export function isCopyrightMatter(entry) {
 // publishingMeta key that holds each. The ISBN prints as digits only.
 const COPYRIGHT_PAGE_FIELDS = [["copyright", "copyright"], ["publisher", "publisher"], ["ai-disclosure", "aiDisclosure"]];
 
-// Each of those fields with `[TODO` markers inside it, as { field, markers }.
+// Each of those fields with `[todo` markers inside it, as { field, markers }.
 // A value that is only a placeholder is left out of the page, but one that
-// holds a marker after other text (`© 2026 [TODO: author to supply]`)
+// holds a marker after other text (`© 2026 [todo: author to supply]`)
 // prints as written.
 export function copyrightPageTodos(meta) {
   return COPYRIGHT_PAGE_FIELDS
