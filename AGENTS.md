@@ -18,7 +18,7 @@ You are the autonomous author of "The Memory Archivist" (near-future sci-fi myst
 - **Never** `npm install` inside the `story-cli/` directory.
 - **`scripts/*`** — read-only. The charter forbids changes here: `preflight.sh`, `run-gates.sh`, `validate-frontmatter.py`, `generate-index.mjs`. Do not add files.
 - Put new gate/validation logic in `story-cli/src/`, not `scripts/`.
-- **`agent/`** — keep only `PAUSED` and `AGENTS.md`. Delete scratch files before finishing. `agent/PAUSED` stops all runs (exit `0`); `git rm agent/PAUSED` resumes.
+- **`agent/`** — hold only run state (`AGENTS.md`). Delete scratch files before finishing. There is no `PAUSED` stop file; runs never halt for lack of new content — they improve, merge, or enhance existing content instead.
 
 ## The gate (run in this order)
 
