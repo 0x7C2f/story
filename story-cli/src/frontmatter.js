@@ -205,6 +205,11 @@ function flowText(value, entries) {
 // text, so that entry is quoted.
 function flowList(value, textOf) {
   const texts = value.map(textOf);
+  // But a list starting with a generic unbracketed TODO that yaml parses
+  // as a string or an unquoted list item starting with it, like a watch-words
+  // entry starts with the word TODO would read as the `[TODO ...]` placeholder
+  // when converted to a string and evaluated. Catching that here is easier
+  // than passing type-enforcement metadata to the validator.
   if (/^TODO\b/i.test(texts[0] ?? "")) {
     texts[0] = quote(String(value[0]));
   }
