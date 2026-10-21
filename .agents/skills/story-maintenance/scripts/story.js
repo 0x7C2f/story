@@ -8948,7 +8948,18 @@ function entityStateAt(data, atChapterId, chronology) {
       setOwn(state, key, value);
     }
   }
-  const entries = (Array.isArray(data?.progressions) ? data.progressions : []).map(progressionEntry).filter((entry) => entry !== null && !Number.isNaN(chapterPosition(chronology, entry.from)) && happensAtOrBefore(chronology, entry.from, atChapterId));
+  const entries = (Array.isArray(data?.progressions) ? data.progressions : []).map(progressionEntry).filter((entry) => {
+    if (entry === null || Number.isNaN(chapterPosition(chronology, entry.from))) {
+      return false;
+    }
+    // Whether chapter `earlier` happens at or before `later` in story time. In a
+    // branching book two chapters on sibling branches are neither, so a change
+    // on one branch stays off the other.
+    if (chronology.numbers.has(atChapterId) && chronology.numbers.has(entry.from) && chronology.atOrBefore) {
+      return chronology.atOrBefore(entry.from, atChapterId);
+    }
+    return !happensAfter(chronology, entry.from, atChapterId);
+  });
   entries.sort((left, right) => chronology.compare(left.from, right.from));
   const changes = [];
   for (const entry of entries) {
