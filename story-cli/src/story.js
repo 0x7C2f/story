@@ -377,6 +377,9 @@ function withProjectAtGitRef(root, ref, read, flag = "compare --ref") {
 
 // Blob contents for these hashes, read with one git cat-file process.
 function catBlobs(root, hashes) {
+  if (hashes.some((hash) => !/^[0-9a-f]{40,64}$/.test(hash))) {
+    throw new Error("Invalid git hash provided to catBlobs");
+  }
   const output = execFileSync("git", ["-C", root, "cat-file", "--batch"], { input: `${hashes.join("\n")}\n`, stdio: ["pipe", "pipe", "pipe"], maxBuffer: 256 * 1024 * 1024 });
   const contents = [];
   let cursor = 0;
