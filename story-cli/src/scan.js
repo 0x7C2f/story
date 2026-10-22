@@ -41,6 +41,7 @@ import { err, warn } from "./findings.js";
 import { parseExemptions } from "./exemptions.js";
 import { projectError, usageError } from "./exit-codes.js";
 import { oneLine } from "./unicode.js";
+import { isPlaceholder } from "./publishing.js";
 
 export const STORY_SCHEMA_VERSION = 2;
 
@@ -525,22 +526,35 @@ export function scanProject(root) {
     matter: readEntityFiles(projectRoot, MATTER_DIR, (id, file, data, markdown) => {
       const title = String(data.title ?? titleCaseSlug(id));
       const prose = chapterProse(markdown.body);
-      const empty = prose.trim() === "";
-      return {
+      const entry = {
         id,
         file,
         title,
         placement: String(data.placement ?? ""),
         order: Number.isInteger(data.order) ? data.order : 0,
         heading: data.heading !== false,
-        permission: typeof data.permission === "string" ? data.permission : "",
-        empty,
-        // Such as the `[TODO: author to supply]` the publishing skill leaves
-        // on a copyright page's ISBN line, which builds print as written. The
-        // title counts too: the EPUB contents name a page without a heading.
-        // Builds leave out an empty page, markers and all.
-        todoMarkers: empty ? 0 : countTodoMarkers(prose) + countTodoMarkers(title)
+        permission: typeof data.permission === "string" ? data.permission : ""
       };
+      if (prose.trim() === "") {
+        return {
+          ...entry,
+          empty: true,
+          todoMarkers: 0
+        };
+      } else {
+        // Such as the `[TODO: author to supply]` the publishing skill leaves
+        // on the title field in references/metadata-checklist.md
+        const empty = !markdown.heading && isPlaceholder(entry.title) && isPlaceholder(prose);
+        return {
+          ...entry,
+          empty,
+          // Such as the `[TODO: author to supply]` the publishing skill leaves
+          // on a copyright page's ISBN line, which builds print as written. The
+          // title counts too: the EPUB contents name a page without a heading.
+          // Builds leave out an empty page, markers and all.
+          todoMarkers: empty ? 0 : countTodoMarkers(prose) + countTodoMarkers(title)
+        };
+      }
     }, scanErrors).sort((left, right) => left.order - right.order || left.id.localeCompare(right.id, "en")),
     exemptions: readExemptions(projectRoot, scanErrors),
     styleSheet: readStyleSheet(projectRoot, scanErrors),
