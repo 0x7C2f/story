@@ -20,8 +20,8 @@ import { similarityOptions } from "./similarity.js";
 //     - command: prose       command line always wins
 //       max-adverbs: 8
 //   severity:                promote a named warning to an error, or turn it
-//     - warning: todo-markers  off (it is then reported as dismissed)
-//       level: error
+//     - warning: todo-markers
+//       level: off               (it is then reported as dismissed)
 
 export const SEVERITY_LEVELS = ["error", "warning", "off"];
 
