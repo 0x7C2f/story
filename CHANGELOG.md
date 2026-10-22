@@ -4,6 +4,13 @@
 
 - Model: Agent
 - Action: Complete Run
+- Summary: Restored PAUSED and updated CHANGELOG.md as the story is complete.
+- Next Run: None
+
+## [2026-10-22] - Agent Run
+
+- Model: Agent
+- Action: Complete Run
 - Summary: Story is marked complete. Restored agent/PAUSED and ran integrity gates.
 - Next Run: No further action required. Story complete.
 
