@@ -865,8 +865,8 @@ export function manuscriptParts(project, action = "build", { includePending = fa
   };
 }
 
-// A matter page the book prints with a `[TODO` marker still in it, such as
-// the `[TODO: author to supply]` the publishing skill leaves on a copyright
+// A matter page the book prints with a `[todo` marker still in it, such as
+// the `[todo: author to supply]` the publishing skill leaves on a copyright
 // page's ISBN line. Only the builds that print matter ask: the Shunn,
 // metadata, Fountain, Twee, and ink builds print none, and narration skips a
 // front-matter copyright page. `titles` is set by the builds that name a
