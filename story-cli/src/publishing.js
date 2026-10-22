@@ -14,7 +14,7 @@ export const MAX_KEYWORDS = 7;
 const BISAC_PATTERN = /^[A-Z]{3}\d{6}$/;
 const SCALAR_FIELDS = ["author", "surname", "short-title", "language", "isbn", "publisher", "publication-date", "description", "copyright", "cover-alt", "ai-disclosure", "chapter-label", "contents-label"];
 
-// A `[TODO: author to supply]` marker, which the publishing skill leaves
+// A `[todo: author to supply]` marker, which the publishing skill leaves
 // rather than inventing a value. Builds and the readiness checklist treat it
 // as missing so it never reaches a retailer.
 export function isPlaceholder(value) {
