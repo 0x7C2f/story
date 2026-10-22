@@ -3,6 +3,9 @@
   "version": "0.24.0",
   "description": "story-skills 0.23.2 CLI (repo fork): record-integrity story tooling plus frontmatter schema gate, ai-slop guards, and the story.md -> dist.json build used by the Pages front end",
   "type": "module",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js"
+  },
   "bin": {
     "story": "./bin/story.js"
   },
@@ -15,10 +18,9 @@
     "node": ">=18"
   },
   "license": "MIT",
-  "scripts": {
-    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
-  },
   "devDependencies": {
+    "chai": "^6.3.0",
+    "mocha": "^12.0.3",
     "jest": "^30.5.2"
   }
 }
