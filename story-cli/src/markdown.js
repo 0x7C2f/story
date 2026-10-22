@@ -853,10 +853,12 @@ export function hasUnclosedComment(prose) {
 const TODO_MARKER = /\[TODO\b/i;
 const TODO_MARKERS = /\[TODO\b/gi;
 
-// How many `[TODO` markers (`[TODO: check bible]`) prose holds. Pass prose
-// with comments removed: a marker inside a comment never reaches a build.
-// Only text a reader sees counts, so a marker in a link destination or
-// title, a URL, or an HTML tag does not (see maskLinkTargets).
+// How many `[todo` markers (`[todo: check bible]`) prose holds. Pass prose
+// filtered by `chapterProse` or `extractTitleAndBody` to exclude notes and
+// frontmatter.
+//
+// Markers inside link targets (`[label](url)`) are masked out first so they
+// are not counted.
 export function countTodoMarkers(prose) {
   const text = String(prose);
   return TODO_MARKER.test(text) ? (maskLinkTargets(text).text.match(TODO_MARKERS) ?? []).length : 0;
