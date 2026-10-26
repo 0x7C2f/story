@@ -140,6 +140,7 @@ describe('validateProjectOf', () => {
   it('adds missing-required-path error when a required path is missing', () => {
     const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'story-test-'));
     try {
+      setupRequiredPaths(tmpDir);
       fs.unlinkSync(path.join(tmpDir, REQUIRED_PATHS[0]));
       const project = createMockProject(tmpDir);
       const result = validateProjectOf(project);
@@ -154,6 +155,7 @@ describe('validateProjectOf', () => {
   it('adds multiple missing-required-path errors when multiple are missing', () => {
     const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'story-test-'));
     try {
+      setupRequiredPaths(tmpDir);
       fs.unlinkSync(path.join(tmpDir, REQUIRED_PATHS[0]));
       fs.unlinkSync(path.join(tmpDir, REQUIRED_PATHS[1]));
 
@@ -189,6 +191,7 @@ describe('validateProjectOf', () => {
   it('handles missing project.fileErrors appropriately', () => {
     const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'story-test-'));
     try {
+      setupRequiredPaths(tmpDir);
       const project = createMockProject(tmpDir);
       delete project.fileErrors; // set it to undefined to check the `project.fileErrors ?? []` logic
 
@@ -204,6 +207,7 @@ describe('validateProjectOf', () => {
   it('evaluates result ok flag based on errors', () => {
     const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'story-test-'));
     try {
+      setupRequiredPaths(tmpDir);
       const project = createMockProject(tmpDir);
       fs.unlinkSync(path.join(tmpDir, REQUIRED_PATHS[0]));
       const resultErr = validateProjectOf(project);

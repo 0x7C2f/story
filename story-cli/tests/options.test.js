@@ -1,6 +1,6 @@
 import { test, describe, it } from 'node:test';
 import assert from 'node:assert';
-import { expect } from 'chai';
+
 import { normalizeBooleanValue, isTruthy } from '../src/options.js';
 
 test('normalizeBooleanValue', async (t) => {
@@ -45,74 +45,74 @@ test('normalizeBooleanValue', async (t) => {
 
 describe('isTruthy', () => {
   it('should return true for boolean true', () => {
-    expect(isTruthy(true)).to.be.true;
+    assert.strictEqual(isTruthy(true), true);
   });
 
   it('should return false for boolean false', () => {
-    expect(isTruthy(false)).to.be.false;
+    assert.strictEqual(isTruthy(false), false);
   });
 
   it('should return false for string "false"', () => {
-    expect(isTruthy('false')).to.be.false;
-    expect(isTruthy('False')).to.be.false;
-    expect(isTruthy(' FALSE ')).to.be.false;
+    assert.strictEqual(isTruthy('false'), false);
+    assert.strictEqual(isTruthy('False'), false);
+    assert.strictEqual(isTruthy(' FALSE '), false);
   });
 
   it('should return false for string "0"', () => {
-    expect(isTruthy('0')).to.be.false;
-    expect(isTruthy(' 0 ')).to.be.false;
+    assert.strictEqual(isTruthy('0'), false);
+    assert.strictEqual(isTruthy(' 0 '), false);
   });
 
   it('should return false for string "no"', () => {
-    expect(isTruthy('no')).to.be.false;
-    expect(isTruthy('No')).to.be.false;
-    expect(isTruthy(' NO ')).to.be.false;
+    assert.strictEqual(isTruthy('no'), false);
+    assert.strictEqual(isTruthy('No'), false);
+    assert.strictEqual(isTruthy(' NO '), false);
   });
 
   it('should return false for string "off"', () => {
-    expect(isTruthy('off')).to.be.false;
-    expect(isTruthy('Off')).to.be.false;
-    expect(isTruthy(' OFF ')).to.be.false;
+    assert.strictEqual(isTruthy('off'), false);
+    assert.strictEqual(isTruthy('Off'), false);
+    assert.strictEqual(isTruthy(' OFF '), false);
   });
 
   it('should return false for empty string ""', () => {
-    expect(isTruthy('')).to.be.false;
-    expect(isTruthy('   ')).to.be.false;
+    assert.strictEqual(isTruthy(''), false);
+    assert.strictEqual(isTruthy('   '), false);
   });
 
   it('should return true for other strings', () => {
-    expect(isTruthy('true')).to.be.true;
-    expect(isTruthy('yes')).to.be.true;
-    expect(isTruthy('1')).to.be.true;
-    expect(isTruthy('on')).to.be.true;
-    expect(isTruthy('any other string')).to.be.true;
+    assert.strictEqual(isTruthy('true'), true);
+    assert.strictEqual(isTruthy('yes'), true);
+    assert.strictEqual(isTruthy('1'), true);
+    assert.strictEqual(isTruthy('on'), true);
+    assert.strictEqual(isTruthy('any other string'), true);
   });
 
   it('should evaluate arrays using their last element', () => {
-    expect(isTruthy(['true', 'false'])).to.be.false;
-    expect(isTruthy(['false', 'true'])).to.be.true;
-    expect(isTruthy([true, false])).to.be.false;
-    expect(isTruthy([false, true])).to.be.true;
-    expect(isTruthy(['no', 'yes'])).to.be.true;
-    expect(isTruthy(['yes', 'no'])).to.be.false;
+    assert.strictEqual(isTruthy(['true', 'false']), false);
+    assert.strictEqual(isTruthy(['false', 'true']), true);
+    assert.strictEqual(isTruthy([true, false]), false);
+    assert.strictEqual(isTruthy([false, true]), true);
+    assert.strictEqual(isTruthy(['no', 'yes']), true);
+    assert.strictEqual(isTruthy(['yes', 'no']), false);
   });
 
   it('should return true for numbers other than 0', () => {
-    expect(isTruthy(1)).to.be.true;
-    expect(isTruthy(-1)).to.be.true;
+    assert.strictEqual(isTruthy(1), true);
+    assert.strictEqual(isTruthy(-1), true);
   });
 
   it('should return false for number 0', () => {
-    expect(isTruthy(0)).to.be.false;
+    assert.strictEqual(isTruthy(0), false);
   });
 
   it('should return false for null and undefined', () => {
-    expect(isTruthy(null)).to.be.false;
-    expect(isTruthy(undefined)).to.be.false;
+    assert.strictEqual(isTruthy(null), false);
+    assert.strictEqual(isTruthy(undefined), false);
   });
 
   it('should return true for objects', () => {
-    expect(isTruthy({})).to.be.true;
-    expect(isTruthy({ key: 'value' })).to.be.true;
+    assert.strictEqual(isTruthy({}), true);
+    assert.strictEqual(isTruthy({ key: 'value' }), true);
   });
 });
