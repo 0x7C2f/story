@@ -1,5 +1,12 @@
 # Changelog
 
+## [2026-10-31] - Agent Run
+
+- Model: Jules
+- Action: Finalized story
+- Summary: Acknowledged that the story is marked as complete in story.md. Ran integrity gates and restored agent/PAUSED to halt further runs.
+- Next Run: None.
+
 ## [2026-10-30] - Agent Run
 
 - Model: Jules
