@@ -201,16 +201,16 @@ function flowText(value, entries) {
 }
 
 // A flow list of value's entries, each written by textOf. A list whose first
-// entry starts with the word TODO would read as the `[TODO ...]` placeholder
+// entry starts with the word TODO would read as the `[todo ...]` placeholder
 // text, so that entry is quoted.
 function flowList(value, textOf) {
   const texts = value.map(textOf);
   // But a list starting with a generic unbracketed TODO that yaml parses
   // as a string or an unquoted list item starting with it, like a watch-words
-  // entry starts with the word TODO would read as the `[TODO ...]` placeholder
+  // entry starts with the word TODO would read as the `[todo ...]` placeholder
   // when converted to a string and evaluated. Catching that here is easier
   // than passing type-enforcement metadata to the validator.
-  if (/^TODO\b/i.test(texts[0] ?? "")) {
+  if (/^todo\b/i.test(texts[0] ?? "")) {
     texts[0] = quote(String(value[0]));
   }
   return `[${texts.join(", ")}]`;
@@ -350,7 +350,12 @@ function parseYamlBlocks(source, firstLine = 2) {
     // `[todo: author to supply]` is the publishing skill's placeholder, not
     // an unclosed array. (Valid arrays are handled by YAML before this.)
     if (first === "[" && !/^\[TODO\b/i.test(value)) {
-      throw new Error(`YAML parsing error: array not closed (found [ but no ])`);
+      if (!value.trim().endsWith("]")) {
+        throw new Error(`YAML parsing error: array not closed (found [ but no ])`);
+      }
+      const entries = parseFlowList(value, index);
+      // An empty `[]` has no style to keep: items added to it make a block list.
+      return { value: entries.map((entry) => entry.value), flow: entries.length > 0 ? entries : undefined, comment };
     }
     if (first === "{") {
       fail(index, "Flow mappings are not supported. Quote the value, such as type: \"{family}\", or write a list of key: value items, such as relationships: then   - character: sera-voss on the next line");
