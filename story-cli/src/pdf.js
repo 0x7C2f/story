@@ -231,9 +231,9 @@ export function windowsScriptCommand(file, args, env) {
     throw refusedError(`Cannot run ${file} safely through cmd.exe: ${unsafe} contains a quote, %, !, or shell metacharacter. Give --pdf-engine an .exe instead`);
   }
   return {
-    command: envValue(env, "COMSPEC", "win32") || "cmd.exe",
-    args: ["/d", "/s", "/c", `"${parts.map((part) => `"${part}"`).join(" ")}"`],
-    options: { windowsVerbatimArguments: true }
+    command: file,
+    args,
+    options: { shell: true }
   };
 }
 

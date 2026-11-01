@@ -865,7 +865,11 @@ export function manuscriptParts(project, action = "build", { includePending = fa
   };
 }
 
-// Only the builds that print matter ask: the Shunn,
+// A matter page the book prints with a `[TODO` marker still in it, such as
+// the `[TODO: author to supply]` the publishing skill leaves on a copyright
+// page or a dedication, gets a matter-todo-markers warning instead of the
+// whole-project todo-markers warning that chapters get, because chapters
+// get counted on the status board but matter pages do not.
 // metadata, Fountain, Twee, and ink builds print none, and narration skips a
 // front-matter copyright page. `titles` is set by the builds that name a
 // page without a heading too (the EPUB and review copy contents, the
@@ -887,7 +891,9 @@ function matterTodoWarnings(project, manuscript, { action = "build", narration =
       return [];
     }
     const file = relative(project, entry.file);
-    return [warn("matter-todo-markers", `${file} still has ${plural(markers, "[TODO marker")}, which this ${action} prints: ask the author to supply the text before you publish`, file)];
+    return [
+      warn("matter-todo-markers", `${file} still has ${plural(markers, "[TODO marker")}, which this ${action} prints: ask the author to supply the text before you publish`, file)
+    ];
   });
 
 }
