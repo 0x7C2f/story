@@ -32,11 +32,12 @@ function inkInline(text) {
     .replace(/\/(?=[/*])/g, "/\\");
 }
 
-// At the start of a line `*` and `+` open a choice, `-` a gather, `=` a knot
+// A `*` or `+` starts an Ink choice, `-` or `=` starts a gather
 // or stitch, and INCLUDE, VAR, CONST, LIST, EXTERNAL, and TODO are
-// statements. ink drops leading whitespace, so the line starts at its text.
-function inkLine(line) {
-  const text = inkInline(line.trim());
+// keywords when they appear at the start of a line. Escape them
+// by preceding them with a backslash if they are at the start
+// of a block.
+export function escapeInkControlLines(text) {
   return /^[*+\-=]|^(?:INCLUDE|VAR|CONST|LIST|EXTERNAL|TODO)\b/.test(text) ? `\\${text}` : text;
 }
 
@@ -67,7 +68,8 @@ function inkProse(body) {
       pieces.push(text);
       previous = { line, text };
       if (broken || last) {
-        out.push(inkLine(pieces.join("")));
+        const lineText = inkInline(pieces.join("").trim());
+        out.push(escapeInkControlLines(lineText));
         pieces = [];
         previous = null;
       }

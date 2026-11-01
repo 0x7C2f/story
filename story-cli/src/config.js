@@ -20,7 +20,7 @@ import { similarityOptions } from "./similarity.js";
 //     - command: prose       command line always wins
 //       max-adverbs: 8
 //   severity:                promote a named warning to an error, or turn it
-//     - warning: todo-markers
+//     - warning: clock-backward
 //       level: off               (it is then reported as dismissed)
 
 export const SEVERITY_LEVELS = ["error", "warning", "off"];
@@ -268,7 +268,7 @@ export function findingOverrides(config) {
 // matches a warning dismisses it first, so one finding a writer exempted
 // stays dismissed even when severity promotes the rest of its code. Then a
 // severity override moves the warnings it names: `error` makes them errors
-// (so the command exits 1) and `off` reports them as dismissed.
+// (so the command exits 1) and `off` completely ignores them.
 export function applySeverity(result, overrides = NO_OVERRIDES) {
   const exempted = dismissByExemptions(result, overrides.exemptions, { errors: false });
   if (overrides.severity.length === 0) {
@@ -285,10 +285,6 @@ export function applySeverity(result, overrides = NO_OVERRIDES) {
       warnings.push(warning);
     } else if (level === "error") {
       errors.push(warning);
-    } else {
-      // `reason` is the --json exemption; `note` replaces "exemption:" in text.
-      const note = `severity ${code} is off in story.md`;
-      dismissed.push({ finding: warning, reason: note, note });
     }
   }
   const promoted = errors.length > exempted.errors.length;
