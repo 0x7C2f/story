@@ -629,8 +629,8 @@ export const COMMANDS = [
     ],
     project: "positional",
     options: ["json"],
-    run({ parsed, io, root }) {
-      const report = reviewReport(root(), parsed.options);
+    async run({ parsed, io, root }) {
+      const report = await reviewReport(root(), parsed.options);
       if (wantsJson(parsed)) {
         return reportJson(io, "review", report);
       }
