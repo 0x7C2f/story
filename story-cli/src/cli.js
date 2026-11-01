@@ -91,7 +91,7 @@ function formatCommandsHelp() {
 // than pass or fail without the severity a CI job set.
 export const CONFIG_REPAIR_COMMANDS = new Set(["validate", "report", "next", "doctor"]);
 
-export function runCli(argv, io) {
+export async function runCli(argv, io) {
   let configured = [];
   // A command asked for --json reports a usage error or a failure as a JSON
   // result too, so a script reading stdout always gets one object. `writes`
@@ -160,7 +160,8 @@ export function runCli(argv, io) {
     // A command that changes the project in place holds its lock for the
     // whole run, so two cannot plan from the same files (see lock.js). A
     // --dry-run only reads the project.
-    return writesProject(command, parsed.options) && !isTruthy(parsed.options["dry-run"]) ? withProjectLock(root(), guarded) : guarded();
+    const result = writesProject(command, parsed.options) && !isTruthy(parsed.options["dry-run"]) ? withProjectLock(root(), guarded) : guarded();
+    return result instanceof Promise ? await result : result;
   } catch (error) {
     const message = `${describeError(error, io.cwd ?? process.cwd())}${configuredHint(error, configured)}`;
     const exitCode = exitCodeFor(error);
