@@ -865,15 +865,21 @@ export function manuscriptParts(project, action = "build", { includePending = fa
   };
 }
 
-// A matter page the book prints with a `[to-do` marker still in it, such as
-// the `[to-do: author to supply]` the publishing skill leaves on a copyright
-// page's ISBN line. Only the builds that print matter ask: the Shunn,
-// metadata, Fountain, Twee, and ink builds print none, and narration skips a
-// front-matter copyright page. `titles` is set by the builds that name a
-// page without a heading too (the EPUB and review copy contents, the
-// narration script). The page generated from story.md has no file: its
-// markers are in the story.md fields it prints.
+// A matter page the book prints with a `[todo` marker still in it, such as
+// the `[todo: author to supply]` the publishing skill leaves on a copyright
+// page or a dedication, gets a matter-todo-markers warning instead of the
+// whole-project todo-markers warning that chapters get, because chapters
+// get counted on the status board but matter pages do not. Only the builds
+// that print matter ask: the Shunn, metadata, Fountain, Twee, and ink builds
+// print none, and narration skips a front-matter copyright page. `titles` is
+// set by the builds that name a page without a heading too (the EPUB and
+// review copy contents, the narration script). The page generated from story.md has no file: its markers are in the story.md fields it prints.
 function matterTodoWarnings(project, manuscript, { action = "build", narration = false, titles = false } = {}) {
+  // A matter page the book prints with a `[todo` marker still in it, such as
+  // the `[todo: author to supply]` the publishing skill leaves on a copyright
+  // page or a dedication, gets a matter-todo-markers warning instead of the
+  // whole-project todo-markers warning that chapters get, because chapters
+  // get counted on the status board but matter pages do not.
   const printed = [...manuscript.front.filter((entry) => !(narration && entry.copyright)), ...manuscript.back];
   return printed.flatMap((entry) => {
     if (entry.file === undefined) {

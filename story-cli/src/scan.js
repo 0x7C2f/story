@@ -542,13 +542,13 @@ export function scanProject(root) {
           todoMarkers: 0
         };
       } else {
-        // Such as the `[TODO: author to supply]` the publishing skill leaves
+        // Such as the `[todo: author to supply]` the publishing skill leaves
         // on the title field in references/metadata-checklist.md
         const empty = !markdown.heading && isPlaceholder(entry.title) && isPlaceholder(prose);
         return {
           ...entry,
           empty,
-          // Such as the `[TODO: author to supply]` the publishing skill leaves
+          // Such as the `[todo: author to supply]` the publishing skill leaves
           // on a copyright page's ISBN line, which builds print as written. The
           // title counts too: the EPUB contents name a page without a heading.
           // Builds leave out an empty page, markers and all.
