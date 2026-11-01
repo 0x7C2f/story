@@ -1224,11 +1224,13 @@ function validateFormRange(project, warnings) {
 // form range read only the count unit's target field.
 function unusedTargetWarnings(project, label, data, warnings) {
   const { unit } = project;
-  const other = unit.name === "words" ? COUNT_UNITS.get("characters") : COUNT_UNITS.get("words");
-  for (const field of ["targetField", "dailyTargetField"]) {
-    if (data[other[field]] !== undefined && data[unit[field]] === undefined) {
-      const why = project.story.data["count-unit"] === undefined ? `language ${project.language}` : "count-unit";
-      warnings.push(warn("unused-target", `${label} ${other[field]} is not measured: this book counts ${unit.name} (${why}), so set ${unit[field]}`, label));
+  for (const other of COUNT_UNITS.values()) {
+    if (other === unit) continue;
+    for (const field of ["targetField", "dailyTargetField"]) {
+      if (data[other[field]] !== undefined && data[unit[field]] === undefined) {
+        const why = project.story.data["count-unit"] === undefined ? `language ${project.language}` : "count-unit";
+        warnings.push(warn("unused-target", `${label} ${other[field]} is not measured: this book counts ${unit.name} (${why}), so set ${unit[field]}`, label));
+      }
     }
   }
 }
