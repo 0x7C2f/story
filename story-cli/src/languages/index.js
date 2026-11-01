@@ -156,12 +156,12 @@ export function canonicalTag(value) {
 }
 
 // The language story.md names, as written: English only when `language` is
-// unset (missing, blank, or a [todo] placeholder). A value that is set but
+// unset (missing, blank, or a to-do placeholder). A value that is set but
 // not a tag is kept, so its pack comes from its first subtag or the base
 // pack, never from English; validate reports it.
 export function projectLanguage(storyData) {
   const value = storyData?.language;
-  if (value === undefined || value === null || (typeof value === "string" && (value.trim() === "" || /^\[TODO\b/i.test(value.trim())))) {
+  if (value === undefined || value === null || (typeof value === "string" && (value.trim() === "" || /^\[todo\b/i.test(value.trim())))) {
     return DEFAULT_LANGUAGE;
   }
   return String(value).trim();
