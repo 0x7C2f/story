@@ -870,7 +870,6 @@ export function manuscriptParts(project, action = "build", { includePending = fa
 // page or a dedication, gets a matter-todo-markers warning instead of the
 // whole-project todo-markers warning that chapters get, because chapters
 // get counted on the status board but matter pages do not.
-// Only the builds that print matter ask: the Shunn,
 // metadata, Fountain, Twee, and ink builds print none, and narration skips a
 // front-matter copyright page. `titles` is set by the builds that name a
 // page without a heading too (the EPUB and review copy contents, the
@@ -896,6 +895,7 @@ function matterTodoWarnings(project, manuscript, { action = "build", narration =
       warn("matter-todo-markers", `${file} still has ${plural(markers, "[TODO marker")}, which this ${action} prints: ask the author to supply the text before you publish`, file)
     ];
   });
+
 }
 
 // The `permission` values that clear a matter page to print. A page with no
