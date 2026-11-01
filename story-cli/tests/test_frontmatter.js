@@ -8,9 +8,22 @@ test("handles unquoted [TODO: author to supply]", () => {
   assert.equal(data.data.summary, "[TODO: author to supply]");
 });
 
-test("throws array not closed error for [ when not [TODO]", () => {
+test("throws array not closed error for [ when not [TODO", () => {
   const content = `---\nsummary: [\ntitle: test\n---\nbody`;
   assert.throws(() => {
     parseFrontmatter(content);
-  }, /array not closed/);
+  }, /array not closed|Close the list/);
+});
+
+test("throws array not closed error for [TODO when not a placeholder", () => {
+  const content = `---\nsummary: [TODO\ntitle: test\n---\nbody`;
+  assert.throws(() => {
+    parseFrontmatter(content);
+  }, /array not closed|Close the list/);
+});
+
+test("handles quoted [TODO]", () => {
+  const content = `---\nsummary: "[TODO]"\ntitle: test\n---\nbody`;
+  const data = parseFrontmatter(content);
+  assert.equal(data.data.summary, "[TODO]");
 });
