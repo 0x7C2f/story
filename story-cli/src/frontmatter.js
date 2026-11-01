@@ -201,16 +201,16 @@ function flowText(value, entries) {
 }
 
 // A flow list of value's entries, each written by textOf. A list whose first
-// entry starts with the word TODO would read as the `[TODO ...]` placeholder
+// entry starts with the word TODO would read as the `[todo ...]` placeholder
 // text, so that entry is quoted.
 function flowList(value, textOf) {
   const texts = value.map(textOf);
   // But a list starting with a generic unbracketed TODO that yaml parses
   // as a string or an unquoted list item starting with it, like a watch-words
-  // entry starts with the word TODO would read as the `[TODO ...]` placeholder
+  // entry starts with the word TODO would read as the `[todo ...]` placeholder
   // when converted to a string and evaluated. Catching that here is easier
   // than passing type-enforcement metadata to the validator.
-  if (/^TODO\b/i.test(texts[0] ?? "")) {
+  if (/^todo\b/i.test(texts[0] ?? "")) {
     texts[0] = quote(String(value[0]));
   }
   return `[${texts.join(", ")}]`;
@@ -347,7 +347,7 @@ function parseYamlBlocks(source, firstLine = 2) {
       }
       return { header, comment };
     }
-    // `[TODO: author to supply]` is the publishing skill's placeholder, not
+    // `[todo: author to supply]` is the publishing skill's placeholder, not
     // an unclosed array. (Valid arrays are handled by YAML before this.)
     if (first === "[" && !/^\[TODO\b/i.test(value)) {
       if (!value.trim().endsWith("]")) {
