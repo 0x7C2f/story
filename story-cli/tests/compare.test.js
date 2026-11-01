@@ -32,6 +32,24 @@ describe('proseParagraphs', () => {
     const text = 'Paragraph one.\n---\nParagraph two.';
     assert.deepStrictEqual(proseParagraphs(text), ['Paragraph one.', 'Paragraph two.']);
   });
+
+  it('handles null or undefined input', () => {
+    assert.deepStrictEqual(proseParagraphs(null), ['null']);
+    assert.deepStrictEqual(proseParagraphs(undefined), ['undefined']);
+  });
+
+  it('handles empty string', () => {
+    assert.deepStrictEqual(proseParagraphs(''), []);
+  });
+
+  it('handles whitespace-only string', () => {
+    assert.deepStrictEqual(proseParagraphs('   \n  \t  '), []);
+  });
+
+  it('handles windows line endings', () => {
+    const text = 'Paragraph one.\r\n\r\nParagraph two.';
+    assert.deepStrictEqual(proseParagraphs(text), ['Paragraph one.', 'Paragraph two.']);
+  });
 });
 
 import { test } from "node:test";
