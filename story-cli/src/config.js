@@ -285,6 +285,8 @@ export function applySeverity(result, overrides = NO_OVERRIDES) {
       warnings.push(warning);
     } else if (level === "error") {
       errors.push(warning);
+    } else if (level === "off") {
+      dismissed.push(warning);
     }
   }
   const promoted = errors.length > exempted.errors.length;
