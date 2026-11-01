@@ -47,15 +47,15 @@ export function isLanguageTag(value) {
   return typeof value === "string" && TAG_PATTERN.test(value.trim());
 }
 
-// Language subtags written another way: deprecated codes (iw, in) and
-// three-letter codes for languages that have a two-letter one (eng).
-export const LANGUAGE_ALIASES = {
-  iw: "he", in: "id", ji: "yi", jw: "jv", mo: "ro",
-  ara: "ar", chi: "zh", zho: "zh", deu: "de", ger: "de", eng: "en", spa: "es", fra: "fr", fre: "fr",
-  fas: "fa", per: "fa", heb: "he", hin: "hi", ita: "it", jpn: "ja", kor: "ko", nld: "nl", dut: "nl", pol: "pl", por: "pt", rus: "ru",
-  swe: "sv", tha: "th", tur: "tr", ukr: "uk",
-  dan: "da", fin: "fi", div: "dv", kur: "ku", pus: "ps", snd: "sd", uig: "ug", urd: "ur", yid: "yi"
-};
+// The tag in the runtime's canonical form ("zh-hant-tw" is zh-Hant-TW), or
+// null when Intl rejects it.
+export function canonicalTag(value) {
+  try {
+    return typeof value === "string" ? Intl.getCanonicalLocales(value)[0] ?? null : null;
+  } catch {
+    return null;
+  }
+}
 
 // Grandfathered tags with a modern form, in lower case, as [tag, macrolanguage].
 export const GRANDFATHERED = {
@@ -86,7 +86,7 @@ export function lookupTag(language) {
   if (subtags.length === 0) {
     return ["und", null];
   }
-  subtags[0] = LANGUAGE_ALIASES[subtags[0]] ?? subtags[0];
+  subtags[0] = canonicalTag(subtags[0]) ?? subtags[0];
   if (subtags.length > 1 && /^[a-z]{3}$/.test(subtags[1])) {
     return [subtags.slice(1).join("-"), subtags[0]];
   }
@@ -145,23 +145,15 @@ export function chineseScript(language) {
   return CHINESE_SCRIPTS[primary] !== undefined || macrolanguage === "zh" ? hanScript(language) : null;
 }
 
-// The tag in the runtime's canonical form ("zh-hant-tw" is zh-Hant-TW), or
-// null when Intl rejects it.
-export function canonicalTag(value) {
-  try {
-    return typeof value === "string" ? Intl.getCanonicalLocales(value)[0] ?? null : null;
-  } catch {
-    return null;
-  }
-}
 
 // The language story.md names, as written: English only when `language` is
-// unset (missing, blank, or a [todo] placeholder). A value that is set but
+// unset (missing, blank, or a [TODO] placeholder). A value that is set but
 // not a tag is kept, so its pack comes from its first subtag or the base
 // pack, never from English; validate reports it.
+
 export function projectLanguage(storyData) {
   const value = storyData?.language;
-  if (value === undefined || value === null || (typeof value === "string" && (value.trim() === "" || /^\[TODO\b/i.test(value.trim())))) {
+  if (value === undefined || value === null || (typeof value === "string" && (value.trim() === "" || /^\[todo\b/i.test(value.trim())))) {
     return DEFAULT_LANGUAGE;
   }
   return String(value).trim();

@@ -139,29 +139,33 @@ function chapterSignals(filePath, slopByFile) {
   };
 }
 
-function continuityLoops(root) {
+async function continuityLoops(root) {
   const loops = {};
-  for (const folder of ["questions", "promises", "clues"]) {
+  const folders = ["questions", "promises", "clues"];
+  const promises = folders.map(async (folder) => {
     const directory = path.join(root, "continuity", folder);
-    const records = [];
-    if (fs.existsSync(directory)) {
-      const validEntries = fs.readdirSync(directory, { withFileTypes: true })
-        .filter((entry) => entry.name.endsWith(".md") && entry.name !== "_index.md" && !entry.isSymbolicLink() && entry.name !== "AGENTS.md")
-        .sort((left, right) => left.name.localeCompare(right.name, undefined, { numeric: true }));
-
-      for (const entry of validEntries) {
-        const { data } = parseFrontmatter(fs.readFileSync(path.join(directory, entry.name), "utf8"));
-        records.push({ file: entry.name, status: data.status ?? "unset" });
-      }
+    if (!fs.existsSync(directory)) {
+      loops[folder] = [];
+      return;
     }
+    const validEntries = fs.readdirSync(directory, { withFileTypes: true })
+      .filter((entry) => entry.name.endsWith(".md") && entry.name !== "_index.md" && !entry.isSymbolicLink() && entry.name !== "AGENTS.md")
+      .sort((left, right) => left.name.localeCompare(right.name, undefined, { numeric: true }));
+
+    const records = await Promise.all(validEntries.map(async (entry) => {
+      const content = await fs.promises.readFile(path.join(directory, entry.name), "utf8");
+      const { data } = parseFrontmatter(content);
+      return { file: entry.name, status: data.status ?? "unset" };
+    }));
     loops[folder] = records;
-  }
+  });
+  await Promise.all(promises);
   return loops;
 }
 
 // `story review`: chapter signals, open loops, and the rubric scaffold. ok is
 // always true: review is analysis, the verdict is the reviewer's call.
-export function reviewReport(root, options = {}) {
+export async function reviewReport(root, options = {}) {
   const slop = slopReport(root, { all: true, ...options.slop });
   const slopByFile = new Map();
   for (const file of slop.files) {
@@ -183,7 +187,7 @@ export function reviewReport(root, options = {}) {
       .sort((left, right) => left.localeCompare(right, undefined, { numeric: true }))
       .map((name) => chapterSignals(path.join(chapterDir, name), slopByFile))
     : [];
-  const loops = continuityLoops(root);
+  const loops = await continuityLoops(root);
   return {
     ok: true,
     errors: [],
