@@ -377,7 +377,7 @@ function withProjectAtGitRef(root, ref, read, flag = "compare --ref") {
 
 // Blob contents for these hashes, read with one git cat-file process.
 function catBlobs(root, hashes) {
-  if (hashes.some((hash) => typeof hash !== "string" || !/^[0-9a-f]{40,64}$/.test(hash))) {
+  if (!Array.isArray(hashes) || hashes.some((hash) => typeof hash !== "string" || !/^[0-9a-f]{40,64}$/.test(hash))) {
     throw new Error("Invalid git hash provided to catBlobs");
   }
   const output = execFileSync("git", ["-C", root, "cat-file", "--batch"], { input: `${hashes.join("\n")}\n`, stdio: ["pipe", "pipe", "pipe"], maxBuffer: 256 * 1024 * 1024 });
@@ -386,8 +386,9 @@ function catBlobs(root, hashes) {
   for (let index = 0; index < hashes.length; index += 1) {
     const headerEnd = output.indexOf(10, cursor);
     const size = Number(output.toString("utf8", cursor, headerEnd).split(" ")[2]);
-    contents.push(output.subarray(headerEnd + 1, headerEnd + 1 + size));
-    cursor = headerEnd + 1 + size + 1;
+    const start = headerEnd + 1;
+    contents.push(output.subarray(start, start + size));
+    cursor = start + size + 1;
   }
   return contents;
 }
