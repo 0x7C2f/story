@@ -349,7 +349,10 @@ function parseYamlBlocks(source, firstLine = 2) {
     }
     // `[todo: author to supply]` is the publishing skill's placeholder, not
     // an unclosed array. (Valid arrays are handled by YAML before this.)
-    if (first === "[" && !/^\[todo\b/i.test(value)) {
+    if (first === "[" && !/^\[TODO\b/i.test(value)) {
+      if (!value.trim().endsWith("]")) {
+        throw new Error(`YAML parsing error: array not closed (found [ but no ])`);
+      }
       const entries = parseFlowList(value, index);
       // An empty `[]` has no style to keep: items added to it make a block list.
       return { value: entries.map((entry) => entry.value), flow: entries.length > 0 ? entries : undefined, comment };

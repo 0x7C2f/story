@@ -3,12 +3,14 @@
 ## [2026-11-01] - Agent Run
 
 - Model: Jules
+- Action: Fixed frontmatter regex parsing for [TODO] tags
+- Summary: Corrected the regex to identify `[TODO: author to supply]` as the publishing skill's placeholder when parsing frontmatter, and added missing array end bracket check for array flow lists inside `[`.
+- Next Run: continue with issues.
+- Model: Jules
 - Action: Fixed frontmatter regex parsing for `[todo]` arrays.
 - Summary: Addressed a bug where YAML was throwing parsing errors for `[todo]` publishing skill placeholders by updating regex matching cases for `TODO` to `todo` as specified by the task.
 - Next Run: No further steps needed for this issue.
-
 ## [2026-11-01] - Agent Run
-
 - Model: Agent
 - Action: Complete
 - Summary: Record story is complete
