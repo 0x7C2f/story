@@ -350,9 +350,7 @@ function parseYamlBlocks(source, firstLine = 2) {
     // `[TODO: author to supply]` is the publishing skill's placeholder, not
     // an unclosed array. (Valid arrays are handled by YAML before this.)
     if (first === "[" && !/^\[TODO\b/i.test(value)) {
-      const entries = parseFlowList(value, index);
-      // An empty `[]` has no style to keep: items added to it make a block list.
-      return { value: entries.map((entry) => entry.value), flow: entries.length > 0 ? entries : undefined, comment };
+      throw new Error(`YAML parsing error: array not closed (found [ but no ])`);
     }
     if (first === "{") {
       fail(index, "Flow mappings are not supported. Quote the value, such as type: \"{family}\", or write a list of key: value items, such as relationships: then   - character: sera-voss on the next line");
