@@ -1,3 +1,5 @@
+import { PROSE_CHECKS, BASELINE_CHECKS, DIALECT_CHECK, PROSE_THRESHOLDS } from "./prose-checks.js";
+export { PROSE_CHECKS, BASELINE_CHECKS, PROSE_THRESHOLDS };
 import { usageError } from "./exit-codes.js";
 import { warn } from "./findings.js";
 import { checkList, checkSet, hasLists, languagePack, skippedCheck, skippedChecks, skippedLines } from "./languages/index.js";
@@ -15,20 +17,7 @@ import { wholeWords, wordMatcher } from "./words.js";
 // The word lists come from the story's language pack; a check whose lists
 // the pack lacks is skipped and listed in the rules' `skipped`.
 
-export const PROSE_CHECKS = [
-  { check: "filter-words", label: "Filter words", lists: ["filterWords"] },
-  { check: "adverbs", label: "Adverbs", lists: ["adverbSuffixes", "adverbExceptions"] },
-  { check: "dialogue-tags", label: "Dialogue tags", lists: ["plainTags", "saidBookisms", "beatPronouns"] },
-  { check: "echoes", label: "Echoes", lists: ["echoStopwords"] },
-  { check: "repeated-phrases", label: "Repeated phrases", lists: ["phraseStopwords"] }
-];
-
 // Checks that run only with a baseline from style-sheet.md samples.
-export const BASELINE_CHECKS = [
-  { check: "signature-words", label: "Baseline signature words", lists: ["echoStopwords", "phraseStopwords"] }
-];
-
-const DIALECT_CHECK = { check: "dialect-spellings", label: "British and American spellings", lists: ["dialectPairs"] };
 
 // Whether the pack has the lists a check in PROSE_CHECKS or BASELINE_CHECKS
 // needs.
@@ -40,22 +29,6 @@ export function checkRuns(pack, check) {
 export function adverbLabel(pack) {
   return checkList(pack, "adverbLabel") ?? "adverbs";
 }
-
-export const PROSE_THRESHOLDS = {
-  filterPerThousand: 10,
-  adverbsPerThousand: 12,
-  // Rates on a few dozen words swing wildly, so rate warnings need this much
-  // narration first.
-  minRateWords: 300,
-  maxBookisms: 2,
-  echoWindow: 30,
-  echoMinLength: 5,
-  uniformMinSentences: 20,
-  uniformSpread: 5,
-  phraseLength: 4,
-  phraseMinCount: 3,
-  phraseLimit: 10
-};
 
 // The thresholds with the story prose --max-* flags applied. Each flag is a
 // number 0 or more; --max-bookisms is a whole number.

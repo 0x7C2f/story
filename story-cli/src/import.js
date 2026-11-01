@@ -173,120 +173,9 @@ export function importManuscript(options) {
   // refused unlocked by createStoryProject, so no lock file is written
   // through it.
   const run = () => {
-    const pack = withStyleLists(languagePack(options.language ?? (target === null ? null : existingStoryLanguage(target))), target === null ? null : existingStyleData(target));
-    const rules = importRules(pack);
-    const warnings = [];
-    const documents = fromStdin
-      ? [{ name: "stdin", path: "stdin", text: piped, untitled: true }]
-      : readImportSource(source, rules);
-    const existing = target === null ? null : existingStoryData(target);
-    // --bylines reads a by-line as story export writes one for this book:
-    // the language's labels, with a kept story.md's own `labels`.
-    const bylines = options.bylines ? bylineReader(buildLabels(existing ?? {}, pack), rules) : null;
-    const chapters = splitChapters(documents, warnings, rules, bylines);
-    if (chapters.length === 0) {
-      throw usageError("No chapter content found in import source");
-    }
-
-    // Build every chapter file before touching the disk: frontmatter and
-    // headings make a chapter a little larger than its prose, and a file over
-    // the size story reads would leave a project no command can open.
-    // A book counted in characters (Chinese, Japanese, or story.md
-    // `count-unit`) records character-count too, as story wordcount --write
-    // does. An existing story.md is kept, so its count-unit and language
-    // decide, whatever --language says.
-    const characters = (existing === null ? countUnit(null, pack) : countUnit(existing, languagePack(projectLanguage(existing)))).name === "characters";
-    let totalWords = 0;
-    let totalCharacters = 0;
-    const chapterFiles = chapters.map((chapter, index) => {
-      const number = index + 1;
-      // Count as the scanner does, without HTML comments.
-      const prose = scanComments(chapter.prose).text;
-      const words = wordCount(prose);
-      const counts = characters ? { "word-count": words, "character-count": characterCount(prose) } : { "word-count": words };
-      totalWords += words;
-      totalCharacters += counts["character-count"] ?? 0;
-      // An untitled numbered heading ("# Chapter 1") takes its new number.
-      const title = chapter.title || `Chapter ${number}`;
-      const name = `chapter-${String(number).padStart(2, "0")}.md`;
-      const text = chapterMarkdown(title, number, counts, chapter.prose, chapter.unnumbered, chapter.authors);
-      const bytes = Buffer.byteLength(text, "utf8");
-      if (bytes > MAX_READ_BYTES) {
-        throw usageError(`Cannot import: ${name} would be ${bytes} bytes, over the ${MAX_READ_BYTES} byte limit story reads. Split the manuscript with chapter headings first`);
-      }
-      return { name, text };
-    });
-
-    const projectOptions = {
-      title: options.title,
-      cwd,
-      dir: options.dir,
-      genre: options.genre,
-      subGenre: options.subGenre,
-      settingEra: options.settingEra,
-      themes: options.themes,
-      pov: options.pov,
-      tense: options.tense,
-      synopsis: options.synopsis,
-      language: options.language,
-      defaultSynopsis: `Imported from ${fromStdin ? "stdin" : path.basename(source)}. Replace with a 2-3 sentence synopsis.`,
-      force: options.force,
-      command: "story import --force",
-      forceHint: "Use --force to import into it: --force saves the project as snapshot before-import-<n>, then deletes every chapters/chapter-NN.md and writes the imported chapters in their place, adds missing starter files, keeps story.md and the other files, and reindexes. story snapshot --restore before-import-<n> puts the old chapters back.",
-      // Before anything is written: refuse a chapter entry the snapshot
-      // cannot keep, check an existing project parses before deleting its
-      // chapters, as the other mutating commands do (the chapter files about
-      // to be replaced may be broken), and save the project as it is.
-      beforeWrite(root, hasStory) {
-        replaced = replacedChapters(root);
-        if (!hasStory) {
-          return;
-        }
-        let project;
-        try {
-          project = scanProject(root);
-        } catch {
-          // An unsafe layout (a symlinked folder, say) is refused by the
-          // starter-file checks that follow, with their own message.
-          return;
-        }
-        assertProjectParses(project, "import", (error) => /^chapters[\\/]chapter-\d+\.md$/i.test(error.file));
-        if (replaced.length > 0) {
-          snapshot = snapshotBeforeImport(root, cwd, options.preview);
-        }
-      }
-    };
-    let replaced = [];
-    let snapshot = null;
-    let created;
-    try {
-      created = createStoryProject(projectOptions);
-      // A folder without story.md is saved once the starter files make it a
-      // project, so the snapshot is a whole one restore can put back.
-      if (snapshot === null && replaced.length > 0) {
-        snapshot = snapshotBeforeImport(created.root, cwd, options.preview);
-      }
-      const chaptersDir = path.join(created.root, "chapters");
-      for (const name of replaced) {
-        // A chapter saved since the snapshot read it is left as saved.
-        removeFile(path.join(chaptersDir, name), { root: created.root, unchangedFrom: currentText(path.join(created.root, snapshot.dir, "chapters", name)) });
-      }
-
-      for (const chapter of chapterFiles) {
-        writeFile(path.join(chaptersDir, chapter.name), chapter.text, { root: created.root, unchangedFrom: null });
-      }
-
-      reindexProject(created.root);
-    } catch (error) {
-      if (snapshot === null) {
-        throw error;
-      }
-      // Once the snapshot is saved, a failure names it, and exits as a
-      // write that stopped part way, as a failed restore does.
-      const code = exitCodeFor(error);
-      error.exitCode = code === EXIT_CODES.findings ? EXIT_CODES.refused : code;
-      throw withHint(error, `Snapshot ${snapshot.id} holds the project as it was before this import: ${snapshot.restore} puts it back`);
-    }
+    const { pack, warnings, existing, chapters } = parseManuscript(options, source, fromStdin, piped, target);
+    const { characters, totalWords, totalCharacters, chapterFiles } = transformManuscript(chapters, existing, pack);
+    const { created, snapshot } = saveManuscript(options, cwd, source, fromStdin, chapterFiles);
 
     return {
       root: created.root,
@@ -304,6 +193,126 @@ export function importManuscript(options) {
   };
   const locked = options.force && target !== null && lstatIfExists(target)?.isSymbolicLink() !== true;
   return locked ? withProjectLock(target, run, { folder: true }) : run();
+}
+
+function parseManuscript(options, source, fromStdin, piped, target) {
+  const pack = withStyleLists(languagePack(options.language ?? (target === null ? null : existingStoryLanguage(target))), target === null ? null : existingStyleData(target));
+  const rules = importRules(pack);
+  const warnings = [];
+  const documents = fromStdin
+    ? [{ name: "stdin", path: "stdin", text: piped, untitled: true }]
+    : readImportSource(source, rules);
+  const existing = target === null ? null : existingStoryData(target);
+  // --bylines reads a by-line as story export writes one for this book:
+  // the language's labels, with a kept story.md's own `labels`.
+  const bylines = options.bylines ? bylineReader(buildLabels(existing ?? {}, pack), rules) : null;
+  const chapters = splitChapters(documents, warnings, rules, bylines);
+  if (chapters.length === 0) {
+    throw usageError("No chapter content found in import source");
+  }
+  return { pack, warnings, existing, chapters };
+}
+
+function transformManuscript(chapters, existing, pack) {
+  const characters = (existing === null ? countUnit(null, pack) : countUnit(existing, languagePack(projectLanguage(existing)))).name === "characters";
+  let totalWords = 0;
+  let totalCharacters = 0;
+  const chapterFiles = chapters.map((chapter, index) => {
+    const number = index + 1;
+    // Count as the scanner does, without HTML comments.
+    const prose = scanComments(chapter.prose).text;
+    const words = wordCount(prose);
+    const counts = characters ? { "word-count": words, "character-count": characterCount(prose) } : { "word-count": words };
+    totalWords += words;
+    totalCharacters += counts["character-count"] ?? 0;
+    // An untitled numbered heading ("# Chapter 1") takes its new number.
+    const title = chapter.title || `Chapter ${number}`;
+    const name = `chapter-${String(number).padStart(2, "0")}.md`;
+    const text = chapterMarkdown(title, number, counts, chapter.prose, chapter.unnumbered, chapter.authors);
+    const bytes = Buffer.byteLength(text, "utf8");
+    if (bytes > MAX_READ_BYTES) {
+      throw usageError(`Cannot import: ${name} would be ${bytes} bytes, over the ${MAX_READ_BYTES} byte limit story reads. Split the manuscript with chapter headings first`);
+    }
+    return { name, text };
+  });
+  return { characters, totalWords, totalCharacters, chapterFiles };
+}
+
+function saveManuscript(options, cwd, source, fromStdin, chapterFiles) {
+  let replaced = [];
+  let snapshot = null;
+  let created;
+
+  const projectOptions = {
+    title: options.title,
+    cwd,
+    dir: options.dir,
+    genre: options.genre,
+    subGenre: options.subGenre,
+    settingEra: options.settingEra,
+    themes: options.themes,
+    pov: options.pov,
+    tense: options.tense,
+    synopsis: options.synopsis,
+    language: options.language,
+    defaultSynopsis: `Imported from ${fromStdin ? "stdin" : path.basename(source)}. Replace with a 2-3 sentence synopsis.`,
+    force: options.force,
+    command: "story import --force",
+    forceHint: "Use --force to import into it: --force saves the project as snapshot before-import-<n>, then deletes every chapters/chapter-NN.md and writes the imported chapters in their place, adds missing starter files, keeps story.md and the other files, and reindexes. story snapshot --restore before-import-<n> puts the old chapters back.",
+    // Before anything is written: refuse a chapter entry the snapshot
+    // cannot keep, check an existing project parses before deleting its
+    // chapters, as the other mutating commands do (the chapter files about
+    // to be replaced may be broken), and save the project as it is.
+    beforeWrite(root, hasStory) {
+      replaced = replacedChapters(root);
+      if (!hasStory) {
+        return;
+      }
+      let project;
+      try {
+        project = scanProject(root);
+      } catch {
+        // An unsafe layout (a symlinked folder, say) is refused by the
+        // starter-file checks that follow, with their own message.
+        return;
+      }
+      assertProjectParses(project, "import", (error) => /^chapters[\\/]chapter-\d+\.md$/i.test(error.file));
+      if (replaced.length > 0) {
+        snapshot = snapshotBeforeImport(root, cwd, options.preview);
+      }
+    }
+  };
+
+  try {
+    created = createStoryProject(projectOptions);
+    // A folder without story.md is saved once the starter files make it a
+    // project, so the snapshot is a whole one restore can put back.
+    if (snapshot === null && replaced.length > 0) {
+      snapshot = snapshotBeforeImport(created.root, cwd, options.preview);
+    }
+    const chaptersDir = path.join(created.root, "chapters");
+    for (const name of replaced) {
+      // A chapter saved since the snapshot read it is left as saved.
+      removeFile(path.join(chaptersDir, name), { root: created.root, unchangedFrom: currentText(path.join(created.root, snapshot.dir, "chapters", name)) });
+    }
+
+    for (const chapter of chapterFiles) {
+      writeFile(path.join(chaptersDir, chapter.name), chapter.text, { root: created.root, unchangedFrom: null });
+    }
+
+    reindexProject(created.root);
+  } catch (error) {
+    if (snapshot === null) {
+      throw error;
+    }
+    // Once the snapshot is saved, a failure names it, and exits as a
+    // write that stopped part way, as a failed restore does.
+    const code = exitCodeFor(error);
+    error.exitCode = code === EXIT_CODES.findings ? EXIT_CODES.refused : code;
+    throw withHint(error, `Snapshot ${snapshot.id} holds the project as it was before this import: ${snapshot.restore} puts it back`);
+  }
+
+  return { created, snapshot };
 }
 
 // The chapter files --force replaces: every chapters/chapter-NN.md, in any

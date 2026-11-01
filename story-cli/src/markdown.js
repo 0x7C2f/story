@@ -853,7 +853,7 @@ export function hasUnclosedComment(prose) {
 const TODO_MARKER = /\[TODO\b/i;
 const TODO_MARKERS = /\[TODO\b/gi;
 
-// How many `[todo` markers (`[todo: check bible]`) prose holds. Pass prose
+// How many `[TODO` markers (`[TODO: check bible]`) prose holds. Pass prose
 // filtered by `chapterProse` or `extractTitleAndBody` to exclude notes and
 // frontmatter.
 //
