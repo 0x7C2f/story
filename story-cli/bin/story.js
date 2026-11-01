@@ -9,7 +9,7 @@ for (const stream of [process.stdout, process.stderr]) {
 }
 process.on("uncaughtException", (error) => handleOutputError(error, process));
 
-process.exitCode = runCli(process.argv.slice(2), {
+process.exitCode = await runCli(process.argv.slice(2), {
   cwd: process.cwd(),
   stdout: process.stdout,
   stderr: process.stderr
