@@ -14,9 +14,10 @@ export const MAX_KEYWORDS = 7;
 const BISAC_PATTERN = /^[A-Z]{3}\d{6}$/;
 const SCALAR_FIELDS = ["author", "surname", "short-title", "language", "isbn", "publisher", "publication-date", "description", "copyright", "cover-alt", "ai-disclosure", "chapter-label", "contents-label"];
 
-// A placeholder marker (e.g. `[todo: author to supply]`), which the publishing skill leaves
+// A `[TODO: author to supply]` marker, which the publishing skill leaves
 // rather than inventing a value. Builds and the readiness checklist treat it
 // as missing so it never reaches a retailer.
+
 export function isPlaceholder(value) {
   return typeof value === "string" && /^\[TODO\b/i.test(value.trim());
 }
