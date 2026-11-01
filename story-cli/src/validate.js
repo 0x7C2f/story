@@ -343,232 +343,18 @@ export function validateLinksOf(project) {
   const artifactIds = new Set(project.artifacts.map((item) => item.id));
   const hasMention = (id) => characters.has(id) || artifactIds.has(id);
 
-  for (const character of project.characters) {
-    const label = relative(project, character.file);
-    for (const relationship of character.relationships) {
-      if (!relationship || typeof relationship !== "object" || Array.isArray(relationship)) {
-        continue;
-      }
-      const target = relationship.character;
-      if (typeof target !== "string" || target === "") {
-        continue;
-      }
-      if (target !== kebabCase(target)) {
-        errors.push(err("id-not-kebab", `${label} relationship character ${target} must be kebab-case`, label));
-        continue;
-      }
-      if (!characters.has(target)) {
-        errors.push(err("missing-reference", `${label} references missing character ${target}`, label));
-      } else {
-        const backlinks = [];
-        for (const entry of characters.get(target).relationships) {
-          if (entry && typeof entry === "object" && !Array.isArray(entry) && entry.character === character.id) {
-            backlinks.push(entry);
-          }
-        }
-        if (backlinks.length === 0) {
-          errors.push(err("missing-backlink", `${label} relationship to ${target} is missing backlink`, label));
-        } else {
-          const expectedTypes = inverseRelationshipTypes(relationship.type);
-          let matched = expectedTypes.length === 0;
-          const types = [];
-          for (const entry of backlinks) {
-            if (entry.type) {
-              types.push(entry.type);
-            }
-            if (expectedTypes.includes(entry.type)) {
-              matched = true;
-            }
-          }
-          const legacy = !matched && types.some((type) => LEGACY_RELATIONSHIP_PAIRS.has(`${relationship.type}>${type}`));
-          if (legacy) {
-            // Pairings the relationship reference recommended before 0.10.0
-            // warn rather than fail, so an upgrade does not break CI.
-            warnings.push(warn("legacy-backlink-type", `${label} relationship ${relationship.type} to ${target} has backlink ${types.join(", ")}, a pairing from before story-skills 0.10.0; change the backlink to ${expectedTypes.join(" or ")}`, label));
-          } else if (!matched) {
-            errors.push(err("backlink-type-mismatch", `${label} relationship ${relationship.type} to ${target} expects backlink type ${expectedTypes.join(" or ")}, got ${types.join(", ") || "none"}`, label));
-          }
-        }
-      }
-    }
-
-    for (const locationId of character.locations) {
-      checkIdReference(errors, label, locationId, "location", hasLocation);
-      if (typeof locationId === "string" && locationId !== "" && locationId === kebabCase(locationId) && locations.has(locationId) && !locations.get(locationId).notableCharacters.includes(character.id)) {
-        errors.push(err("missing-backlink", `${label} location ${locationId} is missing notable-character backlink`, label));
-      }
-    }
-
-    if (character.diedIn) {
-      checkIdReference(errors, label, character.diedIn, "chapter", hasChapter);
-    }
-    if (character.revivedIn) {
-      checkIdReference(errors, label, character.revivedIn, "chapter", hasChapter);
-    }
-  }
-
-  // A progression takes effect from a chapter, which may be one planned but
-  // not written yet (`chapter-20` while drafting chapter 5).
-  for (const entity of [...project.characters, ...project.locations, ...project.factions]) {
-    for (const [index, item] of asArray(entity.frontmatter.progressions).entries()) {
-      if (item && typeof item === "object" && !Array.isArray(item)) {
-        checkIdReference(errors, `${relative(project, entity.file)} progressions[${index}]`, idText(item.from), "chapter", hasScheduledChapter, relative(project, entity.file));
-      }
-    }
-  }
-
-  for (const location of project.locations) {
-    const label = relative(project, location.file);
-    for (const route of location.routes) {
-      const to = route && typeof route === "object" && !Array.isArray(route) ? idText(route.to) : "";
-      if (to === "") {
-        continue;
-      }
-      if (to === location.id) {
-        errors.push(err("route-to-self", `${label} route points at itself`, label));
-        continue;
-      }
-      checkIdReference(errors, `${label} route`, to, "location", hasLocation, label);
-    }
-    for (const characterId of location.notableCharacters) {
-      checkIdReference(errors, label, characterId, "character", hasCharacter);
-      if (typeof characterId === "string" && characterId !== "" && characterId === kebabCase(characterId) && characters.has(characterId) && !characters.get(characterId).locations.includes(location.id)) {
-        errors.push(err("missing-backlink", `${label} notable character ${characterId} is missing location backlink`, label));
-      }
-    }
-  }
-
-  for (const arc of project.arcs) {
-    const label = relative(project, arc.file);
-    for (const characterId of arc.characters) {
-      checkIdReference(errors, label, characterId, "character", hasCharacter);
-    }
-  }
-
-  for (const chapter of project.chapters) {
-    const label = relative(project, chapter.file);
-    if (chapter.pov) {
-      const povText = String(chapter.pov);
-      if (povText !== kebabCase(povText)) {
-        errors.push(err("id-not-kebab", `${label} references POV character ${povText} which must be kebab-case`, label));
-      } else if (!characters.has(chapter.pov)) {
-        errors.push(err("missing-reference", `${label} references missing POV character ${chapter.pov}`, label));
-      }
-    }
-
-    for (const characterId of chapter.characters) {
-      checkIdReference(errors, label, characterId, "character", hasCharacter);
-    }
-    for (const mentionId of chapter.mentions) {
-      checkIdReference(errors, label, mentionId, "character or artifact", hasMention);
-    }
-    for (const locationId of chapter.locations) {
-      checkIdReference(errors, label, locationId, "location", hasLocation);
-    }
-    for (const arcId of chapter.arcsAdvanced) {
-      checkIdReference(errors, label, arcId, "arc", hasArc);
-    }
-  }
-
-  for (const faction of project.factions) {
-    const label = relative(project, faction.file);
-    for (const characterId of faction.members) {
-      checkIdReference(errors, label, characterId, "member", hasCharacter);
-    }
-    for (const locationId of faction.locations) {
-      checkIdReference(errors, label, locationId, "location", hasLocation);
-    }
-  }
-
-  for (const artifact of project.artifacts) {
-    const label = relative(project, artifact.file);
-    if (artifact.owner) {
-      const ownerText = String(artifact.owner);
-      if (ownerText !== kebabCase(ownerText)) {
-        errors.push(err("id-not-kebab", `${label} references owner ${ownerText} which must be kebab-case`, label));
-      } else if (!characters.has(artifact.owner) && !factions.has(artifact.owner)) {
-        errors.push(err("missing-reference", `${label} references missing owner ${artifact.owner}`, label));
-      }
-    }
-    if (artifact.location) {
-      checkIdReference(errors, label, artifact.location, "location", hasLocation);
-    }
-  }
-
-  for (const scene of project.scenes) {
-    const label = relative(project, scene.file);
-    if (scene.chapter) {
-      const chapterText = String(scene.chapter);
-      if (chapterText !== kebabCase(chapterText)) {
-        errors.push(err("id-not-kebab", `${label} references chapter ${chapterText} which must be kebab-case`, label));
-      } else if (!chapters.has(scene.chapter)) {
-        errors.push(err("missing-reference", `${label} references missing chapter ${scene.chapter}`, label));
-      }
-    }
-    if (scene.pov) {
-      const povText = String(scene.pov);
-      if (povText !== kebabCase(povText)) {
-        errors.push(err("id-not-kebab", `${label} references POV character ${povText} which must be kebab-case`, label));
-      } else if (!characters.has(scene.pov)) {
-        errors.push(err("missing-reference", `${label} references missing POV character ${scene.pov}`, label));
-      }
-    }
-    if (scene.location) {
-      checkIdReference(errors, label, scene.location, "location", hasLocation);
-    }
-    for (const characterId of scene.characters) {
-      checkIdReference(errors, label, characterId, "character", hasCharacter);
-    }
-    for (const mentionId of scene.mentions) {
-      checkIdReference(errors, label, mentionId, "character or artifact", hasMention);
-    }
-    for (const arcId of scene.arcsAdvanced) {
-      checkIdReference(errors, label, arcId, "arc", hasArc);
-    }
-  }
-
-  for (const note of project.research) {
-    const label = relative(project, note.file);
-    // Research is often done before the chapter that needs it is written.
-    for (const chapterId of note.usedIn) {
-      checkIdReference(errors, label, chapterId, "chapter", hasScheduledChapter);
-    }
-  }
-
-  for (const question of project.questions) {
-    const label = relative(project, question.file);
-    // A question can be planned for a chapter not written yet; its answer
-    // must be on the page before `resolved` names a chapter.
-    checkIdReference(errors, label, question.introduced, "chapter", threadChapter("question", question, "introduced"));
-    checkIdReference(errors, label, question.resolved, "chapter", threadChapter("question", question, "resolved"));
-    for (const characterId of question.characters) {
-      checkIdReference(errors, label, characterId, "character", hasCharacter);
-    }
-  }
-
-  for (const promise of project.promises) {
-    const label = relative(project, promise.file);
-    checkIdReference(errors, label, promise.planted, "chapter", threadChapter("promise", promise, "planted"));
-    checkIdReference(errors, label, promise.payoff, "chapter", threadChapter("promise", promise, "payoff"));
-    for (const arcId of promise.arcs) {
-      checkIdReference(errors, label, arcId, "arc", hasArc);
-    }
-    for (const characterId of promise.characters) {
-      checkIdReference(errors, label, characterId, "character", hasCharacter);
-    }
-  }
-
-  for (const clue of project.clues) {
-    const label = relative(project, clue.file);
-    checkIdReference(errors, label, clue.planted, "chapter", threadChapter("clue", clue, "planted"));
-    checkIdReference(errors, label, clue.payoff, "chapter", threadChapter("clue", clue, "payoff"));
-    for (const arcId of clue.arcs) {
-      checkIdReference(errors, label, arcId, "arc", hasArc);
-    }
-    for (const characterId of clue.characters) {
-      checkIdReference(errors, label, characterId, "character", hasCharacter);
-    }
-  }
+  validateCharacterLinks(project, characters, locations, hasLocation, hasChapter, errors, warnings);
+  validateProgressionLinks(project, hasScheduledChapter, errors);
+  validateLocationLinks(project, characters, hasCharacter, hasLocation, errors);
+  validateArcLinks(project, hasCharacter, errors);
+  validateChapterLinks(project, characters, hasCharacter, hasMention, hasLocation, hasArc, errors);
+  validateFactionLinks(project, hasCharacter, hasLocation, errors);
+  validateArtifactLinks(project, characters, factions, hasLocation, errors);
+  validateSceneLinks(project, chapters, characters, hasLocation, hasCharacter, hasMention, hasArc, errors);
+  validateResearchLinks(project, hasScheduledChapter, errors);
+  validateQuestionLinks(project, threadChapter, hasCharacter, errors);
+  validatePromiseLinks(project, threadChapter, hasArc, hasCharacter, errors);
+  validateClueLinks(project, threadChapter, hasArc, hasCharacter, errors);
 
   // Like a promise's payoff, a choice may lead to a chapter not written yet;
   // the Twee build still needs it.
@@ -2246,6 +2032,258 @@ function requireFields(data, fields, label, errors) {
   for (const field of fields) {
     if (data[field] === undefined || (typeof data[field] === "string" && data[field].trim() === "")) {
       errors.push(err("missing-field", `${label} is missing frontmatter field ${field}`, label));
+    }
+  }
+}
+
+function validateCharacterLinks(project, characters, locations, hasLocation, hasChapter, errors, warnings) {
+  for (const character of project.characters) {
+    const label = relative(project, character.file);
+    for (const relationship of character.relationships) {
+      if (!relationship || typeof relationship !== "object" || Array.isArray(relationship)) {
+        continue;
+      }
+      const target = relationship.character;
+      if (typeof target !== "string" || target === "") {
+        continue;
+      }
+      if (target !== kebabCase(target)) {
+        errors.push(err("id-not-kebab", `${label} relationship character ${target} must be kebab-case`, label));
+        continue;
+      }
+      if (!characters.has(target)) {
+        errors.push(err("missing-reference", `${label} references missing character ${target}`, label));
+      } else {
+        const backlinks = [];
+        for (const entry of characters.get(target).relationships) {
+          if (entry && typeof entry === "object" && !Array.isArray(entry) && entry.character === character.id) {
+            backlinks.push(entry);
+          }
+        }
+        if (backlinks.length === 0) {
+          errors.push(err("missing-backlink", `${label} relationship to ${target} is missing backlink`, label));
+        } else {
+          const expectedTypes = inverseRelationshipTypes(relationship.type);
+          let matched = expectedTypes.length === 0;
+          const types = [];
+          for (const entry of backlinks) {
+            if (entry.type) {
+              types.push(entry.type);
+            }
+            if (expectedTypes.includes(entry.type)) {
+              matched = true;
+            }
+          }
+          const legacy = !matched && types.some((type) => LEGACY_RELATIONSHIP_PAIRS.has(`${relationship.type}>${type}`));
+          if (legacy) {
+            // Pairings the relationship reference recommended before 0.10.0
+            // warn rather than fail, so an upgrade does not break CI.
+            warnings.push(warn("legacy-backlink-type", `${label} relationship ${relationship.type} to ${target} has backlink ${types.join(", ")}, a pairing from before story-skills 0.10.0; change the backlink to ${expectedTypes.join(" or ")}`, label));
+          } else if (!matched) {
+            errors.push(err("backlink-type-mismatch", `${label} relationship ${relationship.type} to ${target} expects backlink type ${expectedTypes.join(" or ")}, got ${types.join(", ") || "none"}`, label));
+          }
+        }
+      }
+    }
+
+    for (const locationId of character.locations) {
+      checkIdReference(errors, label, locationId, "location", hasLocation);
+      if (typeof locationId === "string" && locationId !== "" && locationId === kebabCase(locationId) && locations.has(locationId) && !locations.get(locationId).notableCharacters.includes(character.id)) {
+        errors.push(err("missing-backlink", `${label} location ${locationId} is missing notable-character backlink`, label));
+      }
+    }
+
+    if (character.diedIn) {
+      checkIdReference(errors, label, character.diedIn, "chapter", hasChapter);
+    }
+    if (character.revivedIn) {
+      checkIdReference(errors, label, character.revivedIn, "chapter", hasChapter);
+    }
+  }
+
+  // A progression takes effect from a chapter, which may be one planned but
+  // not written yet (`chapter-20` while drafting chapter 5).
+}
+
+function validateProgressionLinks(project, hasScheduledChapter, errors) {
+  for (const entity of [...project.characters, ...project.locations, ...project.factions]) {
+    for (const [index, item] of asArray(entity.frontmatter.progressions).entries()) {
+      if (item && typeof item === "object" && !Array.isArray(item)) {
+        checkIdReference(errors, `${relative(project, entity.file)} progressions[${index}]`, idText(item.from), "chapter", hasScheduledChapter, relative(project, entity.file));
+      }
+    }
+  }
+}
+
+function validateLocationLinks(project, characters, hasCharacter, hasLocation, errors) {
+  for (const location of project.locations) {
+    const label = relative(project, location.file);
+    for (const route of location.routes) {
+      const to = route && typeof route === "object" && !Array.isArray(route) ? idText(route.to) : "";
+      if (to === "") {
+        continue;
+      }
+      if (to === location.id) {
+        errors.push(err("route-to-self", `${label} route points at itself`, label));
+        continue;
+      }
+      checkIdReference(errors, `${label} route`, to, "location", hasLocation, label);
+    }
+    for (const characterId of location.notableCharacters) {
+      checkIdReference(errors, label, characterId, "character", hasCharacter);
+      if (typeof characterId === "string" && characterId !== "" && characterId === kebabCase(characterId) && characters.has(characterId) && !characters.get(characterId).locations.includes(location.id)) {
+        errors.push(err("missing-backlink", `${label} notable character ${characterId} is missing location backlink`, label));
+      }
+    }
+  }
+}
+
+function validateArcLinks(project, hasCharacter, errors) {
+  for (const arc of project.arcs) {
+    const label = relative(project, arc.file);
+    for (const characterId of arc.characters) {
+      checkIdReference(errors, label, characterId, "character", hasCharacter);
+    }
+  }
+}
+
+function validateChapterLinks(project, characters, hasCharacter, hasMention, hasLocation, hasArc, errors) {
+  for (const chapter of project.chapters) {
+    const label = relative(project, chapter.file);
+    if (chapter.pov) {
+      const povText = String(chapter.pov);
+      if (povText !== kebabCase(povText)) {
+        errors.push(err("id-not-kebab", `${label} references POV character ${povText} which must be kebab-case`, label));
+      } else if (!characters.has(chapter.pov)) {
+        errors.push(err("missing-reference", `${label} references missing POV character ${chapter.pov}`, label));
+      }
+    }
+
+    for (const characterId of chapter.characters) {
+      checkIdReference(errors, label, characterId, "character", hasCharacter);
+    }
+    for (const mentionId of chapter.mentions) {
+      checkIdReference(errors, label, mentionId, "character or artifact", hasMention);
+    }
+    for (const locationId of chapter.locations) {
+      checkIdReference(errors, label, locationId, "location", hasLocation);
+    }
+    for (const arcId of chapter.arcsAdvanced) {
+      checkIdReference(errors, label, arcId, "arc", hasArc);
+    }
+  }
+}
+
+function validateFactionLinks(project, hasCharacter, hasLocation, errors) {
+  for (const faction of project.factions) {
+    const label = relative(project, faction.file);
+    for (const characterId of faction.members) {
+      checkIdReference(errors, label, characterId, "member", hasCharacter);
+    }
+    for (const locationId of faction.locations) {
+      checkIdReference(errors, label, locationId, "location", hasLocation);
+    }
+  }
+}
+
+function validateArtifactLinks(project, characters, factions, hasLocation, errors) {
+  for (const artifact of project.artifacts) {
+    const label = relative(project, artifact.file);
+    if (artifact.owner) {
+      const ownerText = String(artifact.owner);
+      if (ownerText !== kebabCase(ownerText)) {
+        errors.push(err("id-not-kebab", `${label} references owner ${ownerText} which must be kebab-case`, label));
+      } else if (!characters.has(artifact.owner) && !factions.has(artifact.owner)) {
+        errors.push(err("missing-reference", `${label} references missing owner ${artifact.owner}`, label));
+      }
+    }
+    if (artifact.location) {
+      checkIdReference(errors, label, artifact.location, "location", hasLocation);
+    }
+  }
+}
+
+function validateSceneLinks(project, chapters, characters, hasLocation, hasCharacter, hasMention, hasArc, errors) {
+  for (const scene of project.scenes) {
+    const label = relative(project, scene.file);
+    if (scene.chapter) {
+      const chapterText = String(scene.chapter);
+      if (chapterText !== kebabCase(chapterText)) {
+        errors.push(err("id-not-kebab", `${label} references chapter ${chapterText} which must be kebab-case`, label));
+      } else if (!chapters.has(scene.chapter)) {
+        errors.push(err("missing-reference", `${label} references missing chapter ${scene.chapter}`, label));
+      }
+    }
+    if (scene.pov) {
+      const povText = String(scene.pov);
+      if (povText !== kebabCase(povText)) {
+        errors.push(err("id-not-kebab", `${label} references POV character ${povText} which must be kebab-case`, label));
+      } else if (!characters.has(scene.pov)) {
+        errors.push(err("missing-reference", `${label} references missing POV character ${scene.pov}`, label));
+      }
+    }
+    if (scene.location) {
+      checkIdReference(errors, label, scene.location, "location", hasLocation);
+    }
+    for (const characterId of scene.characters) {
+      checkIdReference(errors, label, characterId, "character", hasCharacter);
+    }
+    for (const mentionId of scene.mentions) {
+      checkIdReference(errors, label, mentionId, "character or artifact", hasMention);
+    }
+    for (const arcId of scene.arcsAdvanced) {
+      checkIdReference(errors, label, arcId, "arc", hasArc);
+    }
+  }
+}
+
+function validateResearchLinks(project, hasScheduledChapter, errors) {
+  for (const note of project.research) {
+    const label = relative(project, note.file);
+    // Research is often done before the chapter that needs it is written.
+    for (const chapterId of note.usedIn) {
+      checkIdReference(errors, label, chapterId, "chapter", hasScheduledChapter);
+    }
+  }
+}
+
+function validateQuestionLinks(project, threadChapter, hasCharacter, errors) {
+  for (const question of project.questions) {
+    const label = relative(project, question.file);
+    // A question can be planned for a chapter not written yet; its answer
+    // must be on the page before `resolved` names a chapter.
+    checkIdReference(errors, label, question.introduced, "chapter", threadChapter("question", question, "introduced"));
+    checkIdReference(errors, label, question.resolved, "chapter", threadChapter("question", question, "resolved"));
+    for (const characterId of question.characters) {
+      checkIdReference(errors, label, characterId, "character", hasCharacter);
+    }
+  }
+}
+
+function validatePromiseLinks(project, threadChapter, hasArc, hasCharacter, errors) {
+  for (const promise of project.promises) {
+    const label = relative(project, promise.file);
+    checkIdReference(errors, label, promise.planted, "chapter", threadChapter("promise", promise, "planted"));
+    checkIdReference(errors, label, promise.payoff, "chapter", threadChapter("promise", promise, "payoff"));
+    for (const arcId of promise.arcs) {
+      checkIdReference(errors, label, arcId, "arc", hasArc);
+    }
+    for (const characterId of promise.characters) {
+      checkIdReference(errors, label, characterId, "character", hasCharacter);
+    }
+  }
+}
+
+function validateClueLinks(project, threadChapter, hasArc, hasCharacter, errors) {
+  for (const clue of project.clues) {
+    const label = relative(project, clue.file);
+    checkIdReference(errors, label, clue.planted, "chapter", threadChapter("clue", clue, "planted"));
+    checkIdReference(errors, label, clue.payoff, "chapter", threadChapter("clue", clue, "payoff"));
+    for (const arcId of clue.arcs) {
+      checkIdReference(errors, label, arcId, "arc", hasArc);
+    }
+    for (const characterId of clue.characters) {
+      checkIdReference(errors, label, characterId, "character", hasCharacter);
     }
   }
 }
