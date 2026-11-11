@@ -93,5 +93,48 @@ test('resolveOutputPath', async (t) => {
     );
   });
 
+
+  await t.test('throws refusedError when out is a referenced project file (like cover)', () => {
+    const projectWithCover = {
+      ...project,
+      story: {
+        data: {
+          cover: 'cover.jpg'
+        }
+      }
+    };
+    const coverPath = path.join(tmpRoot, 'cover.jpg');
+    fs.writeFileSync(coverPath, 'cover');
+    assert.throws(
+      () => resolveOutputPath(projectWithCover, 'cover.jpg', null, false),
+      (err) => err.exitCode === EXIT_CODES.refused && err.message.includes('Refusing to write generated output to') && err.message.includes('cover')
+    );
+  });
+
+  await t.test('throws refusedError when out is a referenced project file with unresolvable directory', () => {
+    const projectWithCover = {
+      ...project,
+      story: {
+        data: {
+          cover: 'non_existent_dir/cover.jpg'
+        }
+      }
+    };
+    assert.throws(
+      () => resolveOutputPath(projectWithCover, 'non_existent_dir/cover.jpg', null, false),
+      (err) => err.exitCode === EXIT_CODES.refused && err.message.includes('Refusing to write generated output to') && err.message.includes('cover')
+    );
+  });
+
+  await t.test('throws usageError when out is reserved dist directory and dist is a file', () => {
+    fs.rmSync(distDir, { recursive: true, force: true });
+    fs.writeFileSync(distDir, 'some content');
+
+    assert.throws(
+      () => resolveOutputPath(project, 'dist', null, false),
+      (err) => err.exitCode === EXIT_CODES.usage && err.message.includes('is reserved for the build folder')
+    );
+  });
+
   fs.rmSync(tmpRoot, { recursive: true, force: true });
 });
