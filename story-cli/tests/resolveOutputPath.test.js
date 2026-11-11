@@ -41,7 +41,6 @@ test('resolveOutputPath', async (t) => {
   });
 
   await t.test('throws usageError when out is an existing directory', () => {
-    // A random dir to make sure we hit the "is a directory" error instead of the "dist" error
     const someDir = path.join(tmpRoot, 'somedir');
     fs.mkdirSync(someDir);
     assert.throws(
@@ -57,19 +56,53 @@ test('resolveOutputPath', async (t) => {
     );
   });
 
-  await t.test('throws usageError when out is reserved dist directory', () => {
-    // Ensure dist exists or not, but it's treated as reserved either way
+  await t.test('throws refusedError when out is a protected source file or directory (assertNotSourcePath)', () => {
+    const storyFile = path.join(tmpRoot, 'story.md');
+    fs.writeFileSync(storyFile, 'content');
+
+    assert.throws(
+      () => resolveOutputPath(project, 'story.md', null, false),
+      (err) => err.exitCode === EXIT_CODES.refused && err.message.includes('is project source. Use a path such as dist/ instead')
+    );
+  });
+
+  await t.test('throws usageError when out is reserved dist directory (does not exist)', () => {
     fs.rmSync(distDir, { recursive: true, force: true });
     assert.throws(
       () => resolveOutputPath(project, 'dist', null, false),
-      (err) => err.exitCode === EXIT_CODES.usage && err.message.includes('is a directory: give a file path') // Note: looking at the source, this happens if `stats` is null but `isDist` is true. `if (stats?.isDirectory() || /[\\/]$/.test(String(rawOut)) || (isDist && !stats)) { throw usageError(\`--out \${rawOut} is a directory: give a file path\`); }`
+      (err) => err.exitCode === EXIT_CODES.usage && err.message.includes('is a directory: give a file path')
     );
+  });
+
+  await t.test('throws usageError when out is reserved dist directory (exists as file)', () => {
+    fs.writeFileSync(distDir, 'some content');
+    assert.throws(
+      () => resolveOutputPath(project, 'dist', null, false),
+      (err) => err.exitCode === EXIT_CODES.usage && err.message.includes('is reserved for the build folder: give a file path such as dist/book.md')
+    );
+    fs.rmSync(distDir, { force: true });
+  });
+
+  await t.test('throws refusedError when out is a referenced file in story.md (assertNotReferencedPath)', () => {
+    const coverFile = path.join(tmpRoot, 'cover.png');
+    fs.writeFileSync(coverFile, 'image data');
+    const projectWithCover = {
+      ...project,
+      story: { data: { cover: 'cover.png' } },
+    };
+
+    assert.throws(
+      () => resolveOutputPath(projectWithCover, 'cover.png', null, false),
+      (err) => err.exitCode === EXIT_CODES.refused && err.message.includes('story.md names it as the cover')
+    );
+
+    fs.rmSync(coverFile, { force: true });
   });
 
   await t.test('returns expected result for valid file path', () => {
     const result = resolveOutputPath(project, 'dist/book.md', null, undefined);
     assert.strictEqual(result.outFile, path.join(tmpRoot, 'dist/book.md'));
-    assert.strictEqual(result.enforceRoot, true); // Since 'dist/book.md' is not absolute, it should be enforced
+    assert.strictEqual(result.enforceRoot, true);
   });
 
   await t.test('uses defaultRelativePath if out is undefined', () => {
@@ -84,7 +117,6 @@ test('resolveOutputPath', async (t) => {
   });
 
   await t.test('catches lstat errors and throws refusedError', () => {
-    // A path through a non-directory
     const file = path.join(tmpRoot, 'a_file.txt');
     fs.writeFileSync(file, 'content');
     assert.throws(
