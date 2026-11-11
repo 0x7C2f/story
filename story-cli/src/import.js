@@ -131,37 +131,7 @@ function assertImportFileSize(filePath) {
 }
 
 export function importManuscript(options) {
-  const rawSource = String(options.source ?? "").trim();
-  if (!rawSource) {
-    throw usageError("An import source file or directory is required");
-  }
-
-  const cwd = options.cwd ?? process.cwd();
-  // `-` reads the manuscript from stdin, as markdown; the caller reads it,
-  // so this module does no I/O on stdin itself.
-  const fromStdin = rawSource === STDIN_ARG;
-  const source = fromStdin ? null : path.resolve(cwd, rawSource);
-  if (!fromStdin && !fs.existsSync(source)) {
-    throw usageError(`Import source not found: ${source}`);
-  }
-  // A story project's bible is not manuscript prose; importing it would turn
-  // story.md and the style sheet into chapters.
-  if (!fromStdin && fs.statSync(source).isDirectory() && fs.existsSync(path.join(source, "story.md"))) {
-    throw usageError(`${rawSource} is already a story project (it has story.md); import reads manuscript files, so point it at the draft instead`);
-  }
-
-  // Heading words, number words, and candidate stopwords come from the
-  // manuscript's language pack: --language, else the language of the
-  // story.md being imported into, else English. A new story.md records an
-  // explicit --language. The style sheet of a project being imported into
-  // changes the lists with its `replace-words` and `add-words`.
-  if (options.language !== undefined && !isLanguageTag(options.language)) {
-    throw usageError(`--language ${options.language} must be a BCP 47 tag such as en, en-GB, or fr`);
-  }
-  const target = newProjectRoot({ title: options.title, cwd, dir: options.dir });
-  // Piped text is read before the project lock is taken, so a slow pipe does
-  // not hold it.
-  const piped = fromStdin ? options.readStdin() : null;
+  const { cwd, fromStdin, source, piped, target } = parseImportSourceOptions(options);
 
   // --force into an existing folder snapshots, deletes, and rewrites its
   // chapters, so it holds the project lock from reading the project's
@@ -193,6 +163,41 @@ export function importManuscript(options) {
   };
   const locked = options.force && target !== null && lstatIfExists(target)?.isSymbolicLink() !== true;
   return locked ? withProjectLock(target, run, { folder: true }) : run();
+}
+
+function parseImportSourceOptions(options) {
+  const rawSource = String(options.source ?? "").trim();
+  if (!rawSource) {
+    throw usageError("An import source file or directory is required");
+  }
+
+  const cwd = options.cwd ?? process.cwd();
+  // `-` reads the manuscript from stdin, as markdown; the caller reads it,
+  // so this module does no I/O on stdin itself.
+  const fromStdin = rawSource === STDIN_ARG;
+  const source = fromStdin ? null : path.resolve(cwd, rawSource);
+  if (!fromStdin && !fs.existsSync(source)) {
+    throw usageError(`Import source not found: ${source}`);
+  }
+  // A story project's bible is not manuscript prose; importing it would turn
+  // story.md and the style sheet into chapters.
+  if (!fromStdin && fs.statSync(source).isDirectory() && fs.existsSync(path.join(source, "story.md"))) {
+    throw usageError(`${rawSource} is already a story project (it has story.md); import reads manuscript files, so point it at the draft instead`);
+  }
+
+  // Heading words, number words, and candidate stopwords come from the
+  // manuscript's language pack: --language, else the language of the
+  // story.md being imported into, else English. A new story.md records an
+  // explicit --language. The style sheet of a project being imported into
+  // changes the lists with its `replace-words` and `add-words`.
+  if (options.language !== undefined && !isLanguageTag(options.language)) {
+    throw usageError(`--language ${options.language} must be a BCP 47 tag such as en, en-GB, or fr`);
+  }
+  const target = newProjectRoot({ title: options.title, cwd, dir: options.dir });
+  // Piped text is read before the project lock is taken, so a slow pipe does
+  // not hold it.
+  const piped = fromStdin ? options.readStdin() : null;
+  return { cwd, fromStdin, source, piped, target };
 }
 
 function parseManuscript(options, source, fromStdin, piped, target) {
