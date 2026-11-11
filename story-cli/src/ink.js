@@ -38,6 +38,7 @@ function inkInline(text) {
 // by preceding them with a backslash if they are at the start
 // of a block.
 export function escapeInkControlLines(text) {
+  if (typeof text !== "string") return text;
   return /^[*+\-=]|^(?:INCLUDE|VAR|CONST|LIST|EXTERNAL|TODO)\b/.test(text) ? `\\${text}` : text;
 }
 
