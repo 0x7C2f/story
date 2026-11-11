@@ -268,7 +268,7 @@ export function findingOverrides(config) {
 // matches a warning dismisses it first, so one finding a writer exempted
 // stays dismissed even when severity promotes the rest of its code. Then a
 // severity override moves the warnings it names: `error` makes them errors
-// (so the command exits 1) and `off` completely ignores them.
+// (so the command exits 1) and `off` dismisses them.
 export function applySeverity(result, overrides = NO_OVERRIDES) {
   const exempted = dismissByExemptions(result, overrides.exemptions, { errors: false });
   if (overrides.severity.length === 0) {
@@ -285,6 +285,8 @@ export function applySeverity(result, overrides = NO_OVERRIDES) {
       warnings.push(warning);
     } else if (level === "error") {
       errors.push(warning);
+    } else if (level === "off") {
+      dismissed.push(warning);
     }
   }
   const promoted = errors.length > exempted.errors.length;
