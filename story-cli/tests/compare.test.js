@@ -32,6 +32,40 @@ describe('proseParagraphs', () => {
     const text = 'Paragraph one.\n---\nParagraph two.';
     assert.deepStrictEqual(proseParagraphs(text), ['Paragraph one.', 'Paragraph two.']);
   });
+
+  it('normalizes carriage returns (CRLF)', () => {
+    const text = 'Paragraph one.\r\n\r\nParagraph two.';
+    assert.deepStrictEqual(proseParagraphs(text), ['Paragraph one.', 'Paragraph two.']);
+  });
+
+  it('ignores closed fenced code mixed with prose', () => {
+    const text = 'Paragraph one.\n\n```\nconst a = 1;\n```\n\nParagraph two.\n\n```javascript\nconst b = 2;\n```\n\nParagraph three.';
+    assert.deepStrictEqual(proseParagraphs(text), ['Paragraph one.', 'Paragraph two.', 'Paragraph three.']);
+  });
+
+  it('casts input to a string before processing', () => {
+    const text = 12345;
+    assert.deepStrictEqual(proseParagraphs(text), ['12345']);
+  });
+
+  it('handles null/undefined inputs by casting to string', () => {
+    assert.deepStrictEqual(proseParagraphs(null), ['null']);
+    assert.deepStrictEqual(proseParagraphs(undefined), ['undefined']);
+  });
+
+  it('handles objects by casting to string', () => {
+    assert.deepStrictEqual(proseParagraphs({}), ['[object Object]']);
+  });
+
+  it('trims leading and trailing whitespace from the final result paragraphs', () => {
+    const text = '   \tParagraph one.\t  \n\n  \tParagraph two.   \t';
+    assert.deepStrictEqual(proseParagraphs(text), ['Paragraph one.', 'Paragraph two.']);
+  });
+
+  it('condenses multiple internal spaces within paragraphs', () => {
+    const text = 'Paragraph    with    multiple\t\tspaces.';
+    assert.deepStrictEqual(proseParagraphs(text), ['Paragraph with multiple spaces.']);
+  });
 });
 
 import { test } from "node:test";
