@@ -172,30 +172,32 @@ export function importManuscript(options) {
   // too, so two imports into it cannot interleave. A symlinked folder is
   // refused unlocked by createStoryProject, so no lock file is written
   // through it.
+  const context = { options, cwd, source, fromStdin, piped, target };
   const run = () => {
-    const { pack, warnings, existing, chapters } = parseManuscript(options, source, fromStdin, piped, target);
-    const { characters, totalWords, totalCharacters, chapterFiles } = transformManuscript(chapters, existing, pack);
-    const { created, snapshot } = saveManuscript(options, cwd, source, fromStdin, chapterFiles);
+    const parsed = parseManuscript(context);
+    const transformed = transformManuscript(parsed);
+    const saved = saveManuscript(context, transformed.chapterFiles);
 
     return {
-      root: created.root,
-      storyId: created.storyId,
-      keptStory: created.keptStory,
-      ignoredOptions: created.ignoredOptions,
-      chapters: chapters.length,
-      words: totalWords,
-      ...(characters ? { characters: totalCharacters } : {}),
-      warnings,
-      gitignore: created.gitignore,
-      snapshot,
-      candidates: extractNameCandidates(chapters.map((chapter) => chapter.prose).join("\n\n"), pack)
+      root: saved.created.root,
+      storyId: saved.created.storyId,
+      keptStory: saved.created.keptStory,
+      ignoredOptions: saved.created.ignoredOptions,
+      chapters: parsed.chapters.length,
+      words: transformed.totalWords,
+      ...(transformed.characters ? { characters: transformed.totalCharacters } : {}),
+      warnings: parsed.warnings,
+      gitignore: saved.created.gitignore,
+      snapshot: saved.snapshot,
+      candidates: extractNameCandidates(parsed.chapters.map((chapter) => chapter.prose).join("\n\n"), parsed.pack)
     };
   };
   const locked = options.force && target !== null && lstatIfExists(target)?.isSymbolicLink() !== true;
   return locked ? withProjectLock(target, run, { folder: true }) : run();
 }
 
-function parseManuscript(options, source, fromStdin, piped, target) {
+function parseManuscript(context) {
+  const { options, source, fromStdin, piped, target } = context;
   const pack = withStyleLists(languagePack(options.language ?? (target === null ? null : existingStoryLanguage(target))), target === null ? null : existingStyleData(target));
   const rules = importRules(pack);
   const warnings = [];
@@ -213,7 +215,8 @@ function parseManuscript(options, source, fromStdin, piped, target) {
   return { pack, warnings, existing, chapters };
 }
 
-function transformManuscript(chapters, existing, pack) {
+function transformManuscript(parsed) {
+  const { chapters, existing, pack } = parsed;
   const characters = (existing === null ? countUnit(null, pack) : countUnit(existing, languagePack(projectLanguage(existing)))).name === "characters";
   let totalWords = 0;
   let totalCharacters = 0;
@@ -238,7 +241,8 @@ function transformManuscript(chapters, existing, pack) {
   return { characters, totalWords, totalCharacters, chapterFiles };
 }
 
-function saveManuscript(options, cwd, source, fromStdin, chapterFiles) {
+function saveManuscript(context, chapterFiles) {
+  const { options, cwd, source, fromStdin } = context;
   let replaced = [];
   let snapshot = null;
   let created;
